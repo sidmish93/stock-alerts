@@ -1,12 +1,11 @@
-# Spark Capital coverage universe, from
-#   Spark Valuation Summary  15 Sep '26.xlsb  (sheet ASCU)
+# 299 NSE-listed companies, grouped by sector.
 #
-# 299 companies, grouped by sector. NSE symbols were resolved by ISIN
-# through BSE's scrip master and NSE's own equity list, then every one was
-# confirmed to price on Yahoo.
+# Symbols were resolved by ISIN through BSE's scrip master and NSE's own equity
+# list, then every one was confirmed to price on Yahoo and to carry a BSE scrip
+# code for shareholding lookups.
 #
-# BSE, CDSL and NSDL are excluded: the first two carry no BSE scrip code in the
-# sheet and NSDL is a BSE-only listing with no .NS series.
+# BSE and CDSL are excluded: they carry no BSE scrip code, so shareholding cannot
+# be fetched. NSDL is excluded as a BSE-only listing with no .NS series.
 #
 # One NSE symbol per line, then the display name used in alerts.
 # Comment a line out with # to stop watching it without losing it.

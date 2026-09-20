@@ -35,17 +35,18 @@ Runs on GitHub Actions: free, and nothing of yours has to stay switched on.
 
 ### 2. The universe
 
-`universe.txt` holds **299 companies — Spark Capital's coverage**, taken from
-`Spark Valuation Summary  15 Sep '26.xlsb` (sheet `ASCU`) and grouped by sector.
+`universe.txt` holds **299 NSE-listed companies**, grouped by sector across 36
+sectors (68 large cap, 83 mid, 148 small).
 
-NSE symbols were resolved by **ISIN**, not by ticker guesswork: the sheet gives a
-BSE scrip code, BSE's scrip master turns that into an ISIN, and NSE's own equity
-list turns the ISIN into a symbol. Bloomberg tickers would not have worked —
-`HDFCB` is HDFCBANK and `BAF` is BAJFINANCE. All 299 were then confirmed to
-price on Yahoo and to carry a BSE scrip code for shareholding.
+Symbols were resolved by **ISIN**, not by ticker guesswork: a BSE scrip code
+becomes an ISIN via BSE's scrip master, and the ISIN becomes a symbol via NSE's
+own equity list. Vendor tickers would not have worked — `HDFCB` is HDFCBANK and
+`BAF` is BAJFINANCE. All 299 were then confirmed to price on Yahoo and to carry a
+BSE scrip code for shareholding.
 
-Three of Spark's 302 are excluded: BSE and CDSL carry no BSE scrip code in the
-sheet, and NSDL is a BSE-only listing with no `.NS` series on Yahoo.
+Three names were dropped: BSE and CDSL carry no BSE scrip code, so their
+shareholding cannot be fetched, and NSDL is a BSE-only listing with no `.NS`
+series on Yahoo.
 
 To change it, edit the file: one NSE symbol per line, then the display name used
 in alerts. Lines starting with `#` are ignored, so you can stop watching a name
