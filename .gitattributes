@@ -1,0 +1,5 @@
+# Normalise line endings in the repository to LF. Without this, editing a file on
+# Windows rewrites every line to CRLF and git reports the whole file as changed
+# even when nothing in it differs.
+* text=auto eol=lf
+*.bat text eol=crlf
