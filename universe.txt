@@ -1,0 +1,383 @@
+# Spark Capital coverage universe, from
+#   Spark Valuation Summary  15 Sep '26.xlsb  (sheet ASCU)
+#
+# 299 companies, grouped by sector. NSE symbols were resolved by ISIN
+# through BSE's scrip master and NSE's own equity list, then every one was
+# confirmed to price on Yahoo.
+#
+# BSE, CDSL and NSDL are excluded: the first two carry no BSE scrip code in the
+# sheet and NSDL is a BSE-only listing with no .NS series.
+#
+# One NSE symbol per line, then the display name used in alerts.
+# Comment a line out with # to stop watching it without losing it.
+
+# --- Agri (4) ---
+COROMANDEL  , Coromandel International
+PIIND       , PI Industries
+PARADEEP    , Paradeep Phosphates
+UPL         , UPL
+
+# --- Alcobev (5) ---
+ABDL        , Allied Blenders & Distillers
+RADICO      , Radico Khaitan
+TI          , Tilaknagar Industries
+UBL         , United Breweries
+UNITDSPR    , United Spirits
+
+# --- Auto OEM (10) ---
+ASHOKLEY    , Ashok Leyland
+ATHERENERG  , Ather Energy
+BAJAJ-AUTO  , Bajaj Auto
+EICHERMOT   , Eicher Motors
+ESCORTS     , Escorts Kubota
+HEROMOTOCO  , Hero Motocorp
+HYUNDAI     , Hyundai Motor India
+M&M         , Mahindra & Mahindra
+MARUTI      , Maruti Suzuki India
+TVSMOTOR    , TVS Motor Company
+
+# --- Auto ancs (18) ---
+ARE&M       , Amara Raja Energy & Mobility
+APOLLOTYRE  , Apollo Tyres
+BHARATFORG  , Bharat Forge
+CEATLTD     , CEAT
+CRAFTSMAN   , Craftsman Automation
+ENDURANCE   , Endurance Technologies
+EXIDEIND    , Exide Industries
+SKFINDUS    , SKF India (Industrial)
+SKFINDIA    , SKF India Ltd
+SANSERA     , Sansera Engineering
+SCHAEFFLER  , Schaeffler India
+SEDEMAC     , Sedemac Mechatronics
+SONACOMS    , Sona BLW Precision Forgings
+SUNDRMFAST  , Sundram Fasteners
+TIMKEN      , Timken India
+TIINDIA     , Tube Investments of India
+UNOMINDA    , UNO Minda
+ZFCVINDIA   , ZF Commercial Vehicle Control Systems India
+
+# --- Aviation (1) ---
+INDIGO      , InterGlobe Aviation
+
+# --- Banks (14) ---
+AUBANK      , AU Small Finance Bank
+AXISBANK    , Axis Bank
+BANKBARODA  , Bank of Baroda
+CANBK       , Canara Bank
+CUB         , City Union Bank
+FEDERALBNK  , Federal Bank
+HDFCBANK    , HDFC Bank
+ICICIBANK   , ICICI Bank
+INDUSINDBK  , Indusind Bank
+KARURVYSYA  , Karur Vysya Bank
+KOTAKBANK   , Kotak Mahindra Bank
+RBLBANK     , RBL Bank
+SBICARD     , SBI Cards and Payment Services
+SBIN        , State Bank of India
+
+# --- Building material (5) ---
+ASTRAL      , Astral Poly Technik
+CENTURYPLY  , Century Plyboards (I)
+CERA        , Cera Sanitaryware
+KAJARIACER  , Kajaria Ceramics
+SUPREMEIND  , Supreme Industries
+
+# --- Capital Goods (13) ---
+ABB         , ABB India
+AIAENG      , AIA Engineering
+CGPOWER     , CG Power and Industrial Solutions
+CARBORUNIV  , Carborundum Universal
+CUMMINSIND  , Cummins India
+ELGIEQUIP   , Elgi Equipments
+GRINDWELL   , Grindwell Norton
+KEC         , KEC International
+KPIL        , Kalpataru Projects International
+SIEMENS     , Siemens
+THERMAX     , Thermax
+TRITURBINE  , Triveni Turbine
+VOLTAMP     , Voltamp Transformers
+
+# --- Cement (9) ---
+AMBUJACEM   , Ambuja Cements
+BIRLACORPN  , Birla Corporation
+DALBHARAT   , Dalmia Bharat
+JKCEMENT    , JK Cement
+JKLAKSHMI   , JK Lakshmi Cement
+JSWCEMENT   , JSW Cement
+SHREECEM    , Shree Cement
+RAMCOCEM    , The Ramco Cements
+ULTRACEMCO  , Ultratech Cement
+
+# --- Consumer Discretionary (17) ---
+ASIANPAINT  , Asian Paints
+BATAINDIA   , Bata India
+BERGEPAINT  , Berger Paints India
+FIRSTCRY    , Brainbees Solutions
+DEVYANI     , Devyani International
+JUBLFOOD    , Jubilant Foodworks
+LENSKART    , Lenskart Solutions
+METROBRAND  , Metro Brands
+PAGEIND     , Page Industries
+PIDILITIND  , Pidilite Industries
+SAPPHIRE    , Sapphire Foods India
+TITAN       , Titan Company
+TRENT       , Trent
+VMART       , V-Mart Retail
+VIPIND      , V.I.P.Industries
+MANYAVAR    , Vedant Fashions
+ZYDUSWELL   , Zydus Wellness
+
+# --- Consumer Staples (10) ---
+DMART       , Avenue Supermarts
+BRITANNIA   , Britannia Industries
+CCL         , CCL Products (India)
+DABUR       , Dabur India
+EMAMILTD    , Emami
+HINDUNILVR  , Hindustan Unilever
+ITC         , ITC
+MARICO      , Marico
+NESTLEIND   , Nestle India
+TATACONSUM  , Tata Consumer Products
+
+# --- EMS (3) ---
+AVALON      , Avalon Technologies
+KAYNES      , Kaynes Technology India
+SYRMA       , Syrma SGS Technology
+
+# --- Electrical Consumer Durables (11) ---
+AMBER       , Amber Enterprieses
+BLUESTARCO  , Blue Star
+CROMPTON    , Crompton Greaves Consumer Electricals
+DIXON       , Dixon Technologies
+HAVELLS     , Havells India
+LGEINDIA    , LG Electronics India
+ORIENTELEC  , Orient Electric
+POLYCAB     , Polycab India
+VGUARD      , V-Guard Industries
+VOLTAS      , Voltas
+WHIRLPOOL   , Whirlpool of India
+
+# --- Gas Utilities (4) ---
+GUJENERGY   , Gujarat Gas
+IGL         , Indraprastha Gas
+MGL         , Mahanagar Gas
+PETRONET    , Petronet LNG
+
+# --- General Insurance (6) ---
+CHOLAHLDNG  , Cholamandalam Financial Holdings
+GICRE       , General Insurance Corporation
+GODIGIT     , Go Digit General Insurance
+ICICIGI     , ICICI Lombard General Insurance Co
+NIVABUPA    , Niva Bupa Health Insurance
+STARHEALTH  , Star Health and Allied Insurance Company
+
+# --- Healthcare (10) ---
+APOLLOHOSP  , Apollo Hospitals Enterprise
+ASTERDM     , Aster DM Healthcare
+LALPATHLAB  , Dr Lal PathLabs
+AGARWALEYE  , Dr. Agarwal’s Health Care
+MEDANTA     , Global Health
+KIMS        , Krishna Institute of Medical Sciences
+MAXHEALTH   , Max Healthcare Institute
+MEDPLUS     , MedPlus Health Services
+METROPOLIS  , Metropolis Healthcare
+NH          , Narayana Hrudayalaya
+
+# --- Hospitality (4) ---
+CHALET      , Chalet Hotels
+INDHOTEL    , Indian Hotels Company
+THELEELA    , Leela Palaces Hotels & Resorts
+LEMONTREE   , Lemon Tree Hotels
+
+# --- IT (23) ---
+CYIENT      , Cyient
+ECLERX      , Eclerx Services
+FSL         , Firstsource Solutions
+FRACTAL     , Fractal Analytics Ltd
+HCLTECH     , HCL Technologies
+HEXT        , Hexaware Technologies
+INFY        , Infosys
+INTELLECT   , Intellect Design Arena
+IKS         , Inventurus Knowledge Solutions
+KPITTECH    , KPIT Technologies
+LTTS        , L&T Technology Services
+LTM         , LTIMindtree
+LATENTVIEW  , LatentView Analytics Ltd
+MASTEK      , Mastek
+MPHASIS     , Mphasis
+NEWGEN      , Newgen Software Technologies
+PERSISTENT  , Persistent Systems
+RATEGAIN    , RateGain Travel Technologies
+SONATSOFTW  , Sonata Software
+TCS         , Tata Consultancy Services
+TATAELXSI   , Tata Elxsi
+TECHM       , Tech Mahindra
+WIPRO       , Wipro
+
+# --- Infra (9) ---
+ADANIPORTS  , Adani Ports and Special Economic Zone
+AHLUCONT    , Ahluwalia Contracts India
+GPPL        , Gujarat Pipavav Port
+IEX         , Indian Energy Exchange
+JSWINFRA    , JSW Infrastructure
+KNRCON      , KNR Constructions
+LT          , Larsen & Toubro
+PNCINFRA    , PNC Infratech
+PSPPROJECT  , PSP Projects
+
+# --- Intermediaries (8) ---
+360ONE      , 360 One WAM
+ANGELONE    , Angel One
+GROWW       , Billionbrains Garage Ventures Ltd (Groww)
+CAMS        , Computer Age Management Services
+KFINTECH    , KFin Technologies
+MCX         , Multi Commodity Exchange of India
+NUVAMA      , Nuvama Wealth Management
+PRUDENT     , Prudent Corporate Advisory Services
+
+# --- Internet (9) ---
+AMAGI       , Amagi Media Labs
+COFORGE     , Coforge
+ETERNAL     , Eternal
+INDIAMART   , IndiaMART InterMESH
+IRCTC       , Indian Railway Catering And Tourism Corporation
+NAUKRI      , Info Edge (India)
+POLICYBZR   , PB Fintech
+REDINGTON   , Redington (India)
+SWIGGY      , Swiggy
+
+# --- Life insurance (6) ---
+CANHLIFE    , Canara HSBC Life Insurance Company
+HDFCLIFE    , HDFC Standard Life Insurance Co
+ICICIPRULI  , ICICI Prudential Life Insurance Co
+LICI        , Life Insurance Corporation of India
+MFSL        , Max Financial Services
+SBILIFE     , SBI Life Insurance Co
+
+# --- Logistics (8) ---
+BLUEDART    , Blue Dart Express
+CONCOR      , Container Corporation Of India
+DELHIVERY   , Delhivery
+MAHLOG      , Mahindra Logistics
+SHADOWFAX   , Shadowfax Technologies Ltd
+TCIEXP      , TCI Express
+TCI         , Transport Corporations of India
+VRLLOG      , VRL Logistics
+
+# --- Media (5) ---
+AFFLE       , Affle (India)
+PVRINOX     , PVR Inox
+SUNTV       , Sun TV Network
+TIPSMUSIC   , Tips Music
+ZEEL        , Zee Entertainment Enterprises
+
+# --- Metals (6) ---
+HINDALCO    , Hindalco Industries
+JSWSTEEL    , JSW Steel
+JINDALSTEL  , Jindal Steel
+NATIONALUM  , National Aluminium Co.Ltd
+SAIL        , Steel Authority of India
+TATASTEEL   , Tata Steel
+
+# --- NBFC (15) ---
+AAVAS       , Aavas Financiers
+ABCAPITAL   , Aditya Birla Capital
+APTUS       , Aptus Value Housing Finance India
+BAJFINANCE  , Bajaj Finance
+CHOLAFIN    , Cholamandalam Investment and Finance Company
+CREDITACC   , CreditAccess Grameen
+FIVESTAR    , Five-Star Business Finance
+HDBFS       , HDB Financial Services
+HOMEFIRST   , Home First Finance Company India
+LICHSGFIN   , LIC Housing Finance
+M&MFIN      , Mahindra & Mahindra Financial Services
+MUTHOOTFIN  , Muthoot Finance
+SBFC        , SBFC Finance
+SHRIRAMFIN  , Shriram Finance
+SUNDARMFIN  , Sundaram Finance
+
+# --- Oil and Gas (7) ---
+BPCL        , Bharat Petroleum Corporation
+GAIL        , GAIL India
+HINDPETRO   , Hindustan Petroleum Corporation
+IOC         , Indian Oil Corporation
+OIL         , Oil India
+ONGC        , Oil and Natural Gas Corporation
+RELIANCE    , Reliance Industries
+
+# --- Packaging (1) ---
+MOLDTKPAC   , Mold-Tek Packaging
+
+# --- Pharma (17) ---
+ALKEM       , Alkem Laboratories
+AUROPHARMA  , Aurobindo Pharma
+BIOCON      , Biocon
+CIPLA       , Cipla
+COHANCE     , Cohance Lifesciences
+DIVISLAB    , Divi's Laboratories
+DRREDDY     , Dr.Reddy'S Laboratories
+ERIS        , Eris Lifesciences
+GRANULES    , Granules India
+LAURUSLABS  , Laurus Labs
+LUPIN       , Lupin
+MANKIND     , Mankind Pharma
+PPLPHARMA   , Piramal Pharma
+SUNPHARMA   , Sun Pharmaceutical Industries
+SYNGENE     , Syngene International
+TORNTPHARM  , Torrent Pharmaceuticals
+ZYDUSLIFE   , Zydus Lifesciences
+
+# --- Precision Engineering (4) ---
+AEQUS       , Aequs
+AZAD        , Azad Engineering
+INDOMIM     , Indo-MIM ltd
+MTARTECH    , MTAR Technologies
+
+# --- Realty (9) ---
+AWFIS       , Awfis Space Solutions
+BRIGADE     , Brigade Enterprises
+DLF         , DLF
+GODREJPROP  , Godrej Properties
+OBEROIRLTY  , Oberoi Realty
+PRESTIGE    , Prestige Estates Projects
+SOBHA       , Sobha
+PHOENIXLTD  , The Phoenix Mills
+WEWORK      , WeWork India Management Ltd
+
+# --- Recycling (2) ---
+GANECOS     , Ganesha Ecosphere
+GRAVITA     , Gravita India
+
+# --- Speciality Chemicals (9) ---
+AARTIIND    , Aarti Industries
+CLEAN       , Clean Science and Technology
+DEEPAKNTR   , Deepak Nitrite
+FINEORG     , Fine Organic Industries
+GALAXYSURF  , Galaxy Surfactants
+FLUOROCHEM  , Gujarat Fluorochemicals
+NAVINFLUOR  , Navin Fluorine International
+NEOGEN      , Neogen Chemicals
+SRF         , SRF
+
+# --- Telecom (2) ---
+BHARTIARTL  , Bharti Airtel
+INDUSTOWER  , Indus Towers
+
+# --- Textiles (9) ---
+ARVIND      , Arvind
+GOKEX       , Gokaldas Exports
+ICIL        , Indo Count Industries
+KPRMILL     , KPR Mill
+LMW         , Lakshmi Machine Works
+PGIL        , Pearl Global Industries
+SPAL        , SP Apparels
+VTL         , Vardhman Textiles
+WELSPUNLIV  , Welspun Living
+
+# --- Utilities & Mining (6) ---
+JSWENERGY   , JSW Energy
+NTPC        , NTPC
+POWERGRID   , Power Grid Corporation of India
+PREMIERENE  , Premier Energies
+TATAPOWER   , Tata Power Co.
+TORNTPOWER  , Torrent Power

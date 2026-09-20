@@ -1,0 +1,2 @@
+# The alert state file lives here and is committed by the workflow, because each
+# scheduled run is a fresh machine with no memory of the last one.

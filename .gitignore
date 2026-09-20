@@ -1,0 +1,9 @@
+.env
+.cache/
+__pycache__/
+*.pyc
+tests/_*.json
+tests/_*.txt
+
+# state/alerts.json is deliberately NOT ignored: the scheduled workflow commits
+# it so each run remembers which levels have already alerted.

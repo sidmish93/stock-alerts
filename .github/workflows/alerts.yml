@@ -1,0 +1,82 @@
+name: NSE trigger alerts
+
+# Cron here is UTC. NSE trades 09:15-15:30 IST, which is 03:45-10:00 UTC.
+# Every 10 minutes covers that with headroom: GitHub queues scheduled runs and
+# can start them several minutes late, so a 10 minute interval keeps the worst
+# case inside about 20 minutes rather than sitting right on the limit.
+on:
+  schedule:
+    - cron: "*/10 3-10 * * 1-5"
+    # After the close, for the summary. 10:05 UTC is 15:35 IST.
+    - cron: "5 10 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: What to run
+        type: choice
+        default: poll
+        options: [poll, digest, test]
+
+# Runs share a committed state file, so they must never overlap.
+concurrency:
+  group: nse-alerts
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Poll for triggers
+        if: github.event.schedule != '5 10 * * 1-5' && inputs.mode != 'digest' && inputs.mode != 'test'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m alerts.worker --once
+
+      - name: Send close summary
+        if: github.event.schedule == '5 10 * * 1-5' || inputs.mode == 'digest'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m alerts.worker --digest
+
+      - name: Send a test message
+        if: inputs.mode == 'test'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m alerts.worker --test
+
+      # Each run is a fresh machine, so the latches that stop an alert repeating
+      # have to be carried in the repository. The heartbeat is not decoration:
+      # GitHub disables scheduled workflows on a repository with no activity for
+      # 60 days, and a daily commit keeps that timer from ever expiring.
+      - name: Persist alert state
+        run: |
+          # Deliberately the date only, not the time: the file then changes once
+          # a day, so the heartbeat costs one commit rather than one per poll.
+          date -u +%Y-%m-%d > state/heartbeat.txt
+          if [ -n "$(git status --porcelain state)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state
+            git commit -m "State: $(date -u +%Y-%m-%d\ %H:%M) UTC [skip ci]"
+            # Another run may have pushed while this one was polling.
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash -q && git push -q && break
+              sleep 5
+            done
+          fi

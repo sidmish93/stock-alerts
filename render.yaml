@@ -1,0 +1,26 @@
+services:
+  # A worker rather than a web service: there is nothing to serve, and a free
+  # web service is spun down after 15 minutes idle, which is exactly when the
+  # watcher needs to be awake. Workers are a paid plan on Render.
+  - type: worker
+    name: nse-trigger-alerts
+    runtime: python
+    plan: starter
+    # Closest region to India, so the round trip on every poll is shorter.
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m alerts.worker
+    envVars:
+      # Set both of these in the Render dashboard, not here.
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: POLL_SECONDS
+        value: "60"
+      - key: PRICE_RULES
+        value: "daily"
+      - key: MOVE_LEVELS
+        value: "3,5"
+      - key: VOLUME_LEVELS
+        value: "1.5,3"

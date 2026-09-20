@@ -1,0 +1,6 @@
+# NSE trading holidays, one ISO date per line.
+# Only an optimisation: it stops the watcher polling on a day the market is shut.
+# Even if this list is stale, a stale quote can never raise an alert, because a
+# quote is only judged when its own session date matches today.
+#
+# Refresh each year from nseindia.com > Resources > Exchange Holidays.
