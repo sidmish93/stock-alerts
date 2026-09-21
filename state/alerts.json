@@ -297,13 +297,21 @@
    "level": 3.0,
    "symbol": "PPLPHARMA",
    "value": 3.01
+  },
+  {
+   "at": "15:17",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARBORUNIV",
+   "value": 5.8
   }
  ],
  "latched": {
   "BHARTIARTL|daily|down|3": 3.01,
   "CARBORUNIV|daily|up|3": 3.16,
+  "CARBORUNIV|daily|up|5": 5.8,
   "COHANCE|daily|up|3": 3.53,
-  "COHANCE|daily|up|5": 9.47,
   "CONCOR|daily|down|3": 3.14,
   "EMAMILTD|daily|up|3": 3.11,
   "GOKEX|daily|down|3": 3.83,
@@ -338,7 +346,8 @@
   "MANKIND",
   "INDOMIM",
   "COHANCE",
-  "NEOGEN"
+  "NEOGEN",
+  "CARBORUNIV"
  ],
  "warned_blind": false
 }
