@@ -1,0 +1,203 @@
+{
+ "day": "2026-09-21",
+ "digested": false,
+ "fired": [
+  {
+   "at": "12:39",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SKFINDUS",
+   "value": -3.35
+  },
+  {
+   "at": "12:39",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "UNOMINDA",
+   "value": -4.31
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "CARBORUNIV",
+   "value": 3.16
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "GRINDWELL",
+   "value": 4.53
+  },
+  {
+   "at": "12:39",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "LENSKART",
+   "value": -3.04
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SAPPHIRE",
+   "value": 4.4
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "VOLTAS",
+   "value": 3.02
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "ICICIGI",
+   "value": 3.46
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SHADOWFAX",
+   "value": 6.2
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHADOWFAX",
+   "value": 6.2
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "COHANCE",
+   "value": 3.53
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "MANKIND",
+   "value": 6.15
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MANKIND",
+   "value": 6.15
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SYNGENE",
+   "value": 3.77
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "INDOMIM",
+   "value": 10.0
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDOMIM",
+   "value": 10.0
+  },
+  {
+   "at": "12:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "PHOENIXLTD",
+   "value": 3.1
+  },
+  {
+   "at": "12:39",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "NEOGEN",
+   "value": -4.44
+  },
+  {
+   "at": "12:39",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "BHARTIARTL",
+   "value": -3.01
+  },
+  {
+   "at": "12:39",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "GOKEX",
+   "value": -3.83
+  },
+  {
+   "at": "12:39",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "VTL",
+   "value": -3.06
+  }
+ ],
+ "latched": {
+  "BHARTIARTL|daily|down|3": 3.01,
+  "CARBORUNIV|daily|up|3": 3.16,
+  "COHANCE|daily|up|3": 3.53,
+  "GOKEX|daily|down|3": 3.83,
+  "GRINDWELL|daily|up|3": 4.53,
+  "ICICIGI|daily|up|3": 3.46,
+  "INDOMIM|daily|up|3": 10.0,
+  "INDOMIM|daily|up|5": 10.0,
+  "LENSKART|daily|down|3": 3.04,
+  "MANKIND|daily|up|3": 6.15,
+  "MANKIND|daily|up|5": 6.15,
+  "NEOGEN|daily|down|3": 4.44,
+  "PHOENIXLTD|daily|up|3": 3.1,
+  "SAPPHIRE|daily|up|3": 4.4,
+  "SHADOWFAX|daily|up|3": 6.2,
+  "SHADOWFAX|daily|up|5": 6.2,
+  "SKFINDUS|daily|down|3": 3.35,
+  "SYNGENE|daily|up|3": 3.77,
+  "UNOMINDA|daily|down|3": 4.31,
+  "VOLTAS|daily|up|3": 3.02,
+  "VTL|daily|down|3": 3.06
+ },
+ "shared": [
+  "SHADOWFAX",
+  "MANKIND",
+  "INDOMIM"
+ ],
+ "warned_blind": false
+}
