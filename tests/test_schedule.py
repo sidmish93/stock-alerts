@@ -75,6 +75,70 @@ class Digest(unittest.TestCase):
         self.assertIn("2 alerts", text)
 
 
+class DigestRidesOnThePollSchedule(unittest.TestCase):
+    """One trigger has to cover both jobs.
+
+    The close summary used to need its own scheduled trigger. With the schedule
+    living outside GitHub that would mean a second cron job to create and a
+    second thing to fail, so the first poll after the close sends it instead.
+    """
+
+    def setUp(self):
+        self.path = Path(__file__).resolve().parent / "_ride_state.json"
+        self.path.unlink(missing_ok=True)
+        from alerts import worker
+
+        self.worker = worker
+        self.sent = []
+        self.original_send = worker.notify.send
+        self.original_load = worker.universe.load
+        self.original_now = market_hours.now_ist
+        worker.notify.send = lambda text: self.sent.append(text)
+        worker.universe.load = lambda: [
+            type("W", (), {"symbol": "TEST", "name": "Test"})()
+        ]
+        worker.AlertLog = lambda path=self.path: AlertLog(path=self.path)
+
+    def tearDown(self):
+        self.path.unlink(missing_ok=True)
+        self.worker.notify.send = self.original_send
+        self.worker.universe.load = self.original_load
+        market_hours.now_ist = self.original_now
+        self.worker.AlertLog = AlertLog
+
+    def _at(self, hour, minute=0):
+        market_hours.now_ist = lambda: moment(2026, 9, 21, hour, minute)
+
+    def test_the_first_poll_after_the_close_sends_the_summary(self):
+        log = AlertLog(path=self.path)
+        log.start_day(date(2026, 9, 21))
+        log.record(
+            type("T", (), {"symbol": "TEST", "kind": DAILY, "level": 5.0,
+                           "value": 6.1, "direction": "up"})()
+        )
+        log.save()
+
+        self._at(16, 0)  # after the 15:30 close
+        self.worker.run_once()
+        self.assertEqual(len(self.sent), 1)
+        self.assertIn("Close summary", self.sent[0])
+        self.assertTrue(AlertLog(path=self.path).digested)
+
+    def test_it_is_not_sent_twice_by_later_polls(self):
+        log = AlertLog(path=self.path)
+        log.start_day(date(2026, 9, 21))
+        log.save()
+        self._at(16, 0)
+        self.worker.run_once()
+        self.worker.run_once()
+        self.assertEqual(len(self.sent), 1)
+
+    def test_a_closed_market_with_nothing_recorded_stays_silent(self):
+        self._at(7, 0)  # before the open, no session recorded
+        self.worker.run_once()
+        self.assertEqual(self.sent, [])
+
+
 class DigestOnce(unittest.TestCase):
     def setUp(self):
         self.path = Path(__file__).resolve().parent / "_digest_test.json"

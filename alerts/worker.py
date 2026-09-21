@@ -184,6 +184,14 @@ def run_once(dry_run: bool = False, force: bool = False) -> int:
 
     moment = market_hours.now_ist()
     if not force and not market_hours.is_open(moment):
+        # The first call after the close delivers the day's summary. Doing it
+        # here means one schedule covers both jobs: a separate trigger for the
+        # digest is another thing to set up and another thing to fail.
+        pending = AlertLog()
+        if SEND_CLOSE_DIGEST and pending.day and not pending.digested:
+            log(f"Market closed and {pending.day} not yet summarised.")
+            send_digest(dry_run=dry_run)
+            return 0
         log("Market is closed; nothing to poll. Use --force to poll anyway.")
         return 0
 
