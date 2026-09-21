@@ -233,6 +233,14 @@
    "level": 3.0,
    "symbol": "LAURUSLABS",
    "value": 3.22
+  },
+  {
+   "at": "13:51",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NEOGEN",
+   "value": -5.04
   }
  ],
  "latched": {
@@ -254,6 +262,7 @@
   "MANKIND|daily|up|5": 6.15,
   "NAUKRI|daily|up|3": 3.3,
   "NEOGEN|daily|down|3": 4.44,
+  "NEOGEN|daily|down|5": 5.04,
   "PHOENIXLTD|daily|up|3": 3.1,
   "RBLBANK|daily|down|3": 3.17,
   "SAPPHIRE|daily|up|3": 4.4,
@@ -269,7 +278,8 @@
   "SHADOWFAX",
   "MANKIND",
   "INDOMIM",
-  "COHANCE"
+  "COHANCE",
+  "NEOGEN"
  ],
  "warned_blind": false
 }
