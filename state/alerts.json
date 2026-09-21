@@ -241,9 +241,18 @@
    "level": 5.0,
    "symbol": "NEOGEN",
    "value": -5.04
+  },
+  {
+   "at": "14:04",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "ATHERENERG",
+   "value": -3.05
   }
  ],
  "latched": {
+  "ATHERENERG|daily|down|3": 3.05,
   "BHARTIARTL|daily|down|3": 3.01,
   "CARBORUNIV|daily|up|3": 3.16,
   "COHANCE|daily|up|3": 3.53,
