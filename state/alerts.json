@@ -169,35 +169,107 @@
    "level": 3.0,
    "symbol": "VTL",
    "value": -3.06
+  },
+  {
+   "at": "13:45",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "UPL",
+   "value": -3.24
+  },
+  {
+   "at": "13:44",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "RBLBANK",
+   "value": -3.17
+  },
+  {
+   "at": "13:45",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "KFINTECH",
+   "value": -3.67
+  },
+  {
+   "at": "13:45",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "NAUKRI",
+   "value": 3.3
+  },
+  {
+   "at": "13:45",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "FIVESTAR",
+   "value": -3.13
+  },
+  {
+   "at": "13:45",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "LICHSGFIN",
+   "value": 3.39
+  },
+  {
+   "at": "13:45",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "COHANCE",
+   "value": 9.47
+  },
+  {
+   "at": "13:44",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "LAURUSLABS",
+   "value": 3.22
   }
  ],
  "latched": {
   "BHARTIARTL|daily|down|3": 3.01,
   "CARBORUNIV|daily|up|3": 3.16,
   "COHANCE|daily|up|3": 3.53,
+  "COHANCE|daily|up|5": 9.47,
+  "FIVESTAR|daily|down|3": 3.13,
   "GOKEX|daily|down|3": 3.83,
   "GRINDWELL|daily|up|3": 4.53,
   "ICICIGI|daily|up|3": 3.46,
   "INDOMIM|daily|up|3": 10.0,
   "INDOMIM|daily|up|5": 10.0,
+  "KFINTECH|daily|down|3": 3.67,
+  "LAURUSLABS|daily|up|3": 3.22,
   "LENSKART|daily|down|3": 3.04,
+  "LICHSGFIN|daily|up|3": 3.39,
   "MANKIND|daily|up|3": 6.15,
   "MANKIND|daily|up|5": 6.15,
+  "NAUKRI|daily|up|3": 3.3,
   "NEOGEN|daily|down|3": 4.44,
   "PHOENIXLTD|daily|up|3": 3.1,
+  "RBLBANK|daily|down|3": 3.17,
   "SAPPHIRE|daily|up|3": 4.4,
   "SHADOWFAX|daily|up|3": 6.2,
   "SHADOWFAX|daily|up|5": 6.2,
-  "SKFINDUS|daily|down|3": 3.35,
   "SYNGENE|daily|up|3": 3.77,
   "UNOMINDA|daily|down|3": 4.31,
+  "UPL|daily|down|3": 3.24,
   "VOLTAS|daily|up|3": 3.02,
   "VTL|daily|down|3": 3.06
  },
  "shared": [
   "SHADOWFAX",
   "MANKIND",
-  "INDOMIM"
+  "INDOMIM",
+  "COHANCE"
  ],
  "warned_blind": false
 }
