@@ -1,0 +1,17 @@
+# Temporary diagnostic. The alerts workflow's schedule has never fired, and this
+# is the simplest possible cron: no ranges, no inputs, no secrets, one step. If
+# this one also never runs, the problem is GitHub's scheduler for this repository
+# rather than anything in the alerts workflow, and the trigger has to move
+# outside GitHub. Delete this file once the question is settled.
+name: cron check
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date -u +"scheduler fired at %Y-%m-%dT%H:%M:%SZ"
