@@ -249,6 +249,22 @@
    "level": 3.0,
    "symbol": "ATHERENERG",
    "value": -3.05
+  },
+  {
+   "at": "14:14",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "EMAMILTD",
+   "value": 3.11
+  },
+  {
+   "at": "14:14",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "POLICYBZR",
+   "value": 3.09
   }
  ],
  "latched": {
@@ -257,6 +273,7 @@
   "CARBORUNIV|daily|up|3": 3.16,
   "COHANCE|daily|up|3": 3.53,
   "COHANCE|daily|up|5": 9.47,
+  "EMAMILTD|daily|up|3": 3.11,
   "FIVESTAR|daily|down|3": 3.13,
   "GOKEX|daily|down|3": 3.83,
   "GRINDWELL|daily|up|3": 4.53,
@@ -273,6 +290,7 @@
   "NEOGEN|daily|down|3": 4.44,
   "NEOGEN|daily|down|5": 5.04,
   "PHOENIXLTD|daily|up|3": 3.1,
+  "POLICYBZR|daily|up|3": 3.09,
   "RBLBANK|daily|down|3": 3.17,
   "SAPPHIRE|daily|up|3": 4.4,
   "SHADOWFAX|daily|up|3": 6.2,
@@ -280,7 +298,6 @@
   "SYNGENE|daily|up|3": 3.77,
   "UNOMINDA|daily|down|3": 4.31,
   "UPL|daily|down|3": 3.24,
-  "VOLTAS|daily|up|3": 3.02,
   "VTL|daily|down|3": 3.06
  },
  "shared": [
