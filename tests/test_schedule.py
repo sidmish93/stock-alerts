@@ -60,30 +60,29 @@ class SessionWindow(unittest.TestCase):
 class Digest(unittest.TestCase):
     def test_a_quiet_day_says_so(self):
         text = format_digest(date(2026, 9, 18), [], watched=12)
-        self.assertIn("Nothing triggered", text)
-        self.assertIn("12", text)
+        self.assertIn("Market closed", text)
+        self.assertIn("No alerts today among 12 companies watched", text)
+        self.assertNotIn("JSWINFRA", text)
 
-    def test_a_busy_day_lists_every_reading(self):
+    def test_a_busy_day_is_just_a_count(self):
         entries = [
             {"symbol": "JSWINFRA", "kind": DAILY, "value": 6.61, "at": "15:30"},
             {"symbol": "TRAVELFOOD", "kind": VOLUME, "value": 1.97, "at": "15:29"},
         ]
-        text = format_digest(date(2026, 9, 18), entries, watched=5)
-        self.assertIn("JSWINFRA", text)
-        self.assertIn("+6.61%", text)
-        self.assertIn("volume 1.97x avg", text)
-        self.assertIn("2 alerts", text)
+        text = format_digest(date(2026, 9, 18), entries, watched=400)
+        self.assertIn("Market closed", text)
+        self.assertIn("2 alerts for 2 companies today, among 400 watched", text)
+        self.assertNotIn("JSWINFRA", text)
+        self.assertNotIn("+6.61%", text)
 
-    def test_a_pe_name_is_tagged_on_the_digest(self):
-        entries = [{"symbol": "MEESHO", "kind": DAILY, "value": 7.75, "at": "09:28"}]
-        text = format_digest(
-            date(2026, 9, 22),
-            entries,
-            watched=365,
-            notes={"MEESHO": "non coverage company · Steadview"},
-        )
-        self.assertIn("non coverage company · Steadview", text)
-        self.assertIn("MEESHO", text)
+    def test_two_alerts_on_the_same_name_count_as_one_company(self):
+        entries = [
+            {"symbol": "MEESHO", "kind": DAILY, "value": 7.75, "at": "09:28"},
+            {"symbol": "MEESHO", "kind": VOLUME, "value": 3.1, "at": "14:02"},
+        ]
+        text = format_digest(date(2026, 9, 22), entries, watched=400)
+        self.assertIn("2 alerts for 1 company today, among 400 watched", text)
+        self.assertNotIn("Steadview", text)
 
 
 class DigestRidesOnThePollSchedule(unittest.TestCase):
@@ -132,7 +131,7 @@ class DigestRidesOnThePollSchedule(unittest.TestCase):
         self._at(16, 0)  # after the 15:30 close
         self.worker.run_once()
         self.assertEqual(len(self.sent), 1)
-        self.assertIn("Close summary", self.sent[0])
+        self.assertIn("Market closed", self.sent[0])
         self.assertTrue(AlertLog(path=self.path).digested)
 
     def test_it_is_not_sent_twice_by_later_polls(self):

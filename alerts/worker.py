@@ -238,12 +238,7 @@ def send_digest(dry_run: bool = False) -> int:
         return 0
 
     day = date.fromisoformat(alert_log.day)
-    notes = {
-        item.symbol: item.coverage_label()
-        for item in watched_list
-        if not getattr(item, "coverage", True)
-    }
-    text = notify.format_digest(day, alert_log.fired, len(watched_list), notes)
+    text = notify.format_digest(day, alert_log.fired, len(watched_list))
     alert_log.digested = True
     alert_log.save()
     if dry_run:

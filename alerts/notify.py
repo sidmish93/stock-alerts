@@ -166,38 +166,21 @@ def _volume_lines(quote, reading) -> list[str]:
     return lines
 
 
-_KIND_ORDER = {DAILY: 0, INTRADAY: 1, VOLUME: 2}
-
-
-def _reading_text(entry) -> str:
-    kind, value = entry.get("kind"), entry.get("value")
-    if kind == VOLUME:
-        return f"volume {value:.2f}x avg"
-    basis = "from open" if kind == INTRADAY else "vs prev close"
-    return f"{value:+.2f}% {basis}"
-
-
 def format_digest(day, entries, watched: int, notes: dict | None = None) -> str:
-    """The after-close summary of everything that fired."""
-    heading = f"<b>Close summary * {day:%d %b %Y}</b>"
+    """A short after-close count. The stock-by-stock list already went out live."""
+    heading = f"<b>Market closed</b> · {day:%d %b %Y}"
     if not entries:
-        return f"{heading}\nNothing triggered across {watched} names."
+        return f"{heading}\nNo alerts today among {watched} companies watched."
 
-    labels = notes or {}
-    lines = [heading, f"{len(entries)} alerts across {watched} names watched.", ""]
-    ordered = sorted(
-        entries,
-        key=lambda item: (item.get("symbol", ""), _KIND_ORDER.get(item.get("kind"), 9)),
+    alerts = len(entries)
+    companies = len({str(entry.get("symbol", "")).upper() for entry in entries})
+    alert_word = "alert" if alerts == 1 else "alerts"
+    company_word = "company" if companies == 1 else "companies"
+    return (
+        f"{heading}\n"
+        f"{alerts} {alert_word} for {companies} {company_word} today, "
+        f"among {watched} watched."
     )
-    for entry in ordered:
-        symbol = html.escape(str(entry.get("symbol", "")))
-        at = entry.get("at")
-        line = f"* <b>{symbol}</b>  {_reading_text(entry)}" + (f"  ({at})" if at else "")
-        extra = labels.get(entry.get("symbol")) or labels.get(str(entry.get("symbol", "")).upper())
-        if extra:
-            line += f"  <i>{html.escape(str(extra))}</i>"
-        lines.append(line)
-    return "\n".join(lines)
 
 
 def format_blind_warning(failed, watched: int) -> str:
