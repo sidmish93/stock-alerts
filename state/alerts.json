@@ -225,14 +225,28 @@
    "level": 3.0,
    "symbol": "PVRINOX",
    "value": -3.17
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "REDINGTON",
+   "value": 3.02
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHADOWFAX",
+   "value": 5.11
   }
  ],
  "latched": {
-  "ABDL|daily|down|3": 3.07,
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
   "FIRSTCRY|daily|up|3": 4.96,
-  "GUJENERGY|daily|down|3": 3.04,
   "JSWINFRA|daily|up|3": 5.33,
   "JSWINFRA|daily|up|5": 7.09,
   "KAYNES|daily|down|3": 3.62,
@@ -240,10 +254,10 @@
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
   "PIIND|daily|up|3": 4.23,
-  "PSPPROJECT|daily|up|3": 3.76,
-  "PVRINOX|daily|down|3": 3.17,
+  "REDINGTON|daily|up|3": 3.02,
   "SANSERA|daily|up|3": 3.68,
   "SHADOWFAX|daily|up|3": 3.76,
+  "SHADOWFAX|daily|up|5": 5.11,
   "SUNDARMFIN|daily|up|3": 3.11,
   "SYRMA|daily|up|3": 3.26
  },
@@ -251,7 +265,8 @@
   "AEQUS",
   "SANSERA",
   "PGIL",
-  "JSWINFRA"
+  "JSWINFRA",
+  "SHADOWFAX"
  ],
  "warned_blind": false
 }
