@@ -193,6 +193,14 @@
    "level": 3.0,
    "symbol": "REDINGTON",
    "value": 3.38
+  },
+  {
+   "at": "10:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "PSPPROJECT",
+   "value": 3.76
   }
  ],
  "latched": {
@@ -205,9 +213,8 @@
   "LTM|daily|down|3": 3.11,
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
-  "PGIL|daily|up|5": 5.34,
   "PIIND|daily|up|3": 4.23,
-  "REDINGTON|daily|up|3": 3.38,
+  "PSPPROJECT|daily|up|3": 3.76,
   "SANSERA|daily|up|3": 3.68,
   "SHADOWFAX|daily|up|3": 3.76,
   "SUNDARMFIN|daily|up|3": 3.11,
