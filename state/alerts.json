@@ -201,12 +201,38 @@
    "level": 3.0,
    "symbol": "PSPPROJECT",
    "value": 3.76
+  },
+  {
+   "at": "10:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "ABDL",
+   "value": -3.07
+  },
+  {
+   "at": "10:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "GUJENERGY",
+   "value": -3.04
+  },
+  {
+   "at": "10:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "PVRINOX",
+   "value": -3.17
   }
  ],
  "latched": {
+  "ABDL|daily|down|3": 3.07,
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
   "FIRSTCRY|daily|up|3": 4.96,
+  "GUJENERGY|daily|down|3": 3.04,
   "JSWINFRA|daily|up|3": 5.33,
   "JSWINFRA|daily|up|5": 7.09,
   "KAYNES|daily|down|3": 3.62,
@@ -215,6 +241,7 @@
   "PGIL|daily|up|3": 3.09,
   "PIIND|daily|up|3": 4.23,
   "PSPPROJECT|daily|up|3": 3.76,
+  "PVRINOX|daily|down|3": 3.17,
   "SANSERA|daily|up|3": 3.68,
   "SHADOWFAX|daily|up|3": 3.76,
   "SUNDARMFIN|daily|up|3": 3.11,
