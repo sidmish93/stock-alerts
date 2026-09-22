@@ -49,16 +49,44 @@
    "level": 3.0,
    "symbol": "PGIL",
    "value": 3.09
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "ABDL",
+   "value": -3.14
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SUNDARMFIN",
+   "value": 3.11
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AEQUS",
+   "value": 5.02
   }
  ],
  "latched": {
+  "ABDL|daily|down|3": 3.14,
   "AEQUS|daily|up|3": 3.74,
+  "AEQUS|daily|up|5": 5.02,
   "CARBORUNIV|daily|up|3": 3.85,
-  "KAYNES|daily|down|3": 3.6,
   "LTM|daily|down|3": 3.64,
   "PGIL|daily|up|3": 3.09,
-  "SANSERA|daily|up|3": 3.68
+  "SANSERA|daily|up|3": 3.68,
+  "SUNDARMFIN|daily|up|3": 3.11
  },
- "shared": [],
+ "shared": [
+  "AEQUS"
+ ],
  "warned_blind": false
 }
