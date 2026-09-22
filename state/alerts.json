@@ -465,6 +465,14 @@
    "level": 5.0,
    "symbol": "BLUESTONE",
    "value": 5.32
+  },
+  {
+   "at": "12:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SUNTV",
+   "value": 6.48
   }
  ],
  "latched": {
@@ -491,8 +499,8 @@
   "REDINGTON|daily|up|3": 3.38,
   "SANSERA|daily|up|3": 3.68,
   "SHADOWFAX|daily|up|3": 3.76,
-  "SHADOWFAX|daily|up|5": 5.13,
   "SUNTV|daily|up|3": 3.16,
+  "SUNTV|daily|up|5": 6.48,
   "SWIGGY|daily|up|3": 3.47,
   "SYRMA|daily|up|3": 3.26,
   "WELSPUNLIV|daily|up|3": 3.1
@@ -509,7 +517,8 @@
   "CAPILLARY",
   "JISLJALEQS",
   "MEESHO",
-  "BLUESTONE"
+  "BLUESTONE",
+  "SUNTV"
  ],
  "warned_blind": false
 }
