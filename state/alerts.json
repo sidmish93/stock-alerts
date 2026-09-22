@@ -401,13 +401,27 @@
    "level": 3.0,
    "symbol": "ICIL",
    "value": 3.31
+  },
+  {
+   "at": "12:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHADOWFAX",
+   "value": 5.15
+  },
+  {
+   "at": "12:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": 5.03
   }
  ],
  "latched": {
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
-  "AMAGI|daily|up|5": 5.31,
-  "CHALET|daily|up|3": 3.33,
   "CONCOR|daily|down|3": 3.06,
   "FIRSTCRY|daily|up|3": 4.96,
   "FIRSTCRY|daily|up|5": 5.2,
@@ -422,11 +436,12 @@
   "LTM|daily|down|3": 3.11,
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
+  "PGIL|daily|up|5": 5.03,
   "PIIND|daily|up|3": 4.23,
   "REDINGTON|daily|up|3": 3.38,
   "SANSERA|daily|up|3": 3.68,
   "SHADOWFAX|daily|up|3": 3.76,
-  "SUNDARMFIN|daily|up|3": 3.11,
+  "SHADOWFAX|daily|up|5": 5.15,
   "SUNTV|daily|up|3": 3.16,
   "SWIGGY|daily|up|3": 3.47,
   "SYRMA|daily|up|3": 3.26
