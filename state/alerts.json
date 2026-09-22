@@ -337,18 +337,88 @@
    "level": 5.0,
    "symbol": "INDOMIM",
    "value": 5.17
+  },
+  {
+   "at": "11:49",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIRSTCRY",
+   "value": 5.2
+  },
+  {
+   "at": "11:49",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "VIPIND",
+   "value": 3.02
+  },
+  {
+   "at": "11:49",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "GUJENERGY",
+   "value": -3.04
+  },
+  {
+   "at": "11:49",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JSWINFRA",
+   "value": 5.26
+  },
+  {
+   "at": "11:49",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AMAGI",
+   "value": 5.31
+  },
+  {
+   "at": "11:49",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SWIGGY",
+   "value": 3.47
+  },
+  {
+   "at": "11:49",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "CONCOR",
+   "value": -3.06
+  },
+  {
+   "at": "11:49",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "ICIL",
+   "value": 3.31
   }
  ],
  "latched": {
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
+  "AMAGI|daily|up|5": 5.31,
   "CHALET|daily|up|3": 3.33,
+  "CONCOR|daily|down|3": 3.06,
   "FIRSTCRY|daily|up|3": 4.96,
+  "FIRSTCRY|daily|up|5": 5.2,
+  "GUJENERGY|daily|down|3": 3.04,
   "HOMEFIRST|daily|down|3": 3.82,
+  "ICIL|daily|up|3": 3.31,
   "IKS|daily|up|3": 3.39,
   "INDOMIM|daily|up|3": 3.49,
   "INDOMIM|daily|up|5": 5.17,
   "JSWINFRA|daily|up|3": 5.33,
+  "JSWINFRA|daily|up|5": 5.26,
   "LTM|daily|down|3": 3.11,
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
@@ -359,7 +429,9 @@
   "SHADOWFAX|daily|up|5": 5.48,
   "SUNDARMFIN|daily|up|3": 3.11,
   "SUNTV|daily|up|3": 3.16,
-  "SYRMA|daily|up|3": 3.26
+  "SWIGGY|daily|up|3": 3.47,
+  "SYRMA|daily|up|3": 3.26,
+  "VIPIND|daily|up|3": 3.02
  },
  "shared": [
   "AEQUS",
@@ -368,7 +440,8 @@
   "JSWINFRA",
   "SHADOWFAX",
   "FIRSTCRY",
-  "INDOMIM"
+  "INDOMIM",
+  "AMAGI"
  ],
  "warned_blind": false
 }
