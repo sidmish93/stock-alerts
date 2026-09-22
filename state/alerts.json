@@ -257,32 +257,84 @@
    "level": 3.0,
    "symbol": "HOMEFIRST",
    "value": -3.82
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SANSERA",
+   "value": 5.4
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIRSTCRY",
+   "value": 5.98
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "VIPIND",
+   "value": 3.06
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "REDINGTON",
+   "value": 3.38
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SUNTV",
+   "value": 3.16
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "INDOMIM",
+   "value": 3.49
   }
  ],
  "latched": {
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
   "FIRSTCRY|daily|up|3": 4.96,
+  "FIRSTCRY|daily|up|5": 5.98,
   "HOMEFIRST|daily|down|3": 3.82,
-  "IKS|daily|up|3": 3.15,
+  "INDOMIM|daily|up|3": 3.49,
   "JSWINFRA|daily|up|3": 5.33,
-  "JSWINFRA|daily|up|5": 7.09,
-  "KAYNES|daily|down|3": 3.62,
   "LTM|daily|down|3": 3.11,
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
   "PIIND|daily|up|3": 4.23,
+  "REDINGTON|daily|up|3": 3.38,
   "SANSERA|daily|up|3": 3.68,
+  "SANSERA|daily|up|5": 5.4,
   "SHADOWFAX|daily|up|3": 3.76,
   "SUNDARMFIN|daily|up|3": 3.11,
-  "SYRMA|daily|up|3": 3.26
+  "SUNTV|daily|up|3": 3.16,
+  "SYRMA|daily|up|3": 3.26,
+  "VIPIND|daily|up|3": 3.06
  },
  "shared": [
   "AEQUS",
   "SANSERA",
   "PGIL",
   "JSWINFRA",
-  "SHADOWFAX"
+  "SHADOWFAX",
+  "FIRSTCRY"
  ],
  "warned_blind": false
 }
