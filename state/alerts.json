@@ -305,15 +305,49 @@
    "level": 3.0,
    "symbol": "INDOMIM",
    "value": 3.49
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "CHALET",
+   "value": 3.33
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "IKS",
+   "value": 3.39
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHADOWFAX",
+   "value": 5.48
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDOMIM",
+   "value": 5.17
   }
  ],
  "latched": {
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
+  "CHALET|daily|up|3": 3.33,
   "FIRSTCRY|daily|up|3": 4.96,
-  "FIRSTCRY|daily|up|5": 5.98,
   "HOMEFIRST|daily|down|3": 3.82,
+  "IKS|daily|up|3": 3.39,
   "INDOMIM|daily|up|3": 3.49,
+  "INDOMIM|daily|up|5": 5.17,
   "JSWINFRA|daily|up|3": 5.33,
   "LTM|daily|down|3": 3.11,
   "PAGEIND|daily|up|3": 3.06,
@@ -321,12 +355,11 @@
   "PIIND|daily|up|3": 4.23,
   "REDINGTON|daily|up|3": 3.38,
   "SANSERA|daily|up|3": 3.68,
-  "SANSERA|daily|up|5": 5.4,
   "SHADOWFAX|daily|up|3": 3.76,
+  "SHADOWFAX|daily|up|5": 5.48,
   "SUNDARMFIN|daily|up|3": 3.11,
   "SUNTV|daily|up|3": 3.16,
-  "SYRMA|daily|up|3": 3.26,
-  "VIPIND|daily|up|3": 3.06
+  "SYRMA|daily|up|3": 3.26
  },
  "shared": [
   "AEQUS",
@@ -334,7 +367,8 @@
   "PGIL",
   "JSWINFRA",
   "SHADOWFAX",
-  "FIRSTCRY"
+  "FIRSTCRY",
+  "INDOMIM"
  ],
  "warned_blind": false
 }
