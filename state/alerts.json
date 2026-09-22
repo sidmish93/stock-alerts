@@ -241,12 +241,30 @@
    "level": 5.0,
    "symbol": "SHADOWFAX",
    "value": 5.11
+  },
+  {
+   "at": "11:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "IKS",
+   "value": 3.15
+  },
+  {
+   "at": "11:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "HOMEFIRST",
+   "value": -3.82
   }
  ],
  "latched": {
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
   "FIRSTCRY|daily|up|3": 4.96,
+  "HOMEFIRST|daily|down|3": 3.82,
+  "IKS|daily|up|3": 3.15,
   "JSWINFRA|daily|up|3": 5.33,
   "JSWINFRA|daily|up|5": 7.09,
   "KAYNES|daily|down|3": 3.62,
@@ -254,10 +272,8 @@
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
   "PIIND|daily|up|3": 4.23,
-  "REDINGTON|daily|up|3": 3.02,
   "SANSERA|daily|up|3": 3.68,
   "SHADOWFAX|daily|up|3": 3.76,
-  "SHADOWFAX|daily|up|5": 5.11,
   "SUNDARMFIN|daily|up|3": 3.11,
   "SYRMA|daily|up|3": 3.26
  },
