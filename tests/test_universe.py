@@ -52,6 +52,10 @@ class UniverseTests(unittest.TestCase):
         self.assertEqual(by_symbol["PINELABS"].buckets, ("Alpha Wave", "Temasek"))
         self.assertEqual(by_symbol["PAYTM"].buckets, ("Elevation",))
         self.assertEqual(by_symbol["IPCALAB"].buckets, ("ChrysCapital", "Elevation"))
+        self.assertEqual(by_symbol["MEESHO"].buckets, ("Steadview", "Elevation"))
+        self.assertEqual(by_symbol["URBANCO"].buckets, ("Steadview", "Elevation"))
+        self.assertEqual(by_symbol["WAKEFIT"].buckets, ("Steadview", "Elevation"))
+        self.assertEqual(by_symbol["EPL"].buckets, ("ADIA", "Blackstone"))
         self.assertEqual(sum(1 for item in watched if not item.coverage), 101)
 
 

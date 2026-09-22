@@ -413,7 +413,7 @@ DEEDEV      , DEE Development Engineers | noncoverage | Carlyle
 DHOOTTRANS  , Dhoot Transmission | noncoverage | ADIA
 EDELWEISS   , Edelweiss Financial | noncoverage | Elevation
 EMMVEE      , Emmvee Photovoltaic Power | noncoverage | ADIA
-EPL         , EPL | noncoverage | ADIA
+EPL         , EPL | noncoverage | ADIA; Blackstone
 ETHOSLTD    , Ethos | noncoverage | Elevation
 EUREKAFORB  , Eureka Forbes | noncoverage | Advent
 FIEMIND     , Fiem Industries | noncoverage | Elevation
@@ -446,7 +446,7 @@ IXIGO       , Le Travenues (Ixigo) | noncoverage | Elevation
 MBEL        , M & B Engineering | noncoverage | ADIA
 MANAPPURAM  , Manappuram Finance | noncoverage | Blackstone
 MANIPALHOS  , Manipal Health Enterprises | noncoverage | ADIA
-MEESHO      , Meesho | noncoverage | Steadview
+MEESHO      , Meesho | noncoverage | Steadview; Elevation
 MOLBIO      , Molbio Diagnostics | noncoverage | Temasek
 NAVKARCORP  , Navkar Corporation | noncoverage | ADIA
 NEPHROPLUS  , Nephrocare | noncoverage | Quadria
@@ -480,11 +480,11 @@ TITAGARH    , Titagarh Rail | noncoverage | ChrysCapital
 TRACXN      , Tracxn | noncoverage | Elevation
 UNIMECH     , Unimech Aerospace | noncoverage | Steadview
 UFBL        , United Foodbrands | noncoverage | Xponentia
-URBANCO     , Urban Company | noncoverage | Steadview
+URBANCO     , Urban Company | noncoverage | Steadview; Elevation
 VIJAYA      , Vijaya Diagnostic Centre | noncoverage | ADIA
 VIYASH      , Viyash Scientific | noncoverage | Carlyle
 IDEA        , Vodafone Idea | noncoverage | ADIA
 WAAREEENER  , Waaree Energies | noncoverage | ADIA
-WAKEFIT     , Wakefit | noncoverage | Steadview
+WAKEFIT     , Wakefit | noncoverage | Steadview; Elevation
 YATHARTH    , Yatharth Hospital | noncoverage | Advent
 YESBANK     , Yes Bank | noncoverage | Advent
