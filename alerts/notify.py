@@ -154,9 +154,6 @@ def _volume_lines(quote, reading) -> list[str]:
             f"On pace for {shares(reading.projected_volume)} "
             f"vs {average} 5-day avg  ({reading.volume_multiple:.2f}x)"
         )
-        lines.append(
-            f"<i>{reading.pace_fraction * 100:.0f}% of a normal day has traded by now</i>"
-        )
     else:
         # No intraday profile, so this is raw volume against a whole day and will
         # read low in the morning. Say so rather than imply a paced number.

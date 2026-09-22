@@ -143,7 +143,6 @@ CMP Rs 348.25   prev close Rs 326.65
 vs prev close +6.61%   from open +5.56%
 Volume 2.52 cr so far
 On pace for 2.52 cr vs 27.67 lakh 5-day avg  (9.12x)
-100% of a normal day has traded by now
 15:30 IST · 18 Sep
 ```
 
@@ -154,7 +153,6 @@ CMP Rs 239.00   prev close Rs 255.50
 vs prev close -6.46%   from open -6.46%
 Volume 34.24 lakh so far
 On pace for 34.24 lakh vs 1.59 lakh 5-day avg  (21.49x)
-100% of a normal day has traded by now
 15:30 IST · 18 Sep
 ```
 

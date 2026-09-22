@@ -435,7 +435,7 @@ class Formatting(unittest.TestCase):
                            if t.kind == VOLUME)
             text = format_alert(trigger, quote, reading, "Travel Food Services")
             self.assertIn("On pace for", text)
-            self.assertIn("of a normal day has traded", text)
+            self.assertNotIn("of a normal day has traded", text)
             # The headline has to name the rule that fired, not just the number.
             self.assertIn("volume past 1.5x", text)
         finally:
