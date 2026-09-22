@@ -513,6 +513,22 @@
    "level": 5.0,
    "symbol": "JAINREC",
    "value": 5.02
+  },
+  {
+   "at": "14:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KAYNES",
+   "value": -5.53
+  },
+  {
+   "at": "14:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HOMEFIRST",
+   "value": -5.35
   }
  ],
  "latched": {
@@ -524,14 +540,15 @@
   "FIRSTCRY|daily|up|3": 4.96,
   "GUJENERGY|daily|down|3": 3.04,
   "HOMEFIRST|daily|down|3": 3.82,
+  "HOMEFIRST|daily|down|5": 5.35,
   "ICIL|daily|up|3": 3.31,
   "IKS|daily|up|3": 3.39,
   "INDOMIM|daily|up|3": 3.49,
   "INDOMIM|daily|up|5": 5.37,
-  "JAINREC|daily|up|5": 5.02,
   "JISLJALEQS|daily|down|5": 6.65,
   "JSWINFRA|daily|up|3": 5.33,
   "JSWINFRA|daily|up|5": 5.26,
+  "KAYNES|daily|down|5": 5.53,
   "LTM|daily|down|3": 3.11,
   "MEESHO|daily|up|5": 8.21,
   "PAGEIND|daily|up|3": 3.06,
@@ -563,7 +580,8 @@
   "BLUESTONE",
   "SUNTV",
   "HOMEFIRST",
-  "JAINREC"
+  "JAINREC",
+  "KAYNES"
  ],
  "warned_blind": false
 }
