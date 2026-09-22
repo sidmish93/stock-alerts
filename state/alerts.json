@@ -177,6 +177,22 @@
    "level": 5.0,
    "symbol": "PGIL",
    "value": 5.34
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JSWINFRA",
+   "value": 7.09
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "REDINGTON",
+   "value": 3.38
   }
  ],
  "latched": {
@@ -184,14 +200,15 @@
   "AMAGI|daily|up|3": 3.37,
   "FIRSTCRY|daily|up|3": 4.96,
   "JSWINFRA|daily|up|3": 5.33,
+  "JSWINFRA|daily|up|5": 7.09,
   "KAYNES|daily|down|3": 3.62,
   "LTM|daily|down|3": 3.11,
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
   "PGIL|daily|up|5": 5.34,
   "PIIND|daily|up|3": 4.23,
+  "REDINGTON|daily|up|3": 3.38,
   "SANSERA|daily|up|3": 3.68,
-  "SANSERA|daily|up|5": 5.16,
   "SHADOWFAX|daily|up|3": 3.76,
   "SUNDARMFIN|daily|up|3": 3.11,
   "SYRMA|daily|up|3": 3.26
