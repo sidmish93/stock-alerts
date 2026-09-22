@@ -74,6 +74,17 @@ class Digest(unittest.TestCase):
         self.assertIn("volume 1.97x avg", text)
         self.assertIn("2 alerts", text)
 
+    def test_a_pe_name_is_tagged_on_the_digest(self):
+        entries = [{"symbol": "MEESHO", "kind": DAILY, "value": 7.75, "at": "09:28"}]
+        text = format_digest(
+            date(2026, 9, 22),
+            entries,
+            watched=365,
+            notes={"MEESHO": "non coverage company · Steadview"},
+        )
+        self.assertIn("non coverage company · Steadview", text)
+        self.assertIn("MEESHO", text)
+
 
 class DigestRidesOnThePollSchedule(unittest.TestCase):
     """One trigger has to cover both jobs.

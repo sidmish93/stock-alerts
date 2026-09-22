@@ -81,6 +81,12 @@ def _send_shareholding(watched, alert_log, dry_run: bool) -> None:
         log(f"No BSE shareholding pattern for {watched.symbol}.")
         return
     message = shareholding.format_message(found, watched.name)
+    note = notify.coverage_note(
+        getattr(watched, "coverage", True),
+        getattr(watched, "buckets", ()),
+    )
+    if note:
+        message = f"{note}\n{message}"
     if dry_run:
         log(f"would send:\n{message}\n")
         return
@@ -135,7 +141,14 @@ def poll(watched_list, alert_log: AlertLog, today: date, dry_run: bool = False) 
 
         reading = measure(quote, history, now=quote.quote_at)
         for trigger in alert_log.advance(reading):
-            message = notify.format_alert(trigger, quote, reading, watched.name)
+            message = notify.format_alert(
+                trigger,
+                quote,
+                reading,
+                watched.name,
+                coverage=getattr(watched, "coverage", True),
+                buckets=getattr(watched, "buckets", ()),
+            )
             if not _deliver(message, watched.symbol, dry_run):
                 continue
             alert_log.record(trigger, quote)
@@ -225,7 +238,12 @@ def send_digest(dry_run: bool = False) -> int:
         return 0
 
     day = date.fromisoformat(alert_log.day)
-    text = notify.format_digest(day, alert_log.fired, len(watched_list))
+    notes = {
+        item.symbol: item.coverage_label()
+        for item in watched_list
+        if not getattr(item, "coverage", True)
+    }
+    text = notify.format_digest(day, alert_log.fired, len(watched_list), notes)
     alert_log.digested = True
     alert_log.save()
     if dry_run:

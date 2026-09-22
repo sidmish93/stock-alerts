@@ -69,7 +69,24 @@ def _signed(value) -> str:
     return f"{value:+.2f}%"
 
 
-def format_alert(trigger, quote, reading, name: str = "") -> str:
+def coverage_note(coverage: bool = True, buckets=()) -> str:
+    """The line that marks a PE-book name that is not on the coverage list."""
+    if coverage:
+        return ""
+    firms = ", ".join(html.escape(str(bucket)) for bucket in buckets if bucket)
+    if firms:
+        return f"<i>non coverage company · {firms}</i>"
+    return "<i>non coverage company</i>"
+
+
+def format_alert(
+    trigger,
+    quote,
+    reading,
+    name: str = "",
+    coverage: bool = True,
+    buckets=(),
+) -> str:
     """One alert, as it appears on the phone."""
     symbol = html.escape(trigger.symbol)
     title = html.escape(name) if name and name.upper() != trigger.symbol else ""
@@ -87,6 +104,9 @@ def format_alert(trigger, quote, reading, name: str = "") -> str:
     lines = [f"{icon} <b>{symbol}</b>  {headline}"]
     if title:
         lines.append(f"<i>{title}</i>")
+    note = coverage_note(coverage, buckets)
+    if note:
+        lines.append(note)
 
     if quote.cmp is not None:
         detail = f"CMP Rs {quote.cmp:,.2f}"
@@ -157,12 +177,13 @@ def _reading_text(entry) -> str:
     return f"{value:+.2f}% {basis}"
 
 
-def format_digest(day, entries, watched: int) -> str:
+def format_digest(day, entries, watched: int, notes: dict | None = None) -> str:
     """The after-close summary of everything that fired."""
     heading = f"<b>Close summary * {day:%d %b %Y}</b>"
     if not entries:
         return f"{heading}\nNothing triggered across {watched} names."
 
+    labels = notes or {}
     lines = [heading, f"{len(entries)} alerts across {watched} names watched.", ""]
     ordered = sorted(
         entries,
@@ -171,9 +192,11 @@ def format_digest(day, entries, watched: int) -> str:
     for entry in ordered:
         symbol = html.escape(str(entry.get("symbol", "")))
         at = entry.get("at")
-        lines.append(
-            f"* <b>{symbol}</b>  {_reading_text(entry)}" + (f"  ({at})" if at else "")
-        )
+        line = f"* <b>{symbol}</b>  {_reading_text(entry)}" + (f"  ({at})" if at else "")
+        extra = labels.get(entry.get("symbol")) or labels.get(str(entry.get("symbol", "")).upper())
+        if extra:
+            line += f"  <i>{html.escape(str(extra))}</i>"
+        lines.append(line)
     return "\n".join(lines)
 
 

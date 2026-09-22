@@ -222,58 +222,60 @@ class Latching(unittest.TestCase):
         return self.log.advance(self.reading(daily))
 
     def test_it_alerts_on_the_crossing_and_then_holds_quiet(self):
-        first = self.fire(3.2)
-        self.assertEqual([(t.kind, t.level) for t in first], [(DAILY, 3.0)])
-        for value in (3.3, 3.9, 4.8, 3.1):
+        first = self.fire(5.2)
+        self.assertEqual([(t.kind, t.level) for t in first], [(DAILY, 5.0)])
+        for value in (5.3, 5.9, 7.0, 5.1):
             self.assertEqual(self.fire(value), [])
+
+    def test_a_three_percent_move_does_not_alert(self):
+        self.assertEqual(self.fire(3.4), [])
+        self.assertEqual(self.fire(4.8), [])
 
     def test_falling_back_and_crossing_again_alerts_again(self):
-        self.assertEqual(len(self.fire(3.2)), 1)
-        self.assertEqual(self.fire(2.9), [])  # re-arms, no alert on the way down
-        again = self.fire(3.1)
-        self.assertEqual([t.level for t in again], [3.0])
+        self.assertEqual(len(self.fire(5.2)), 1)
+        self.assertEqual(self.fire(4.9), [])  # re-arms, no alert on the way down
+        again = self.fire(5.1)
+        self.assertEqual([t.level for t in again], [5.0])
 
     def test_hovering_on_the_level_does_not_re_alert(self):
-        self.assertEqual(len(self.fire(3.01)), 1)
+        self.assertEqual(len(self.fire(5.01)), 1)
         # Inside the re-arm margin, so the latch holds.
-        for value in (2.99, 3.02, 2.95, 3.05):
+        for value in (4.99, 5.02, 4.95, 5.05):
             self.assertEqual(self.fire(value), [])
 
-    def test_five_percent_is_its_own_alert(self):
-        self.assertEqual([t.level for t in self.fire(3.4)], [3.0])
+    def test_drifting_higher_after_five_says_nothing_more(self):
         self.assertEqual([t.level for t in self.fire(5.2)], [5.0])
-        # Both latched now, so drifting higher says nothing more.
         self.assertEqual(self.fire(6.0), [])
 
-    def test_a_jump_straight_past_both_levels_reports_both(self):
+    def test_a_jump_straight_past_five_reports_once(self):
         levels = sorted(t.level for t in self.fire(6.1))
-        self.assertEqual(levels, [3.0, 5.0])
+        self.assertEqual(levels, [5.0])
 
     def test_a_reversal_reports_the_other_side(self):
-        self.assertEqual([t.direction for t in self.fire(3.4)], ["up"])
-        fired = self.fire(-3.6)
+        self.assertEqual([t.direction for t in self.fire(5.4)], ["up"])
+        fired = self.fire(-5.6)
         self.assertEqual([t.direction for t in fired], ["down"])
         # The upside latch released on the way through, so a renewed rally alerts.
-        self.assertEqual([t.direction for t in self.fire(3.7)], ["up"])
+        self.assertEqual([t.direction for t in self.fire(5.7)], ["up"])
 
     def test_latches_survive_a_restart(self):
-        self.fire(3.4)
+        self.fire(5.4)
         self.log.save()
         reopened = AlertLog(path=self.path)
         self.assertFalse(reopened.start_day(FRIDAY))
-        self.assertEqual(reopened.advance(self.reading(3.4)), [])
+        self.assertEqual(reopened.advance(self.reading(5.4)), [])
 
     def test_a_new_session_clears_every_latch(self):
-        self.fire(3.4)
+        self.fire(5.4)
         self.assertTrue(self.log.start_day(date(2026, 9, 21)))
-        self.assertEqual(len(self.log.advance(self.reading(3.4))), 1)
+        self.assertEqual(len(self.log.advance(self.reading(5.4))), 1)
 
     def test_intraday_and_daily_latch_separately(self):
         original = triggers.PRICE_RULES
         triggers.PRICE_RULES = {"daily", "intraday"}
         try:
             reading = measure(
-                Quote(daily_return_pct=3.4, intraday_return_pct=3.6, previous_close=100.0),
+                Quote(daily_return_pct=5.4, intraday_return_pct=5.6, previous_close=100.0),
                 history(),
             )
             kinds = sorted(t.kind for t in self.log.advance(reading))
@@ -464,9 +466,24 @@ class Formatting(unittest.TestCase):
         self.assertIn("ex-split", text)
         self.assertIn("corporate action", text)
 
+    def test_a_non_coverage_alert_names_every_pe_book(self):
+        quote = Quote(symbol="CLEANMAX", cmp=1400.0, daily_return_pct=5.4,
+                      previous_close=1328.0)
+        reading = measure(quote, history())
+        trigger = AlertLog(path=Path("nonexistent")).advance(reading)[0]
+        text = format_alert(
+            trigger, quote, reading, "Clean Max",
+            coverage=False, buckets=("Steadview", "Temasek"),
+        )
+        self.assertIn("non coverage company", text)
+        self.assertIn("Steadview", text)
+        self.assertIn("Temasek", text)
+        covered = format_alert(trigger, quote, reading, "Clean Max")
+        self.assertNotIn("non coverage company", covered)
+
     def test_an_ampersand_in_a_name_cannot_break_the_markup(self):
-        quote = Quote(symbol="ADANIPORTS", cmp=1400.0, daily_return_pct=3.4,
-                      previous_close=1350.0)
+        quote = Quote(symbol="ADANIPORTS", cmp=1400.0, daily_return_pct=5.4,
+                      previous_close=1328.0)
         reading = measure(quote, history())
         trigger = AlertLog(path=Path("nonexistent")).advance(reading)[0]
         self.assertIn("&amp;", format_alert(trigger, quote, reading, "Adani Ports & SEZ"))

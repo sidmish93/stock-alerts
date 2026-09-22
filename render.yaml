@@ -21,6 +21,6 @@ services:
       - key: PRICE_RULES
         value: "daily"
       - key: MOVE_LEVELS
-        value: "3,5"
+        value: "5"
       - key: VOLUME_LEVELS
         value: "1.5,3"

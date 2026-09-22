@@ -81,9 +81,9 @@ def _price_rules() -> set[str]:
 
 PRICE_RULES = _price_rules()
 
-# Price levels, in percent. Each fires on its own, so a stock running to 5.4%
-# alerts once at 3% and again at 5%.
-MOVE_LEVELS = _levels("MOVE_LEVELS", "3,5")
+# Price levels, in percent. 5% is the only default: 3% was crossing too often
+# to stay useful. Set e.g. MOVE_LEVELS=3,5 to bring the first band back.
+MOVE_LEVELS = _levels("MOVE_LEVELS", "5")
 
 # Volume levels, as a multiple of the average. Empty by default: with ~300 names
 # a 1.5x threshold was crossed by 16% of the universe on an ordinary day and 47%
@@ -93,7 +93,7 @@ MOVE_LEVELS = _levels("MOVE_LEVELS", "3,5")
 VOLUME_LEVELS = _levels("VOLUME_LEVELS", "")
 
 # How far a reading must fall back before that level can fire again. Without a
-# margin a stock sitting on 3.00% would alert every time it wobbled a hundredth
+# margin a stock sitting on 5.00% would alert every time it wobbled a hundredth
 # of a point either side.
 REARM_MARGIN_PCT = _number("REARM_MARGIN_PCT", 0.1)
 VOLUME_REARM_MARGIN = _number("VOLUME_REARM_MARGIN", 0.1)

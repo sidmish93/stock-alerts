@@ -3,14 +3,13 @@
 Watches a list of companies you define and pushes a Telegram message to your
 phone when one of them crosses a trigger:
 
-**Price past ±3%, and again past ±5%**, measured against yesterday's close.
-
-A **±5% move also brings the company's named shareholders** from BSE, restated
-for block and bulk deals since the last quarter, as a follow-up message.
+**Price past ±5%**, measured against yesterday's close. That alert also brings
+the company's **named shareholders** from BSE, restated for block and bulk deals
+since the last quarter, as a follow-up message.
 
 Volume does not raise an alert, but every alert carries it: how much has traded,
 what that projects to for the full day, and how that compares with the last five
-sessions. So a 3% move that comes with 21× normal volume looks different from one
+sessions. So a 5% move that comes with 21× normal volume looks different from one
 that comes on nothing.
 
 Runs on GitHub Actions: free, and nothing of yours has to stay switched on.
@@ -35,8 +34,9 @@ Runs on GitHub Actions: free, and nothing of yours has to stay switched on.
 
 ### 2. The universe
 
-`universe.txt` holds **299 NSE-listed companies**, grouped by sector across 36
-sectors (68 large cap, 83 mid, 148 small).
+`universe.txt` holds **365 NSE-listed companies**: the original 299 coverage
+names, grouped by sector across 36 sectors (68 large cap, 83 mid, 148 small),
+plus 66 non-coverage PE holdings.
 
 Symbols were resolved by **ISIN**, not by ticker guesswork: a BSE scrip code
 becomes an ISIN via BSE's scrip master, and the ISIN becomes a symbol via NSE's
@@ -44,9 +44,14 @@ own equity list. Vendor tickers would not have worked — `HDFCB` is HDFCBANK an
 `BAF` is BAJFINANCE. All 299 were then confirmed to price on Yahoo and to carry a
 BSE scrip code for shareholding.
 
-Three names were dropped: BSE and CDSL carry no BSE scrip code, so their
-shareholding cannot be fetched, and NSDL is a BSE-only listing with no `.NS`
-series on Yahoo.
+BSE was dropped because it carries no BSE scrip code, so shareholding cannot be
+fetched. NSDL is a BSE-only listing with no `.NS` series on Yahoo. CDSL is
+watched only as a non-coverage PE name for the same shareholding reason.
+
+Non-coverage lines look like
+`MEESHO, Meesho | noncoverage | Steadview` or
+`CLEANMAX, Clean Max | noncoverage | Steadview; Temasek`.
+Their alerts say `non coverage company` and every PE book that holds them.
 
 To change it, edit the file: one NSE symbol per line, then the display name used
 in alerts. Lines starting with `#` are ignored, so you can stop watching a name
@@ -57,7 +62,7 @@ python -m alerts.worker --once --dry-run --force
 ```
 
 Anything Yahoo does not recognise is reported as having no usable quote. The full
-299 poll in about 16 seconds.
+365 poll a few seconds longer than the original 299.
 
 ### 3. Deploy to GitHub Actions
 
@@ -361,16 +366,10 @@ With 299 names it is worth knowing. Replaying real sessions:
 
 | | Ordinary day (Wed 16 Sep) | Expiry day (Fri 18 Sep) |
 |---|---|---|
-| Past 3% | 15 | 53 |
 | Past 5% | 4 | 15 |
-| **Total** | **~19** | **68** |
 
-Friday 18 Sep was a derivatives-expiry and index-rebalance day, so 68 is close to
-a worst case rather than typical. An ordinary day is under twenty.
-
-If that turns out to be more than you want, `MOVE_LEVELS=4,7` is the dial —
-raising the first level is what cuts volume, since the 3% band is most of the
-traffic.
+Friday 18 Sep was a derivatives-expiry and index-rebalance day. An ordinary day
+is a handful of names. `MOVE_LEVELS=3,5` brings the 3% band back if you want it.
 
 ### Why volume no longer triggers
 
@@ -394,14 +393,13 @@ Each level is a latch. It fires the first time the reading goes above it, then
 stays quiet however long it sits there. It arms again only once the reading has
 fallen back to 0.1 below the level, so:
 
-- 3.2% → **alert**. Drifting 3.3%, 3.9%, 4.8% → silent.
-- Easing to 2.9%, then back through 3.0% → **alert again**.
-- Wobbling 2.99 / 3.01 / 2.95 → silent, because it never cleared the margin.
-- Reaching 5.2% → **alert**, separately, as the 5% level.
-- Jumping straight from 1% to 6.1% → **two alerts**, 3% and 5%.
+- 5.2% → **alert**. Drifting 5.3%, 5.9%, 7.0% → silent.
+- Easing to 4.9%, then back through 5.0% → **alert again**.
+- Wobbling 4.99 / 5.01 / 4.95 → silent, because it never cleared the margin.
+- A 3% or 4% move → silent.
 
-Up and down are separate latches, so a stock that runs +3% in the morning and
-reverses to −3% after lunch reports both — and its upside latch releases on the
+Up and down are separate latches, so a stock that runs +5% in the morning and
+reverses to −5% after lunch reports both — and its upside latch releases on the
 way down, ready for a second attempt. Intraday and daily are separate too.
 
 State lives in `state/alerts.json`, committed back to the repository by the
@@ -452,7 +450,7 @@ Everything is an environment variable; see `.env.example`, or set them under
 | Variable | Default | Meaning |
 |---|---|---|
 | `PRICE_RULES` | `daily` | `daily`, `intraday`, or both |
-| `MOVE_LEVELS` | `3,5` | Price levels, percent |
+| `MOVE_LEVELS` | `5` | Price levels, percent |
 | `VOLUME_LEVELS` | *(empty)* | Volume levels; empty means volume never triggers |
 | `SHAREHOLDING_MAX_PER_DAY` | `0` | Ceiling on shareholding notes per day; `0` is no limit |
 | `BASELINE_SESSIONS` | `5` | Sessions in the volume average |

@@ -3,11 +3,11 @@
 Each level of each rule is a latch. It fires when the reading first goes above
 the level, and then stays quiet however long the reading sits there. It only
 arms again once the reading has fallen back below the level by a small margin,
-so a stock that eases to 2.9% and pushes through 3% again is reported again,
-while one hovering on 2.999/3.001 is not.
+so a stock that eases to 4.9% and pushes through 5% again is reported again,
+while one hovering on 4.999/5.001 is not.
 
-Up and down are separate latches, so a stock that runs +3% in the morning and
-reverses to -3% after lunch reports both, and its upside latch re-arms on the
+Up and down are separate latches, so a stock that runs +5% in the morning and
+reverses to -5% after lunch reports both, and its upside latch re-arms on the
 way down ready for a second attempt.
 
 State is written to disk because every run would otherwise replay the day's
@@ -121,7 +121,7 @@ class AlertLog:
                     )
             elif latched and candidate.magnitude <= candidate.level - rearm_margin(candidate.kind):
                 # Fallen clear of the level: ready to report the next crossing.
-                # Inclusive, so a 3% level with a 0.1 margin re-arms at exactly
+                # Inclusive, so a 5% level with a 0.1 margin re-arms at exactly
                 # 2.9% rather than needing to undershoot it.
                 del self.latched[key]
         return to_send
