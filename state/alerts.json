@@ -137,17 +137,62 @@
    "level": 3.0,
    "symbol": "KAYNES",
    "value": -3.62
+  },
+  {
+   "at": "10:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "FIRSTCRY",
+   "value": 4.96
+  },
+  {
+   "at": "10:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "LTM",
+   "value": -3.11
+  },
+  {
+   "at": "10:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "AMAGI",
+   "value": 3.37
+  },
+  {
+   "at": "10:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "SHADOWFAX",
+   "value": 3.76
+  },
+  {
+   "at": "10:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": 5.34
   }
  ],
  "latched": {
   "AEQUS|daily|up|3": 3.74,
+  "AMAGI|daily|up|3": 3.37,
+  "FIRSTCRY|daily|up|3": 4.96,
   "JSWINFRA|daily|up|3": 5.33,
   "KAYNES|daily|down|3": 3.62,
+  "LTM|daily|down|3": 3.11,
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
+  "PGIL|daily|up|5": 5.34,
   "PIIND|daily|up|3": 4.23,
   "SANSERA|daily|up|3": 3.68,
   "SANSERA|daily|up|5": 5.16,
+  "SHADOWFAX|daily|up|3": 3.76,
   "SUNDARMFIN|daily|up|3": 3.11,
   "SYRMA|daily|up|3": 3.26
  },
