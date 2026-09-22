@@ -97,11 +97,29 @@
    "level": 5.0,
    "symbol": "PGIL",
    "value": 6.2
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 3.0,
+   "symbol": "JSWINFRA",
+   "value": 5.33
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JSWINFRA",
+   "value": 5.33
   }
  ],
  "latched": {
   "ABDL|daily|down|3": 3.14,
   "AEQUS|daily|up|3": 3.74,
+  "JSWINFRA|daily|up|3": 5.33,
+  "JSWINFRA|daily|up|5": 5.33,
   "LTM|daily|down|3": 3.64,
   "PGIL|daily|up|3": 3.09,
   "PGIL|daily|up|5": 6.2,
@@ -113,7 +131,8 @@
  "shared": [
   "AEQUS",
   "SANSERA",
-  "PGIL"
+  "PGIL",
+  "JSWINFRA"
  ],
  "warned_blind": false
 }
