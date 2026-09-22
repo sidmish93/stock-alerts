@@ -529,6 +529,14 @@
    "level": 5.0,
    "symbol": "HOMEFIRST",
    "value": -5.35
+  },
+  {
+   "at": "14:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DHOOTTRANS",
+   "value": 5.16
   }
  ],
  "latched": {
@@ -537,6 +545,7 @@
   "BLUESTONE|daily|up|5": 5.32,
   "CAPILLARY|daily|up|5": 6.19,
   "CONCOR|daily|down|3": 3.06,
+  "DHOOTTRANS|daily|up|5": 5.16,
   "FIRSTCRY|daily|up|3": 4.96,
   "GUJENERGY|daily|down|3": 3.04,
   "HOMEFIRST|daily|down|3": 3.82,
@@ -581,7 +590,8 @@
   "SUNTV",
   "HOMEFIRST",
   "JAINREC",
-  "KAYNES"
+  "KAYNES",
+  "DHOOTTRANS"
  ],
  "warned_blind": false
 }
