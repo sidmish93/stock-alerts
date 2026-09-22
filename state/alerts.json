@@ -433,11 +433,36 @@
    "level": 3.0,
    "symbol": "WELSPUNLIV",
    "value": 3.1
+  },
+  {
+   "at": "12:28",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CAPILLARY",
+   "value": 6.19
+  },
+  {
+   "at": "12:28",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JISLJALEQS",
+   "value": -6.65
+  },
+  {
+   "at": "12:28",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MEESHO",
+   "value": 8.21
   }
  ],
  "latched": {
   "AEQUS|daily|up|3": 3.74,
   "AMAGI|daily|up|3": 3.37,
+  "CAPILLARY|daily|up|5": 6.19,
   "CONCOR|daily|down|3": 3.06,
   "FIRSTCRY|daily|up|3": 4.96,
   "GUJENERGY|daily|down|3": 3.04,
@@ -445,9 +470,11 @@
   "ICIL|daily|up|3": 3.31,
   "IKS|daily|up|3": 3.39,
   "INDOMIM|daily|up|3": 3.49,
+  "JISLJALEQS|daily|down|5": 6.65,
   "JSWINFRA|daily|up|3": 5.33,
   "JSWINFRA|daily|up|5": 5.26,
   "LTM|daily|down|3": 3.11,
+  "MEESHO|daily|up|5": 8.21,
   "PAGEIND|daily|up|3": 3.06,
   "PGIL|daily|up|3": 3.09,
   "PGIL|daily|up|5": 5.03,
@@ -469,7 +496,10 @@
   "SHADOWFAX",
   "FIRSTCRY",
   "INDOMIM",
-  "AMAGI"
+  "AMAGI",
+  "CAPILLARY",
+  "JISLJALEQS",
+  "MEESHO"
  ],
  "warned_blind": false
 }
