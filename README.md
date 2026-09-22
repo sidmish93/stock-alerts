@@ -34,9 +34,9 @@ Runs on GitHub Actions: free, and nothing of yours has to stay switched on.
 
 ### 2. The universe
 
-`universe.txt` holds **365 NSE-listed companies**: the original 299 coverage
+`universe.txt` holds **400 NSE-listed companies**: the original 299 coverage
 names, grouped by sector across 36 sectors (68 large cap, 83 mid, 148 small),
-plus 66 non-coverage PE holdings.
+plus 101 non-coverage PE holdings.
 
 Symbols were resolved by **ISIN**, not by ticker guesswork: a BSE scrip code
 becomes an ISIN via BSE's scrip master, and the ISIN becomes a symbol via NSE's
@@ -62,7 +62,7 @@ python -m alerts.worker --once --dry-run --force
 ```
 
 Anything Yahoo does not recognise is reported as having no usable quote. The full
-365 poll a few seconds longer than the original 299.
+400 poll a few seconds longer than the original 299.
 
 ### 3. Deploy to GitHub Actions
 

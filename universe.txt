@@ -1,4 +1,4 @@
-# 365 NSE-listed companies: 299 coverage names grouped by sector, plus 66
+# 400 NSE-listed companies: 299 coverage names grouped by sector, plus 101
 # non-coverage PE holdings tagged with the book(s) they came from.
 #
 # Coverage symbols were resolved by ISIN through BSE's scrip master and NSE's
@@ -385,7 +385,7 @@ PREMIERENE  , Premier Energies
 TATAPOWER   , Tata Power Co.
 TORNTPOWER  , Torrent Power
 
-# --- Non-coverage PE holdings (66) ---
+# --- Non-coverage PE holdings (101) ---
 # Not coverage. Alerts are tagged with every PE book that holds the name.
 AARTISURF   , Aarti Surfactants | noncoverage | ADIA
 ACC         , ACC | noncoverage | Temasek
@@ -393,7 +393,11 @@ ADANIENSOL  , Adani Energy Solutions | noncoverage | ADIA
 ADANIENT    , Adani Enterprises | noncoverage | ADIA
 CPPLUS      , Aditya Infotech | noncoverage | ADIA
 ACI         , Archean Chemical Industries | noncoverage | ADIA
+ARMANFIN    , Arman Financial | noncoverage | Elevation
+ATUL        , Atul | noncoverage | Elevation
 AURIONPRO   , Aurionpro Solutions | noncoverage | Steadview
+AYE         , Aye Finance | noncoverage | Elevation
+BETA        , Beta Drugs | noncoverage | Quadria
 BLACKBUCK   , BlackBuck | noncoverage | Steadview
 BLUESTONE   , BlueStone Jewellery | noncoverage | Steadview
 CAMPUS      , Campus Activewear | noncoverage | ADIA
@@ -403,51 +407,82 @@ CDSL        , Central Depository Services | noncoverage | ADIA
 CLEANMAX    , Clean Max | noncoverage | Steadview; Temasek
 COFFEEDAY   , Coffee Day Enterprises | noncoverage | KKR
 CONCORDBIO  , Concord Biotech | noncoverage | ADIA
+CORONA      , Corona Remedies | noncoverage | ChrysCapital
+MUFTI       , Credo Brands (Mufti) | noncoverage | Carlyle
+DEEDEV      , DEE Development Engineers | noncoverage | Carlyle
 DHOOTTRANS  , Dhoot Transmission | noncoverage | ADIA
+EDELWEISS   , Edelweiss Financial | noncoverage | Elevation
 EMMVEE      , Emmvee Photovoltaic Power | noncoverage | ADIA
 EPL         , EPL | noncoverage | ADIA
+ETHOSLTD    , Ethos | noncoverage | Elevation
 EUREKAFORB  , Eureka Forbes | noncoverage | Advent
+FIEMIND     , Fiem Industries | noncoverage | Elevation
 NYKAA       , FSN E-Commerce (Nykaa) | noncoverage | Steadview
 FUSION      , Fusion Finance | noncoverage | Warburg Pincus
+GMMPFAUDLR  , GMM Pfaudler | noncoverage | ChrysCapital
 GODREJAGRO  , Godrej Agrovet | noncoverage | Temasek
 GODREJCP    , Godrej Consumer Products | noncoverage | Temasek
 HCG         , HealthCare Global | noncoverage | KKR; Temasek
+HMVL        , Hindustan Media Ventures | noncoverage | ChrysCapital
 HONASA      , Honasa Consumer | noncoverage | ADIA
+HORIZONIND  , Horizon Industrial Parks | noncoverage | Blackstone
 IDFCFIRSTB  , IDFC First Bank | noncoverage | ADIA
 IBULLSLTD   , Indiabulls | noncoverage | Steadview
 INOXINDIA   , INOX India | noncoverage | ADIA
+IGIL        , International Gemological Institute | noncoverage | Blackstone
+IPCALAB     , Ipca Labs | noncoverage | ChrysCapital; Elevation
 JISLJALEQS  , Jain Irrigation | noncoverage | Temasek
 JAINREC     , Jain Resource Recycling | noncoverage | ADIA
 JNPR        , Juniper Green Energy | noncoverage | ADIA
 JLHL        , Jupiter Life Line Hospitals | noncoverage | ADIA
+JUSTDIAL    , Just Dial | noncoverage | Elevation
 KALYANKJIL  , Kalyan Jewellers | noncoverage | Warburg Pincus
+KDDL        , KDDL | noncoverage | Elevation
 RUSTOMJEE   , Keystone Realtors | noncoverage | ADIA
+KOLTEPATIL  , Kolte-Patil | noncoverage | Blackstone
 LAOPALA     , La Opala RG | noncoverage | Steadview
 LEAPIND     , LEAP India | noncoverage | KKR
+IXIGO       , Le Travenues (Ixigo) | noncoverage | Elevation
 MBEL        , M & B Engineering | noncoverage | ADIA
+MANAPPURAM  , Manappuram Finance | noncoverage | Blackstone
 MANIPALHOS  , Manipal Health Enterprises | noncoverage | ADIA
 MEESHO      , Meesho | noncoverage | Steadview
 MOLBIO      , Molbio Diagnostics | noncoverage | Temasek
 NAVKARCORP  , Navkar Corporation | noncoverage | ADIA
+NEPHROPLUS  , Nephrocare | noncoverage | Quadria
 NEULANDLAB  , Neuland Laboratories | noncoverage | Steadview
 NIITLTD     , NIIT | noncoverage | ADIA
 NTPCGREEN   , NTPC Green Energy | noncoverage | ADIA
 OLAELEC     , Ola Electric | noncoverage | Alpha Wave; Temasek
 MOBIKWIK    , One Mobikwik Systems | noncoverage | ADIA
+PAYTM       , Paytm | noncoverage | Elevation
 PDSL        , PDS | noncoverage | ADIA
 PARAS       , Paras Defence | noncoverage | ADIA
+PENIND      , Pennar Industries | noncoverage | Elevation
 PINELABS    , Pine Labs | noncoverage | Alpha Wave; Temasek
+POONAWALLA  , Poonawalla Fincorp | noncoverage | ChrysCapital
 RRKABEL     , R R Kabel | noncoverage | ADIA
+RSYSTEMS    , R Systems | noncoverage | Blackstone
+RATNAMANI   , Ratnamani Metals | noncoverage | Elevation
 ROSSARI     , Rossari Biotech | noncoverage | ADIA
 ROUTE       , Route Mobile | noncoverage | Steadview
+SHK         , S H Kelkar | noncoverage | Blackstone
+SAFARI      , Safari Industries | noncoverage | Elevation
+SENCO       , Senco Gold | noncoverage | Elevation
 SHIPROCKET  , Shiprocket | noncoverage | Temasek
 SIS         , SIS | noncoverage | ADIA
+SOUTHBANK   , South Indian Bank | noncoverage | ChrysCapital
+SPECIALITY  , Speciality Restaurants | noncoverage | Elevation
 SULA        , Sula Vineyards | noncoverage | ADIA
 TTML        , Tata Teleservices Maharashtra | noncoverage | Temasek
+TBOTEK      , TBO Tek | noncoverage | General Atlantic
+TITAGARH    , Titagarh Rail | noncoverage | ChrysCapital
+TRACXN      , Tracxn | noncoverage | Elevation
 UNIMECH     , Unimech Aerospace | noncoverage | Steadview
 UFBL        , United Foodbrands | noncoverage | Xponentia
 URBANCO     , Urban Company | noncoverage | Steadview
 VIJAYA      , Vijaya Diagnostic Centre | noncoverage | ADIA
+VIYASH      , Viyash Scientific | noncoverage | Carlyle
 IDEA        , Vodafone Idea | noncoverage | ADIA
 WAAREEENER  , Waaree Energies | noncoverage | ADIA
 WAKEFIT     , Wakefit | noncoverage | Steadview

@@ -43,14 +43,16 @@ class UniverseTests(unittest.TestCase):
     def test_the_real_file_has_the_pe_overlay(self):
         watched = load()
         by_symbol = {item.symbol: item for item in watched}
-        self.assertGreaterEqual(len(watched), 365)
+        self.assertGreaterEqual(len(watched), 400)
         self.assertTrue(by_symbol["RELIANCE"].coverage)
         self.assertFalse(by_symbol["CLEANMAX"].coverage)
         self.assertEqual(by_symbol["CLEANMAX"].buckets, ("Steadview", "Temasek"))
         self.assertEqual(by_symbol["OLAELEC"].buckets, ("Alpha Wave", "Temasek"))
         self.assertEqual(by_symbol["HCG"].buckets, ("KKR", "Temasek"))
         self.assertEqual(by_symbol["PINELABS"].buckets, ("Alpha Wave", "Temasek"))
-        self.assertEqual(sum(1 for item in watched if not item.coverage), 66)
+        self.assertEqual(by_symbol["PAYTM"].buckets, ("Elevation",))
+        self.assertEqual(by_symbol["IPCALAB"].buckets, ("ChrysCapital", "Elevation"))
+        self.assertEqual(sum(1 for item in watched if not item.coverage), 101)
 
 
 if __name__ == "__main__":
