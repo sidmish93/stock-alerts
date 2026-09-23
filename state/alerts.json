@@ -121,14 +121,32 @@
    "level": 5.0,
    "symbol": "ICIL",
    "value": 5.03
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MAHLOG",
+   "value": 5.08
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SAIL",
+   "value": 6.03
   }
  ],
  "latched": {
   "BLUESTONE|daily|down|5": 5.53,
   "ICIL|daily|up|5": 5.03,
+  "MAHLOG|daily|up|5": 5.08,
   "MOLDTKPAC|daily|up|5": 5.13,
   "OLAELEC|daily|up|5": 8.55,
-  "PGIL|daily|up|5": 5.04
+  "PGIL|daily|up|5": 5.04,
+  "SAIL|daily|up|5": 6.03
  },
  "shared": [
   "OLAELEC",
@@ -142,7 +160,8 @@
   "PGIL",
   "BLUESTONE",
   "MAHLOG",
-  "BETA"
+  "BETA",
+  "SAIL"
  ],
  "warned_blind": false
 }
