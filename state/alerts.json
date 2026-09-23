@@ -153,6 +153,14 @@
    "level": 5.0,
    "symbol": "ICIL",
    "value": 5.73
+  },
+  {
+   "at": "13:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WHIRLPOOL",
+   "value": 5.56
   }
  ],
  "latched": {
@@ -162,7 +170,8 @@
   "MOLDTKPAC|daily|up|5": 5.13,
   "OLAELEC|daily|up|5": 8.55,
   "PGIL|daily|up|5": 5.04,
-  "SAIL|daily|up|5": 6.03
+  "SAIL|daily|up|5": 6.03,
+  "WHIRLPOOL|daily|up|5": 5.56
  },
  "shared": [
   "OLAELEC",
@@ -178,7 +187,8 @@
   "MAHLOG",
   "BETA",
   "SAIL",
-  "CLEANMAX"
+  "CLEANMAX",
+  "WHIRLPOOL"
  ],
  "warned_blind": false
 }
