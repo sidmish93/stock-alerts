@@ -70,8 +70,7 @@
  "latched": {
   "ICIL|daily|up|5": 5.7,
   "MOLDTKPAC|daily|up|5": 5.13,
-  "OLAELEC|daily|up|5": 8.55,
-  "SHK|daily|up|5": 5.12
+  "OLAELEC|daily|up|5": 8.55
  },
  "shared": [
   "OLAELEC",
