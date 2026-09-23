@@ -25,15 +25,45 @@
    "level": 5.0,
    "symbol": "NAVKARCORP",
    "value": 5.2
+  },
+  {
+   "at": "10:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICIL",
+   "value": 5.7
+  },
+  {
+   "at": "10:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JAINREC",
+   "value": 5.25
+  },
+  {
+   "at": "10:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLBIO",
+   "value": 5.33
   }
  ],
  "latched": {
+  "ICIL|daily|up|5": 5.7,
+  "JAINREC|daily|up|5": 5.25,
+  "MOLBIO|daily|up|5": 5.33,
   "OLAELEC|daily|up|5": 8.55
  },
  "shared": [
   "OLAELEC",
   "ROUTE",
-  "NAVKARCORP"
+  "NAVKARCORP",
+  "ICIL",
+  "JAINREC",
+  "MOLBIO"
  ],
  "warned_blind": false
 }
