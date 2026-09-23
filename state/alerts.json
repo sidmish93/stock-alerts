@@ -49,11 +49,29 @@
    "level": 5.0,
    "symbol": "MOLBIO",
    "value": 5.33
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLDTKPAC",
+   "value": 5.13
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHK",
+   "value": 5.12
   }
  ],
  "latched": {
   "ICIL|daily|up|5": 5.7,
-  "OLAELEC|daily|up|5": 8.55
+  "MOLDTKPAC|daily|up|5": 5.13,
+  "OLAELEC|daily|up|5": 8.55,
+  "SHK|daily|up|5": 5.12
  },
  "shared": [
   "OLAELEC",
@@ -61,7 +79,9 @@
   "NAVKARCORP",
   "ICIL",
   "JAINREC",
-  "MOLBIO"
+  "MOLBIO",
+  "MOLDTKPAC",
+  "SHK"
  ],
  "warned_blind": false
 }
