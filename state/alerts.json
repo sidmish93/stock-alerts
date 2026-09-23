@@ -65,12 +65,30 @@
    "level": 5.0,
    "symbol": "SHK",
    "value": 5.12
+  },
+  {
+   "at": "10:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": 5.04
+  },
+  {
+   "at": "10:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTONE",
+   "value": -5.53
   }
  ],
  "latched": {
+  "BLUESTONE|daily|down|5": 5.53,
   "ICIL|daily|up|5": 5.7,
   "MOLDTKPAC|daily|up|5": 5.13,
-  "OLAELEC|daily|up|5": 8.55
+  "OLAELEC|daily|up|5": 8.55,
+  "PGIL|daily|up|5": 5.04
  },
  "shared": [
   "OLAELEC",
@@ -80,7 +98,9 @@
   "JAINREC",
   "MOLBIO",
   "MOLDTKPAC",
-  "SHK"
+  "SHK",
+  "PGIL",
+  "BLUESTONE"
  ],
  "warned_blind": false
 }
