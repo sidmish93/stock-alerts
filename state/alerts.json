@@ -105,11 +105,19 @@
    "level": 5.0,
    "symbol": "MAHLOG",
    "value": 5.4
+  },
+  {
+   "at": "11:49",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BETA",
+   "value": 5.01
   }
  ],
  "latched": {
+  "BETA|daily|up|5": 5.01,
   "BLUESTONE|daily|down|5": 5.53,
-  "MAHLOG|daily|up|5": 5.4,
   "MOLDTKPAC|daily|up|5": 5.13,
   "OLAELEC|daily|up|5": 8.55,
   "PGIL|daily|up|5": 5.04
@@ -125,7 +133,8 @@
   "SHK",
   "PGIL",
   "BLUESTONE",
-  "MAHLOG"
+  "MAHLOG",
+  "BETA"
  ],
  "warned_blind": false
 }
