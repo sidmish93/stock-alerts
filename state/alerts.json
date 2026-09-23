@@ -89,11 +89,20 @@
    "level": 5.0,
    "symbol": "MOLDTKPAC",
    "value": 5.13
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLBIO",
+   "value": 5.12
   }
  ],
  "latched": {
   "BLUESTONE|daily|down|5": 5.53,
   "ICIL|daily|up|5": 5.7,
+  "MOLBIO|daily|up|5": 5.12,
   "MOLDTKPAC|daily|up|5": 5.13,
   "OLAELEC|daily|up|5": 8.55,
   "PGIL|daily|up|5": 5.04
