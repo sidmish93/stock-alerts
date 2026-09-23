@@ -1,4 +1,4 @@
-# 330 NSE-listed companies: 299 coverage names grouped by sector, plus 31
+# 331 NSE-listed companies: 300 coverage names grouped by sector, plus 31
 # non-coverage PE holdings. A firm is tagged only if it (or a known vehicle)
 # is still a named holder on the latest BSE pattern, after block/bulk deals.
 #
@@ -187,11 +187,12 @@ MEDPLUS     , MedPlus Health Services
 METROPOLIS  , Metropolis Healthcare
 NH          , Narayana Hrudayalaya
 
-# --- Hospitality (4) ---
+# --- Hospitality (5) ---
 CHALET      , Chalet Hotels
 INDHOTEL    , Indian Hotels Company
 THELEELA    , Leela Palaces Hotels & Resorts
 LEMONTREE   , Lemon Tree Hotels
+TRAVELFOOD  , Travel Food Services
 
 # --- IT (23) ---
 CYIENT      , Cyient

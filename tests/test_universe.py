@@ -43,7 +43,8 @@ class UniverseTests(unittest.TestCase):
     def test_the_real_file_has_the_pe_overlay(self):
         watched = load()
         by_symbol = {item.symbol: item for item in watched}
-        self.assertGreaterEqual(len(watched), 330)
+        self.assertGreaterEqual(len(watched), 331)
+        self.assertTrue(by_symbol["TRAVELFOOD"].coverage)
         self.assertTrue(by_symbol["RELIANCE"].coverage)
         self.assertFalse(by_symbol["CLEANMAX"].coverage)
         self.assertEqual(by_symbol["CLEANMAX"].buckets, ("Steadview", "Temasek"))
