@@ -17,15 +17,24 @@
    "level": 5.0,
    "symbol": "ROUTE",
    "value": 6.23
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NAVKARCORP",
+   "value": 5.2
   }
  ],
  "latched": {
-  "OLAELEC|daily|up|5": 8.55,
-  "ROUTE|daily|up|5": 6.23
+  "NAVKARCORP|daily|up|5": 5.2,
+  "OLAELEC|daily|up|5": 8.55
  },
  "shared": [
   "OLAELEC",
-  "ROUTE"
+  "ROUTE",
+  "NAVKARCORP"
  ],
  "warned_blind": false
 }
