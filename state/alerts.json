@@ -1,211 +1,101 @@
 {
- "day": "2026-09-23",
- "digested": true,
+ "day": "2026-09-24",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "OLAELEC",
-   "value": 8.55
-  },
-  {
-   "at": "09:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ROUTE",
-   "value": 6.23
-  },
-  {
-   "at": "09:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NAVKARCORP",
-   "value": 5.2
-  },
-  {
-   "at": "10:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ICIL",
-   "value": 5.7
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JAINREC",
-   "value": 5.25
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLBIO",
-   "value": 5.33
-  },
-  {
-   "at": "10:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": 5.13
-  },
-  {
-   "at": "10:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHK",
-   "value": 5.12
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PGIL",
-   "value": 5.04
-  },
-  {
-   "at": "10:50",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": -5.53
-  },
-  {
-   "at": "11:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": 5.13
-  },
-  {
-   "at": "11:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLBIO",
-   "value": 5.12
-  },
-  {
-   "at": "11:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MAHLOG",
-   "value": 5.4
-  },
-  {
-   "at": "11:49",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": 5.01
-  },
-  {
-   "at": "12:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ICIL",
-   "value": 5.03
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MAHLOG",
-   "value": 5.08
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SAIL",
-   "value": 6.03
-  },
-  {
-   "at": "12:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CLEANMAX",
-   "value": 6.03
-  },
-  {
-   "at": "13:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ICIL",
-   "value": 5.73
-  },
-  {
-   "at": "13:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
    "symbol": "WHIRLPOOL",
-   "value": 5.56
+   "value": -5.23
   },
   {
-   "at": "14:10",
-   "direction": "up",
+   "at": "09:20",
+   "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "ICIL",
-   "value": 5.59
+   "symbol": "NAUKRI",
+   "value": -5.57
   },
   {
-   "at": "14:40",
-   "direction": "up",
+   "at": "09:20",
+   "direction": "down",
    "kind": "daily",
    "level": 5.0,
    "symbol": "POLICYBZR",
-   "value": 5.06
+   "value": -10.0
+  },
+  {
+   "at": "09:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CANHLIFE",
+   "value": -8.18
+  },
+  {
+   "at": "09:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HDFCLIFE",
+   "value": -6.54
+  },
+  {
+   "at": "09:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICICIPRULI",
+   "value": -6.89
+  },
+  {
+   "at": "09:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MFSL",
+   "value": -9.2
+  },
+  {
+   "at": "09:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BAJFINANCE",
+   "value": -5.14
+  },
+  {
+   "at": "09:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CHOLAFIN",
+   "value": -5.92
   }
  ],
  "latched": {
-  "BLUESTONE|daily|down|5": 5.53,
-  "CLEANMAX|daily|up|5": 6.03,
-  "ICIL|daily|up|5": 5.59,
-  "MOLDTKPAC|daily|up|5": 5.13,
-  "OLAELEC|daily|up|5": 8.55,
-  "PGIL|daily|up|5": 5.04,
-  "SAIL|daily|up|5": 6.03,
-  "WHIRLPOOL|daily|up|5": 5.56
+  "BAJFINANCE|daily|down|5": 5.14,
+  "CANHLIFE|daily|down|5": 8.18,
+  "CHOLAFIN|daily|down|5": 5.92,
+  "HDFCLIFE|daily|down|5": 6.54,
+  "ICICIPRULI|daily|down|5": 6.89,
+  "MFSL|daily|down|5": 9.2,
+  "NAUKRI|daily|down|5": 5.57,
+  "POLICYBZR|daily|down|5": 10.0,
+  "WHIRLPOOL|daily|down|5": 5.23
  },
  "shared": [
-  "OLAELEC",
-  "ROUTE",
-  "NAVKARCORP",
-  "ICIL",
-  "JAINREC",
-  "MOLBIO",
-  "MOLDTKPAC",
-  "SHK",
-  "PGIL",
-  "BLUESTONE",
-  "MAHLOG",
-  "BETA",
-  "SAIL",
-  "CLEANMAX",
   "WHIRLPOOL",
-  "POLICYBZR"
+  "NAUKRI",
+  "POLICYBZR",
+  "CANHLIFE",
+  "HDFCLIFE",
+  "ICICIPRULI",
+  "MFSL",
+  "BAJFINANCE",
+  "CHOLAFIN"
  ],
  "warned_blind": false
 }
