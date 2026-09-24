@@ -321,21 +321,73 @@
    "level": 5.0,
    "symbol": "NIVABUPA",
    "value": -5.17
+  },
+  {
+   "at": "15:15",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AUBANK",
+   "value": -5.01
+  },
+  {
+   "at": "15:15",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICICIGI",
+   "value": 5.2
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AYE",
+   "value": -5.04
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTONE",
+   "value": -5.63
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLBIO",
+   "value": -5.6
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHIPROCKET",
+   "value": -5.67
   }
  ],
  "latched": {
   "ABDL|daily|up|5": 5.83,
-  "AVALON|daily|down|5": 5.77,
+  "AUBANK|daily|down|5": 5.01,
+  "AYE|daily|down|5": 5.04,
   "BAJFINANCE|daily|down|5": 5.24,
+  "BLUESTONE|daily|down|5": 5.63,
   "CHOLAFIN|daily|down|5": 5.09,
-  "CLEANMAX|daily|down|5": 5.59,
   "HDFCLIFE|daily|down|5": 6.54,
+  "ICICIGI|daily|up|5": 5.2,
   "ICIL|daily|down|5": 5.21,
   "MFSL|daily|down|5": 9.2,
+  "MOLBIO|daily|down|5": 5.6,
   "NAUKRI|daily|down|5": 5.3,
   "NIVABUPA|daily|down|5": 5.17,
   "POLICYBZR|daily|down|5": 10.0,
-  "SEDEMAC|daily|up|5": 5.36
+  "SEDEMAC|daily|up|5": 5.36,
+  "SHIPROCKET|daily|down|5": 5.67
  },
  "shared": [
   "WHIRLPOOL",
@@ -361,7 +413,9 @@
   "AYE",
   "CLEANMAX",
   "NIVABUPA",
-  "PINELABS"
+  "PINELABS",
+  "AUBANK",
+  "MOLBIO"
  ],
  "warned_blind": false
 }
