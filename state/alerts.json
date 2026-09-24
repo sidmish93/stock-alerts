@@ -145,11 +145,20 @@
    "level": 5.0,
    "symbol": "CARBORUNIV",
    "value": 5.08
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICICIGI",
+   "value": 5.09
   }
  ],
  "latched": {
   "CARBORUNIV|daily|up|5": 5.08,
   "HDFCLIFE|daily|down|5": 6.54,
+  "ICICIGI|daily|up|5": 5.09,
   "MFSL|daily|down|5": 9.2,
   "POLICYBZR|daily|down|5": 10.0,
   "SEDEMAC|daily|up|5": 5.36
@@ -166,7 +175,8 @@
   "CHOLAFIN",
   "FIVESTAR",
   "SEDEMAC",
-  "CARBORUNIV"
+  "CARBORUNIV",
+  "ICICIGI"
  ],
  "warned_blind": false
 }
