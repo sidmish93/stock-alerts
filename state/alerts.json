@@ -169,9 +169,27 @@
    "level": 5.0,
    "symbol": "SUNTV",
    "value": 5.24
+  },
+  {
+   "at": "12:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ABDL",
+   "value": 5.83
+  },
+  {
+   "at": "12:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BAJFINANCE",
+   "value": -5.24
   }
  ],
  "latched": {
+  "ABDL|daily|up|5": 5.83,
+  "BAJFINANCE|daily|down|5": 5.24,
   "HDFCLIFE|daily|down|5": 6.54,
   "MFSL|daily|down|5": 9.2,
   "POLICYBZR|daily|down|5": 10.0,
