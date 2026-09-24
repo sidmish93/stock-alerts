@@ -273,15 +273,32 @@
    "level": 5.0,
    "symbol": "AVALON",
    "value": -5.52
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AYE",
+   "value": -5.02
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CLEANMAX",
+   "value": -5.59
   }
  ],
  "latched": {
   "ABDL|daily|up|5": 5.83,
   "AVALON|daily|down|5": 5.52,
   "AXISBANK|daily|down|5": 5.15,
+  "AYE|daily|down|5": 5.02,
   "BAJFINANCE|daily|down|5": 5.24,
-  "BLUESTONE|daily|down|5": 5.2,
   "CHOLAFIN|daily|down|5": 5.09,
+  "CLEANMAX|daily|down|5": 5.59,
   "HDFCLIFE|daily|down|5": 6.54,
   "ICIL|daily|down|5": 5.21,
   "MFSL|daily|down|5": 9.2,
@@ -310,7 +327,9 @@
   "SHIPROCKET",
   "AXISBANK",
   "ICIL",
-  "AVALON"
+  "AVALON",
+  "AYE",
+  "CLEANMAX"
  ],
  "warned_blind": false
 }
