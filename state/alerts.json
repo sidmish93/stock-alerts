@@ -289,6 +289,14 @@
    "level": 5.0,
    "symbol": "CLEANMAX",
    "value": -5.59
+  },
+  {
+   "at": "14:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NIVABUPA",
+   "value": -5.26
   }
  ],
  "latched": {
@@ -303,6 +311,7 @@
   "ICIL|daily|down|5": 5.21,
   "MFSL|daily|down|5": 9.2,
   "NAUKRI|daily|down|5": 5.3,
+  "NIVABUPA|daily|down|5": 5.26,
   "POLICYBZR|daily|down|5": 10.0,
   "SEDEMAC|daily|up|5": 5.36,
   "SUNTV|daily|up|5": 6.27
@@ -329,7 +338,8 @@
   "ICIL",
   "AVALON",
   "AYE",
-  "CLEANMAX"
+  "CLEANMAX",
+  "NIVABUPA"
  ],
  "warned_blind": false
 }
