@@ -73,18 +73,22 @@
    "level": 5.0,
    "symbol": "CHOLAFIN",
    "value": -5.92
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIVESTAR",
+   "value": -5.18
   }
  ],
  "latched": {
-  "BAJFINANCE|daily|down|5": 5.14,
-  "CANHLIFE|daily|down|5": 8.18,
-  "CHOLAFIN|daily|down|5": 5.92,
+  "FIVESTAR|daily|down|5": 5.18,
   "HDFCLIFE|daily|down|5": 6.54,
   "ICICIPRULI|daily|down|5": 6.89,
   "MFSL|daily|down|5": 9.2,
-  "NAUKRI|daily|down|5": 5.57,
-  "POLICYBZR|daily|down|5": 10.0,
-  "WHIRLPOOL|daily|down|5": 5.23
+  "POLICYBZR|daily|down|5": 10.0
  },
  "shared": [
   "WHIRLPOOL",
@@ -95,7 +99,8 @@
   "ICICIPRULI",
   "MFSL",
   "BAJFINANCE",
-  "CHOLAFIN"
+  "CHOLAFIN",
+  "FIVESTAR"
  ],
  "warned_blind": false
 }
