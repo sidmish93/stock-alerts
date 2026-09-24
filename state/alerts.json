@@ -97,11 +97,28 @@
    "level": 5.0,
    "symbol": "WHIRLPOOL",
    "value": -5.95
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CHOLAFIN",
+   "value": -5.2
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIVESTAR",
+   "value": -5.51
   }
  ],
  "latched": {
+  "CHOLAFIN|daily|down|5": 5.2,
+  "FIVESTAR|daily|down|5": 5.51,
   "HDFCLIFE|daily|down|5": 6.54,
-  "ICICIPRULI|daily|down|5": 6.89,
   "MFSL|daily|down|5": 9.2,
   "POLICYBZR|daily|down|5": 10.0,
   "SEDEMAC|daily|up|5": 5.36,
