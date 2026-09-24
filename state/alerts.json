@@ -153,12 +153,19 @@
    "level": 5.0,
    "symbol": "ICICIGI",
    "value": 5.09
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ABDL",
+   "value": 5.04
   }
  ],
  "latched": {
-  "CARBORUNIV|daily|up|5": 5.08,
+  "ABDL|daily|up|5": 5.04,
   "HDFCLIFE|daily|down|5": 6.54,
-  "ICICIGI|daily|up|5": 5.09,
   "MFSL|daily|down|5": 9.2,
   "POLICYBZR|daily|down|5": 10.0,
   "SEDEMAC|daily|up|5": 5.36
@@ -176,7 +183,8 @@
   "FIVESTAR",
   "SEDEMAC",
   "CARBORUNIV",
-  "ICICIGI"
+  "ICICIGI",
+  "ABDL"
  ],
  "warned_blind": false
 }
