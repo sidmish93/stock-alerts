@@ -49,10 +49,18 @@
    "level": 5.0,
    "symbol": "POLICYBZR",
    "value": -6.15
+  },
+  {
+   "at": "10:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MEESHO",
+   "value": -5.9
   }
  ],
  "latched": {
-  "POLICYBZR|daily|down|5": 6.15,
+  "MEESHO|daily|down|5": 5.9,
   "TCI|daily|up|5": 5.78,
   "WHIRLPOOL|daily|up|5": 7.14
  },
@@ -62,7 +70,8 @@
   "PGIL",
   "CLEANMAX",
   "WHIRLPOOL",
-  "POLICYBZR"
+  "POLICYBZR",
+  "MEESHO"
  ],
  "warned_blind": false
 }
