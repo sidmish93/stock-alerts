@@ -17,15 +17,35 @@
    "level": 5.0,
    "symbol": "AVALON",
    "value": 5.91
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": 5.16
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CLEANMAX",
+   "value": 5.78
   }
  ],
  "latched": {
   "AVALON|daily|up|5": 5.91,
+  "CLEANMAX|daily|up|5": 5.78,
+  "PGIL|daily|up|5": 5.16,
   "TCI|daily|up|5": 5.78
  },
  "shared": [
   "TCI",
-  "AVALON"
+  "AVALON",
+  "PGIL",
+  "CLEANMAX"
  ],
  "warned_blind": false
 }
