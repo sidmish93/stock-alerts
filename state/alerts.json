@@ -49,12 +49,20 @@
    "level": 5.0,
    "symbol": "CUB",
    "value": -5.04
+  },
+  {
+   "at": "11:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MANAPPURAM",
+   "value": -5.01
   }
  ],
  "latched": {
-  "AEQUS|daily|up|5": 5.02,
   "ARMANFIN|daily|down|5": 7.03,
   "CUB|daily|down|5": 5.04,
+  "MANAPPURAM|daily|down|5": 5.01,
   "RSYSTEMS|daily|up|5": 7.06
  },
  "shared": [
@@ -63,7 +71,8 @@
   "FIRSTCRY",
   "CLEANMAX",
   "AEQUS",
-  "CUB"
+  "CUB",
+  "MANAPPURAM"
  ],
  "warned_blind": false
 }
