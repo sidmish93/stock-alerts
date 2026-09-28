@@ -57,11 +57,19 @@
    "level": 5.0,
    "symbol": "MANAPPURAM",
    "value": -5.01
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AEQUS",
+   "value": 5.67
   }
  ],
  "latched": {
+  "AEQUS|daily|up|5": 5.67,
   "ARMANFIN|daily|down|5": 7.03,
-  "CUB|daily|down|5": 5.04,
   "RSYSTEMS|daily|up|5": 7.06
  },
  "shared": [
