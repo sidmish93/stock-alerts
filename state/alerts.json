@@ -1,101 +1,31 @@
 {
- "day": "2026-09-25",
- "digested": true,
+ "day": "2026-09-28",
+ "digested": false,
  "fired": [
+  {
+   "at": "09:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARMANFIN",
+   "value": -7.03
+  },
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "TCI",
-   "value": 5.78
-  },
-  {
-   "at": "09:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AVALON",
-   "value": 5.91
-  },
-  {
-   "at": "09:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PGIL",
-   "value": 5.16
-  },
-  {
-   "at": "09:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CLEANMAX",
-   "value": 5.78
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WHIRLPOOL",
-   "value": 7.14
-  },
-  {
-   "at": "10:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLICYBZR",
-   "value": -6.15
-  },
-  {
-   "at": "10:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MEESHO",
-   "value": -5.9
-  },
-  {
-   "at": "11:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLICYBZR",
-   "value": -5.02
-  },
-  {
-   "at": "12:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLICYBZR",
-   "value": -5.05
-  },
-  {
-   "at": "15:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PGIL",
-   "value": 5.28
+   "symbol": "RSYSTEMS",
+   "value": 7.06
   }
  ],
  "latched": {
-  "MEESHO|daily|down|5": 5.9,
-  "TCI|daily|up|5": 5.78,
-  "WHIRLPOOL|daily|up|5": 7.14
+  "ARMANFIN|daily|down|5": 7.03,
+  "RSYSTEMS|daily|up|5": 7.06
  },
  "shared": [
-  "TCI",
-  "AVALON",
-  "PGIL",
-  "CLEANMAX",
-  "WHIRLPOOL",
-  "POLICYBZR",
-  "MEESHO"
+  "ARMANFIN",
+  "RSYSTEMS"
  ],
  "warned_blind": false
 }
