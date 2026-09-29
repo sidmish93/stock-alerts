@@ -113,10 +113,19 @@
    "level": 5.0,
    "symbol": "POLICYBZR",
    "value": -5.08
+  },
+  {
+   "at": "15:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "COROMANDEL",
+   "value": -5.17
   }
  ],
  "latched": {
   "AZAD|daily|up|5": 5.4,
+  "COROMANDEL|daily|down|5": 5.17,
   "POLICYBZR|daily|down|5": 5.08,
   "PREMIERENE|daily|down|5": 5.03,
   "RSYSTEMS|daily|up|5": 5.17,
@@ -133,7 +142,8 @@
   "BLUESTONE",
   "SANSERA",
   "SUNTV",
-  "PREMIERENE"
+  "PREMIERENE",
+  "COROMANDEL"
  ],
  "warned_blind": false
 }
