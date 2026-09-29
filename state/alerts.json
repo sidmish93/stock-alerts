@@ -121,14 +121,32 @@
    "level": 5.0,
    "symbol": "COROMANDEL",
    "value": -5.17
+  },
+  {
+   "at": "15:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "APOLLOTYRE",
+   "value": 7.53
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SONATSOFTW",
+   "value": -5.05
   }
  ],
  "latched": {
+  "APOLLOTYRE|daily|up|5": 7.53,
   "AZAD|daily|up|5": 5.4,
   "COROMANDEL|daily|down|5": 5.17,
   "POLICYBZR|daily|down|5": 5.08,
   "PREMIERENE|daily|down|5": 5.03,
   "RSYSTEMS|daily|up|5": 5.17,
+  "SONATSOFTW|daily|down|5": 5.05,
   "SUNTV|daily|up|5": 5.12,
   "TCIEXP|daily|up|5": 12.92
  },
@@ -142,7 +160,9 @@
   "SANSERA",
   "SUNTV",
   "PREMIERENE",
-  "COROMANDEL"
+  "COROMANDEL",
+  "APOLLOTYRE",
+  "SONATSOFTW"
  ],
  "warned_blind": false
 }
