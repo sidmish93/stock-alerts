@@ -113,6 +113,14 @@
    "level": 5.0,
    "symbol": "THELEELA",
    "value": 5.34
+  },
+  {
+   "at": "11:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KIMS",
+   "value": -5.43
   }
  ],
  "latched": {
@@ -121,6 +129,7 @@
   "CYIENT|daily|up|5": 5.1,
   "ICIL|daily|up|5": 5.05,
   "KAJARIACER|daily|up|5": 5.16,
+  "KIMS|daily|down|5": 5.43,
   "SUNTV|daily|up|5": 6.1,
   "THELEELA|daily|up|5": 5.34
  },
@@ -136,7 +145,8 @@
   "COFORGE",
   "CYIENT",
   "CUB",
-  "THELEELA"
+  "THELEELA",
+  "KIMS"
  ],
  "warned_blind": false
 }
