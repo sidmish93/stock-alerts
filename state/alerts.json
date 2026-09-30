@@ -17,14 +17,54 @@
    "level": 5.0,
    "symbol": "MOLBIO",
    "value": 6.75
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KAJARIACER",
+   "value": 5.16
+  },
+  {
+   "at": "09:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MAXHEALTH",
+   "value": -5.98
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SUNTV",
+   "value": 6.1
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICIL",
+   "value": 5.48
   }
  ],
  "latched": {
-  "MOLBIO|daily|up|5": 6.75
+  "ICIL|daily|up|5": 5.48,
+  "KAJARIACER|daily|up|5": 5.16,
+  "MAXHEALTH|daily|down|5": 5.98,
+  "MOLBIO|daily|up|5": 6.75,
+  "SUNTV|daily|up|5": 6.1
  },
  "shared": [
   "FSL",
-  "MOLBIO"
+  "MOLBIO",
+  "KAJARIACER",
+  "MAXHEALTH",
+  "SUNTV",
+  "ICIL"
  ],
  "warned_blind": false
 }
