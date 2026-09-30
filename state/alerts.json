@@ -209,6 +209,14 @@
    "level": 5.0,
    "symbol": "MOLBIO",
    "value": 5.01
+  },
+  {
+   "at": "13:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JKCEMENT",
+   "value": 5.62
   }
  ],
  "latched": {
@@ -218,6 +226,7 @@
   "CYIENT|daily|up|5": 5.1,
   "HCG|daily|down|5": 5.1,
   "ICIL|daily|up|5": 5.05,
+  "JKCEMENT|daily|up|5": 5.62,
   "MAXHEALTH|daily|down|5": 5.29,
   "MOLBIO|daily|up|5": 5.01,
   "PVRINOX|daily|up|5": 6.06,
@@ -242,7 +251,8 @@
   "SYRMA",
   "CARBORUNIV",
   "PVRINOX",
-  "HCG"
+  "HCG",
+  "JKCEMENT"
  ],
  "warned_blind": false
 }
