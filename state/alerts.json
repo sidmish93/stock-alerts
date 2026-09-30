@@ -1,168 +1,31 @@
 {
- "day": "2026-09-29",
- "digested": true,
+ "day": "2026-09-30",
+ "digested": false,
  "fired": [
   {
-   "at": "09:21",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "TCIEXP",
-   "value": 12.92
+   "symbol": "FSL",
+   "value": 6.43
   },
   {
-   "at": "09:21",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "RSYSTEMS",
-   "value": 7.45
-  },
-  {
-   "at": "09:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AZAD",
-   "value": 5.2
-  },
-  {
-   "at": "09:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SKFINDUS",
-   "value": -5.37
-  },
-  {
-   "at": "09:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLICYBZR",
-   "value": -5.06
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AZAD",
-   "value": 6.65
-  },
-  {
-   "at": "10:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": -5.49
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "RSYSTEMS",
-   "value": 5.17
-  },
-  {
-   "at": "10:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SANSERA",
-   "value": -5.12
-  },
-  {
-   "at": "11:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AZAD",
-   "value": 5.4
-  },
-  {
-   "at": "12:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SANSERA",
-   "value": -5.18
-  },
-  {
-   "at": "14:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SUNTV",
-   "value": 5.12
-  },
-  {
-   "at": "14:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PREMIERENE",
-   "value": -5.03
-  },
-  {
-   "at": "14:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLICYBZR",
-   "value": -5.08
-  },
-  {
-   "at": "15:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "COROMANDEL",
-   "value": -5.17
-  },
-  {
-   "at": "15:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "APOLLOTYRE",
-   "value": 7.53
-  },
-  {
-   "at": "15:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SONATSOFTW",
-   "value": -5.05
+   "symbol": "MOLBIO",
+   "value": 6.75
   }
  ],
  "latched": {
-  "APOLLOTYRE|daily|up|5": 7.53,
-  "AZAD|daily|up|5": 5.4,
-  "COROMANDEL|daily|down|5": 5.17,
-  "POLICYBZR|daily|down|5": 5.08,
-  "PREMIERENE|daily|down|5": 5.03,
-  "RSYSTEMS|daily|up|5": 5.17,
-  "SONATSOFTW|daily|down|5": 5.05,
-  "SUNTV|daily|up|5": 5.12,
-  "TCIEXP|daily|up|5": 12.92
+  "FSL|daily|up|5": 6.43,
+  "MOLBIO|daily|up|5": 6.75
  },
  "shared": [
-  "TCIEXP",
-  "RSYSTEMS",
-  "AZAD",
-  "SKFINDUS",
-  "POLICYBZR",
-  "BLUESTONE",
-  "SANSERA",
-  "SUNTV",
-  "PREMIERENE",
-  "COROMANDEL",
-  "APOLLOTYRE",
-  "SONATSOFTW"
+  "FSL",
+  "MOLBIO"
  ],
  "warned_blind": false
 }
