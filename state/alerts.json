@@ -145,10 +145,19 @@
    "level": 5.0,
    "symbol": "SYRMA",
    "value": 5.05
+  },
+  {
+   "at": "12:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARBORUNIV",
+   "value": 5.01
   }
  ],
  "latched": {
   "APOLLOHOSP|daily|down|5": 5.31,
+  "CARBORUNIV|daily|up|5": 5.01,
   "CUB|daily|up|5": 5.16,
   "CYIENT|daily|up|5": 5.1,
   "ICIL|daily|up|5": 5.05,
@@ -172,7 +181,8 @@
   "CUB",
   "THELEELA",
   "KIMS",
-  "SYRMA"
+  "SYRMA",
+  "CARBORUNIV"
  ],
  "warned_blind": false
 }
