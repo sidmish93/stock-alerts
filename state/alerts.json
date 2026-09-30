@@ -81,11 +81,28 @@
    "level": 5.0,
    "symbol": "CYIENT",
    "value": 5.1
+  },
+  {
+   "at": "11:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CUB",
+   "value": 5.16
+  },
+  {
+   "at": "11:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICIL",
+   "value": 5.05
   }
  ],
  "latched": {
-  "AZAD|daily|up|5": 5.68,
+  "CUB|daily|up|5": 5.16,
   "CYIENT|daily|up|5": 5.1,
+  "ICIL|daily|up|5": 5.05,
   "KAJARIACER|daily|up|5": 5.16,
   "SUNTV|daily|up|5": 6.1
  },
@@ -99,7 +116,8 @@
   "APOLLOHOSP",
   "AZAD",
   "COFORGE",
-  "CYIENT"
+  "CYIENT",
+  "CUB"
  ],
  "warned_blind": false
 }
