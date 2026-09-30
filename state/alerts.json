@@ -185,6 +185,30 @@
    "level": 5.0,
    "symbol": "MOLBIO",
    "value": 5.46
+  },
+  {
+   "at": "13:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PVRINOX",
+   "value": 6.06
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HCG",
+   "value": -5.1
+  },
+  {
+   "at": "13:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLBIO",
+   "value": 5.01
   }
  ],
  "latched": {
@@ -192,8 +216,11 @@
   "CARBORUNIV|daily|up|5": 5.11,
   "CUB|daily|up|5": 5.16,
   "CYIENT|daily|up|5": 5.1,
+  "HCG|daily|down|5": 5.1,
   "ICIL|daily|up|5": 5.05,
   "MAXHEALTH|daily|down|5": 5.29,
+  "MOLBIO|daily|up|5": 5.01,
+  "PVRINOX|daily|up|5": 6.06,
   "SUNTV|daily|up|5": 6.1,
   "SYRMA|daily|up|5": 5.05,
   "THELEELA|daily|up|5": 5.34
@@ -214,7 +241,8 @@
   "KIMS",
   "SYRMA",
   "CARBORUNIV",
-  "PVRINOX"
+  "PVRINOX",
+  "HCG"
  ],
  "warned_blind": false
 }
