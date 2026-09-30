@@ -73,11 +73,20 @@
    "level": 5.0,
    "symbol": "COFORGE",
    "value": 5.44
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CYIENT",
+   "value": 5.1
   }
  ],
  "latched": {
   "AZAD|daily|up|5": 5.68,
   "COFORGE|daily|up|5": 5.44,
+  "CYIENT|daily|up|5": 5.1,
   "ICIL|daily|up|5": 5.48,
   "KAJARIACER|daily|up|5": 5.16,
   "SUNTV|daily|up|5": 6.1
@@ -91,7 +100,8 @@
   "ICIL",
   "APOLLOHOSP",
   "AZAD",
-  "COFORGE"
+  "COFORGE",
+  "CYIENT"
  ],
  "warned_blind": false
 }
