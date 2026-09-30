@@ -97,14 +97,32 @@
    "level": 5.0,
    "symbol": "ICIL",
    "value": 5.05
+  },
+  {
+   "at": "11:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "APOLLOHOSP",
+   "value": -5.31
+  },
+  {
+   "at": "11:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": 5.34
   }
  ],
  "latched": {
+  "APOLLOHOSP|daily|down|5": 5.31,
   "CUB|daily|up|5": 5.16,
   "CYIENT|daily|up|5": 5.1,
   "ICIL|daily|up|5": 5.05,
   "KAJARIACER|daily|up|5": 5.16,
-  "SUNTV|daily|up|5": 6.1
+  "SUNTV|daily|up|5": 6.1,
+  "THELEELA|daily|up|5": 5.34
  },
  "shared": [
   "FSL",
@@ -117,7 +135,8 @@
   "AZAD",
   "COFORGE",
   "CYIENT",
-  "CUB"
+  "CUB",
+  "THELEELA"
  ],
  "warned_blind": false
 }
