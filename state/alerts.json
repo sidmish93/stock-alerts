@@ -265,6 +265,14 @@
    "level": 5.0,
    "symbol": "PPLPHARMA",
    "value": -5.05
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": 5.13
   }
  ],
  "latched": {
@@ -273,11 +281,10 @@
   "MARUTI|daily|down|5": 5.07,
   "MOLBIO|daily|up|5": 5.43,
   "POLICYBZR|daily|down|5": 5.68,
-  "PPLPHARMA|daily|down|5": 5.05,
   "RSYSTEMS|daily|down|5": 5.02,
-  "SAIL|daily|down|5": 5.15,
   "SANSERA|daily|down|5": 5.02,
-  "UNOMINDA|daily|down|5": 5.15
+  "UNOMINDA|daily|down|5": 5.15,
+  "WELSPUNLIV|daily|up|5": 5.13
  },
  "shared": [
   "BAJAJ-AUTO",
