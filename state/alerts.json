@@ -73,15 +73,23 @@
    "level": 5.0,
    "symbol": "ESCORTS",
    "value": -5.29
+  },
+  {
+   "at": "11:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SANSERA",
+   "value": -5.19
   }
  ],
  "latched": {
   "BAJAJ-AUTO|daily|down|5": 6.59,
-  "ESCORTS|daily|down|5": 5.29,
   "GALAXYSURF|daily|up|5": 5.24,
   "LEMONTREE|daily|up|5": 5.9,
   "MOLBIO|daily|up|5": 5.43,
-  "RSYSTEMS|daily|down|5": 5.02
+  "RSYSTEMS|daily|down|5": 5.02,
+  "SANSERA|daily|down|5": 5.19
  },
  "shared": [
   "BAJAJ-AUTO",
@@ -91,7 +99,8 @@
   "WELSPUNLIV",
   "ADANIENSOL",
   "MOLBIO",
-  "ESCORTS"
+  "ESCORTS",
+  "SANSERA"
  ],
  "warned_blind": false
 }
