@@ -1,8 +1,21 @@
 {
  "day": "2026-10-01",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BAJAJ-AUTO",
+   "value": -5.18
+  }
+ ],
+ "latched": {
+  "BAJAJ-AUTO|daily|down|5": 5.18
+ },
+ "shared": [
+  "BAJAJ-AUTO"
+ ],
  "warned_blind": false
 }
