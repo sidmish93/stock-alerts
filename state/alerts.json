@@ -217,14 +217,20 @@
    "level": 5.0,
    "symbol": "LICHSGFIN",
    "value": -5.3
+  },
+  {
+   "at": "14:09",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SPAL",
+   "value": -5.14
   }
  ],
  "latched": {
   "ABDL|daily|down|5": 5.01,
   "BAJAJ-AUTO|daily|down|5": 6.59,
-  "CARTRADE|daily|down|5": 5.2,
   "ELGIEQUIP|daily|down|5": 5.07,
-  "LICHSGFIN|daily|down|5": 5.3,
   "MAHLOG|daily|down|5": 5.17,
   "MARUTI|daily|down|5": 5.01,
   "MOLBIO|daily|up|5": 5.43,
@@ -233,9 +239,9 @@
   "SAIL|daily|down|5": 5.15,
   "SANSERA|daily|down|5": 5.19,
   "SONACOMS|daily|down|5": 5.1,
+  "SPAL|daily|down|5": 5.14,
   "SWIGGY|daily|down|5": 5.58,
-  "UNOMINDA|daily|down|5": 5.02,
-  "UPL|daily|down|5": 5.15
+  "UNOMINDA|daily|down|5": 5.02
  },
  "shared": [
   "BAJAJ-AUTO",
@@ -258,7 +264,8 @@
   "UPL",
   "SWIGGY",
   "MAHLOG",
-  "LICHSGFIN"
+  "LICHSGFIN",
+  "SPAL"
  ],
  "warned_blind": false
 }
