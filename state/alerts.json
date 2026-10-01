@@ -121,14 +121,59 @@
    "level": 5.0,
    "symbol": "ABDL",
    "value": -5.23
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ABDL",
+   "value": -5.01
+  },
+  {
+   "at": "13:30",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MARUTI",
+   "value": -5.05
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SONACOMS",
+   "value": -5.1
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ELGIEQUIP",
+   "value": -5.04
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SAIL",
+   "value": -5.15
   }
  ],
  "latched": {
+  "ABDL|daily|down|5": 5.01,
   "BAJAJ-AUTO|daily|down|5": 6.59,
+  "ELGIEQUIP|daily|down|5": 5.04,
+  "MARUTI|daily|down|5": 5.05,
   "MOLBIO|daily|up|5": 5.43,
   "POLICYBZR|daily|down|5": 5.68,
   "RSYSTEMS|daily|down|5": 5.02,
+  "SAIL|daily|down|5": 5.15,
   "SANSERA|daily|down|5": 5.19,
+  "SONACOMS|daily|down|5": 5.1,
   "UNOMINDA|daily|down|5": 5.02
  },
  "shared": [
@@ -144,7 +189,10 @@
   "POLICYBZR",
   "UNOMINDA",
   "ELGIEQUIP",
-  "ABDL"
+  "ABDL",
+  "MARUTI",
+  "SONACOMS",
+  "SAIL"
  ],
  "warned_blind": false
 }
