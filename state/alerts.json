@@ -11,9 +11,7 @@
    "value": -5.18
   }
  ],
- "latched": {
-  "BAJAJ-AUTO|daily|down|5": 5.18
- },
+ "latched": {},
  "shared": [
   "BAJAJ-AUTO"
  ],
