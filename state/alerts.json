@@ -65,16 +65,24 @@
    "level": 5.0,
    "symbol": "MOLBIO",
    "value": 5.43
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ESCORTS",
+   "value": -5.29
   }
  ],
  "latched": {
   "ADANIENSOL|daily|up|5": 5.26,
   "BAJAJ-AUTO|daily|down|5": 6.59,
+  "ESCORTS|daily|down|5": 5.29,
   "GALAXYSURF|daily|up|5": 5.24,
   "LEMONTREE|daily|up|5": 5.9,
   "MOLBIO|daily|up|5": 5.43,
-  "RSYSTEMS|daily|down|5": 5.02,
-  "WELSPUNLIV|daily|up|5": 6.26
+  "RSYSTEMS|daily|down|5": 5.02
  },
  "shared": [
   "BAJAJ-AUTO",
@@ -83,7 +91,8 @@
   "LEMONTREE",
   "WELSPUNLIV",
   "ADANIENSOL",
-  "MOLBIO"
+  "MOLBIO",
+  "ESCORTS"
  ],
  "warned_blind": false
 }
