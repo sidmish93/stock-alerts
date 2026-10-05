@@ -1,8 +1,8 @@
 {
- "day": "2026-10-02",
- "digested": true,
+ "day": "2026-10-05",
+ "digested": false,
  "fired": [],
  "latched": {},
  "shared": [],
- "warned_blind": true
+ "warned_blind": false
 }
