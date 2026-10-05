@@ -57,11 +57,20 @@
    "level": 5.0,
    "symbol": "NUVAMA",
    "value": 5.05
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHADOWFAX",
+   "value": 5.49
   }
  ],
  "latched": {
   "DMART|daily|down|5": 5.09,
-  "LGEINDIA|daily|up|5": 5.15
+  "LGEINDIA|daily|up|5": 5.15,
+  "SHADOWFAX|daily|up|5": 5.49
  },
  "shared": [
   "M&MFIN",
@@ -69,7 +78,8 @@
   "SUNTV",
   "DMART",
   "LGEINDIA",
-  "NUVAMA"
+  "NUVAMA",
+  "SHADOWFAX"
  ],
  "warned_blind": false
 }
