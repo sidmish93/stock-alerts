@@ -35,9 +35,7 @@
    "value": 5.14
   }
  ],
- "latched": {
-  "CYIENT|daily|up|5": 5.14
- },
+ "latched": {},
  "shared": [
   "M&MFIN",
   "CYIENT",
