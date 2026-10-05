@@ -1,8 +1,21 @@
 {
  "day": "2026-10-05",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "M&MFIN",
+   "value": 5.08
+  }
+ ],
+ "latched": {
+  "M&MFIN|daily|up|5": 5.08
+ },
+ "shared": [
+  "M&MFIN"
+ ],
  "warned_blind": false
 }
