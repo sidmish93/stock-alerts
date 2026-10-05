@@ -61,8 +61,7 @@
  ],
  "latched": {
   "DMART|daily|down|5": 5.09,
-  "LGEINDIA|daily|up|5": 5.15,
-  "NUVAMA|daily|up|5": 5.05
+  "LGEINDIA|daily|up|5": 5.15
  },
  "shared": [
   "M&MFIN",
