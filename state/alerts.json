@@ -28,9 +28,7 @@
   }
  ],
  "latched": {
-  "CYIENT|daily|up|5": 5.19,
-  "M&MFIN|daily|up|5": 5.08,
-  "SUNTV|daily|up|5": 5.22
+  "M&MFIN|daily|up|5": 5.08
  },
  "shared": [
   "M&MFIN",
