@@ -89,11 +89,20 @@
    "level": 5.0,
    "symbol": "LEAPIND",
    "value": 5.2
+  },
+  {
+   "at": "13:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NIVABUPA",
+   "value": 5.33
   }
  ],
  "latched": {
   "DMART|daily|down|5": 5.09,
   "LEAPIND|daily|up|5": 5.2,
+  "NIVABUPA|daily|up|5": 5.33,
   "NUVAMA|daily|up|5": 5.33,
   "SHADOWFAX|daily|up|5": 5.27
  },
@@ -105,7 +114,8 @@
   "LGEINDIA",
   "NUVAMA",
   "SHADOWFAX",
-  "LEAPIND"
+  "LEAPIND",
+  "NIVABUPA"
  ],
  "warned_blind": false
 }
