@@ -121,6 +121,14 @@
    "level": 5.0,
    "symbol": "KPIL",
    "value": 5.01
+  },
+  {
+   "at": "13:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "RADICO",
+   "value": 5.02
   }
  ],
  "latched": {
@@ -129,6 +137,7 @@
   "KPIL|daily|up|5": 5.01,
   "MEESHO|daily|up|5": 5.4,
   "POLICYBZR|daily|up|5": 5.1,
+  "RADICO|daily|up|5": 5.02,
   "TIINDIA|daily|up|5": 5.09,
   "TRENT|daily|up|5": 10.0,
   "URBANCO|daily|up|5": 5.49
@@ -147,7 +156,8 @@
   "NEOGEN",
   "TIINDIA",
   "POLICYBZR",
-  "KPIL"
+  "KPIL",
+  "RADICO"
  ],
  "warned_blind": false
 }
