@@ -17,15 +17,34 @@
    "level": 5.0,
    "symbol": "JINDALSTEL",
    "value": -5.49
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TI",
+   "value": 5.2
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICIL",
+   "value": 5.41
   }
  ],
  "latched": {
-  "JINDALSTEL|daily|down|5": 5.49,
+  "ICIL|daily|up|5": 5.41,
+  "TI|daily|up|5": 5.2,
   "TRENT|daily|up|5": 10.0
  },
  "shared": [
   "TRENT",
-  "JINDALSTEL"
+  "JINDALSTEL",
+  "TI",
+  "ICIL"
  ],
  "warned_blind": false
 }
