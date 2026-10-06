@@ -1,139 +1,31 @@
 {
- "day": "2026-10-05",
- "digested": true,
+ "day": "2026-10-06",
+ "digested": false,
  "fired": [
   {
-   "at": "09:40",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "M&MFIN",
-   "value": 5.08
+   "symbol": "TRENT",
+   "value": 10.0
   },
   {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CYIENT",
-   "value": 5.19
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SUNTV",
-   "value": 5.22
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CYIENT",
-   "value": 5.14
-  },
-  {
-   "at": "10:40",
+   "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "DMART",
-   "value": -5.09
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LGEINDIA",
-   "value": 5.15
-  },
-  {
-   "at": "11:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NUVAMA",
-   "value": 5.05
-  },
-  {
-   "at": "11:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHADOWFAX",
-   "value": 5.49
-  },
-  {
-   "at": "12:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NUVAMA",
-   "value": 5.33
-  },
-  {
-   "at": "12:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHADOWFAX",
-   "value": 5.27
-  },
-  {
-   "at": "13:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LEAPIND",
-   "value": 5.2
-  },
-  {
-   "at": "13:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NIVABUPA",
-   "value": 5.33
-  },
-  {
-   "at": "13:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ESCORTS",
-   "value": 5.5
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "RSYSTEMS",
-   "value": -5.05
+   "symbol": "JINDALSTEL",
+   "value": -5.49
   }
  ],
  "latched": {
-  "DMART|daily|down|5": 5.09,
-  "ESCORTS|daily|up|5": 5.5,
-  "NUVAMA|daily|up|5": 5.33,
-  "RSYSTEMS|daily|down|5": 5.05,
-  "SHADOWFAX|daily|up|5": 5.27
+  "JINDALSTEL|daily|down|5": 5.49,
+  "TRENT|daily|up|5": 10.0
  },
  "shared": [
-  "M&MFIN",
-  "CYIENT",
-  "SUNTV",
-  "DMART",
-  "LGEINDIA",
-  "NUVAMA",
-  "SHADOWFAX",
-  "LEAPIND",
-  "NIVABUPA",
-  "ESCORTS",
-  "RSYSTEMS"
+  "TRENT",
+  "JINDALSTEL"
  ],
  "warned_blind": false
 }
