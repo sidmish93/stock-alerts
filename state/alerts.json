@@ -97,6 +97,14 @@
    "level": 5.0,
    "symbol": "NEOGEN",
    "value": 5.1
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TIINDIA",
+   "value": 5.09
   }
  ],
  "latched": {
@@ -104,9 +112,8 @@
   "HORIZONIND|daily|up|5": 5.26,
   "ICIL|daily|up|5": 5.41,
   "MEESHO|daily|up|5": 5.4,
-  "NEOGEN|daily|up|5": 5.1,
   "SHIPROCKET|daily|up|5": 5.01,
-  "TI|daily|up|5": 5.2,
+  "TIINDIA|daily|up|5": 5.09,
   "TRENT|daily|up|5": 10.0,
   "URBANCO|daily|up|5": 5.49
  },
@@ -121,7 +128,8 @@
   "AZAD",
   "HORIZONIND",
   "MEESHO",
-  "NEOGEN"
+  "NEOGEN",
+  "TIINDIA"
  ],
  "warned_blind": false
 }
