@@ -65,10 +65,28 @@
    "level": 5.0,
    "symbol": "SHIPROCKET",
    "value": 5.01
+  },
+  {
+   "at": "10:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AZAD",
+   "value": 5.22
+  },
+  {
+   "at": "10:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HORIZONIND",
+   "value": 5.26
   }
  ],
  "latched": {
+  "AZAD|daily|up|5": 5.22,
   "GRAVITA|daily|up|5": 5.11,
+  "HORIZONIND|daily|up|5": 5.26,
   "ICIL|daily|up|5": 5.41,
   "SHIPROCKET|daily|up|5": 5.01,
   "TI|daily|up|5": 5.2,
@@ -82,7 +100,9 @@
   "ICIL",
   "SHIPROCKET",
   "GRAVITA",
-  "URBANCO"
+  "URBANCO",
+  "AZAD",
+  "HORIZONIND"
  ],
  "warned_blind": false
 }
