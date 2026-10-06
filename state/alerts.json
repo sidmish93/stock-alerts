@@ -129,9 +129,18 @@
    "level": 5.0,
    "symbol": "RADICO",
    "value": 5.02
+  },
+  {
+   "at": "13:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AZAD",
+   "value": 5.21
   }
  ],
  "latched": {
+  "AZAD|daily|up|5": 5.21,
   "GRAVITA|daily|up|5": 5.11,
   "ICIL|daily|up|5": 5.41,
   "KPIL|daily|up|5": 5.01,
