@@ -41,9 +41,18 @@
    "level": 5.0,
    "symbol": "SHIPROCKET",
    "value": 5.2
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GRAVITA",
+   "value": 5.11
   }
  ],
  "latched": {
+  "GRAVITA|daily|up|5": 5.11,
   "ICIL|daily|up|5": 5.41,
   "SHIPROCKET|daily|up|5": 5.2,
   "TI|daily|up|5": 5.2,
@@ -54,7 +63,8 @@
   "JINDALSTEL",
   "TI",
   "ICIL",
-  "SHIPROCKET"
+  "SHIPROCKET",
+  "GRAVITA"
  ],
  "warned_blind": false
 }
