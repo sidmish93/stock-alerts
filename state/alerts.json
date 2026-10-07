@@ -17,15 +17,24 @@
    "level": 5.0,
    "symbol": "LEAPIND",
    "value": 5.1
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PINELABS",
+   "value": 5.5
   }
  ],
  "latched": {
-  "LEAPIND|daily|up|5": 5.1,
+  "PINELABS|daily|up|5": 5.5,
   "PVRINOX|daily|up|5": 5.89
  },
  "shared": [
   "PVRINOX",
-  "LEAPIND"
+  "LEAPIND",
+  "PINELABS"
  ],
  "warned_blind": false
 }
