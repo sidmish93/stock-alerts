@@ -1,8 +1,21 @@
 {
  "day": "2026-10-07",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PVRINOX",
+   "value": 5.89
+  }
+ ],
+ "latched": {
+  "PVRINOX|daily|up|5": 5.89
+ },
+ "shared": [
+  "PVRINOX"
+ ],
  "warned_blind": false
 }
