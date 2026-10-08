@@ -168,11 +168,9 @@
   "AEQUS|daily|down|5": 5.45,
   "ARVIND|daily|down|5": 5.12,
   "AWFIS|daily|down|5": 5.18,
-  "AZAD|daily|down|5": 5.02,
   "INDOMIM|daily|down|5": 5.31,
   "JUBLFOOD|daily|down|5": 5.15,
-  "PAYTM|daily|down|5": 5.27,
-  "SEDEMAC|daily|down|5": 5.01
+  "PAYTM|daily|down|5": 5.27
  },
  "shared": [
   "FSL",
