@@ -33,10 +33,18 @@
    "level": 5.0,
    "symbol": "NIVABUPA",
    "value": 7.25
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LICHSGFIN",
+   "value": 5.39
   }
  ],
  "latched": {
-  "FSL|daily|up|5": 8.35,
+  "LICHSGFIN|daily|up|5": 5.39,
   "NIVABUPA|daily|up|5": 7.25,
   "PAYTM|daily|down|5": 8.37
  },
@@ -44,7 +52,8 @@
   "FSL",
   "LATENTVIEW",
   "PAYTM",
-  "NIVABUPA"
+  "NIVABUPA",
+  "LICHSGFIN"
  ],
  "warned_blind": false
 }
