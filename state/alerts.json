@@ -145,12 +145,30 @@
    "level": 5.0,
    "symbol": "PAYTM",
    "value": -5.27
+  },
+  {
+   "at": "12:58",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AZAD",
+   "value": -5.02
+  },
+  {
+   "at": "12:58",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARVIND",
+   "value": -5.12
   }
  ],
  "latched": {
   "ADANIENSOL|daily|down|5": 5.55,
   "AEQUS|daily|down|5": 5.45,
+  "ARVIND|daily|down|5": 5.12,
   "AWFIS|daily|down|5": 5.18,
+  "AZAD|daily|down|5": 5.02,
   "INDOMIM|daily|down|5": 5.31,
   "JUBLFOOD|daily|down|5": 5.15,
   "PAYTM|daily|down|5": 5.27,
@@ -170,7 +188,9 @@
   "ADANIENSOL",
   "AWFIS",
   "REDINGTON",
-  "SEDEMAC"
+  "SEDEMAC",
+  "AZAD",
+  "ARVIND"
  ],
  "warned_blind": false
 }
