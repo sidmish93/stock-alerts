@@ -65,11 +65,29 @@
    "level": 5.0,
    "symbol": "AEQUS",
    "value": -5.07
+  },
+  {
+   "at": "10:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AEQUS",
+   "value": -5.45
+  },
+  {
+   "at": "10:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PAYTM",
+   "value": -5.72
   }
  ],
  "latched": {
+  "AEQUS|daily|down|5": 5.45,
   "INDOMIM|daily|down|5": 5.31,
-  "LICHSGFIN|daily|up|5": 5.39
+  "LICHSGFIN|daily|up|5": 5.39,
+  "PAYTM|daily|down|5": 5.72
  },
  "shared": [
   "FSL",
