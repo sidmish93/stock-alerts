@@ -97,12 +97,21 @@
    "level": 5.0,
    "symbol": "JUBLFOOD",
    "value": -5.15
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WAKEFIT",
+   "value": -5.05
   }
  ],
  "latched": {
   "AEQUS|daily|down|5": 5.45,
   "INDOMIM|daily|down|5": 5.31,
-  "JUBLFOOD|daily|down|5": 5.15
+  "JUBLFOOD|daily|down|5": 5.15,
+  "WAKEFIT|daily|down|5": 5.05
  },
  "shared": [
   "FSL",
@@ -113,7 +122,8 @@
   "INDOMIM",
   "MOLBIO",
   "AEQUS",
-  "JUBLFOOD"
+  "JUBLFOOD",
+  "WAKEFIT"
  ],
  "warned_blind": false
 }
