@@ -129,6 +129,22 @@
    "level": 5.0,
    "symbol": "REDINGTON",
    "value": -5.08
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SEDEMAC",
+   "value": -5.01
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PAYTM",
+   "value": -5.27
   }
  ],
  "latched": {
@@ -136,7 +152,9 @@
   "AEQUS|daily|down|5": 5.45,
   "AWFIS|daily|down|5": 5.18,
   "INDOMIM|daily|down|5": 5.31,
-  "JUBLFOOD|daily|down|5": 5.15
+  "JUBLFOOD|daily|down|5": 5.15,
+  "PAYTM|daily|down|5": 5.27,
+  "SEDEMAC|daily|down|5": 5.01
  },
  "shared": [
   "FSL",
@@ -151,7 +169,8 @@
   "WAKEFIT",
   "ADANIENSOL",
   "AWFIS",
-  "REDINGTON"
+  "REDINGTON",
+  "SEDEMAC"
  ],
  "warned_blind": false
 }
