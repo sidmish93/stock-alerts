@@ -68,10 +68,8 @@
   }
  ],
  "latched": {
-  "AEQUS|daily|down|5": 5.07,
   "INDOMIM|daily|down|5": 5.31,
-  "LICHSGFIN|daily|up|5": 5.39,
-  "PAYTM|daily|down|5": 8.37
+  "LICHSGFIN|daily|up|5": 5.39
  },
  "shared": [
   "FSL",
