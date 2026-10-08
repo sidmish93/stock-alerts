@@ -305,19 +305,45 @@
    "level": 5.0,
    "symbol": "BETA",
    "value": -5.09
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SAPPHIRE",
+   "value": -5.01
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NUVAMA",
+   "value": -5.07
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AWFIS",
+   "value": -5.27
   }
  ],
  "latched": {
   "ADANIENSOL|daily|down|5": 5.03,
   "AEQUS|daily|down|5": 5.45,
   "AMBER|daily|down|5": 5.02,
+  "AWFIS|daily|down|5": 5.27,
   "AZAD|daily|down|5": 5.2,
-  "BETA|daily|down|5": 5.09,
   "INDOMIM|daily|down|5": 5.31,
   "JSWINFRA|daily|down|5": 5.1,
   "JUBLFOOD|daily|down|5": 5.15,
   "MANKIND|daily|down|5": 5.39,
+  "NUVAMA|daily|down|5": 5.07,
   "PAYTM|daily|down|5": 5.05,
+  "SAPPHIRE|daily|down|5": 5.01,
   "SEDEMAC|daily|down|5": 5.62,
   "TIINDIA|daily|down|5": 5.28
  },
@@ -345,7 +371,9 @@
   "LENSKART",
   "JSWINFRA",
   "AMBER",
-  "BETA"
+  "BETA",
+  "SAPPHIRE",
+  "NUVAMA"
  ],
  "warned_blind": false
 }
