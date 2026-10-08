@@ -41,10 +41,28 @@
    "level": 5.0,
    "symbol": "LICHSGFIN",
    "value": 5.39
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDOMIM",
+   "value": -5.31
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLBIO",
+   "value": -5.81
   }
  ],
  "latched": {
+  "INDOMIM|daily|down|5": 5.31,
   "LICHSGFIN|daily|up|5": 5.39,
+  "MOLBIO|daily|down|5": 5.81,
   "NIVABUPA|daily|up|5": 7.25,
   "PAYTM|daily|down|5": 8.37
  },
@@ -53,7 +71,9 @@
   "LATENTVIEW",
   "PAYTM",
   "NIVABUPA",
-  "LICHSGFIN"
+  "LICHSGFIN",
+  "INDOMIM",
+  "MOLBIO"
  ],
  "warned_blind": false
 }
