@@ -249,9 +249,18 @@
    "level": 5.0,
    "symbol": "SEDEMAC",
    "value": -5.62
+  },
+  {
+   "at": "14:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ADANIENSOL",
+   "value": -5.11
   }
  ],
  "latched": {
+  "ADANIENSOL|daily|down|5": 5.11,
   "AEQUS|daily|down|5": 5.45,
   "INDOMIM|daily|down|5": 5.31,
   "JSWINFRA|daily|down|5": 5.1,
