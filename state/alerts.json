@@ -1,47 +1,41 @@
 {
- "day": "2026-10-07",
- "digested": true,
+ "day": "2026-10-08",
+ "digested": false,
  "fired": [
   {
-   "at": "11:40",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "PVRINOX",
-   "value": 5.89
+   "symbol": "FSL",
+   "value": 8.35
   },
   {
-   "at": "11:50",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "LEAPIND",
-   "value": 5.1
+   "symbol": "LATENTVIEW",
+   "value": 5.61
   },
   {
-   "at": "12:10",
-   "direction": "up",
+   "at": "09:20",
+   "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "PINELABS",
-   "value": 5.5
-  },
-  {
-   "at": "13:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PINELABS",
-   "value": 5.1
+   "symbol": "PAYTM",
+   "value": -8.37
   }
  ],
  "latched": {
-  "PVRINOX|daily|up|5": 5.89
+  "FSL|daily|up|5": 8.35,
+  "LATENTVIEW|daily|up|5": 5.61,
+  "PAYTM|daily|down|5": 8.37
  },
  "shared": [
-  "PVRINOX",
-  "LEAPIND",
-  "PINELABS"
+  "FSL",
+  "LATENTVIEW",
+  "PAYTM"
  ],
  "warned_blind": false
 }
