@@ -110,8 +110,7 @@
  "latched": {
   "AEQUS|daily|down|5": 5.45,
   "INDOMIM|daily|down|5": 5.31,
-  "JUBLFOOD|daily|down|5": 5.15,
-  "WAKEFIT|daily|down|5": 5.05
+  "JUBLFOOD|daily|down|5": 5.15
  },
  "shared": [
   "FSL",
