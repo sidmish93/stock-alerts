@@ -180,15 +180,11 @@
   }
  ],
  "latched": {
-  "ADANIENSOL|daily|down|5": 5.55,
   "AEQUS|daily|down|5": 5.45,
   "ARVIND|daily|down|5": 5.12,
   "AWFIS|daily|down|5": 5.18,
   "INDOMIM|daily|down|5": 5.31,
-  "JINDALSTEL|daily|down|5": 5.44,
-  "JUBLFOOD|daily|down|5": 5.15,
-  "MANKIND|daily|down|5": 5.02,
-  "PAYTM|daily|down|5": 5.27
+  "JUBLFOOD|daily|down|5": 5.15
  },
  "shared": [
   "FSL",
