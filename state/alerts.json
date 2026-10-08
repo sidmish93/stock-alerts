@@ -161,6 +161,14 @@
    "level": 5.0,
    "symbol": "ARVIND",
    "value": -5.12
+  },
+  {
+   "at": "13:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JINDALSTEL",
+   "value": -5.44
   }
  ],
  "latched": {
@@ -169,6 +177,7 @@
   "ARVIND|daily|down|5": 5.12,
   "AWFIS|daily|down|5": 5.18,
   "INDOMIM|daily|down|5": 5.31,
+  "JINDALSTEL|daily|down|5": 5.44,
   "JUBLFOOD|daily|down|5": 5.15,
   "PAYTM|daily|down|5": 5.27
  },
@@ -188,7 +197,8 @@
   "REDINGTON",
   "SEDEMAC",
   "AZAD",
-  "ARVIND"
+  "ARVIND",
+  "JINDALSTEL"
  ],
  "warned_blind": false
 }
