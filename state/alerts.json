@@ -73,14 +73,39 @@
    "level": 5.0,
    "symbol": "HCG",
    "value": -5.03
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GODIGIT",
+   "value": 5.64
+  },
+  {
+   "at": "11:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HCG",
+   "value": -5.07
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KOLTEPATIL",
+   "value": 8.88
   }
  ],
  "latched": {
   "BETA|daily|down|5": 5.61,
   "CYIENT|daily|up|5": 5.04,
-  "HEXT|daily|up|5": 8.83,
-  "RSYSTEMS|daily|up|5": 8.46,
-  "TCS|daily|up|5": 5.51
+  "GODIGIT|daily|up|5": 5.64,
+  "HCG|daily|down|5": 5.07,
+  "KOLTEPATIL|daily|up|5": 8.88,
+  "RSYSTEMS|daily|up|5": 8.46
  },
  "shared": [
   "CYIENT",
@@ -90,7 +115,9 @@
   "BETA",
   "TCS",
   "THERMAX",
-  "HCG"
+  "HCG",
+  "GODIGIT",
+  "KOLTEPATIL"
  ],
  "warned_blind": false
 }
