@@ -65,15 +65,23 @@
    "level": 5.0,
    "symbol": "TCS",
    "value": 5.51
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HCG",
+   "value": -5.03
   }
  ],
  "latched": {
   "BETA|daily|down|5": 5.61,
   "CYIENT|daily|up|5": 5.04,
+  "HCG|daily|down|5": 5.03,
   "HEXT|daily|up|5": 8.83,
   "RSYSTEMS|daily|up|5": 8.46,
-  "TCS|daily|up|5": 5.51,
-  "THERMAX|daily|up|5": 5.41
+  "TCS|daily|up|5": 5.51
  },
  "shared": [
   "CYIENT",
@@ -82,7 +90,8 @@
   "SAIL",
   "BETA",
   "TCS",
-  "THERMAX"
+  "THERMAX",
+  "HCG"
  ],
  "warned_blind": false
 }
