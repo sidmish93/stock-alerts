@@ -41,6 +41,14 @@
    "level": 5.0,
    "symbol": "BETA",
    "value": -5.61
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TCS",
+   "value": 5.2
   }
  ],
  "latched": {
@@ -48,14 +56,15 @@
   "CYIENT|daily|up|5": 5.04,
   "HEXT|daily|up|5": 8.83,
   "RSYSTEMS|daily|up|5": 8.46,
-  "SAIL|daily|up|5": 5.28
+  "TCS|daily|up|5": 5.2
  },
  "shared": [
   "CYIENT",
   "HEXT",
   "RSYSTEMS",
   "SAIL",
-  "BETA"
+  "BETA",
+  "TCS"
  ],
  "warned_blind": false
 }
