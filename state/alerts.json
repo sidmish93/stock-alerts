@@ -49,13 +49,22 @@
    "level": 5.0,
    "symbol": "TCS",
    "value": 5.2
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THERMAX",
+   "value": 5.41
   }
  ],
  "latched": {
   "BETA|daily|down|5": 5.61,
   "CYIENT|daily|up|5": 5.04,
   "HEXT|daily|up|5": 8.83,
-  "RSYSTEMS|daily|up|5": 8.46
+  "RSYSTEMS|daily|up|5": 8.46,
+  "THERMAX|daily|up|5": 5.41
  },
  "shared": [
   "CYIENT",
@@ -63,7 +72,8 @@
   "RSYSTEMS",
   "SAIL",
   "BETA",
-  "TCS"
+  "TCS",
+  "THERMAX"
  ],
  "warned_blind": false
 }
