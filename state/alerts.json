@@ -153,6 +153,14 @@
    "level": 5.0,
    "symbol": "HEXT",
    "value": 5.04
+  },
+  {
+   "at": "15:11",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PERSISTENT",
+   "value": 5.18
   }
  ],
  "latched": {
@@ -160,6 +168,7 @@
   "HCG|daily|down|5": 5.07,
   "HEXT|daily|up|5": 5.04,
   "KEC|daily|up|5": 5.71,
+  "PERSISTENT|daily|up|5": 5.18,
   "RSYSTEMS|daily|up|5": 8.46
  },
  "shared": [
@@ -174,7 +183,8 @@
   "GODIGIT",
   "KOLTEPATIL",
   "KEC",
-  "TATAELXSI"
+  "TATAELXSI",
+  "PERSISTENT"
  ],
  "warned_blind": false
 }
