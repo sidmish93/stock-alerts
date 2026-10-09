@@ -129,13 +129,21 @@
    "level": 5.0,
    "symbol": "HEXT",
    "value": 5.1
+  },
+  {
+   "at": "13:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KEC",
+   "value": 5.71
   }
  ],
  "latched": {
-  "BETA|daily|down|5": 5.61,
   "CYIENT|daily|up|5": 5.14,
   "HCG|daily|down|5": 5.07,
   "HEXT|daily|up|5": 5.1,
+  "KEC|daily|up|5": 5.71,
   "RSYSTEMS|daily|up|5": 8.46
  },
  "shared": [
@@ -148,7 +156,8 @@
   "THERMAX",
   "HCG",
   "GODIGIT",
-  "KOLTEPATIL"
+  "KOLTEPATIL",
+  "KEC"
  ],
  "warned_blind": false
 }
