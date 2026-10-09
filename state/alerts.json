@@ -137,6 +137,14 @@
    "level": 5.0,
    "symbol": "KEC",
    "value": 5.71
+  },
+  {
+   "at": "14:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TATAELXSI",
+   "value": 5.15
   }
  ],
  "latched": {
@@ -144,7 +152,8 @@
   "HCG|daily|down|5": 5.07,
   "HEXT|daily|up|5": 5.1,
   "KEC|daily|up|5": 5.71,
-  "RSYSTEMS|daily|up|5": 8.46
+  "RSYSTEMS|daily|up|5": 8.46,
+  "TATAELXSI|daily|up|5": 5.15
  },
  "shared": [
   "CYIENT",
@@ -157,7 +166,8 @@
   "HCG",
   "GODIGIT",
   "KOLTEPATIL",
-  "KEC"
+  "KEC",
+  "TATAELXSI"
  ],
  "warned_blind": false
 }
