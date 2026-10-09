@@ -1,379 +1,41 @@
 {
- "day": "2026-10-08",
- "digested": true,
+ "day": "2026-10-09",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "FSL",
-   "value": 8.35
+   "symbol": "CYIENT",
+   "value": 5.04
   },
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "LATENTVIEW",
-   "value": 5.61
+   "symbol": "HEXT",
+   "value": 8.83
   },
   {
    "at": "09:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PAYTM",
-   "value": -8.37
-  },
-  {
-   "at": "09:31",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "NIVABUPA",
-   "value": 7.25
-  },
-  {
-   "at": "09:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LICHSGFIN",
-   "value": 5.39
-  },
-  {
-   "at": "09:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "INDOMIM",
-   "value": -5.31
-  },
-  {
-   "at": "09:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLBIO",
-   "value": -5.81
-  },
-  {
-   "at": "10:00",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AEQUS",
-   "value": -5.07
-  },
-  {
-   "at": "10:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AEQUS",
-   "value": -5.45
-  },
-  {
-   "at": "10:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PAYTM",
-   "value": -5.72
-  },
-  {
-   "at": "10:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PAYTM",
-   "value": -5.42
-  },
-  {
-   "at": "10:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JUBLFOOD",
-   "value": -5.15
-  },
-  {
-   "at": "11:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WAKEFIT",
-   "value": -5.05
-  },
-  {
-   "at": "12:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ADANIENSOL",
-   "value": -5.55
-  },
-  {
-   "at": "12:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AWFIS",
-   "value": -5.18
-  },
-  {
-   "at": "12:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "REDINGTON",
-   "value": -5.08
-  },
-  {
-   "at": "12:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SEDEMAC",
-   "value": -5.01
-  },
-  {
-   "at": "12:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PAYTM",
-   "value": -5.27
-  },
-  {
-   "at": "12:58",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AZAD",
-   "value": -5.02
-  },
-  {
-   "at": "12:58",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARVIND",
-   "value": -5.12
-  },
-  {
-   "at": "13:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JINDALSTEL",
-   "value": -5.44
-  },
-  {
-   "at": "13:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MANKIND",
-   "value": -5.02
-  },
-  {
-   "at": "13:51",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TIINDIA",
-   "value": -5.28
-  },
-  {
-   "at": "13:51",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MANKIND",
-   "value": -5.39
-  },
-  {
-   "at": "13:51",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ADANIENSOL",
-   "value": -5.16
-  },
-  {
-   "at": "13:51",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PAYTM",
-   "value": -5.05
-  },
-  {
-   "at": "14:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JINDALSTEL",
-   "value": -5.23
-  },
-  {
-   "at": "14:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PINELABS",
-   "value": -5.04
-  },
-  {
-   "at": "14:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LENSKART",
-   "value": -5.03
-  },
-  {
-   "at": "14:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JSWINFRA",
-   "value": -5.1
-  },
-  {
-   "at": "14:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SEDEMAC",
-   "value": -5.62
-  },
-  {
-   "at": "14:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ADANIENSOL",
-   "value": -5.11
-  },
-  {
-   "at": "15:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AMBER",
-   "value": -5.02
-  },
-  {
-   "at": "15:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JINDALSTEL",
-   "value": -5.03
-  },
-  {
-   "at": "15:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LICHSGFIN",
-   "value": 5.05
-  },
-  {
-   "at": "15:11",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AZAD",
-   "value": -5.2
-  },
-  {
-   "at": "15:11",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ADANIENSOL",
-   "value": -5.03
-  },
-  {
-   "at": "15:11",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": -5.09
-  },
-  {
-   "at": "15:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SAPPHIRE",
-   "value": -5.01
-  },
-  {
-   "at": "15:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NUVAMA",
-   "value": -5.07
-  },
-  {
-   "at": "15:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AWFIS",
-   "value": -5.27
+   "symbol": "RSYSTEMS",
+   "value": 8.46
   }
  ],
  "latched": {
-  "ADANIENSOL|daily|down|5": 5.03,
-  "AEQUS|daily|down|5": 5.45,
-  "AMBER|daily|down|5": 5.02,
-  "AWFIS|daily|down|5": 5.27,
-  "AZAD|daily|down|5": 5.2,
-  "INDOMIM|daily|down|5": 5.31,
-  "JSWINFRA|daily|down|5": 5.1,
-  "JUBLFOOD|daily|down|5": 5.15,
-  "MANKIND|daily|down|5": 5.39,
-  "NUVAMA|daily|down|5": 5.07,
-  "PAYTM|daily|down|5": 5.05,
-  "SAPPHIRE|daily|down|5": 5.01,
-  "SEDEMAC|daily|down|5": 5.62,
-  "TIINDIA|daily|down|5": 5.28
+  "CYIENT|daily|up|5": 5.04,
+  "HEXT|daily|up|5": 8.83,
+  "RSYSTEMS|daily|up|5": 8.46
  },
  "shared": [
-  "FSL",
-  "LATENTVIEW",
-  "PAYTM",
-  "NIVABUPA",
-  "LICHSGFIN",
-  "INDOMIM",
-  "MOLBIO",
-  "AEQUS",
-  "JUBLFOOD",
-  "WAKEFIT",
-  "ADANIENSOL",
-  "AWFIS",
-  "REDINGTON",
-  "SEDEMAC",
-  "AZAD",
-  "ARVIND",
-  "JINDALSTEL",
-  "MANKIND",
-  "TIINDIA",
-  "PINELABS",
-  "LENSKART",
-  "JSWINFRA",
-  "AMBER",
-  "BETA",
-  "SAPPHIRE",
-  "NUVAMA"
+  "CYIENT",
+  "HEXT",
+  "RSYSTEMS"
  ],
  "warned_blind": false
 }
