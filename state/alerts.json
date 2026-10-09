@@ -25,17 +25,37 @@
    "level": 5.0,
    "symbol": "RSYSTEMS",
    "value": 8.46
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SAIL",
+   "value": 5.28
+  },
+  {
+   "at": "09:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BETA",
+   "value": -5.61
   }
  ],
  "latched": {
+  "BETA|daily|down|5": 5.61,
   "CYIENT|daily|up|5": 5.04,
   "HEXT|daily|up|5": 8.83,
-  "RSYSTEMS|daily|up|5": 8.46
+  "RSYSTEMS|daily|up|5": 8.46,
+  "SAIL|daily|up|5": 5.28
  },
  "shared": [
   "CYIENT",
   "HEXT",
-  "RSYSTEMS"
+  "RSYSTEMS",
+  "SAIL",
+  "BETA"
  ],
  "warned_blind": false
 }
