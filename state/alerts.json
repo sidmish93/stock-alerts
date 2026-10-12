@@ -65,13 +65,49 @@
    "level": 5.0,
    "symbol": "GOKEX",
    "value": 5.44
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ORIENTELEC",
+   "value": 5.11
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZEEL",
+   "value": 5.55
+  },
+  {
+   "at": "10:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BETA",
+   "value": -5.13
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHIPROCKET",
+   "value": 5.09
   }
  ],
  "latched": {
+  "BETA|daily|down|5": 5.13,
   "GANECOS|daily|up|5": 8.3,
   "GOKEX|daily|up|5": 5.44,
+  "ORIENTELEC|daily|up|5": 5.11,
+  "SHIPROCKET|daily|up|5": 5.09,
   "SYNGENE|daily|up|5": 5.61,
-  "TIPSMUSIC|daily|up|5": 6.42
+  "TIPSMUSIC|daily|up|5": 6.42,
+  "ZEEL|daily|up|5": 5.55
  },
  "shared": [
   "TIPSMUSIC",
@@ -79,7 +115,11 @@
   "DELHIVERY",
   "SYNGENE",
   "GANECOS",
-  "GOKEX"
+  "GOKEX",
+  "ORIENTELEC",
+  "ZEEL",
+  "BETA",
+  "SHIPROCKET"
  ],
  "warned_blind": false
 }
