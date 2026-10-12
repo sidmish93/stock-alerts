@@ -249,15 +249,33 @@
    "level": 5.0,
    "symbol": "BETA",
    "value": -5.79
+  },
+  {
+   "at": "15:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BRIGADE",
+   "value": 5.14
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "RSYSTEMS",
+   "value": -5.03
   }
  ],
  "latched": {
   "BETA|daily|down|5": 5.79,
+  "BRIGADE|daily|up|5": 5.14,
   "CARTRADE|daily|up|5": 5.46,
   "CRAFTSMAN|daily|up|5": 5.1,
   "NEOGEN|daily|up|5": 5.98,
   "NUVAMA|daily|up|5": 5.49,
   "PVRINOX|daily|up|5": 5.19,
+  "RSYSTEMS|daily|down|5": 5.03,
   "SYNGENE|daily|up|5": 5.61,
   "TIPSMUSIC|daily|up|5": 6.42,
   "UPL|daily|up|5": 5.13,
@@ -282,7 +300,8 @@
   "PVRINOX",
   "UPL",
   "BRIGADE",
-  "NUVAMA"
+  "NUVAMA",
+  "RSYSTEMS"
  ],
  "warned_blind": false
 }
