@@ -1,198 +1,31 @@
 {
- "day": "2026-10-09",
- "digested": true,
+ "day": "2026-10-12",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "CYIENT",
-   "value": 5.04
+   "symbol": "TIPSMUSIC",
+   "value": 5.09
   },
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "HEXT",
-   "value": 8.83
-  },
-  {
-   "at": "09:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "RSYSTEMS",
-   "value": 8.46
-  },
-  {
-   "at": "09:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SAIL",
-   "value": 5.28
-  },
-  {
-   "at": "09:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": -5.61
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TCS",
-   "value": 5.2
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "THERMAX",
-   "value": 5.41
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TCS",
-   "value": 5.51
-  },
-  {
-   "at": "10:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HCG",
-   "value": -5.03
-  },
-  {
-   "at": "11:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GODIGIT",
-   "value": 5.64
-  },
-  {
-   "at": "11:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HCG",
-   "value": -5.07
-  },
-  {
-   "at": "11:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KOLTEPATIL",
-   "value": 8.88
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CYIENT",
-   "value": 5.42
-  },
-  {
-   "at": "12:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CYIENT",
-   "value": 5.14
-  },
-  {
-   "at": "12:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HEXT",
-   "value": 6.22
-  },
-  {
-   "at": "13:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HEXT",
-   "value": 5.1
-  },
-  {
-   "at": "13:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KEC",
-   "value": 5.71
-  },
-  {
-   "at": "14:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TATAELXSI",
-   "value": 5.15
-  },
-  {
-   "at": "15:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HEXT",
-   "value": 5.04
-  },
-  {
-   "at": "15:11",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PERSISTENT",
-   "value": 5.18
-  },
-  {
-   "at": "15:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CUB",
-   "value": 5.1
+   "symbol": "CARTRADE",
+   "value": 5.23
   }
  ],
  "latched": {
-  "CUB|daily|up|5": 5.1,
-  "CYIENT|daily|up|5": 5.14,
-  "HCG|daily|down|5": 5.07,
-  "PERSISTENT|daily|up|5": 5.18,
-  "RSYSTEMS|daily|up|5": 8.46
+  "CARTRADE|daily|up|5": 5.23,
+  "TIPSMUSIC|daily|up|5": 5.09
  },
  "shared": [
-  "CYIENT",
-  "HEXT",
-  "RSYSTEMS",
-  "SAIL",
-  "BETA",
-  "TCS",
-  "THERMAX",
-  "HCG",
-  "GODIGIT",
-  "KOLTEPATIL",
-  "KEC",
-  "TATAELXSI",
-  "PERSISTENT",
-  "CUB"
+  "TIPSMUSIC",
+  "CARTRADE"
  ],
  "warned_blind": false
 }
