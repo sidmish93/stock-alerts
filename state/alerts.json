@@ -145,10 +145,18 @@
    "level": 5.0,
    "symbol": "SBFC",
    "value": 5.78
+  },
+  {
+   "at": "11:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARTRADE",
+   "value": 5.05
   }
  ],
  "latched": {
-  "SBFC|daily|up|5": 5.78,
+  "CARTRADE|daily|up|5": 5.05,
   "SYNGENE|daily|up|5": 5.61,
   "TIPSMUSIC|daily|up|5": 6.42,
   "ZEEL|daily|up|5": 5.12
