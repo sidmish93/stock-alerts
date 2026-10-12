@@ -209,16 +209,33 @@
    "level": 5.0,
    "symbol": "PVRINOX",
    "value": 5.19
+  },
+  {
+   "at": "14:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "UPL",
+   "value": 5.13
+  },
+  {
+   "at": "14:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BRIGADE",
+   "value": 5.03
   }
  ],
  "latched": {
-  "AVALON|daily|up|5": 5.02,
+  "BRIGADE|daily|up|5": 5.03,
   "CARTRADE|daily|up|5": 5.46,
   "CRAFTSMAN|daily|up|5": 5.1,
   "NEOGEN|daily|up|5": 5.98,
   "PVRINOX|daily|up|5": 5.19,
   "SYNGENE|daily|up|5": 5.61,
   "TIPSMUSIC|daily|up|5": 6.42,
+  "UPL|daily|up|5": 5.13,
   "ZEEL|daily|up|5": 5.12
  },
  "shared": [
@@ -237,7 +254,9 @@
   "TATAELXSI",
   "NEOGEN",
   "AVALON",
-  "PVRINOX"
+  "PVRINOX",
+  "UPL",
+  "BRIGADE"
  ],
  "warned_blind": false
 }
