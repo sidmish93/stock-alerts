@@ -121,10 +121,27 @@
    "level": 5.0,
    "symbol": "CRAFTSMAN",
    "value": 5.01
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CRAFTSMAN",
+   "value": 5.31
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARTRADE",
+   "value": 6.06
   }
  ],
  "latched": {
-  "DELHIVERY|daily|up|5": 5.03,
+  "CARTRADE|daily|up|5": 6.06,
+  "CRAFTSMAN|daily|up|5": 5.31,
   "SYNGENE|daily|up|5": 5.61,
   "TIPSMUSIC|daily|up|5": 6.42,
   "ZEEL|daily|up|5": 5.12
