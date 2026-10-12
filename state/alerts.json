@@ -41,17 +41,26 @@
    "level": 5.0,
    "symbol": "CARTRADE",
    "value": 5.57
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GANECOS",
+   "value": 8.3
   }
  ],
  "latched": {
-  "DELHIVERY|daily|up|5": 5.63,
+  "GANECOS|daily|up|5": 8.3,
   "SYNGENE|daily|up|5": 5.61
  },
  "shared": [
   "TIPSMUSIC",
   "CARTRADE",
   "DELHIVERY",
-  "SYNGENE"
+  "SYNGENE",
+  "GANECOS"
  ],
  "warned_blind": false
 }
