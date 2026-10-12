@@ -193,9 +193,18 @@
    "level": 5.0,
    "symbol": "NEOGEN",
    "value": 5.98
+  },
+  {
+   "at": "13:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AVALON",
+   "value": 5.02
   }
  ],
  "latched": {
+  "AVALON|daily|up|5": 5.02,
   "CARTRADE|daily|up|5": 5.46,
   "CRAFTSMAN|daily|up|5": 5.1,
   "NEOGEN|daily|up|5": 5.98,
@@ -217,7 +226,8 @@
   "CRAFTSMAN",
   "SBFC",
   "TATAELXSI",
-  "NEOGEN"
+  "NEOGEN",
+  "AVALON"
  ],
  "warned_blind": false
 }
