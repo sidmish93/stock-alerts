@@ -161,6 +161,22 @@
    "level": 5.0,
    "symbol": "AVALON",
    "value": -5.06
+  },
+  {
+   "at": "13:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": -5.51
+  },
+  {
+   "at": "13:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MEESHO",
+   "value": 5.02
   }
  ],
  "latched": {
@@ -171,6 +187,8 @@
   "HCLTECH|daily|up|5": 5.31,
   "JLHL|daily|down|5": 5.61,
   "KPITTECH|daily|up|5": 5.04,
+  "MEESHO|daily|up|5": 5.02,
+  "PGIL|daily|down|5": 5.51,
   "PNCINFRA|daily|up|5": 7.48,
   "RBLBANK|daily|down|5": 6.09,
   "TCS|daily|up|5": 5.76
@@ -190,7 +208,8 @@
   "NEWGEN",
   "JLHL",
   "PAYTM",
-  "AVALON"
+  "AVALON",
+  "MEESHO"
  ],
  "warned_blind": false
 }
