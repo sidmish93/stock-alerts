@@ -57,6 +57,14 @@
    "level": 5.0,
    "symbol": "HCLTECH",
    "value": 5.31
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PNCINFRA",
+   "value": 5.59
   }
  ],
  "latched": {
@@ -64,6 +72,7 @@
   "FSL|daily|up|5": 5.5,
   "HCLTECH|daily|up|5": 5.31,
   "PGIL|daily|down|5": 5.81,
+  "PNCINFRA|daily|up|5": 5.59,
   "RBLBANK|daily|down|5": 6.09,
   "TCS|daily|up|5": 5.16
  },
@@ -74,7 +83,8 @@
   "TCS",
   "BETA",
   "RSYSTEMS",
-  "HCLTECH"
+  "HCLTECH",
+  "PNCINFRA"
  ],
  "warned_blind": false
 }
