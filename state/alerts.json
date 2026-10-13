@@ -17,15 +17,45 @@
    "level": 5.0,
    "symbol": "PGIL",
    "value": -5.81
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FSL",
+   "value": 5.5
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TCS",
+   "value": 5.16
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BETA",
+   "value": -6.98
   }
  ],
  "latched": {
+  "BETA|daily|down|5": 6.98,
+  "FSL|daily|up|5": 5.5,
   "PGIL|daily|down|5": 5.81,
-  "RBLBANK|daily|down|5": 6.09
+  "RBLBANK|daily|down|5": 6.09,
+  "TCS|daily|up|5": 5.16
  },
  "shared": [
   "RBLBANK",
-  "PGIL"
+  "PGIL",
+  "FSL",
+  "TCS",
+  "BETA"
  ],
  "warned_blind": false
 }
