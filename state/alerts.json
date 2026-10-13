@@ -1,307 +1,31 @@
 {
- "day": "2026-10-12",
- "digested": true,
+ "day": "2026-10-13",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
-   "direction": "up",
+   "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "TIPSMUSIC",
-   "value": 5.09
+   "symbol": "RBLBANK",
+   "value": -6.09
   },
   {
    "at": "09:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARTRADE",
-   "value": 5.23
-  },
-  {
-   "at": "09:34",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "DELHIVERY",
-   "value": 5.63
-  },
-  {
-   "at": "09:34",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SYNGENE",
-   "value": 5.61
-  },
-  {
-   "at": "09:34",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARTRADE",
-   "value": 5.57
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GANECOS",
-   "value": 8.3
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TIPSMUSIC",
-   "value": 6.42
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GOKEX",
-   "value": 5.44
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ORIENTELEC",
-   "value": 5.11
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ZEEL",
-   "value": 5.55
-  },
-  {
-   "at": "10:10",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "BETA",
-   "value": -5.13
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHIPROCKET",
-   "value": 5.09
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "DELHIVERY",
-   "value": 5.03
-  },
-  {
-   "at": "10:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ZEEL",
-   "value": 5.12
-  },
-  {
-   "at": "11:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CRAFTSMAN",
-   "value": 5.01
-  },
-  {
-   "at": "11:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CRAFTSMAN",
-   "value": 5.31
-  },
-  {
-   "at": "11:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARTRADE",
-   "value": 6.06
-  },
-  {
-   "at": "11:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SBFC",
-   "value": 5.78
-  },
-  {
-   "at": "11:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARTRADE",
-   "value": 5.05
-  },
-  {
-   "at": "12:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TATAELXSI",
-   "value": 5.02
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CRAFTSMAN",
-   "value": 5.1
-  },
-  {
-   "at": "12:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": -5.09
-  },
-  {
-   "at": "12:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARTRADE",
-   "value": 5.46
-  },
-  {
-   "at": "13:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEOGEN",
-   "value": 5.98
-  },
-  {
-   "at": "13:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AVALON",
-   "value": 5.02
-  },
-  {
-   "at": "13:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PVRINOX",
-   "value": 5.19
-  },
-  {
-   "at": "14:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "UPL",
-   "value": 5.13
-  },
-  {
-   "at": "14:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BRIGADE",
-   "value": 5.03
-  },
-  {
-   "at": "14:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BRIGADE",
-   "value": 5.16
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NUVAMA",
-   "value": 5.49
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": -5.79
-  },
-  {
-   "at": "15:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BRIGADE",
-   "value": 5.14
-  },
-  {
-   "at": "15:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "RSYSTEMS",
-   "value": -5.03
+   "symbol": "PGIL",
+   "value": -5.81
   }
  ],
  "latched": {
-  "BETA|daily|down|5": 5.79,
-  "BRIGADE|daily|up|5": 5.14,
-  "CARTRADE|daily|up|5": 5.46,
-  "CRAFTSMAN|daily|up|5": 5.1,
-  "NEOGEN|daily|up|5": 5.98,
-  "NUVAMA|daily|up|5": 5.49,
-  "PVRINOX|daily|up|5": 5.19,
-  "RSYSTEMS|daily|down|5": 5.03,
-  "SYNGENE|daily|up|5": 5.61,
-  "TIPSMUSIC|daily|up|5": 6.42,
-  "UPL|daily|up|5": 5.13,
-  "ZEEL|daily|up|5": 5.12
+  "PGIL|daily|down|5": 5.81,
+  "RBLBANK|daily|down|5": 6.09
  },
  "shared": [
-  "TIPSMUSIC",
-  "CARTRADE",
-  "DELHIVERY",
-  "SYNGENE",
-  "GANECOS",
-  "GOKEX",
-  "ORIENTELEC",
-  "ZEEL",
-  "BETA",
-  "SHIPROCKET",
-  "CRAFTSMAN",
-  "SBFC",
-  "TATAELXSI",
-  "NEOGEN",
-  "AVALON",
-  "PVRINOX",
-  "UPL",
-  "BRIGADE",
-  "NUVAMA",
-  "RSYSTEMS"
+  "RBLBANK",
+  "PGIL"
  ],
  "warned_blind": false
 }
