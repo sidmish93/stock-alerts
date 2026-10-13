@@ -65,13 +65,40 @@
    "level": 5.0,
    "symbol": "PNCINFRA",
    "value": 5.59
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FSL",
+   "value": 5.12
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KPITTECH",
+   "value": 5.04
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TCS",
+   "value": 5.76
   }
  ],
  "latched": {
   "BETA|daily|down|5": 6.98,
+  "FSL|daily|up|5": 5.12,
   "HCLTECH|daily|up|5": 5.31,
+  "KPITTECH|daily|up|5": 5.04,
   "PGIL|daily|down|5": 5.81,
-  "RBLBANK|daily|down|5": 6.09
+  "RBLBANK|daily|down|5": 6.09,
+  "TCS|daily|up|5": 5.76
  },
  "shared": [
   "RBLBANK",
@@ -81,7 +108,8 @@
   "BETA",
   "RSYSTEMS",
   "HCLTECH",
-  "PNCINFRA"
+  "PNCINFRA",
+  "KPITTECH"
  ],
  "warned_blind": false
 }
