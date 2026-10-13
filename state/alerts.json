@@ -137,6 +137,14 @@
    "level": 5.0,
    "symbol": "PNCINFRA",
    "value": 7.48
+  },
+  {
+   "at": "13:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PAYTM",
+   "value": -5.64
   }
  ],
  "latched": {
@@ -146,6 +154,7 @@
   "HCLTECH|daily|up|5": 5.31,
   "JLHL|daily|down|5": 5.61,
   "KPITTECH|daily|up|5": 5.04,
+  "PAYTM|daily|down|5": 5.64,
   "PGIL|daily|down|5": 5.81,
   "PNCINFRA|daily|up|5": 7.48,
   "RBLBANK|daily|down|5": 6.09,
@@ -164,7 +173,8 @@
   "FIRSTCRY",
   "PARADEEP",
   "NEWGEN",
-  "JLHL"
+  "JLHL",
+  "PAYTM"
  ],
  "warned_blind": false
 }
