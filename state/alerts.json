@@ -97,11 +97,20 @@
    "level": 5.0,
    "symbol": "FIRSTCRY",
    "value": 5.59
+  },
+  {
+   "at": "12:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FSL",
+   "value": 5.84
   }
  ],
  "latched": {
   "BETA|daily|down|5": 6.98,
   "FIRSTCRY|daily|up|5": 5.59,
+  "FSL|daily|up|5": 5.84,
   "HCLTECH|daily|up|5": 5.31,
   "KPITTECH|daily|up|5": 5.04,
   "PGIL|daily|down|5": 5.81,
