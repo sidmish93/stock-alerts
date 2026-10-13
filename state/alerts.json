@@ -69,12 +69,9 @@
  ],
  "latched": {
   "BETA|daily|down|5": 6.98,
-  "FSL|daily|up|5": 5.5,
   "HCLTECH|daily|up|5": 5.31,
   "PGIL|daily|down|5": 5.81,
-  "PNCINFRA|daily|up|5": 5.59,
-  "RBLBANK|daily|down|5": 6.09,
-  "TCS|daily|up|5": 5.16
+  "RBLBANK|daily|down|5": 6.09
  },
  "shared": [
   "RBLBANK",
