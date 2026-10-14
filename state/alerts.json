@@ -113,11 +113,20 @@
    "level": 5.0,
    "symbol": "LTTS",
    "value": 5.63
+  },
+  {
+   "at": "15:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LICHSGFIN",
+   "value": -5.05
   }
  ],
  "latched": {
   "INTELLECT|daily|up|5": 5.27,
   "JSWENERGY|daily|up|5": 5.88,
+  "LICHSGFIN|daily|down|5": 5.05,
   "LTTS|daily|up|5": 5.63,
   "NEOGEN|daily|up|5": 6.32,
   "TATAELXSI|daily|up|5": 6.27,
@@ -135,7 +144,8 @@
   "ICIL",
   "MEESHO",
   "ADANIENSOL",
-  "LTTS"
+  "LTTS",
+  "LICHSGFIN"
  ],
  "warned_blind": false
 }
