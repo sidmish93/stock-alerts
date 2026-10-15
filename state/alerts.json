@@ -169,6 +169,14 @@
    "level": 5.0,
    "symbol": "INDOMIM",
    "value": -5.57
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ORIENTELEC",
+   "value": 5.13
   }
  ],
  "latched": {
@@ -178,9 +186,9 @@
   "CGPOWER|daily|down|5": 5.04,
   "HDBFS|daily|down|5": 5.78,
   "ICIL|daily|down|5": 5.13,
-  "INDOMIM|daily|down|5": 5.57,
   "NEOGEN|daily|down|5": 5.58,
   "NESTLEIND|daily|down|5": 5.18,
+  "ORIENTELEC|daily|up|5": 5.13,
   "TIPSMUSIC|daily|down|5": 5.89,
   "WELSPUNLIV|daily|down|5": 5.14
  },
@@ -200,7 +208,8 @@
   "CGPOWER",
   "CARBORUNIV",
   "TIPSMUSIC",
-  "WELSPUNLIV"
+  "WELSPUNLIV",
+  "ORIENTELEC"
  ],
  "warned_blind": false
 }
