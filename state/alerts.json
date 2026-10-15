@@ -25,15 +25,25 @@
    "level": 5.0,
    "symbol": "CANBK",
    "value": -5.65
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BETA",
+   "value": 7.26
   }
  ],
  "latched": {
+  "BETA|daily|up|5": 7.26,
   "CANBK|daily|down|5": 5.65
  },
  "shared": [
   "THELEELA",
   "BRIGADE",
-  "CANBK"
+  "CANBK",
+  "BETA"
  ],
  "warned_blind": false
 }
