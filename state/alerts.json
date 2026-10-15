@@ -54,7 +54,6 @@
  "latched": {
   "AVALON|daily|down|5": 5.13,
   "BETA|daily|up|5": 7.26,
-  "CANBK|daily|down|5": 5.65,
   "HDBFS|daily|down|5": 5.78
  },
  "shared": [
