@@ -161,6 +161,14 @@
    "level": 5.0,
    "symbol": "WELSPUNLIV",
    "value": -5.14
+  },
+  {
+   "at": "14:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDOMIM",
+   "value": -5.57
   }
  ],
  "latched": {
@@ -170,6 +178,7 @@
   "CGPOWER|daily|down|5": 5.04,
   "HDBFS|daily|down|5": 5.78,
   "ICIL|daily|down|5": 5.13,
+  "INDOMIM|daily|down|5": 5.57,
   "NEOGEN|daily|down|5": 5.58,
   "NESTLEIND|daily|down|5": 5.18,
   "TIPSMUSIC|daily|down|5": 5.89,
