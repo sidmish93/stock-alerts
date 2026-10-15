@@ -105,15 +105,33 @@
    "level": 5.0,
    "symbol": "HINDPETRO",
    "value": 5.21
+  },
+  {
+   "at": "13:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CGPOWER",
+   "value": -5.04
+  },
+  {
+   "at": "13:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NESTLEIND",
+   "value": -5.18
   }
  ],
  "latched": {
   "AVALON|daily|down|5": 5.13,
   "CANBK|daily|down|5": 5.15,
+  "CGPOWER|daily|down|5": 5.04,
   "HDBFS|daily|down|5": 5.78,
   "HINDPETRO|daily|up|5": 5.21,
   "ICIL|daily|down|5": 5.45,
-  "NEOGEN|daily|down|5": 5.58
+  "NEOGEN|daily|down|5": 5.58,
+  "NESTLEIND|daily|down|5": 5.18
  },
  "shared": [
   "THELEELA",
@@ -127,7 +145,8 @@
   "INDOMIM",
   "ICIL",
   "NESTLEIND",
-  "HINDPETRO"
+  "HINDPETRO",
+  "CGPOWER"
  ],
  "warned_blind": false
 }
