@@ -28,8 +28,7 @@
   }
  ],
  "latched": {
-  "CANBK|daily|down|5": 5.65,
-  "THELEELA|daily|up|5": 7.37
+  "CANBK|daily|down|5": 5.65
  },
  "shared": [
   "THELEELA",
