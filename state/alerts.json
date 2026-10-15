@@ -97,12 +97,21 @@
    "level": 5.0,
    "symbol": "NESTLEIND",
    "value": -6.05
+  },
+  {
+   "at": "13:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HINDPETRO",
+   "value": 5.21
   }
  ],
  "latched": {
   "AVALON|daily|down|5": 5.13,
   "CANBK|daily|down|5": 5.15,
   "HDBFS|daily|down|5": 5.78,
+  "HINDPETRO|daily|up|5": 5.21,
   "ICIL|daily|down|5": 5.45,
   "NEOGEN|daily|down|5": 5.58
  },
@@ -117,7 +126,8 @@
   "SHIPROCKET",
   "INDOMIM",
   "ICIL",
-  "NESTLEIND"
+  "NESTLEIND",
+  "HINDPETRO"
  ],
  "warned_blind": false
 }
