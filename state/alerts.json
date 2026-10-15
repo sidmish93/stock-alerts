@@ -1,159 +1,31 @@
 {
- "day": "2026-10-14",
- "digested": true,
+ "day": "2026-10-15",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "TATAELXSI",
-   "value": 6.27
+   "symbol": "THELEELA",
+   "value": 7.37
   },
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "NEOGEN",
-   "value": 6.32
-  },
-  {
-   "at": "09:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VOLTAMP",
-   "value": 5.03
-  },
-  {
-   "at": "10:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WHIRLPOOL",
-   "value": 5.55
-  },
-  {
-   "at": "10:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLYCAB",
-   "value": -5.04
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PNCINFRA",
-   "value": 5.28
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "INTELLECT",
-   "value": 5.27
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JSWENERGY",
-   "value": 5.88
-  },
-  {
-   "at": "11:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ICIL",
-   "value": 5.34
-  },
-  {
-   "at": "11:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "INTELLECT",
-   "value": 5.27
-  },
-  {
-   "at": "12:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ICIL",
-   "value": 5.91
-  },
-  {
-   "at": "13:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MEESHO",
-   "value": -5.26
-  },
-  {
-   "at": "14:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ADANIENSOL",
-   "value": 5.01
-  },
-  {
-   "at": "14:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LTTS",
-   "value": 5.63
-  },
-  {
-   "at": "15:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LICHSGFIN",
-   "value": -5.05
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MEESHO",
-   "value": -5.14
+   "symbol": "BRIGADE",
+   "value": 6.39
   }
  ],
  "latched": {
-  "INTELLECT|daily|up|5": 5.27,
-  "JSWENERGY|daily|up|5": 5.88,
-  "LICHSGFIN|daily|down|5": 5.05,
-  "LTTS|daily|up|5": 5.63,
-  "MEESHO|daily|down|5": 5.14,
-  "TATAELXSI|daily|up|5": 6.27,
-  "WHIRLPOOL|daily|up|5": 5.55
+  "BRIGADE|daily|up|5": 6.39,
+  "THELEELA|daily|up|5": 7.37
  },
  "shared": [
-  "TATAELXSI",
-  "NEOGEN",
-  "VOLTAMP",
-  "WHIRLPOOL",
-  "POLYCAB",
-  "PNCINFRA",
-  "INTELLECT",
-  "JSWENERGY",
-  "ICIL",
-  "MEESHO",
-  "ADANIENSOL",
-  "LTTS",
-  "LICHSGFIN"
+  "THELEELA",
+  "BRIGADE"
  ],
  "warned_blind": false
 }
