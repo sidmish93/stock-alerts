@@ -49,20 +49,29 @@
    "level": 5.0,
    "symbol": "TIPSMUSIC",
    "value": 5.14
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WIPRO",
+   "value": 5.03
   }
  ],
  "latched": {
   "CCL|daily|down|5": 5.35,
   "ORIENTELEC|daily|up|5": 5.42,
   "TECHM|daily|up|5": 5.39,
-  "TIPSMUSIC|daily|up|5": 5.14
+  "WIPRO|daily|up|5": 5.03
  },
  "shared": [
   "CCL",
   "ORIENTELEC",
   "MOLBIO",
   "TECHM",
-  "TIPSMUSIC"
+  "TIPSMUSIC",
+  "WIPRO"
  ],
  "warned_blind": false
 }
