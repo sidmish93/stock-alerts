@@ -33,18 +33,36 @@
    "level": 5.0,
    "symbol": "TECHM",
    "value": 5.39
+  },
+  {
+   "at": "09:53",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ORIENTELEC",
+   "value": 5.42
+  },
+  {
+   "at": "09:53",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TIPSMUSIC",
+   "value": 5.14
   }
  ],
  "latched": {
   "CCL|daily|down|5": 5.35,
-  "MOLBIO|daily|up|5": 5.16,
-  "TECHM|daily|up|5": 5.39
+  "ORIENTELEC|daily|up|5": 5.42,
+  "TECHM|daily|up|5": 5.39,
+  "TIPSMUSIC|daily|up|5": 5.14
  },
  "shared": [
   "CCL",
   "ORIENTELEC",
   "MOLBIO",
-  "TECHM"
+  "TECHM",
+  "TIPSMUSIC"
  ],
  "warned_blind": false
 }
