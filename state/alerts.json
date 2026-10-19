@@ -33,17 +33,27 @@
    "level": 5.0,
    "symbol": "AYE",
    "value": -5.24
+  },
+  {
+   "at": "11:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KARURVYSYA",
+   "value": 5.34
   }
  ],
  "latched": {
   "AYE|daily|down|5": 5.24,
+  "KARURVYSYA|daily|up|5": 5.34,
   "MOLBIO|daily|down|5": 5.49,
   "URBANCO|daily|down|5": 6.67
  },
  "shared": [
   "URBANCO",
   "AYE",
-  "MOLBIO"
+  "MOLBIO",
+  "KARURVYSYA"
  ],
  "warned_blind": false
 }
