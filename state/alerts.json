@@ -1,184 +1,21 @@
 {
- "day": "2026-10-16",
- "digested": true,
+ "day": "2026-10-19",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "CCL",
-   "value": -5.35
-  },
-  {
-   "at": "09:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ORIENTELEC",
-   "value": 6.92
-  },
-  {
-   "at": "09:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLBIO",
-   "value": 5.16
-  },
-  {
-   "at": "09:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TECHM",
-   "value": 5.39
-  },
-  {
-   "at": "09:53",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ORIENTELEC",
-   "value": 5.42
-  },
-  {
-   "at": "09:53",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TIPSMUSIC",
-   "value": 5.14
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WIPRO",
-   "value": 5.03
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KPITTECH",
-   "value": 5.32
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLBIO",
-   "value": 6.02
-  },
-  {
-   "at": "11:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TIPSMUSIC",
-   "value": 5.06
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TIPSMUSIC",
-   "value": 5.86
-  },
-  {
-   "at": "12:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HDBFS",
-   "value": -5.04
-  },
-  {
-   "at": "13:30",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AYE",
-   "value": -5.04
-  },
-  {
-   "at": "13:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HDBFS",
-   "value": -5.04
-  },
-  {
-   "at": "14:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "DALBHARAT",
-   "value": 5.17
-  },
-  {
-   "at": "14:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KPITTECH",
-   "value": 5.12
-  },
-  {
-   "at": "14:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HDBFS",
-   "value": -5.18
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SYRMA",
-   "value": -5.03
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TCS",
-   "value": 5.28
+   "symbol": "URBANCO",
+   "value": -6.67
   }
  ],
  "latched": {
-  "CCL|daily|down|5": 5.35,
-  "HDBFS|daily|down|5": 5.18,
-  "KPITTECH|daily|up|5": 5.12,
-  "MOLBIO|daily|up|5": 6.02,
-  "SYRMA|daily|down|5": 5.03,
-  "TCS|daily|up|5": 5.28,
-  "TECHM|daily|up|5": 5.39,
-  "TIPSMUSIC|daily|up|5": 5.86,
-  "WIPRO|daily|up|5": 5.03
+  "URBANCO|daily|down|5": 6.67
  },
  "shared": [
-  "CCL",
-  "ORIENTELEC",
-  "MOLBIO",
-  "TECHM",
-  "TIPSMUSIC",
-  "WIPRO",
-  "KPITTECH",
-  "HDBFS",
-  "AYE",
-  "DALBHARAT",
-  "SYRMA",
-  "TCS"
+  "URBANCO"
  ],
  "warned_blind": false
 }
