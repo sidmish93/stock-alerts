@@ -241,10 +241,35 @@
    "level": 5.0,
    "symbol": "SEDEMAC",
    "value": -5.2
+  },
+  {
+   "at": "13:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ABDL",
+   "value": -5.18
+  },
+  {
+   "at": "13:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TI",
+   "value": -5.72
+  },
+  {
+   "at": "13:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TRITURBINE",
+   "value": -5.19
   }
  ],
  "latched": {
   "ABB|daily|down|5": 5.74,
+  "ABDL|daily|down|5": 5.18,
   "AZAD|daily|down|5": 5.01,
   "CREDITACC|daily|down|5": 5.01,
   "FIVESTAR|daily|down|5": 5.22,
@@ -254,9 +279,10 @@
   "MEESHO|daily|down|5": 5.31,
   "MOLBIO|daily|down|5": 5.26,
   "NEOGEN|daily|down|5": 5.2,
-  "SEDEMAC|daily|down|5": 5.2,
   "SYNGENE|daily|down|5": 5.02,
-  "THELEELA|daily|down|5": 5.13
+  "THELEELA|daily|down|5": 5.13,
+  "TI|daily|down|5": 5.72,
+  "TRITURBINE|daily|down|5": 5.19
  },
  "shared": [
   "LTTS",
@@ -278,7 +304,9 @@
   "FIVESTAR",
   "SYNGENE",
   "INDOMIM",
-  "SEDEMAC"
+  "SEDEMAC",
+  "ABDL",
+  "TRITURBINE"
  ],
  "warned_blind": false
 }
