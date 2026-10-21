@@ -1,8 +1,21 @@
 {
- "day": "2026-10-20",
- "digested": true,
- "fired": [],
- "latched": {},
- "shared": [],
- "warned_blind": true
+ "day": "2026-10-21",
+ "digested": false,
+ "fired": [
+  {
+   "at": "09:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LTTS",
+   "value": 10.05
+  }
+ ],
+ "latched": {
+  "LTTS|daily|up|5": 10.05
+ },
+ "shared": [
+  "LTTS"
+ ],
+ "warned_blind": false
 }
