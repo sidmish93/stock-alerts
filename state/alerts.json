@@ -305,6 +305,14 @@
    "level": 5.0,
    "symbol": "PGIL",
    "value": -5.16
+  },
+  {
+   "at": "14:00",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SANSERA",
+   "value": -5.06
   }
  ],
  "latched": {
@@ -322,6 +330,7 @@
   "NEOGEN|daily|down|5": 5.2,
   "PGIL|daily|down|5": 5.16,
   "RBLBANK|daily|down|5": 5.04,
+  "SANSERA|daily|down|5": 5.06,
   "SIEMENS|daily|down|5": 5.35,
   "SYNGENE|daily|down|5": 5.02,
   "THELEELA|daily|down|5": 5.13,
@@ -353,7 +362,8 @@
   "TRITURBINE",
   "KNRCON",
   "RBLBANK",
-  "SIEMENS"
+  "SIEMENS",
+  "SANSERA"
  ],
  "warned_blind": false
 }
