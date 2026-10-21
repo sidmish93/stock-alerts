@@ -265,6 +265,14 @@
    "level": 5.0,
    "symbol": "TRITURBINE",
    "value": -5.19
+  },
+  {
+   "at": "13:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KNRCON",
+   "value": -5.12
   }
  ],
  "latched": {
@@ -274,6 +282,7 @@
   "CREDITACC|daily|down|5": 5.01,
   "FIVESTAR|daily|down|5": 5.22,
   "FRACTAL|daily|up|5": 6.24,
+  "KNRCON|daily|down|5": 5.12,
   "LTTS|daily|up|5": 10.05,
   "MANAPPURAM|daily|down|5": 5.48,
   "MEESHO|daily|down|5": 5.31,
@@ -306,7 +315,8 @@
   "INDOMIM",
   "SEDEMAC",
   "ABDL",
-  "TRITURBINE"
+  "TRITURBINE",
+  "KNRCON"
  ],
  "warned_blind": false
 }
