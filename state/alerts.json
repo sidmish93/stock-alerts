@@ -153,12 +153,20 @@
    "level": 5.0,
    "symbol": "PGIL",
    "value": -5.61
+  },
+  {
+   "at": "11:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CHOLAHLDNG",
+   "value": -5.09
   }
  ],
  "latched": {
   "ABB|daily|down|5": 5.74,
   "AZAD|daily|down|5": 5.46,
-  "FINEORG|daily|down|5": 5.36,
+  "CHOLAHLDNG|daily|down|5": 5.09,
   "FRACTAL|daily|up|5": 6.24,
   "LTTS|daily|up|5": 10.05,
   "MANAPPURAM|daily|down|5": 5.48,
@@ -180,7 +188,8 @@
   "SYRMA",
   "ABB",
   "AZAD",
-  "PGIL"
+  "PGIL",
+  "CHOLAHLDNG"
  ],
  "warned_blind": false
 }
