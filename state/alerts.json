@@ -113,14 +113,59 @@
    "level": 5.0,
    "symbol": "SYRMA",
    "value": -5.04
+  },
+  {
+   "at": "11:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ABB",
+   "value": -5.74
+  },
+  {
+   "at": "11:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AZAD",
+   "value": -5.46
+  },
+  {
+   "at": "11:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FINEORG",
+   "value": -5.36
+  },
+  {
+   "at": "11:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NEOGEN",
+   "value": -5.2
+  },
+  {
+   "at": "11:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": -5.61
   }
  ],
  "latched": {
+  "ABB|daily|down|5": 5.74,
+  "AZAD|daily|down|5": 5.46,
+  "FINEORG|daily|down|5": 5.36,
   "FRACTAL|daily|up|5": 6.24,
   "LTTS|daily|up|5": 10.05,
   "MANAPPURAM|daily|down|5": 5.48,
   "MEESHO|daily|down|5": 5.31,
   "MOLBIO|daily|down|5": 5.26,
+  "NEOGEN|daily|down|5": 5.2,
+  "PGIL|daily|down|5": 5.61,
   "SYRMA|daily|down|5": 5.04
  },
  "shared": [
@@ -132,7 +177,10 @@
   "MEESHO",
   "FINEORG",
   "MANAPPURAM",
-  "SYRMA"
+  "SYRMA",
+  "ABB",
+  "AZAD",
+  "PGIL"
  ],
  "warned_blind": false
 }
