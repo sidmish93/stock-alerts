@@ -161,19 +161,62 @@
    "level": 5.0,
    "symbol": "CHOLAHLDNG",
    "value": -5.09
+  },
+  {
+   "at": "12:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TI",
+   "value": -5.03
+  },
+  {
+   "at": "12:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": -5.13
+  },
+  {
+   "at": "12:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CREDITACC",
+   "value": -5.01
+  },
+  {
+   "at": "12:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIVESTAR",
+   "value": -5.18
+  },
+  {
+   "at": "12:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SYNGENE",
+   "value": -5.01
   }
  ],
  "latched": {
   "ABB|daily|down|5": 5.74,
   "AZAD|daily|down|5": 5.46,
-  "CHOLAHLDNG|daily|down|5": 5.09,
+  "CREDITACC|daily|down|5": 5.01,
+  "FIVESTAR|daily|down|5": 5.18,
   "FRACTAL|daily|up|5": 6.24,
   "LTTS|daily|up|5": 10.05,
   "MANAPPURAM|daily|down|5": 5.48,
   "MEESHO|daily|down|5": 5.31,
   "MOLBIO|daily|down|5": 5.26,
   "NEOGEN|daily|down|5": 5.2,
-  "PGIL|daily|down|5": 5.61
+  "SYNGENE|daily|down|5": 5.01,
+  "THELEELA|daily|down|5": 5.13,
+  "TI|daily|down|5": 5.03
  },
  "shared": [
   "LTTS",
@@ -188,7 +231,12 @@
   "ABB",
   "AZAD",
   "PGIL",
-  "CHOLAHLDNG"
+  "CHOLAHLDNG",
+  "TI",
+  "THELEELA",
+  "CREDITACC",
+  "FIVESTAR",
+  "SYNGENE"
  ],
  "warned_blind": false
 }
