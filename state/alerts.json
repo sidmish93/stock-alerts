@@ -369,6 +369,30 @@
    "level": 5.0,
    "symbol": "HEXT",
    "value": 5.22
+  },
+  {
+   "at": "15:00",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZYDUSWELL",
+   "value": -5.33
+  },
+  {
+   "at": "15:00",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIVESTAR",
+   "value": -5.02
+  },
+  {
+   "at": "15:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SRF",
+   "value": -6.76
   }
  ],
  "latched": {
@@ -376,6 +400,7 @@
   "ABDL|daily|down|5": 5.18,
   "AZAD|daily|down|5": 5.01,
   "CREDITACC|daily|down|5": 5.01,
+  "FIVESTAR|daily|down|5": 5.02,
   "FRACTAL|daily|up|5": 6.24,
   "HEXT|daily|up|5": 5.22,
   "KNRCON|daily|down|5": 5.12,
@@ -387,13 +412,15 @@
   "RBLBANK|daily|down|5": 5.04,
   "SANSERA|daily|down|5": 5.04,
   "SIEMENS|daily|down|5": 5.35,
+  "SRF|daily|down|5": 6.76,
   "SYNGENE|daily|down|5": 5.02,
   "SYRMA|daily|down|5": 5.03,
   "THELEELA|daily|down|5": 5.13,
   "TI|daily|down|5": 5.72,
   "TRITURBINE|daily|down|5": 5.19,
   "UNITDSPR|daily|down|5": 5.01,
-  "VIYASH|daily|down|5": 5.2
+  "VIYASH|daily|down|5": 5.2,
+  "ZYDUSWELL|daily|down|5": 5.33
  },
  "shared": [
   "LTTS",
@@ -424,7 +451,9 @@
   "SANSERA",
   "UNITDSPR",
   "VIYASH",
-  "HEXT"
+  "HEXT",
+  "ZYDUSWELL",
+  "SRF"
  ],
  "warned_blind": false
 }
