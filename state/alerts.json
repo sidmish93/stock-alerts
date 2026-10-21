@@ -37,8 +37,6 @@
  ],
  "latched": {
   "LTTS|daily|up|5": 10.05,
-  "MOLBIO|daily|down|5": 5.68,
-  "NEOGEN|daily|down|5": 5.21,
   "SOBHA|daily|down|5": 5.04
  },
  "shared": [
