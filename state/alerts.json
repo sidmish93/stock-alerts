@@ -65,11 +65,19 @@
    "level": 5.0,
    "symbol": "MEESHO",
    "value": -5.1
+  },
+  {
+   "at": "10:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FRACTAL",
+   "value": 6.24
   }
  ],
  "latched": {
-  "LTTS|daily|up|5": 10.05,
-  "MEESHO|daily|down|5": 5.1
+  "FRACTAL|daily|up|5": 6.24,
+  "LTTS|daily|up|5": 10.05
  },
  "shared": [
   "LTTS",
