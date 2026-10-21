@@ -313,6 +313,14 @@
    "level": 5.0,
    "symbol": "SANSERA",
    "value": -5.06
+  },
+  {
+   "at": "14:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "UNITDSPR",
+   "value": -5.01
   }
  ],
  "latched": {
@@ -327,7 +335,6 @@
   "MANAPPURAM|daily|down|5": 5.48,
   "MEESHO|daily|down|5": 5.31,
   "MOLBIO|daily|down|5": 5.26,
-  "NEOGEN|daily|down|5": 5.2,
   "PGIL|daily|down|5": 5.16,
   "RBLBANK|daily|down|5": 5.04,
   "SANSERA|daily|down|5": 5.06,
@@ -335,7 +342,7 @@
   "SYNGENE|daily|down|5": 5.02,
   "THELEELA|daily|down|5": 5.13,
   "TI|daily|down|5": 5.72,
-  "TRITURBINE|daily|down|5": 5.19
+  "UNITDSPR|daily|down|5": 5.01
  },
  "shared": [
   "LTTS",
@@ -363,7 +370,8 @@
   "KNRCON",
   "RBLBANK",
   "SIEMENS",
-  "SANSERA"
+  "SANSERA",
+  "UNITDSPR"
  ],
  "warned_blind": false
 }
