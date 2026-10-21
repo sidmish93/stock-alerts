@@ -321,6 +321,30 @@
    "level": 5.0,
    "symbol": "UNITDSPR",
    "value": -5.01
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SEDEMAC",
+   "value": -5.1
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TRITURBINE",
+   "value": -5.19
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SYRMA",
+   "value": -5.03
   }
  ],
  "latched": {
@@ -328,7 +352,6 @@
   "ABDL|daily|down|5": 5.18,
   "AZAD|daily|down|5": 5.01,
   "CREDITACC|daily|down|5": 5.01,
-  "FIVESTAR|daily|down|5": 5.22,
   "FRACTAL|daily|up|5": 6.24,
   "KNRCON|daily|down|5": 5.12,
   "LTTS|daily|up|5": 10.05,
@@ -338,10 +361,13 @@
   "PGIL|daily|down|5": 5.16,
   "RBLBANK|daily|down|5": 5.04,
   "SANSERA|daily|down|5": 5.06,
+  "SEDEMAC|daily|down|5": 5.1,
   "SIEMENS|daily|down|5": 5.35,
   "SYNGENE|daily|down|5": 5.02,
+  "SYRMA|daily|down|5": 5.03,
   "THELEELA|daily|down|5": 5.13,
   "TI|daily|down|5": 5.72,
+  "TRITURBINE|daily|down|5": 5.19,
   "UNITDSPR|daily|down|5": 5.01
  },
  "shared": [
