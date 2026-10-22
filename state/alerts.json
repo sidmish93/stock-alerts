@@ -145,14 +145,22 @@
    "level": 5.0,
    "symbol": "AARTIIND",
    "value": -5.04
+  },
+  {
+   "at": "12:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WEWORK",
+   "value": -5.01
   }
  ],
  "latched": {
-  "AARTIIND|daily|down|5": 5.04,
   "BETA|daily|up|5": 7.18,
   "IGIL|daily|up|5": 9.89,
   "SWIGGY|daily|down|5": 5.07,
-  "VRLLOG|daily|down|5": 5.04
+  "VRLLOG|daily|down|5": 5.04,
+  "WEWORK|daily|down|5": 5.01
  },
  "shared": [
   "VRLLOG",
