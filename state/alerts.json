@@ -161,6 +161,14 @@
    "level": 5.0,
    "symbol": "SWIGGY",
    "value": -5.32
+  },
+  {
+   "at": "13:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZEEL",
+   "value": -5.03
   }
  ],
  "latched": {
@@ -168,7 +176,7 @@
   "IGIL|daily|up|5": 9.89,
   "SWIGGY|daily|down|5": 5.32,
   "VRLLOG|daily|down|5": 5.04,
-  "WEWORK|daily|down|5": 5.01
+  "ZEEL|daily|down|5": 5.03
  },
  "shared": [
   "VRLLOG",
@@ -181,7 +189,8 @@
   "BETA",
   "INDHOTEL",
   "WEWORK",
-  "AARTIIND"
+  "AARTIIND",
+  "ZEEL"
  ],
  "warned_blind": false
 }
