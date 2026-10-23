@@ -521,30 +521,84 @@
    "level": 5.0,
    "symbol": "DELHIVERY",
    "value": -5.05
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PARADEEP",
+   "value": -5.65
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KNRCON",
+   "value": -5.12
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZEEL",
+   "value": -5.01
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TATASTEEL",
+   "value": -5.04
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AWFIS",
+   "value": -5.22
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GODREJPROP",
+   "value": -5.8
   }
  ],
  "latched": {
   "ABB|daily|down|5": 5.07,
   "ADANIENSOL|daily|down|5": 5.37,
   "AVALON|daily|down|5": 6.37,
+  "AWFIS|daily|down|5": 5.22,
   "BETA|daily|down|5": 5.33,
   "BLUESTONE|daily|down|5": 5.19,
   "CARBORUNIV|daily|down|5": 5.08,
   "CYIENT|daily|up|5": 6.93,
   "DELHIVERY|daily|down|5": 5.05,
   "GALAXYSURF|daily|down|5": 5.2,
+  "GODREJPROP|daily|down|5": 5.8,
   "HAVELLS|daily|down|5": 5.25,
   "KARURVYSYA|daily|down|5": 5.24,
   "KFINTECH|daily|down|5": 5.03,
+  "KNRCON|daily|down|5": 5.12,
   "LATENTVIEW|daily|down|5": 5.04,
   "NEWGEN|daily|down|5": 6.89,
+  "PARADEEP|daily|down|5": 5.65,
   "RBLBANK|daily|down|5": 5.08,
   "SIEMENS|daily|down|5": 5.23,
   "SWIGGY|daily|down|5": 9.56,
   "SYRMA|daily|down|5": 5.24,
+  "TATASTEEL|daily|down|5": 5.04,
   "TI|daily|down|5": 5.12,
   "URBANCO|daily|down|5": 6.28,
-  "VRLLOG|daily|down|5": 5.12
+  "VRLLOG|daily|down|5": 5.12,
+  "ZEEL|daily|down|5": 5.01
  },
  "shared": [
   "CYIENT",
@@ -591,7 +645,10 @@
   "RBLBANK",
   "LATENTVIEW",
   "KFINTECH",
-  "DELHIVERY"
+  "DELHIVERY",
+  "ZEEL",
+  "TATASTEEL",
+  "GODREJPROP"
  ],
  "warned_blind": false
 }
