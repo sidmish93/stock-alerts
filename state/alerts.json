@@ -652,16 +652,13 @@
   }
  ],
  "latched": {
-  "ABB|daily|down|5": 5.04,
   "ADANIENSOL|daily|down|5": 5.37,
   "AVALON|daily|down|5": 6.37,
   "BLUESTONE|daily|down|5": 5.19,
   "CREDITACC|daily|down|5": 5.1,
   "CYIENT|daily|up|5": 6.93,
   "DELHIVERY|daily|down|5": 5.05,
-  "HAVELLS|daily|down|5": 5.27,
   "KARURVYSYA|daily|down|5": 5.24,
-  "LATENTVIEW|daily|down|5": 5.08,
   "SWIGGY|daily|down|5": 9.56
  },
  "shared": [
