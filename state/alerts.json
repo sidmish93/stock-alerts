@@ -185,24 +185,105 @@
    "level": 5.0,
    "symbol": "GALAXYSURF",
    "value": -5.08
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CEATLTD",
+   "value": -5.02
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ABB",
+   "value": -5.55
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TRAVELFOOD",
+   "value": -5.07
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NEOGEN",
+   "value": -5.36
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICIL",
+   "value": -5.21
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SPAL",
+   "value": -6.2
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AYE",
+   "value": -5.13
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARTRADE",
+   "value": -5.12
+  },
+  {
+   "at": "10:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PARAS",
+   "value": -5.43
   }
  ],
  "latched": {
+  "ABB|daily|down|5": 5.55,
   "ADANIENSOL|daily|down|5": 5.37,
   "AVALON|daily|down|5": 6.37,
   "AWFIS|daily|down|5": 5.18,
+  "AYE|daily|down|5": 5.13,
   "BETA|daily|down|5": 5.8,
   "BLUESTONE|daily|down|5": 5.19,
   "CARBORUNIV|daily|down|5": 5.18,
+  "CARTRADE|daily|down|5": 5.12,
+  "CEATLTD|daily|down|5": 5.02,
   "CREDITACC|daily|down|5": 6.02,
   "CYIENT|daily|up|5": 6.93,
   "GALAXYSURF|daily|down|5": 5.08,
+  "ICIL|daily|down|5": 5.21,
   "INDOMIM|daily|down|5": 5.21,
   "KARURVYSYA|daily|down|5": 5.24,
   "KNRCON|daily|down|5": 5.45,
+  "NEOGEN|daily|down|5": 5.36,
   "PARADEEP|daily|down|5": 5.15,
+  "PARAS|daily|down|5": 5.43,
+  "SPAL|daily|down|5": 6.2,
   "SWIGGY|daily|down|5": 9.56,
   "SYRMA|daily|down|5": 5.67,
+  "TRAVELFOOD|daily|down|5": 5.07,
   "URBANCO|daily|down|5": 6.28
  },
  "shared": [
@@ -227,7 +308,11 @@
   "SYRMA",
   "AWFIS",
   "BLUESTONE",
-  "GALAXYSURF"
+  "GALAXYSURF",
+  "TRAVELFOOD",
+  "NEOGEN",
+  "ICIL",
+  "PARAS"
  ],
  "warned_blind": false
 }
