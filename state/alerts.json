@@ -753,17 +753,43 @@
    "level": 5.0,
    "symbol": "360ONE",
    "value": -5.3
+  },
+  {
+   "at": "15:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CRAFTSMAN",
+   "value": -5.15
+  },
+  {
+   "at": "15:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ABB",
+   "value": -5.17
+  },
+  {
+   "at": "15:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIVESTAR",
+   "value": -5.11
   }
  ],
  "latched": {
   "360ONE|daily|down|5": 5.3,
+  "ABB|daily|down|5": 5.17,
   "ADANIENSOL|daily|down|5": 5.37,
   "AVALON|daily|down|5": 6.37,
   "AWFIS|daily|down|5": 5.13,
-  "BLUESTONE|daily|down|5": 5.19,
+  "CRAFTSMAN|daily|down|5": 5.15,
   "CREDITACC|daily|down|5": 5.1,
   "CYIENT|daily|up|5": 6.93,
   "DELHIVERY|daily|down|5": 5.05,
+  "FIVESTAR|daily|down|5": 5.11,
   "GALAXYSURF|daily|down|5": 5.13,
   "IGIL|daily|up|5": 5.65,
   "KARURVYSYA|daily|down|5": 5.24,
@@ -827,7 +853,9 @@
   "KOLTEPATIL",
   "SBICARD",
   "SHRIRAMFIN",
-  "360ONE"
+  "360ONE",
+  "CRAFTSMAN",
+  "FIVESTAR"
  ],
  "warned_blind": false
 }
