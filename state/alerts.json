@@ -497,6 +497,30 @@
    "level": 5.0,
    "symbol": "LATENTVIEW",
    "value": -5.04
+  },
+  {
+   "at": "12:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARBORUNIV",
+   "value": -5.08
+  },
+  {
+   "at": "12:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KFINTECH",
+   "value": -5.03
+  },
+  {
+   "at": "12:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DELHIVERY",
+   "value": -5.05
   }
  ],
  "latched": {
@@ -505,13 +529,15 @@
   "AVALON|daily|down|5": 6.37,
   "BETA|daily|down|5": 5.33,
   "BLUESTONE|daily|down|5": 5.19,
+  "CARBORUNIV|daily|down|5": 5.08,
   "CYIENT|daily|up|5": 6.93,
+  "DELHIVERY|daily|down|5": 5.05,
   "GALAXYSURF|daily|down|5": 5.2,
   "HAVELLS|daily|down|5": 5.25,
   "KARURVYSYA|daily|down|5": 5.24,
+  "KFINTECH|daily|down|5": 5.03,
   "LATENTVIEW|daily|down|5": 5.04,
   "NEWGEN|daily|down|5": 6.89,
-  "PARADEEP|daily|down|5": 5.15,
   "RBLBANK|daily|down|5": 5.08,
   "SIEMENS|daily|down|5": 5.23,
   "SWIGGY|daily|down|5": 9.56,
@@ -563,7 +589,9 @@
   "NEWGEN",
   "IGIL",
   "RBLBANK",
-  "LATENTVIEW"
+  "LATENTVIEW",
+  "KFINTECH",
+  "DELHIVERY"
  ],
  "warned_blind": false
 }
