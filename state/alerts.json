@@ -361,36 +361,37 @@
    "level": 5.0,
    "symbol": "WAKEFIT",
    "value": -5.06
+  },
+  {
+   "at": "11:13",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARMANFIN",
+   "value": -5.3
   }
  ],
  "latched": {
   "ABB|daily|down|5": 5.55,
   "ADANIENSOL|daily|down|5": 5.37,
   "AMAGI|daily|down|5": 5.44,
+  "ARMANFIN|daily|down|5": 5.3,
   "AVALON|daily|down|5": 6.37,
-  "AWFIS|daily|down|5": 5.18,
   "AYE|daily|down|5": 5.13,
   "BLUESTONE|daily|down|5": 5.19,
-  "CARBORUNIV|daily|down|5": 5.18,
-  "CEATLTD|daily|down|5": 5.02,
-  "CREDITACC|daily|down|5": 6.02,
   "CYIENT|daily|up|5": 6.93,
-  "ELGIEQUIP|daily|down|5": 5.12,
   "GALAXYSURF|daily|down|5": 5.08,
   "HAVELLS|daily|down|5": 5.4,
   "KARURVYSYA|daily|down|5": 5.24,
   "M&MFIN|daily|down|5": 5.3,
   "NATIONALUM|daily|down|5": 5.64,
   "PARADEEP|daily|down|5": 5.15,
-  "PARAS|daily|down|5": 5.43,
-  "SIEMENS|daily|down|5": 5.15,
   "SPAL|daily|down|5": 6.2,
   "SWIGGY|daily|down|5": 9.56,
   "SYRMA|daily|down|5": 5.67,
   "TI|daily|down|5": 5.41,
   "URBANCO|daily|down|5": 6.28,
-  "VRLLOG|daily|down|5": 5.12,
-  "WAKEFIT|daily|down|5": 5.06
+  "VRLLOG|daily|down|5": 5.12
  },
  "shared": [
   "CYIENT",
@@ -430,7 +431,8 @@
   "M&MFIN",
   "AEQUS",
   "MANAPPURAM",
-  "WAKEFIT"
+  "WAKEFIT",
+  "ARMANFIN"
  ],
  "warned_blind": false
 }
