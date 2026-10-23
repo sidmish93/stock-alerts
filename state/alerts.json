@@ -1,221 +1,41 @@
 {
- "day": "2026-10-22",
- "digested": true,
+ "day": "2026-10-23",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VRLLOG",
-   "value": -5.3
-  },
-  {
-   "at": "09:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "M&MFIN",
-   "value": -8.79
-  },
-  {
-   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "IGIL",
-   "value": 9.89
+   "symbol": "CYIENT",
+   "value": 6.93
   },
   {
-   "at": "09:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CREDITACC",
-   "value": -5.09
-  },
-  {
-   "at": "10:01",
+   "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
    "symbol": "SWIGGY",
-   "value": -5.88
+   "value": -9.56
   },
   {
-   "at": "10:01",
+   "at": "09:20",
    "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEOGEN",
-   "value": -5.24
-  },
-  {
-   "at": "10:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SRF",
-   "value": -5.24
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
    "kind": "daily",
    "level": 5.0,
    "symbol": "BETA",
-   "value": 7.18
-  },
-  {
-   "at": "10:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "M&MFIN",
-   "value": -5.33
-  },
-  {
-   "at": "10:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SWIGGY",
-   "value": -5.37
-  },
-  {
-   "at": "10:59",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "INDHOTEL",
-   "value": 5.18
-  },
-  {
-   "at": "11:00",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CREDITACC",
-   "value": -5.06
-  },
-  {
-   "at": "11:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VRLLOG",
-   "value": -5.02
-  },
-  {
-   "at": "11:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VRLLOG",
-   "value": -5.04
-  },
-  {
-   "at": "11:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SWIGGY",
-   "value": -5.07
-  },
-  {
-   "at": "12:00",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WEWORK",
-   "value": -5.06
-  },
-  {
-   "at": "12:18",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WEWORK",
-   "value": -5.02
-  },
-  {
-   "at": "12:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AARTIIND",
-   "value": -5.04
-  },
-  {
-   "at": "12:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WEWORK",
-   "value": -5.01
-  },
-  {
-   "at": "13:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SWIGGY",
-   "value": -5.32
-  },
-  {
-   "at": "13:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ZEEL",
-   "value": -5.03
-  },
-  {
-   "at": "14:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AARTIIND",
-   "value": -5.1
-  },
-  {
-   "at": "14:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEOGEN",
-   "value": -5.27
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEOGEN",
-   "value": -5.06
+   "value": -5.23
   }
  ],
  "latched": {
-  "BETA|daily|up|5": 7.18,
-  "IGIL|daily|up|5": 9.89,
-  "NEOGEN|daily|down|5": 5.06,
-  "SWIGGY|daily|down|5": 5.32,
-  "VRLLOG|daily|down|5": 5.04,
-  "ZEEL|daily|down|5": 5.03
+  "BETA|daily|down|5": 5.23,
+  "CYIENT|daily|up|5": 6.93,
+  "SWIGGY|daily|down|5": 9.56
  },
  "shared": [
-  "VRLLOG",
-  "M&MFIN",
-  "IGIL",
-  "CREDITACC",
+  "CYIENT",
   "SWIGGY",
-  "NEOGEN",
-  "SRF",
-  "BETA",
-  "INDHOTEL",
-  "WEWORK",
-  "AARTIIND",
-  "ZEEL"
+  "BETA"
  ],
  "warned_blind": false
 }
