@@ -145,16 +145,49 @@
    "level": 5.0,
    "symbol": "CARTRADE",
    "value": -5.62
+  },
+  {
+   "at": "10:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARBORUNIV",
+   "value": -5.18
+  },
+  {
+   "at": "10:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SYRMA",
+   "value": -5.67
+  },
+  {
+   "at": "10:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AWFIS",
+   "value": -5.18
+  },
+  {
+   "at": "10:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTONE",
+   "value": -5.19
   }
  ],
  "latched": {
   "ABB|daily|down|5": 5.38,
   "ADANIENSOL|daily|down|5": 5.37,
   "AVALON|daily|down|5": 6.37,
-  "AYE|daily|down|5": 5.11,
+  "AWFIS|daily|down|5": 5.18,
   "BETA|daily|down|5": 5.8,
+  "BLUESTONE|daily|down|5": 5.19,
+  "CARBORUNIV|daily|down|5": 5.18,
   "CARTRADE|daily|down|5": 5.62,
-  "CEATLTD|daily|down|5": 5.44,
   "CREDITACC|daily|down|5": 6.02,
   "CYIENT|daily|up|5": 6.93,
   "INDOMIM|daily|down|5": 5.21,
@@ -164,6 +197,7 @@
   "PARADEEP|daily|down|5": 5.15,
   "SPAL|daily|down|5": 5.26,
   "SWIGGY|daily|down|5": 9.56,
+  "SYRMA|daily|down|5": 5.67,
   "URBANCO|daily|down|5": 6.28
  },
  "shared": [
@@ -183,7 +217,11 @@
   "INDOMIM",
   "ADANIENSOL",
   "AYE",
-  "CARTRADE"
+  "CARTRADE",
+  "CARBORUNIV",
+  "SYRMA",
+  "AWFIS",
+  "BLUESTONE"
  ],
  "warned_blind": false
 }
