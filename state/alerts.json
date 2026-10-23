@@ -25,16 +25,36 @@
    "level": 5.0,
    "symbol": "BETA",
    "value": -5.23
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CEATLTD",
+   "value": -5.44
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AVALON",
+   "value": -6.37
   }
  ],
  "latched": {
+  "AVALON|daily|down|5": 6.37,
+  "CEATLTD|daily|down|5": 5.44,
   "CYIENT|daily|up|5": 6.93,
   "SWIGGY|daily|down|5": 9.56
  },
  "shared": [
   "CYIENT",
   "SWIGGY",
-  "BETA"
+  "BETA",
+  "CEATLTD",
+  "AVALON"
  ],
  "warned_blind": false
 }
