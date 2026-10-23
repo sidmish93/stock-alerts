@@ -569,6 +569,14 @@
    "level": 5.0,
    "symbol": "GODREJPROP",
    "value": -5.8
+  },
+  {
+   "at": "13:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CLEAN",
+   "value": -5.49
   }
  ],
  "latched": {
@@ -579,14 +587,13 @@
   "BETA|daily|down|5": 5.33,
   "BLUESTONE|daily|down|5": 5.19,
   "CARBORUNIV|daily|down|5": 5.08,
+  "CLEAN|daily|down|5": 5.49,
   "CYIENT|daily|up|5": 6.93,
   "DELHIVERY|daily|down|5": 5.05,
   "GALAXYSURF|daily|down|5": 5.2,
-  "GODREJPROP|daily|down|5": 5.8,
   "HAVELLS|daily|down|5": 5.25,
   "KARURVYSYA|daily|down|5": 5.24,
   "KFINTECH|daily|down|5": 5.03,
-  "KNRCON|daily|down|5": 5.12,
   "LATENTVIEW|daily|down|5": 5.04,
   "NEWGEN|daily|down|5": 6.89,
   "PARADEEP|daily|down|5": 5.65,
@@ -594,11 +601,9 @@
   "SIEMENS|daily|down|5": 5.23,
   "SWIGGY|daily|down|5": 9.56,
   "SYRMA|daily|down|5": 5.24,
-  "TATASTEEL|daily|down|5": 5.04,
   "TI|daily|down|5": 5.12,
   "URBANCO|daily|down|5": 6.28,
-  "VRLLOG|daily|down|5": 5.12,
-  "ZEEL|daily|down|5": 5.01
+  "VRLLOG|daily|down|5": 5.12
  },
  "shared": [
   "CYIENT",
@@ -648,7 +653,8 @@
   "DELHIVERY",
   "ZEEL",
   "TATASTEEL",
-  "GODREJPROP"
+  "GODREJPROP",
+  "CLEAN"
  ],
  "warned_blind": false
 }
