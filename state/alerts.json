@@ -97,12 +97,21 @@
    "level": 5.0,
    "symbol": "CUB",
    "value": -5.28
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHRIRAMFIN",
+   "value": -5.2
   }
  ],
  "latched": {
   "AUBANK|daily|down|5": 9.11,
   "CUB|daily|down|5": 5.28,
-  "MAHLOG|daily|up|5": 5.12
+  "MAHLOG|daily|up|5": 5.12,
+  "SHRIRAMFIN|daily|down|5": 5.2
  },
  "shared": [
   "AUBANK",
