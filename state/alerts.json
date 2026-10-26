@@ -45,10 +45,8 @@
  ],
  "latched": {
   "AUBANK|daily|down|5": 9.11,
-  "BLUESTONE|daily|down|5": 5.28,
   "MAHLOG|daily|up|5": 5.12,
-  "MASTEK|daily|down|5": 6.87,
-  "SHRIRAMFIN|daily|down|5": 5.2
+  "MASTEK|daily|down|5": 6.87
  },
  "shared": [
   "AUBANK",
