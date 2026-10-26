@@ -113,6 +113,14 @@
    "level": 5.0,
    "symbol": "FIVESTAR",
    "value": -5.19
+  },
+  {
+   "at": "11:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MASTEK",
+   "value": -5.04
   }
  ],
  "latched": {
@@ -120,6 +128,7 @@
   "CUB|daily|down|5": 5.28,
   "FIVESTAR|daily|down|5": 5.19,
   "MAHLOG|daily|up|5": 5.12,
+  "MASTEK|daily|down|5": 5.04,
   "SHRIRAMFIN|daily|down|5": 5.2
  },
  "shared": [
