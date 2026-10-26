@@ -209,17 +209,25 @@
    "level": 5.0,
    "symbol": "NEWGEN",
    "value": 5.26
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARBORUNIV",
+   "value": 13.23
   }
  ],
  "latched": {
   "ATHERENERG|daily|up|5": 8.93,
   "AUBANK|daily|down|5": 9.11,
   "AVALON|daily|up|5": 5.03,
+  "CARBORUNIV|daily|up|5": 13.23,
   "CUB|daily|down|5": 5.28,
   "DRREDDY|daily|up|5": 5.53,
   "FIVESTAR|daily|down|5": 5.19,
   "HORIZONIND|daily|up|5": 5.56,
-  "MAHLOG|daily|up|5": 5.12,
   "MASTEK|daily|down|5": 5.04,
   "PARAS|daily|up|5": 6.12,
   "SWIGGY|daily|up|5": 5.26
@@ -242,7 +250,8 @@
   "SANSERA",
   "HORIZONIND",
   "JLHL",
-  "ATHERENERG"
+  "ATHERENERG",
+  "CARBORUNIV"
  ],
  "warned_blind": false
 }
