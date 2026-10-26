@@ -89,11 +89,20 @@
    "level": 5.0,
    "symbol": "BETA",
    "value": 5.04
+  },
+  {
+   "at": "10:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CUB",
+   "value": -5.28
   }
  ],
  "latched": {
   "AUBANK|daily|down|5": 9.11,
   "BETA|daily|up|5": 5.04,
+  "CUB|daily|down|5": 5.28,
   "MAHLOG|daily|up|5": 5.12
  },
  "shared": [
