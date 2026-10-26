@@ -153,6 +153,14 @@
    "level": 5.0,
    "symbol": "NEWGEN",
    "value": 5.23
+  },
+  {
+   "at": "13:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PARAS",
+   "value": 6.12
   }
  ],
  "latched": {
@@ -164,6 +172,7 @@
   "MAHLOG|daily|up|5": 5.12,
   "MASTEK|daily|down|5": 5.04,
   "NEWGEN|daily|up|5": 5.23,
+  "PARAS|daily|up|5": 6.12,
   "SWIGGY|daily|up|5": 5.26
  },
  "shared": [
@@ -179,7 +188,8 @@
   "FIVESTAR",
   "DRREDDY",
   "SWIGGY",
-  "AVALON"
+  "AVALON",
+  "PARAS"
  ],
  "warned_blind": false
 }
