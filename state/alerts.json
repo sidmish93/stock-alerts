@@ -225,6 +225,14 @@
    "level": 5.0,
    "symbol": "PARAS",
    "value": 5.31
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NAVINFLUOR",
+   "value": 5.06
   }
  ],
  "latched": {
@@ -238,10 +246,10 @@
   "KFINTECH|daily|up|5": 6.01,
   "MAHLOG|daily|up|5": 5.27,
   "MANKIND|daily|up|5": 5.31,
+  "NAVINFLUOR|daily|up|5": 5.06,
   "PARAS|daily|up|5": 5.31,
   "SONACOMS|daily|up|5": 5.81,
   "SUNTV|daily|up|5": 5.1,
-  "TATACONSUM|daily|up|5": 5.23,
   "URBANCO|daily|up|5": 5.46
  },
  "shared": [
@@ -262,7 +270,8 @@
   "IGIL",
   "CLEANMAX",
   "CYIENT",
-  "KFINTECH"
+  "KFINTECH",
+  "NAVINFLUOR"
  ],
  "warned_blind": false
 }
