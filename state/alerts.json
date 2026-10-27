@@ -185,6 +185,30 @@
    "level": 5.0,
    "symbol": "KFINTECH",
    "value": 6.01
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TATACONSUM",
+   "value": 5.23
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ERIS",
+   "value": 6.01
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PARAS",
+   "value": 5.4
   }
  ],
  "latched": {
@@ -192,13 +216,15 @@
   "ATHERENERG|daily|up|5": 5.91,
   "AVALON|daily|up|5": 5.26,
   "CLEANMAX|daily|up|5": 5.89,
-  "CYIENT|daily|down|5": 5.06,
   "DALBHARAT|daily|down|5": 6.86,
+  "ERIS|daily|up|5": 6.01,
   "KFINTECH|daily|up|5": 6.01,
   "MAHLOG|daily|up|5": 5.27,
   "MANKIND|daily|up|5": 5.31,
+  "PARAS|daily|up|5": 5.4,
   "SONACOMS|daily|up|5": 5.81,
   "SUNTV|daily|up|5": 5.1,
+  "TATACONSUM|daily|up|5": 5.23,
   "URBANCO|daily|up|5": 5.46
  },
  "shared": [
