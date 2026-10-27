@@ -1,275 +1,51 @@
 {
- "day": "2026-10-26",
- "digested": true,
+ "day": "2026-10-27",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
-   "direction": "down",
+   "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "AUBANK",
-   "value": -9.11
+   "symbol": "SONACOMS",
+   "value": 5.81
   },
   {
    "at": "09:20",
    "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MASTEK",
-   "value": -6.87
-  },
-  {
-   "at": "09:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MAHLOG",
-   "value": 5.12
-  },
-  {
-   "at": "09:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHRIRAMFIN",
-   "value": -5.2
-  },
-  {
-   "at": "09:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": -5.28
-  },
-  {
-   "at": "09:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHRIRAMFIN",
-   "value": -5.29
-  },
-  {
-   "at": "09:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CUB",
-   "value": -5.09
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TCIEXP",
-   "value": 7.16
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": 5.15
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEWGEN",
-   "value": 5.57
-  },
-  {
-   "at": "10:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": 5.04
-  },
-  {
-   "at": "10:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CUB",
-   "value": -5.28
-  },
-  {
-   "at": "11:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHRIRAMFIN",
-   "value": -5.2
-  },
-  {
-   "at": "11:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "FIVESTAR",
-   "value": -5.19
-  },
-  {
-   "at": "11:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MASTEK",
-   "value": -5.04
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "DRREDDY",
-   "value": 5.53
-  },
-  {
-   "at": "12:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SWIGGY",
-   "value": 5.26
-  },
-  {
-   "at": "12:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AVALON",
-   "value": 5.03
-  },
-  {
-   "at": "13:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEWGEN",
-   "value": 5.23
-  },
-  {
-   "at": "13:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PARAS",
-   "value": 6.12
-  },
-  {
-   "at": "13:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SANSERA",
-   "value": 5.04
-  },
-  {
-   "at": "13:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HORIZONIND",
-   "value": 5.56
-  },
-  {
-   "at": "13:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHRIRAMFIN",
-   "value": -5.06
-  },
-  {
-   "at": "14:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JLHL",
-   "value": 5.66
-  },
-  {
-   "at": "14:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ATHERENERG",
-   "value": 8.93
-  },
-  {
-   "at": "14:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEWGEN",
-   "value": 5.26
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
    "kind": "daily",
    "level": 5.0,
    "symbol": "CARBORUNIV",
-   "value": 13.23
+   "value": -5.08
   },
   {
-   "at": "15:20",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "MAHLOG",
-   "value": 5.17
+   "symbol": "MANKIND",
+   "value": 5.31
   },
   {
-   "at": "15:20",
-   "direction": "up",
+   "at": "09:20",
+   "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": 5.37
+   "symbol": "AEQUS",
+   "value": -16.91
   }
  ],
  "latched": {
-  "ATHERENERG|daily|up|5": 8.93,
-  "AUBANK|daily|down|5": 9.11,
-  "AVALON|daily|up|5": 5.03,
-  "BLUESTONE|daily|up|5": 5.37,
-  "CARBORUNIV|daily|up|5": 13.23,
-  "CUB|daily|down|5": 5.28,
-  "DRREDDY|daily|up|5": 5.53,
-  "FIVESTAR|daily|down|5": 5.19,
-  "HORIZONIND|daily|up|5": 5.56,
-  "MAHLOG|daily|up|5": 5.17,
-  "MASTEK|daily|down|5": 5.04,
-  "PARAS|daily|up|5": 6.12,
-  "SWIGGY|daily|up|5": 5.26
+  "AEQUS|daily|down|5": 16.91,
+  "CARBORUNIV|daily|down|5": 5.08,
+  "MANKIND|daily|up|5": 5.31,
+  "SONACOMS|daily|up|5": 5.81
  },
  "shared": [
-  "AUBANK",
-  "MASTEK",
-  "MAHLOG",
-  "SHRIRAMFIN",
-  "BLUESTONE",
-  "CUB",
-  "TCIEXP",
-  "BETA",
-  "NEWGEN",
-  "FIVESTAR",
-  "DRREDDY",
-  "SWIGGY",
-  "AVALON",
-  "PARAS",
-  "SANSERA",
-  "HORIZONIND",
-  "JLHL",
-  "ATHERENERG",
-  "CARBORUNIV"
+  "SONACOMS",
+  "CARBORUNIV",
+  "MANKIND",
+  "AEQUS"
  ],
  "warned_blind": false
 }
