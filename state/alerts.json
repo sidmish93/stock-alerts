@@ -353,6 +353,22 @@
    "level": 5.0,
    "symbol": "SOBHA",
    "value": 5.06
+  },
+  {
+   "at": "15:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "METROBRAND",
+   "value": 5.25
+  },
+  {
+   "at": "15:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICIL",
+   "value": 5.02
   }
  ],
  "latched": {
@@ -365,19 +381,18 @@
   "CYIENT|daily|down|5": 5.02,
   "DALBHARAT|daily|down|5": 6.86,
   "ERIS|daily|up|5": 6.01,
-  "KFINTECH|daily|up|5": 6.01,
+  "ICIL|daily|up|5": 5.02,
   "M&MFIN|daily|down|5": 5.26,
   "MAHLOG|daily|up|5": 5.27,
   "MANKIND|daily|up|5": 5.31,
   "MASTEK|daily|down|5": 5.18,
+  "METROBRAND|daily|up|5": 5.25,
   "NAVINFLUOR|daily|up|5": 6.53,
   "SBFC|daily|up|5": 6.53,
-  "SOBHA|daily|up|5": 5.06,
   "SONACOMS|daily|up|5": 5.81,
   "SUNTV|daily|up|5": 5.1,
   "TATACONSUM|daily|up|5": 5.01,
-  "URBANCO|daily|up|5": 5.46,
-  "WHIRLPOOL|daily|up|5": 5.29
+  "URBANCO|daily|up|5": 5.46
  },
  "shared": [
   "SONACOMS",
@@ -405,7 +420,8 @@
   "MASTEK",
   "SBFC",
   "BATAINDIA",
-  "SOBHA"
+  "SOBHA",
+  "METROBRAND"
  ],
  "warned_blind": false
 }
