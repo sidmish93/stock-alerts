@@ -33,19 +33,38 @@
    "level": 5.0,
    "symbol": "AEQUS",
    "value": -16.91
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TATACONSUM",
+   "value": 5.07
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PARAS",
+   "value": 5.41
   }
  ],
  "latched": {
   "AEQUS|daily|down|5": 16.91,
-  "CARBORUNIV|daily|down|5": 5.08,
   "MANKIND|daily|up|5": 5.31,
-  "SONACOMS|daily|up|5": 5.81
+  "PARAS|daily|up|5": 5.41,
+  "SONACOMS|daily|up|5": 5.81,
+  "TATACONSUM|daily|up|5": 5.07
  },
  "shared": [
   "SONACOMS",
   "CARBORUNIV",
   "MANKIND",
-  "AEQUS"
+  "AEQUS",
+  "TATACONSUM",
+  "PARAS"
  ],
  "warned_blind": false
 }
