@@ -313,13 +313,56 @@
    "level": 5.0,
    "symbol": "SBFC",
    "value": 5.11
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BATAINDIA",
+   "value": 6.49
+  },
+  {
+   "at": "15:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CYIENT",
+   "value": -5.02
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SBFC",
+   "value": 6.53
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AWFIS",
+   "value": 5.92
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SOBHA",
+   "value": 5.06
   }
  ],
  "latched": {
   "AEQUS|daily|down|5": 16.91,
   "ATHERENERG|daily|up|5": 5.91,
   "AVALON|daily|up|5": 5.26,
+  "AWFIS|daily|up|5": 5.92,
+  "BATAINDIA|daily|up|5": 6.49,
   "CLEANMAX|daily|up|5": 5.89,
+  "CYIENT|daily|down|5": 5.02,
   "DALBHARAT|daily|down|5": 6.86,
   "ERIS|daily|up|5": 6.01,
   "KFINTECH|daily|up|5": 6.01,
@@ -328,6 +371,8 @@
   "MANKIND|daily|up|5": 5.31,
   "MASTEK|daily|down|5": 5.18,
   "NAVINFLUOR|daily|up|5": 6.53,
+  "SBFC|daily|up|5": 6.53,
+  "SOBHA|daily|up|5": 5.06,
   "SONACOMS|daily|up|5": 5.81,
   "SUNTV|daily|up|5": 5.1,
   "TATACONSUM|daily|up|5": 5.01,
@@ -358,7 +403,9 @@
   "AWFIS",
   "M&MFIN",
   "MASTEK",
-  "SBFC"
+  "SBFC",
+  "BATAINDIA",
+  "SOBHA"
  ],
  "warned_blind": false
 }
