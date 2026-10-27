@@ -105,16 +105,31 @@
    "level": 5.0,
    "symbol": "URBANCO",
    "value": 5.05
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ERIS",
+   "value": 7.32
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "IGIL",
+   "value": 5.29
   }
  ],
  "latched": {
   "AEQUS|daily|down|5": 16.91,
   "ATHERENERG|daily|up|5": 5.91,
-  "DALBHARAT|daily|down|5": 5.11,
-  "ICIL|daily|up|5": 5.05,
+  "ERIS|daily|up|5": 7.32,
+  "IGIL|daily|up|5": 5.29,
   "MAHLOG|daily|up|5": 5.27,
   "MANKIND|daily|up|5": 5.31,
-  "PARAS|daily|up|5": 5.41,
   "SONACOMS|daily|up|5": 5.81,
   "SUNTV|daily|up|5": 5.1,
   "TATACONSUM|daily|up|5": 5.07,
@@ -133,7 +148,9 @@
   "ATHERENERG",
   "DALBHARAT",
   "ICIL",
-  "URBANCO"
+  "URBANCO",
+  "ERIS",
+  "IGIL"
  ],
  "warned_blind": false
 }
