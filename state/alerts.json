@@ -169,6 +169,22 @@
    "level": 5.0,
    "symbol": "CLEANMAX",
    "value": 5.89
+  },
+  {
+   "at": "11:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CYIENT",
+   "value": -5.06
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KFINTECH",
+   "value": 6.01
   }
  ],
  "latched": {
@@ -176,8 +192,9 @@
   "ATHERENERG|daily|up|5": 5.91,
   "AVALON|daily|up|5": 5.26,
   "CLEANMAX|daily|up|5": 5.89,
+  "CYIENT|daily|down|5": 5.06,
   "DALBHARAT|daily|down|5": 6.86,
-  "ERIS|daily|up|5": 7.32,
+  "KFINTECH|daily|up|5": 6.01,
   "MAHLOG|daily|up|5": 5.27,
   "MANKIND|daily|up|5": 5.31,
   "SONACOMS|daily|up|5": 5.81,
@@ -200,7 +217,9 @@
   "URBANCO",
   "ERIS",
   "IGIL",
-  "CLEANMAX"
+  "CLEANMAX",
+  "CYIENT",
+  "KFINTECH"
  ],
  "warned_blind": false
 }
