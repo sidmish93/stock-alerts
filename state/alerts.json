@@ -257,12 +257,21 @@
    "level": 5.0,
    "symbol": "TATACONSUM",
    "value": 5.01
+  },
+  {
+   "at": "12:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AWFIS",
+   "value": 5.02
   }
  ],
  "latched": {
   "AEQUS|daily|down|5": 16.91,
   "ATHERENERG|daily|up|5": 5.91,
   "AVALON|daily|up|5": 5.26,
+  "AWFIS|daily|up|5": 5.02,
   "CLEANMAX|daily|up|5": 5.89,
   "DALBHARAT|daily|down|5": 6.86,
   "ERIS|daily|up|5": 6.01,
@@ -274,8 +283,7 @@
   "SONACOMS|daily|up|5": 5.81,
   "SUNTV|daily|up|5": 5.1,
   "TATACONSUM|daily|up|5": 5.01,
-  "URBANCO|daily|up|5": 5.46,
-  "WHIRLPOOL|daily|up|5": 5.18
+  "URBANCO|daily|up|5": 5.46
  },
  "shared": [
   "SONACOMS",
@@ -297,7 +305,8 @@
   "CYIENT",
   "KFINTECH",
   "NAVINFLUOR",
-  "WHIRLPOOL"
+  "WHIRLPOOL",
+  "AWFIS"
  ],
  "warned_blind": false
 }
