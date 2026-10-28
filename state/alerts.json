@@ -201,16 +201,43 @@
    "level": 5.0,
    "symbol": "VOLTAS",
    "value": 5.93
+  },
+  {
+   "at": "12:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CUB",
+   "value": 6.53
+  },
+  {
+   "at": "12:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BETA",
+   "value": 6.56
+  },
+  {
+   "at": "12:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VIYASH",
+   "value": 5.34
   }
  ],
  "latched": {
+  "BETA|daily|up|5": 6.56,
   "CARTRADE|daily|down|5": 10.3,
+  "CUB|daily|up|5": 6.53,
   "KAYNES|daily|down|5": 5.02,
   "PPLPHARMA|daily|up|5": 7.51,
   "SBFC|daily|up|5": 5.22,
   "SYNGENE|daily|up|5": 5.61,
   "TIPSMUSIC|daily|up|5": 5.14,
   "UBL|daily|up|5": 8.86,
+  "VIYASH|daily|up|5": 5.34,
   "VOLTAS|daily|up|5": 5.93
  },
  "shared": [
@@ -229,7 +256,10 @@
   "INFY",
   "SBFC",
   "CARTRADE",
-  "VOLTAS"
+  "VOLTAS",
+  "CUB",
+  "BETA",
+  "VIYASH"
  ],
  "warned_blind": false
 }
