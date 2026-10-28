@@ -361,13 +361,39 @@
    "level": 5.0,
    "symbol": "BIOCON",
    "value": 5.02
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NATIONALUM",
+   "value": 5.06
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CHOLAFIN",
+   "value": 5.06
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VIYASH",
+   "value": 6.37
   }
  ],
  "latched": {
   "BLUESTARCO|daily|up|5": 5.31,
   "CARTRADE|daily|down|5": 10.3,
+  "CHOLAFIN|daily|up|5": 5.06,
   "KAYNES|daily|down|5": 5.26,
   "MASTEK|daily|down|5": 5.14,
+  "NATIONALUM|daily|up|5": 5.06,
   "PPLPHARMA|daily|up|5": 7.51,
   "SAIL|daily|down|5": 5.17,
   "SBFC|daily|up|5": 5.22,
@@ -375,6 +401,7 @@
   "SYNGENE|daily|up|5": 5.61,
   "TIPSMUSIC|daily|up|5": 5.14,
   "UBL|daily|up|5": 8.86,
+  "VIYASH|daily|up|5": 6.37,
   "VOLTAS|daily|up|5": 5.93,
   "ZEEL|daily|up|5": 5.31
  },
