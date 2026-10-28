@@ -249,13 +249,21 @@
    "level": 5.0,
    "symbol": "DEEPAKNTR",
    "value": 5.21
+  },
+  {
+   "at": "12:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "EXIDEIND",
+   "value": 5.06
   }
  ],
  "latched": {
   "BETA|daily|up|5": 6.56,
   "CARTRADE|daily|down|5": 10.3,
-  "CUB|daily|up|5": 6.53,
   "DEEPAKNTR|daily|up|5": 5.21,
+  "EXIDEIND|daily|up|5": 5.06,
   "KAYNES|daily|down|5": 5.02,
   "NATIONALUM|daily|up|5": 5.08,
   "PPLPHARMA|daily|up|5": 7.51,
