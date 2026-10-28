@@ -193,6 +193,14 @@
    "level": 5.0,
    "symbol": "TIPSMUSIC",
    "value": 5.14
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VOLTAS",
+   "value": 5.93
   }
  ],
  "latched": {
@@ -202,7 +210,8 @@
   "SBFC|daily|up|5": 5.22,
   "SYNGENE|daily|up|5": 5.61,
   "TIPSMUSIC|daily|up|5": 5.14,
-  "UBL|daily|up|5": 8.86
+  "UBL|daily|up|5": 8.86,
+  "VOLTAS|daily|up|5": 5.93
  },
  "shared": [
   "UBL",
@@ -219,7 +228,8 @@
   "TIPSMUSIC",
   "INFY",
   "SBFC",
-  "CARTRADE"
+  "CARTRADE",
+  "VOLTAS"
  ],
  "warned_blind": false
 }
