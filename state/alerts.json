@@ -137,16 +137,33 @@
    "level": 5.0,
    "symbol": "PINELABS",
    "value": 5.2
+  },
+  {
+   "at": "13:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": 5.09
+  },
+  {
+   "at": "13:41",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PINELABS",
+   "value": 5.23
   }
  ],
  "latched": {
   "ADANIPORTS|daily|up|5": 5.38,
-  "BLUESTONE|daily|down|5": 5.05,
   "ECLERX|daily|down|5": 9.19,
   "HEXT|daily|down|5": 5.18,
   "JSWENERGY|daily|up|5": 5.34,
   "MOLDTKPAC|daily|down|5": 5.21,
+  "PINELABS|daily|up|5": 5.23,
   "SYRMA|daily|up|5": 5.12,
+  "THELEELA|daily|up|5": 5.09,
   "VGUARD|daily|up|5": 7.99
  },
  "shared": [
