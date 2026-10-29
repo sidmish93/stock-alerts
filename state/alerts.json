@@ -201,14 +201,49 @@
    "level": 5.0,
    "symbol": "MANAPPURAM",
    "value": 5.59
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CUB",
+   "value": 5.27
+  },
+  {
+   "at": "14:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HEXT",
+   "value": -5.16
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARMANFIN",
+   "value": 5.37
+  },
+  {
+   "at": "14:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTONE",
+   "value": -5.39
   }
  ],
  "latched": {
   "ADANIPORTS|daily|up|5": 5.38,
+  "ARMANFIN|daily|up|5": 5.37,
+  "BLUESTONE|daily|down|5": 5.39,
   "CARTRADE|daily|down|5": 5.05,
+  "CUB|daily|up|5": 5.27,
   "ECLERX|daily|down|5": 9.19,
+  "HEXT|daily|down|5": 5.16,
   "JSWENERGY|daily|up|5": 5.34,
-  "MANAPPURAM|daily|up|5": 5.59,
   "SYRMA|daily|up|5": 5.12,
   "UNITDSPR|daily|up|5": 5.16
  },
@@ -233,7 +268,8 @@
   "UNITDSPR",
   "HOMEFIRST",
   "CARTRADE",
-  "MANAPPURAM"
+  "MANAPPURAM",
+  "ARMANFIN"
  ],
  "warned_blind": false
 }
