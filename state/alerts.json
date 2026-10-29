@@ -65,9 +65,18 @@
    "level": 5.0,
    "symbol": "SYRMA",
    "value": 5.12
+  },
+  {
+   "at": "10:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AARTIIND",
+   "value": 5.35
   }
  ],
  "latched": {
+  "AARTIIND|daily|up|5": 5.35,
   "BLUESTONE|daily|down|5": 5.05,
   "ECLERX|daily|down|5": 9.19,
   "SYRMA|daily|up|5": 5.12
@@ -79,7 +88,8 @@
   "HYUNDAI",
   "BLUESTONE",
   "CRAFTSMAN",
-  "SYRMA"
+  "SYRMA",
+  "AARTIIND"
  ],
  "warned_blind": false
 }
