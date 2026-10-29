@@ -105,12 +105,21 @@
    "level": 5.0,
    "symbol": "MOLDTKPAC",
    "value": -5.21
+  },
+  {
+   "at": "12:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HEXT",
+   "value": -5.18
   }
  ],
  "latched": {
   "ADANIPORTS|daily|up|5": 5.38,
   "BLUESTONE|daily|down|5": 5.05,
   "ECLERX|daily|down|5": 9.19,
+  "HEXT|daily|down|5": 5.18,
   "JSWENERGY|daily|up|5": 5.34,
   "MOLDTKPAC|daily|down|5": 5.21,
   "SYRMA|daily|up|5": 5.12
@@ -127,7 +136,8 @@
   "THELEELA",
   "JSWENERGY",
   "ADANIPORTS",
-  "MOLDTKPAC"
+  "MOLDTKPAC",
+  "HEXT"
  ],
  "warned_blind": false
 }
