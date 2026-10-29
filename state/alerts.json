@@ -25,16 +25,44 @@
    "level": 5.0,
    "symbol": "ECLERX",
    "value": -9.19
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HYUNDAI",
+   "value": 5.5
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CUB",
+   "value": 5.15
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTONE",
+   "value": -5.05
   }
  ],
  "latched": {
+  "BLUESTONE|daily|down|5": 5.05,
+  "CUB|daily|up|5": 5.15,
   "ECLERX|daily|down|5": 9.19,
-  "SUNDRMFAST|daily|down|5": 7.33
+  "HYUNDAI|daily|up|5": 5.5
  },
  "shared": [
   "SUNDRMFAST",
   "CUB",
-  "ECLERX"
+  "ECLERX",
+  "HYUNDAI",
+  "BLUESTONE"
  ],
  "warned_blind": false
 }
