@@ -241,6 +241,14 @@
    "level": 5.0,
    "symbol": "HOMEFIRST",
    "value": 5.19
+  },
+  {
+   "at": "15:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": 5.92
   }
  ],
  "latched": {
@@ -253,7 +261,7 @@
   "HOMEFIRST|daily|up|5": 5.19,
   "JSWENERGY|daily|up|5": 5.34,
   "SYRMA|daily|up|5": 5.12,
-  "UNITDSPR|daily|up|5": 5.16
+  "THELEELA|daily|up|5": 5.92
  },
  "shared": [
   "SUNDRMFAST",
