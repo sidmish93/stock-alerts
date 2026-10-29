@@ -89,9 +89,18 @@
    "level": 5.0,
    "symbol": "JSWENERGY",
    "value": 5.34
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ADANIPORTS",
+   "value": 5.38
   }
  ],
  "latched": {
+  "ADANIPORTS|daily|up|5": 5.38,
   "BLUESTONE|daily|down|5": 5.05,
   "ECLERX|daily|down|5": 9.19,
   "JSWENERGY|daily|up|5": 5.34,
@@ -107,7 +116,8 @@
   "SYRMA",
   "AARTIIND",
   "THELEELA",
-  "JSWENERGY"
+  "JSWENERGY",
+  "ADANIPORTS"
  ],
  "warned_blind": false
 }
