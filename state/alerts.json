@@ -249,19 +249,73 @@
    "level": 5.0,
    "symbol": "THELEELA",
    "value": 5.92
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GRINDWELL",
+   "value": 6.2
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VGUARD",
+   "value": 8.35
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CHOLAHLDNG",
+   "value": 5.05
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GRAVITA",
+   "value": 5.26
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ICIL",
+   "value": 5.27
+  },
+  {
+   "at": "15:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BETA",
+   "value": -6.96
   }
  ],
  "latched": {
   "ADANIPORTS|daily|up|5": 5.38,
+  "BETA|daily|down|5": 6.96,
   "BLUESTONE|daily|down|5": 5.39,
   "CARTRADE|daily|down|5": 5.05,
+  "CHOLAHLDNG|daily|up|5": 5.05,
   "CUB|daily|up|5": 5.27,
   "ECLERX|daily|down|5": 9.19,
+  "GRAVITA|daily|up|5": 5.26,
+  "GRINDWELL|daily|up|5": 6.2,
   "HEXT|daily|down|5": 5.16,
   "HOMEFIRST|daily|up|5": 5.19,
+  "ICIL|daily|up|5": 5.27,
   "JSWENERGY|daily|up|5": 5.34,
   "SYRMA|daily|up|5": 5.12,
-  "THELEELA|daily|up|5": 5.92
+  "THELEELA|daily|up|5": 5.92,
+  "VGUARD|daily|up|5": 8.35
  },
  "shared": [
   "SUNDRMFAST",
@@ -285,7 +339,11 @@
   "HOMEFIRST",
   "CARTRADE",
   "MANAPPURAM",
-  "ARMANFIN"
+  "ARMANFIN",
+  "GRINDWELL",
+  "CHOLAHLDNG",
+  "GRAVITA",
+  "ICIL"
  ],
  "warned_blind": false
 }
