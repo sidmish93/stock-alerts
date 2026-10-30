@@ -204,12 +204,10 @@
   "HORIZONIND|daily|down|5": 9.71,
   "LAURUSLABS|daily|up|5": 5.46,
   "PARADEEP|daily|down|5": 7.02,
-  "PARAS|daily|down|5": 5.04,
   "PNCINFRA|daily|down|5": 5.08,
   "REDINGTON|daily|down|5": 5.64,
   "SHADOWFAX|daily|down|5": 5.11,
-  "TRENT|daily|up|5": 5.41,
-  "ZYDUSLIFE|daily|up|5": 5.15
+  "TRENT|daily|up|5": 5.41
  },
  "shared": [
   "PARADEEP",
