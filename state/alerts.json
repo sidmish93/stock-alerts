@@ -161,10 +161,19 @@
    "level": 5.0,
    "symbol": "CAMS",
    "value": -5.06
+  },
+  {
+   "at": "12:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "COHANCE",
+   "value": -5.4
   }
  ],
  "latched": {
   "CAMS|daily|down|5": 5.06,
+  "COHANCE|daily|down|5": 5.4,
   "ECLERX|daily|down|5": 5.44,
   "HEXT|daily|down|5": 5.09,
   "HORIZONIND|daily|down|5": 9.71,
@@ -192,7 +201,8 @@
   "DALBHARAT",
   "AMBER",
   "SHADOWFAX",
-  "ZYDUSLIFE"
+  "ZYDUSLIFE",
+  "COHANCE"
  ],
  "warned_blind": false
 }
