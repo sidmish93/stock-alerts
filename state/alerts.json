@@ -204,7 +204,6 @@
   }
  ],
  "latched": {
-  "AGARWALEYE|daily|up|5": 5.02,
   "ATHERENERG|daily|up|5": 5.35,
   "CAMS|daily|down|5": 5.06,
   "COHANCE|daily|down|5": 5.4,
@@ -215,7 +214,6 @@
   "PARADEEP|daily|down|5": 7.02,
   "PNCINFRA|daily|down|5": 5.08,
   "REDINGTON|daily|down|5": 5.64,
-  "SHADOWFAX|daily|down|5": 5.11,
   "TRENT|daily|up|5": 5.41
  },
  "shared": [
