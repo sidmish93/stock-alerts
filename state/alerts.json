@@ -193,9 +193,18 @@
    "level": 5.0,
    "symbol": "SHADOWFAX",
    "value": -5.11
+  },
+  {
+   "at": "12:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AGARWALEYE",
+   "value": 5.02
   }
  ],
  "latched": {
+  "AGARWALEYE|daily|up|5": 5.02,
   "ATHERENERG|daily|up|5": 5.35,
   "CAMS|daily|down|5": 5.06,
   "COHANCE|daily|down|5": 5.4,
@@ -229,7 +238,8 @@
   "ZYDUSLIFE",
   "COHANCE",
   "ATHERENERG",
-  "LAURUSLABS"
+  "LAURUSLABS",
+  "AGARWALEYE"
  ],
  "warned_blind": false
 }
