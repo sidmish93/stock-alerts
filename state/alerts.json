@@ -233,6 +233,14 @@
    "level": 5.0,
    "symbol": "PSPPROJECT",
    "value": -5.39
+  },
+  {
+   "at": "13:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZEEL",
+   "value": -5.03
   }
  ],
  "latched": {
@@ -250,7 +258,8 @@
   "PNCINFRA|daily|down|5": 5.08,
   "PSPPROJECT|daily|down|5": 5.39,
   "REDINGTON|daily|down|5": 5.64,
-  "TRENT|daily|up|5": 5.41
+  "TRENT|daily|up|5": 5.41,
+  "ZEEL|daily|down|5": 5.03
  },
  "shared": [
   "PARADEEP",
@@ -275,7 +284,8 @@
   "LAURUSLABS",
   "AGARWALEYE",
   "INTELLECT",
-  "PSPPROJECT"
+  "PSPPROJECT",
+  "ZEEL"
  ],
  "warned_blind": false
 }
