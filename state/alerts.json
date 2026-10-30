@@ -281,6 +281,22 @@
    "level": 5.0,
    "symbol": "FUSION",
    "value": -5.07
+  },
+  {
+   "at": "14:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SWIGGY",
+   "value": -5.07
+  },
+  {
+   "at": "14:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHADOWFAX",
+   "value": -5.35
   }
  ],
  "latched": {
@@ -301,6 +317,8 @@
   "PNCINFRA|daily|down|5": 5.08,
   "PSPPROJECT|daily|down|5": 5.39,
   "REDINGTON|daily|down|5": 5.64,
+  "SHADOWFAX|daily|down|5": 5.35,
+  "SWIGGY|daily|down|5": 5.07,
   "TRENT|daily|up|5": 5.41,
   "ZEEL|daily|down|5": 5.03
  },
