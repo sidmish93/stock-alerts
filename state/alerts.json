@@ -121,10 +121,44 @@
    "level": 5.0,
    "symbol": "REDINGTON",
    "value": -5.64
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DALBHARAT",
+   "value": -5.77
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AMBER",
+   "value": -5.25
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHADOWFAX",
+   "value": -5.01
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZYDUSLIFE",
+   "value": 5.15
   }
  ],
  "latched": {
+  "AMBER|daily|down|5": 5.25,
   "CAMS|daily|down|5": 5.23,
+  "DALBHARAT|daily|down|5": 5.77,
   "ECLERX|daily|down|5": 5.44,
   "HEXT|daily|down|5": 5.09,
   "HORIZONIND|daily|down|5": 9.71,
@@ -132,7 +166,9 @@
   "PARAS|daily|down|5": 5.04,
   "PNCINFRA|daily|down|5": 5.08,
   "REDINGTON|daily|down|5": 5.64,
-  "TRENT|daily|up|5": 5.41
+  "SHADOWFAX|daily|down|5": 5.01,
+  "TRENT|daily|up|5": 5.41,
+  "ZYDUSLIFE|daily|up|5": 5.15
  },
  "shared": [
   "PARADEEP",
@@ -147,7 +183,11 @@
   "REDINGTON",
   "DEEPAKNTR",
   "SWIGGY",
-  "PARAS"
+  "PARAS",
+  "DALBHARAT",
+  "AMBER",
+  "SHADOWFAX",
+  "ZYDUSLIFE"
  ],
  "warned_blind": false
 }
