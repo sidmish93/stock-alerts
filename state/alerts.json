@@ -241,6 +241,30 @@
    "level": 5.0,
    "symbol": "ZEEL",
    "value": -5.03
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GODREJAGRO",
+   "value": -5.14
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PARAS",
+   "value": -5.38
+  },
+  {
+   "at": "13:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PINELABS",
+   "value": -5.01
   }
  ],
  "latched": {
@@ -250,11 +274,14 @@
   "CAMS|daily|down|5": 5.06,
   "COHANCE|daily|down|5": 5.4,
   "ECLERX|daily|down|5": 5.44,
+  "GODREJAGRO|daily|down|5": 5.14,
   "HEXT|daily|down|5": 5.09,
   "HORIZONIND|daily|down|5": 9.71,
   "INTELLECT|daily|down|5": 6.91,
   "LAURUSLABS|daily|up|5": 5.46,
   "PARADEEP|daily|down|5": 7.02,
+  "PARAS|daily|down|5": 5.38,
+  "PINELABS|daily|down|5": 5.01,
   "PNCINFRA|daily|down|5": 5.08,
   "PSPPROJECT|daily|down|5": 5.39,
   "REDINGTON|daily|down|5": 5.64,
@@ -285,7 +312,9 @@
   "AGARWALEYE",
   "INTELLECT",
   "PSPPROJECT",
-  "ZEEL"
+  "ZEEL",
+  "GODREJAGRO",
+  "PINELABS"
  ],
  "warned_blind": false
 }
