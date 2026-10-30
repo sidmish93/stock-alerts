@@ -1,22 +1,22 @@
 {
- "day": "2026-10-29",
- "digested": true,
+ "day": "2026-10-30",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "SUNDRMFAST",
-   "value": -7.33
+   "symbol": "PARADEEP",
+   "value": -7.02
   },
   {
    "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "CUB",
-   "value": 5.16
+   "symbol": "TRENT",
+   "value": 5.41
   },
   {
    "at": "09:20",
@@ -24,353 +24,28 @@
    "kind": "daily",
    "level": 5.0,
    "symbol": "ECLERX",
-   "value": -9.19
+   "value": -5.44
   },
   {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HYUNDAI",
-   "value": 5.5
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CUB",
-   "value": 5.15
-  },
-  {
-   "at": "09:50",
+   "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": -5.05
-  },
-  {
-   "at": "10:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CRAFTSMAN",
-   "value": -5.03
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SYRMA",
-   "value": 5.12
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AARTIIND",
-   "value": 5.35
-  },
-  {
-   "at": "11:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "THELEELA",
-   "value": 5.03
-  },
-  {
-   "at": "11:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JSWENERGY",
-   "value": 5.34
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ADANIPORTS",
-   "value": 5.38
-  },
-  {
-   "at": "12:29",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": -5.21
-  },
-  {
-   "at": "12:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HEXT",
-   "value": -5.18
-  },
-  {
-   "at": "13:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VOLTAMP",
-   "value": -6.31
-  },
-  {
-   "at": "13:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VGUARD",
-   "value": 7.99
-  },
-  {
-   "at": "13:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PINELABS",
-   "value": 5.2
-  },
-  {
-   "at": "13:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "THELEELA",
-   "value": 5.09
-  },
-  {
-   "at": "13:41",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PINELABS",
-   "value": 5.23
-  },
-  {
-   "at": "13:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": -5.07
-  },
-  {
-   "at": "14:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": -5.63
-  },
-  {
-   "at": "14:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "UNITDSPR",
-   "value": 5.16
-  },
-  {
-   "at": "14:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HOMEFIRST",
-   "value": 5.83
-  },
-  {
-   "at": "14:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARTRADE",
-   "value": -5.05
-  },
-  {
-   "at": "14:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MANAPPURAM",
-   "value": 5.59
-  },
-  {
-   "at": "14:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CUB",
-   "value": 5.27
-  },
-  {
-   "at": "14:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HEXT",
-   "value": -5.16
-  },
-  {
-   "at": "14:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARMANFIN",
-   "value": 5.37
-  },
-  {
-   "at": "14:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": -5.39
-  },
-  {
-   "at": "14:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HOMEFIRST",
-   "value": 5.19
-  },
-  {
-   "at": "15:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "THELEELA",
-   "value": 5.92
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GRINDWELL",
-   "value": 6.2
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VGUARD",
-   "value": 8.35
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CHOLAHLDNG",
-   "value": 5.05
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GRAVITA",
-   "value": 5.26
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ICIL",
-   "value": 5.27
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BETA",
-   "value": -6.96
-  },
-  {
-   "at": "15:15",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "UNITDSPR",
-   "value": 5.09
-  },
-  {
-   "at": "15:15",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ADANIENSOL",
-   "value": 5.1
-  },
-  {
-   "at": "15:15",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MANAPPURAM",
-   "value": 5.14
+   "symbol": "HORIZONIND",
+   "value": -9.71
   }
  ],
  "latched": {
-  "ADANIENSOL|daily|up|5": 5.1,
-  "ADANIPORTS|daily|up|5": 5.38,
-  "BETA|daily|down|5": 6.96,
-  "BLUESTONE|daily|down|5": 5.39,
-  "CARTRADE|daily|down|5": 5.05,
-  "CUB|daily|up|5": 5.27,
-  "ECLERX|daily|down|5": 9.19,
-  "GRAVITA|daily|up|5": 5.26,
-  "GRINDWELL|daily|up|5": 6.2,
-  "HEXT|daily|down|5": 5.16,
-  "HOMEFIRST|daily|up|5": 5.19,
-  "ICIL|daily|up|5": 5.27,
-  "JSWENERGY|daily|up|5": 5.34,
-  "MANAPPURAM|daily|up|5": 5.14,
-  "SYRMA|daily|up|5": 5.12,
-  "THELEELA|daily|up|5": 5.92,
-  "UNITDSPR|daily|up|5": 5.09,
-  "VGUARD|daily|up|5": 8.35
+  "ECLERX|daily|down|5": 5.44,
+  "HORIZONIND|daily|down|5": 9.71,
+  "PARADEEP|daily|down|5": 7.02,
+  "TRENT|daily|up|5": 5.41
  },
  "shared": [
-  "SUNDRMFAST",
-  "CUB",
+  "PARADEEP",
+  "TRENT",
   "ECLERX",
-  "HYUNDAI",
-  "BLUESTONE",
-  "CRAFTSMAN",
-  "SYRMA",
-  "AARTIIND",
-  "THELEELA",
-  "JSWENERGY",
-  "ADANIPORTS",
-  "MOLDTKPAC",
-  "HEXT",
-  "VOLTAMP",
-  "VGUARD",
-  "PINELABS",
-  "BETA",
-  "UNITDSPR",
-  "HOMEFIRST",
-  "CARTRADE",
-  "MANAPPURAM",
-  "ARMANFIN",
-  "GRINDWELL",
-  "CHOLAHLDNG",
-  "GRAVITA",
-  "ICIL",
-  "ADANIENSOL"
+  "HORIZONIND"
  ],
  "warned_blind": false
 }
