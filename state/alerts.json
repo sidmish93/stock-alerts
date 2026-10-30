@@ -297,16 +297,41 @@
    "level": 5.0,
    "symbol": "SHADOWFAX",
    "value": -5.35
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARBORUNIV",
+   "value": -5.08
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FIRSTCRY",
+   "value": -5.52
+  },
+  {
+   "at": "14:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": 5.27
   }
  ],
  "latched": {
   "AMBER|daily|down|5": 5.12,
   "ATHERENERG|daily|up|5": 5.35,
   "CAMS|daily|down|5": 5.06,
+  "CARBORUNIV|daily|down|5": 5.08,
   "COHANCE|daily|down|5": 5.4,
   "CUB|daily|down|5": 5.09,
   "ECLERX|daily|down|5": 5.44,
-  "GODREJAGRO|daily|down|5": 5.14,
+  "FIRSTCRY|daily|down|5": 5.52,
   "HEXT|daily|down|5": 5.09,
   "HORIZONIND|daily|down|5": 9.71,
   "INTELLECT|daily|down|5": 6.91,
@@ -320,6 +345,7 @@
   "SHADOWFAX|daily|down|5": 5.35,
   "SWIGGY|daily|down|5": 5.07,
   "TRENT|daily|up|5": 5.41,
+  "WELSPUNLIV|daily|up|5": 5.27,
   "ZEEL|daily|down|5": 5.03
  },
  "shared": [
@@ -350,7 +376,10 @@
   "GODREJAGRO",
   "PINELABS",
   "CUB",
-  "FUSION"
+  "FUSION",
+  "CARBORUNIV",
+  "FIRSTCRY",
+  "WELSPUNLIV"
  ],
  "warned_blind": false
 }
