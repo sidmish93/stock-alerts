@@ -409,6 +409,14 @@
    "level": 5.0,
    "symbol": "CARBORUNIV",
    "value": 5.02
+  },
+  {
+   "at": "14:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KNRCON",
+   "value": 5.05
   }
  ],
  "latched": {
@@ -422,6 +430,7 @@
   "IEX|daily|up|5": 6.3,
   "INTELLECT|daily|up|5": 6.52,
   "KEC|daily|up|5": 5.35,
+  "KNRCON|daily|up|5": 5.05,
   "MOLDTKPAC|daily|up|5": 5.61,
   "NH|daily|up|5": 5.05,
   "POLICYBZR|daily|down|5": 5.65,
@@ -469,7 +478,8 @@
   "SKFINDUS",
   "MOLDTKPAC",
   "TRITURBINE",
-  "TATASTEEL"
+  "TATASTEEL",
+  "KNRCON"
  ],
  "warned_blind": false
 }
