@@ -417,6 +417,14 @@
    "level": 5.0,
    "symbol": "KNRCON",
    "value": 5.05
+  },
+  {
+   "at": "14:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ESCORTS",
+   "value": -5.6
   }
  ],
  "latched": {
@@ -425,6 +433,7 @@
   "CLEAN|daily|down|5": 5.95,
   "DELHIVERY|daily|up|5": 6.48,
   "DIXON|daily|up|5": 5.75,
+  "ESCORTS|daily|down|5": 5.6,
   "EUREKAFORB|daily|up|5": 5.35,
   "GOKEX|daily|up|5": 5.78,
   "IEX|daily|up|5": 6.3,
@@ -439,7 +448,6 @@
   "TATASTEEL|daily|up|5": 5.07,
   "THELEELA|daily|up|5": 6.1,
   "TIMKEN|daily|up|5": 5.82,
-  "TRITURBINE|daily|up|5": 5.31,
   "VRLLOG|daily|up|5": 5.81,
   "WELSPUNLIV|daily|up|5": 5.14,
   "ZEEL|daily|down|5": 5.11
@@ -478,7 +486,8 @@
   "MOLDTKPAC",
   "TRITURBINE",
   "TATASTEEL",
-  "KNRCON"
+  "KNRCON",
+  "ESCORTS"
  ],
  "warned_blind": false
 }
