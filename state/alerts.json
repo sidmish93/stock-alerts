@@ -425,6 +425,30 @@
    "level": 5.0,
    "symbol": "ESCORTS",
    "value": -5.6
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SKFINDUS",
+   "value": 5.13
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GRINDWELL",
+   "value": 5.17
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JSWSTEEL",
+   "value": 5.06
   }
  ],
  "latched": {
@@ -436,14 +460,16 @@
   "ESCORTS|daily|down|5": 5.6,
   "EUREKAFORB|daily|up|5": 5.35,
   "GOKEX|daily|up|5": 5.78,
+  "GRINDWELL|daily|up|5": 5.17,
   "IEX|daily|up|5": 6.3,
-  "INTELLECT|daily|up|5": 6.52,
+  "JSWSTEEL|daily|up|5": 5.06,
   "KEC|daily|up|5": 5.35,
   "MOLDTKPAC|daily|up|5": 5.61,
   "NH|daily|up|5": 5.05,
   "POLICYBZR|daily|down|5": 5.65,
   "PSPPROJECT|daily|up|5": 6.53,
   "RELIANCE|daily|up|5": 5.67,
+  "SKFINDUS|daily|up|5": 5.13,
   "SYRMA|daily|down|5": 5.57,
   "TATASTEEL|daily|up|5": 5.07,
   "THELEELA|daily|up|5": 6.1,
@@ -487,7 +513,9 @@
   "TRITURBINE",
   "TATASTEEL",
   "KNRCON",
-  "ESCORTS"
+  "ESCORTS",
+  "GRINDWELL",
+  "JSWSTEEL"
  ],
  "warned_blind": false
 }
