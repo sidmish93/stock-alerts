@@ -377,6 +377,22 @@
    "level": 5.0,
    "symbol": "CARTRADE",
    "value": 5.18
+  },
+  {
+   "at": "13:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TRITURBINE",
+   "value": 5.31
+  },
+  {
+   "at": "13:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TATASTEEL",
+   "value": 5.07
   }
  ],
  "latched": {
@@ -397,11 +413,12 @@
   "POLICYBZR|daily|down|5": 5.65,
   "PSPPROJECT|daily|up|5": 6.53,
   "RELIANCE|daily|up|5": 5.67,
-  "SHRIRAMFIN|daily|up|5": 5.16,
   "SKFINDUS|daily|up|5": 5.21,
   "SYRMA|daily|down|5": 5.57,
+  "TATASTEEL|daily|up|5": 5.07,
   "THELEELA|daily|up|5": 6.1,
   "TIMKEN|daily|up|5": 5.82,
+  "TRITURBINE|daily|up|5": 5.31,
   "VRLLOG|daily|up|5": 5.81,
   "WELSPUNLIV|daily|up|5": 5.14,
   "ZEEL|daily|down|5": 5.11
@@ -437,7 +454,9 @@
   "TIMKEN",
   "GOKEX",
   "SKFINDUS",
-  "MOLDTKPAC"
+  "MOLDTKPAC",
+  "TRITURBINE",
+  "TATASTEEL"
  ],
  "warned_blind": false
 }
