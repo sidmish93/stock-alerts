@@ -97,12 +97,21 @@
    "level": 5.0,
    "symbol": "APTUS",
    "value": 5.29
+  },
+  {
+   "at": "09:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DIXON",
+   "value": 5.75
   }
  ],
  "latched": {
   "APTUS|daily|up|5": 5.29,
   "CLEAN|daily|down|5": 5.95,
   "DELHIVERY|daily|up|5": 6.48,
+  "DIXON|daily|up|5": 5.75,
   "IGL|daily|down|5": 8.6,
   "PSPPROJECT|daily|up|5": 5.72,
   "RELIANCE|daily|up|5": 5.67,
@@ -121,7 +130,8 @@
   "AARTIIND",
   "CARTRADE",
   "VRLLOG",
-  "APTUS"
+  "APTUS",
+  "DIXON"
  ],
  "warned_blind": false
 }
