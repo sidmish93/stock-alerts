@@ -177,16 +177,33 @@
    "level": 5.0,
    "symbol": "NH",
    "value": 5.05
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CARBORUNIV",
+   "value": 5.03
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AMBER",
+   "value": 5.34
   }
  ],
  "latched": {
   "AFFLE|daily|up|5": 6.66,
+  "AMBER|daily|up|5": 5.34,
   "APTUS|daily|up|5": 5.29,
+  "CARBORUNIV|daily|up|5": 5.03,
   "CARTRADE|daily|up|5": 5.09,
   "CLEAN|daily|down|5": 5.95,
   "DELHIVERY|daily|up|5": 6.48,
   "DIXON|daily|up|5": 5.75,
-  "EUREKAFORB|daily|up|5": 5.53,
   "IEX|daily|up|5": 6.3,
   "INTELLECT|daily|up|5": 6.52,
   "KEC|daily|up|5": 5.35,
@@ -215,7 +232,9 @@
   "EUREKAFORB",
   "KEC",
   "NH",
-  "AFFLE"
+  "AFFLE",
+  "CARBORUNIV",
+  "AMBER"
  ],
  "warned_blind": false
 }
