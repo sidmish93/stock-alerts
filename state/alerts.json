@@ -265,6 +265,30 @@
    "level": 5.0,
    "symbol": "CARTRADE",
    "value": 5.03
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": 5.2
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHRIRAMFIN",
+   "value": 5.16
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GAIL",
+   "value": 5.26
   }
  ],
  "latched": {
@@ -276,14 +300,16 @@
   "DELHIVERY|daily|up|5": 6.48,
   "DIXON|daily|up|5": 5.75,
   "EUREKAFORB|daily|up|5": 5.35,
+  "GAIL|daily|up|5": 5.26,
   "IEX|daily|up|5": 6.3,
-  "IGL|daily|down|5": 5.91,
   "INTELLECT|daily|up|5": 6.52,
   "KEC|daily|up|5": 5.35,
   "NH|daily|up|5": 5.05,
   "POLICYBZR|daily|down|5": 5.65,
   "PSPPROJECT|daily|up|5": 6.53,
   "RELIANCE|daily|up|5": 5.67,
+  "SHRIRAMFIN|daily|up|5": 5.16,
+  "THELEELA|daily|up|5": 5.2,
   "VRLLOG|daily|up|5": 5.81,
   "ZEEL|daily|down|5": 5.11
  },
@@ -311,7 +337,10 @@
   "AMBER",
   "POLICYBZR",
   "TCIEXP",
-  "ZEEL"
+  "ZEEL",
+  "THELEELA",
+  "SHRIRAMFIN",
+  "GAIL"
  ],
  "warned_blind": false
 }
