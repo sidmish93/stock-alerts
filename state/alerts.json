@@ -465,6 +465,22 @@
    "level": 5.0,
    "symbol": "IGL",
    "value": -5.02
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INTELLECT",
+   "value": 5.37
+  },
+  {
+   "at": "15:11",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": 5.31
   }
  ],
  "latched": {
@@ -478,11 +494,11 @@
   "GOKEX|daily|up|5": 5.78,
   "GRINDWELL|daily|up|5": 5.17,
   "IEX|daily|up|5": 6.3,
-  "IGL|daily|down|5": 5.02,
-  "JSWSTEEL|daily|up|5": 5.06,
+  "INTELLECT|daily|up|5": 5.37,
   "KEC|daily|up|5": 5.35,
   "MOLDTKPAC|daily|up|5": 5.61,
   "NH|daily|up|5": 5.05,
+  "PGIL|daily|up|5": 5.31,
   "POLICYBZR|daily|down|5": 5.65,
   "PSPPROJECT|daily|up|5": 6.53,
   "RELIANCE|daily|up|5": 5.67,
@@ -493,8 +509,7 @@
   "TIMKEN|daily|up|5": 5.82,
   "VRLLOG|daily|up|5": 5.81,
   "WELSPUNLIV|daily|up|5": 5.14,
-  "ZEEL|daily|down|5": 5.11,
-  "ZYDUSWELL|daily|up|5": 5.02
+  "ZEEL|daily|down|5": 5.11
  },
  "shared": [
   "TI",
@@ -534,7 +549,8 @@
   "ESCORTS",
   "GRINDWELL",
   "JSWSTEEL",
-  "ZYDUSWELL"
+  "ZYDUSWELL",
+  "PGIL"
  ],
  "warned_blind": false
 }
