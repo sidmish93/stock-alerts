@@ -337,13 +337,20 @@
    "level": 5.0,
    "symbol": "CARBORUNIV",
    "value": 5.35
+  },
+  {
+   "at": "12:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SYRMA",
+   "value": -5.57
   }
  ],
  "latched": {
   "AFFLE|daily|up|5": 6.66,
   "AMBER|daily|up|5": 5.34,
   "CARBORUNIV|daily|up|5": 5.35,
-  "CARTRADE|daily|up|5": 5.03,
   "CLEAN|daily|down|5": 5.95,
   "DELHIVERY|daily|up|5": 6.48,
   "DIXON|daily|up|5": 5.75,
@@ -351,7 +358,6 @@
   "GAIL|daily|up|5": 5.26,
   "GOKEX|daily|up|5": 5.78,
   "IEX|daily|up|5": 6.3,
-  "IGL|daily|down|5": 5.01,
   "INTELLECT|daily|up|5": 6.52,
   "KEC|daily|up|5": 5.35,
   "NH|daily|up|5": 5.05,
@@ -359,6 +365,7 @@
   "PSPPROJECT|daily|up|5": 6.53,
   "RELIANCE|daily|up|5": 5.67,
   "SHRIRAMFIN|daily|up|5": 5.16,
+  "SYRMA|daily|down|5": 5.57,
   "THELEELA|daily|up|5": 6.05,
   "TIMKEN|daily|up|5": 5.82,
   "VRLLOG|daily|up|5": 5.81,
