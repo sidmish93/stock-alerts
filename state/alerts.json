@@ -449,6 +449,22 @@
    "level": 5.0,
    "symbol": "JSWSTEEL",
    "value": 5.06
+  },
+  {
+   "at": "15:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZYDUSWELL",
+   "value": 5.02
+  },
+  {
+   "at": "15:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "IGL",
+   "value": -5.02
   }
  ],
  "latched": {
@@ -462,6 +478,7 @@
   "GOKEX|daily|up|5": 5.78,
   "GRINDWELL|daily|up|5": 5.17,
   "IEX|daily|up|5": 6.3,
+  "IGL|daily|down|5": 5.02,
   "JSWSTEEL|daily|up|5": 5.06,
   "KEC|daily|up|5": 5.35,
   "MOLDTKPAC|daily|up|5": 5.61,
@@ -476,7 +493,8 @@
   "TIMKEN|daily|up|5": 5.82,
   "VRLLOG|daily|up|5": 5.81,
   "WELSPUNLIV|daily|up|5": 5.14,
-  "ZEEL|daily|down|5": 5.11
+  "ZEEL|daily|down|5": 5.11,
+  "ZYDUSWELL|daily|up|5": 5.02
  },
  "shared": [
   "TI",
@@ -515,7 +533,8 @@
   "KNRCON",
   "ESCORTS",
   "GRINDWELL",
-  "JSWSTEEL"
+  "JSWSTEEL",
+  "ZYDUSWELL"
  ],
  "warned_blind": false
 }
