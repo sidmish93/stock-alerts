@@ -289,6 +289,38 @@
    "level": 5.0,
    "symbol": "GAIL",
    "value": 5.26
+  },
+  {
+   "at": "12:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TIMKEN",
+   "value": 5.82
+  },
+  {
+   "at": "12:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": 6.05
+  },
+  {
+   "at": "12:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GOKEX",
+   "value": 5.78
+  },
+  {
+   "at": "12:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": 5.14
   }
  ],
  "latched": {
@@ -301,6 +333,7 @@
   "DIXON|daily|up|5": 5.75,
   "EUREKAFORB|daily|up|5": 5.35,
   "GAIL|daily|up|5": 5.26,
+  "GOKEX|daily|up|5": 5.78,
   "IEX|daily|up|5": 6.3,
   "INTELLECT|daily|up|5": 6.52,
   "KEC|daily|up|5": 5.35,
@@ -309,7 +342,10 @@
   "PSPPROJECT|daily|up|5": 6.53,
   "RELIANCE|daily|up|5": 5.67,
   "SHRIRAMFIN|daily|up|5": 5.16,
+  "THELEELA|daily|up|5": 6.05,
+  "TIMKEN|daily|up|5": 5.82,
   "VRLLOG|daily|up|5": 5.81,
+  "WELSPUNLIV|daily|up|5": 5.14,
   "ZEEL|daily|down|5": 5.11
  },
  "shared": [
@@ -339,7 +375,9 @@
   "ZEEL",
   "THELEELA",
   "SHRIRAMFIN",
-  "GAIL"
+  "GAIL",
+  "TIMKEN",
+  "GOKEX"
  ],
  "warned_blind": false
 }
