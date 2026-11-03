@@ -217,6 +217,22 @@
    "level": 5.0,
    "symbol": "ZYDUSWELL",
    "value": 8.48
+  },
+  {
+   "at": "12:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MCX",
+   "value": 5.48
+  },
+  {
+   "at": "12:47",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GANECOS",
+   "value": -5.14
   }
  ],
  "latched": {
@@ -226,8 +242,10 @@
   "CDSL|daily|up|5": 5.06,
   "FLUOROCHEM|daily|up|5": 5.4,
   "FUSION|daily|up|5": 6.98,
+  "GANECOS|daily|down|5": 5.14,
   "KEC|daily|down|5": 5.32,
   "MARICO|daily|up|5": 5.82,
+  "MCX|daily|up|5": 5.48,
   "MOLDTKPAC|daily|up|5": 5.97,
   "NEOGEN|daily|up|5": 5.48,
   "VRLLOG|daily|up|5": 12.36,
@@ -253,7 +271,8 @@
   "ARMANFIN",
   "FLUOROCHEM",
   "KOLTEPATIL",
-  "ZYDUSWELL"
+  "ZYDUSWELL",
+  "MCX"
  ],
  "warned_blind": false
 }
