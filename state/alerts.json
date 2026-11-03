@@ -193,6 +193,22 @@
    "level": 5.0,
    "symbol": "KOLTEPATIL",
    "value": -5.1
+  },
+  {
+   "at": "12:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NEOGEN",
+   "value": 5.48
+  },
+  {
+   "at": "12:30",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KOLTEPATIL",
+   "value": -5.01
   }
  ],
  "latched": {
@@ -202,10 +218,11 @@
   "CDSL|daily|up|5": 5.06,
   "FLUOROCHEM|daily|up|5": 5.4,
   "FUSION|daily|up|5": 6.98,
-  "GANECOS|daily|down|5": 5.58,
   "KEC|daily|down|5": 5.32,
+  "KOLTEPATIL|daily|down|5": 5.01,
   "MARICO|daily|up|5": 5.82,
   "MOLDTKPAC|daily|up|5": 5.97,
+  "NEOGEN|daily|up|5": 5.48,
   "VRLLOG|daily|up|5": 12.36
  },
  "shared": [
