@@ -153,10 +153,27 @@
    "level": 5.0,
    "symbol": "GANECOS",
    "value": -5.58
+  },
+  {
+   "at": "11:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLDTKPAC",
+   "value": 5.97
+  },
+  {
+   "at": "11:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AYE",
+   "value": 5.31
   }
  ],
  "latched": {
   "ANGELONE|daily|up|5": 6.28,
+  "AYE|daily|up|5": 5.31,
   "CAMS|daily|up|5": 5.29,
   "CARTRADE|daily|up|5": 5.35,
   "CDSL|daily|up|5": 5.06,
@@ -164,6 +181,7 @@
   "GANECOS|daily|down|5": 5.58,
   "KEC|daily|down|5": 5.32,
   "MARICO|daily|up|5": 5.82,
+  "MOLDTKPAC|daily|up|5": 5.97,
   "VRLLOG|daily|up|5": 12.36
  },
  "shared": [
@@ -181,7 +199,8 @@
   "NEOGEN",
   "CAMS",
   "CARTRADE",
-  "GANECOS"
+  "GANECOS",
+  "AYE"
  ],
  "warned_blind": false
 }
