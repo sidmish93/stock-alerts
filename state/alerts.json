@@ -113,6 +113,22 @@
    "level": 5.0,
    "symbol": "AZAD",
    "value": 5.14
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLDTKPAC",
+   "value": 5.01
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NEOGEN",
+   "value": 5.3
   }
  ],
  "latched": {
@@ -122,6 +138,8 @@
   "FUSION|daily|up|5": 6.98,
   "KEC|daily|down|5": 5.32,
   "MARICO|daily|up|5": 5.82,
+  "MOLDTKPAC|daily|up|5": 5.01,
+  "NEOGEN|daily|up|5": 5.3,
   "VRLLOG|daily|up|5": 12.36
  },
  "shared": [
@@ -135,7 +153,8 @@
   "360ONE",
   "ANGELONE",
   "CDSL",
-  "AZAD"
+  "AZAD",
+  "NEOGEN"
  ],
  "warned_blind": false
 }
