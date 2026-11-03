@@ -169,10 +169,19 @@
    "level": 5.0,
    "symbol": "AYE",
    "value": 5.31
+  },
+  {
+   "at": "12:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARMANFIN",
+   "value": 5.18
   }
  ],
  "latched": {
   "ANGELONE|daily|up|5": 6.28,
+  "ARMANFIN|daily|up|5": 5.18,
   "AYE|daily|up|5": 5.31,
   "CAMS|daily|up|5": 5.29,
   "CARTRADE|daily|up|5": 5.35,
@@ -200,7 +209,8 @@
   "CAMS",
   "CARTRADE",
   "GANECOS",
-  "AYE"
+  "AYE",
+  "ARMANFIN"
  ],
  "warned_blind": false
 }
