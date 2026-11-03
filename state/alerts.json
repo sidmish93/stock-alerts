@@ -257,12 +257,30 @@
    "level": 5.0,
    "symbol": "360ONE",
    "value": 5.04
+  },
+  {
+   "at": "13:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BRITANNIA",
+   "value": 5.1
+  },
+  {
+   "at": "13:39",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARMANFIN",
+   "value": 5.07
   }
  ],
  "latched": {
   "360ONE|daily|up|5": 5.04,
   "AIAENG|daily|down|5": 5.75,
   "ANGELONE|daily|up|5": 6.28,
+  "ARMANFIN|daily|up|5": 5.07,
+  "BRITANNIA|daily|up|5": 5.1,
   "CARTRADE|daily|up|5": 5.35,
   "CDSL|daily|up|5": 5.06,
   "FLUOROCHEM|daily|up|5": 5.4,
@@ -297,7 +315,8 @@
   "ZYDUSWELL",
   "MCX",
   "AIAENG",
-  "WELSPUNLIV"
+  "WELSPUNLIV",
+  "BRITANNIA"
  ],
  "warned_blind": false
 }
