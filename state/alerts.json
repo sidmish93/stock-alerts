@@ -60,12 +60,10 @@
   }
  ],
  "latched": {
-  "AARTIIND|daily|up|5": 5.4,
   "CARBORUNIV|daily|up|5": 5.47,
   "FUSION|daily|up|5": 6.98,
   "KEC|daily|down|5": 5.32,
   "MARICO|daily|up|5": 5.82,
-  "MOLDTKPAC|daily|up|5": 7.01,
   "VRLLOG|daily|up|5": 12.36
  },
  "shared": [
