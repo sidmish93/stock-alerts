@@ -145,6 +145,14 @@
    "level": 5.0,
    "symbol": "CARTRADE",
    "value": 5.35
+  },
+  {
+   "at": "11:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GANECOS",
+   "value": -5.58
   }
  ],
  "latched": {
@@ -153,9 +161,9 @@
   "CARTRADE|daily|up|5": 5.35,
   "CDSL|daily|up|5": 5.06,
   "FUSION|daily|up|5": 6.98,
+  "GANECOS|daily|down|5": 5.58,
   "KEC|daily|down|5": 5.32,
   "MARICO|daily|up|5": 5.82,
-  "NEOGEN|daily|up|5": 5.3,
   "VRLLOG|daily|up|5": 12.36
  },
  "shared": [
@@ -172,7 +180,8 @@
   "AZAD",
   "NEOGEN",
   "CAMS",
-  "CARTRADE"
+  "CARTRADE",
+  "GANECOS"
  ],
  "warned_blind": false
 }
