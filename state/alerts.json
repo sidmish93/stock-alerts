@@ -249,9 +249,18 @@
    "level": 5.0,
    "symbol": "WELSPUNLIV",
    "value": 5.05
+  },
+  {
+   "at": "13:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "360ONE",
+   "value": 5.04
   }
  ],
  "latched": {
+  "360ONE|daily|up|5": 5.04,
   "AIAENG|daily|down|5": 5.75,
   "ANGELONE|daily|up|5": 6.28,
   "CARTRADE|daily|up|5": 5.35,
@@ -263,8 +272,7 @@
   "MARICO|daily|up|5": 5.82,
   "MCX|daily|up|5": 5.48,
   "MOLDTKPAC|daily|up|5": 5.97,
-  "VRLLOG|daily|up|5": 12.36,
-  "WELSPUNLIV|daily|up|5": 5.05
+  "VRLLOG|daily|up|5": 12.36
  },
  "shared": [
   "MARICO",
