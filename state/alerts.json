@@ -150,12 +150,9 @@
  "latched": {
   "AWFIS|daily|up|5": 10.26,
   "FRACTAL|daily|up|5": 6.58,
-  "KFINTECH|daily|up|5": 5.04,
   "KOLTEPATIL|daily|up|5": 5.16,
   "MCX|daily|down|5": 5.58,
-  "MEDANTA|daily|up|5": 6.18,
-  "RSYSTEMS|daily|up|5": 7.29,
-  "SKFINDIA|daily|down|5": 5.07
+  "RSYSTEMS|daily|up|5": 7.29
  },
  "shared": [
   "SEDEMAC",
