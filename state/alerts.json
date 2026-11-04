@@ -1,345 +1,71 @@
 {
- "day": "2026-11-03",
- "digested": true,
+ "day": "2026-11-04",
+ "digested": false,
  "fired": [
   {
    "at": "09:20",
-   "direction": "up",
+   "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "MARICO",
-   "value": 5.82
+   "symbol": "SEDEMAC",
+   "value": -6.31
   },
   {
    "at": "09:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VRLLOG",
-   "value": 12.36
-  },
-  {
-   "at": "09:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": 7.01
-  },
-  {
-   "at": "09:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "FUSION",
-   "value": 6.98
-  },
-  {
-   "at": "09:31",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
    "symbol": "KEC",
-   "value": -5.32
+   "value": -5.17
   },
   {
-   "at": "09:31",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "AARTIIND",
-   "value": 5.4
+   "symbol": "FRACTAL",
+   "value": 6.58
   },
   {
-   "at": "09:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARBORUNIV",
-   "value": 5.47
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "360ONE",
-   "value": 5.12
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ANGELONE",
-   "value": 5.24
-  },
-  {
-   "at": "10:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": 5.33
-  },
-  {
-   "at": "10:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CDSL",
-   "value": 5.06
-  },
-  {
-   "at": "10:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ANGELONE",
-   "value": 6.28
-  },
-  {
-   "at": "10:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": 5.64
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AZAD",
-   "value": 5.14
-  },
-  {
-   "at": "11:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": 5.01
-  },
-  {
-   "at": "11:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEOGEN",
-   "value": 5.3
-  },
-  {
-   "at": "11:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CAMS",
-   "value": 5.29
-  },
-  {
-   "at": "11:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CARTRADE",
-   "value": 5.35
-  },
-  {
-   "at": "11:40",
+   "at": "09:20",
    "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GANECOS",
-   "value": -5.58
-  },
-  {
-   "at": "11:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLDTKPAC",
-   "value": 5.97
-  },
-  {
-   "at": "11:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AYE",
-   "value": 5.31
-  },
-  {
-   "at": "12:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARMANFIN",
-   "value": 5.18
-  },
-  {
-   "at": "12:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "FLUOROCHEM",
-   "value": 5.4
-  },
-  {
-   "at": "12:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KOLTEPATIL",
-   "value": -5.1
-  },
-  {
-   "at": "12:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEOGEN",
-   "value": 5.48
-  },
-  {
-   "at": "12:30",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KOLTEPATIL",
-   "value": -5.01
-  },
-  {
-   "at": "12:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ZYDUSWELL",
-   "value": 8.48
-  },
-  {
-   "at": "12:50",
-   "direction": "up",
    "kind": "daily",
    "level": 5.0,
    "symbol": "MCX",
-   "value": 5.48
+   "value": -5.4
   },
   {
-   "at": "12:47",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GANECOS",
-   "value": -5.14
-  },
-  {
-   "at": "13:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AIAENG",
-   "value": -5.75
-  },
-  {
-   "at": "13:20",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "WELSPUNLIV",
-   "value": 5.05
+   "symbol": "AWFIS",
+   "value": 10.26
   },
   {
-   "at": "13:31",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "360ONE",
-   "value": 5.04
-  },
-  {
-   "at": "13:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BRITANNIA",
-   "value": 5.1
-  },
-  {
-   "at": "13:39",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARMANFIN",
-   "value": 5.07
-  },
-  {
-   "at": "14:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WELSPUNLIV",
-   "value": 5.1
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VRLLOG",
-   "value": 5.79
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AFFLE",
-   "value": 5.34
+   "symbol": "RSYSTEMS",
+   "value": 7.29
   }
  ],
  "latched": {
-  "360ONE|daily|up|5": 5.04,
-  "AIAENG|daily|down|5": 5.75,
-  "ANGELONE|daily|up|5": 6.28,
-  "BRITANNIA|daily|up|5": 5.1,
-  "CARTRADE|daily|up|5": 5.35,
-  "CDSL|daily|up|5": 5.06,
-  "FUSION|daily|up|5": 6.98,
-  "GANECOS|daily|down|5": 5.14,
-  "KEC|daily|down|5": 5.32,
-  "MARICO|daily|up|5": 5.82,
-  "MCX|daily|up|5": 5.48,
-  "MOLDTKPAC|daily|up|5": 5.97,
-  "VRLLOG|daily|up|5": 5.79
+  "AWFIS|daily|up|5": 10.26,
+  "FRACTAL|daily|up|5": 6.58,
+  "KEC|daily|down|5": 5.17,
+  "MCX|daily|down|5": 5.4,
+  "RSYSTEMS|daily|up|5": 7.29,
+  "SEDEMAC|daily|down|5": 6.31
  },
  "shared": [
-  "MARICO",
-  "VRLLOG",
-  "MOLDTKPAC",
-  "FUSION",
+  "SEDEMAC",
   "KEC",
-  "AARTIIND",
-  "CARBORUNIV",
-  "360ONE",
-  "ANGELONE",
-  "CDSL",
-  "AZAD",
-  "NEOGEN",
-  "CAMS",
-  "CARTRADE",
-  "GANECOS",
-  "AYE",
-  "ARMANFIN",
-  "FLUOROCHEM",
-  "KOLTEPATIL",
-  "ZYDUSWELL",
+  "FRACTAL",
   "MCX",
-  "AIAENG",
-  "WELSPUNLIV",
-  "BRITANNIA",
-  "AFFLE"
+  "AWFIS",
+  "RSYSTEMS"
  ],
  "warned_blind": false
 }
