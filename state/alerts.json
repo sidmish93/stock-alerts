@@ -65,14 +65,32 @@
    "level": 5.0,
    "symbol": "KOLTEPATIL",
    "value": 5.16
+  },
+  {
+   "at": "09:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KEC",
+   "value": -5.12
+  },
+  {
+   "at": "09:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NEPHROPLUS",
+   "value": -5.2
   }
  ],
  "latched": {
   "ARE&M|daily|up|5": 5.76,
   "AWFIS|daily|up|5": 10.26,
   "FRACTAL|daily|up|5": 6.58,
+  "KEC|daily|down|5": 5.12,
   "KOLTEPATIL|daily|up|5": 5.16,
   "MCX|daily|down|5": 5.4,
+  "NEPHROPLUS|daily|down|5": 5.2,
   "RSYSTEMS|daily|up|5": 7.29
  },
  "shared": [
@@ -83,7 +101,8 @@
   "AWFIS",
   "RSYSTEMS",
   "ARE&M",
-  "KOLTEPATIL"
+  "KOLTEPATIL",
+  "NEPHROPLUS"
  ],
  "warned_blind": false
 }
