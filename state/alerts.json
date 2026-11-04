@@ -217,9 +217,18 @@
    "level": 5.0,
    "symbol": "MEDANTA",
    "value": 5.07
+  },
+  {
+   "at": "11:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AIAENG",
+   "value": -5.07
   }
  ],
  "latched": {
+  "AIAENG|daily|down|5": 5.07,
   "FRACTAL|daily|up|5": 6.58,
   "MCX|daily|down|5": 5.16,
   "MEDANTA|daily|up|5": 5.07,
@@ -246,7 +255,8 @@
   "KFINTECH",
   "SKFINDIA",
   "UNOMINDA",
-  "MFSL"
+  "MFSL",
+  "AIAENG"
  ],
  "warned_blind": false
 }
