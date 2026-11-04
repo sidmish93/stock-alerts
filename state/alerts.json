@@ -305,10 +305,28 @@
    "level": 5.0,
    "symbol": "ZEEL",
    "value": 5.27
+  },
+  {
+   "at": "13:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARE&M",
+   "value": 5.07
+  },
+  {
+   "at": "13:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "EXIDEIND",
+   "value": 6.6
   }
  ],
  "latched": {
+  "ARE&M|daily|up|5": 5.07,
   "AWFIS|daily|up|5": 5.31,
+  "EXIDEIND|daily|up|5": 6.6,
   "FRACTAL|daily|up|5": 6.58,
   "JLHL|daily|up|5": 5.08,
   "KOLTEPATIL|daily|up|5": 5.53,
@@ -319,7 +337,6 @@
   "RSYSTEMS|daily|up|5": 7.29,
   "SANSERA|daily|up|5": 5.56,
   "SEDEMAC|daily|down|5": 5.09,
-  "SKFINDIA|daily|down|5": 5.9,
   "UNOMINDA|daily|up|5": 5.25,
   "VRLLOG|daily|up|5": 5.86,
   "ZEEL|daily|up|5": 5.27
@@ -346,7 +363,8 @@
   "MUTHOOTFIN",
   "ZEEL",
   "JLHL",
-  "SANSERA"
+  "SANSERA",
+  "EXIDEIND"
  ],
  "warned_blind": false
 }
