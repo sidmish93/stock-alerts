@@ -129,16 +129,33 @@
    "level": 5.0,
    "symbol": "KFINTECH",
    "value": 5.42
+  },
+  {
+   "at": "10:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SKFINDIA",
+   "value": -5.07
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KFINTECH",
+   "value": 5.04
   }
  ],
  "latched": {
   "AWFIS|daily|up|5": 10.26,
   "FRACTAL|daily|up|5": 6.58,
-  "FUSION|daily|up|5": 5.37,
+  "KFINTECH|daily|up|5": 5.04,
   "KOLTEPATIL|daily|up|5": 5.16,
   "MCX|daily|down|5": 5.58,
   "MEDANTA|daily|up|5": 6.18,
-  "RSYSTEMS|daily|up|5": 7.29
+  "RSYSTEMS|daily|up|5": 7.29,
+  "SKFINDIA|daily|down|5": 5.07
  },
  "shared": [
   "SEDEMAC",
@@ -154,7 +171,8 @@
   "FUSION",
   "VRLLOG",
   "WELSPUNLIV",
-  "KFINTECH"
+  "KFINTECH",
+  "SKFINDIA"
  ],
  "warned_blind": false
 }
