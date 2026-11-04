@@ -81,15 +81,31 @@
    "level": 5.0,
    "symbol": "NEPHROPLUS",
    "value": -5.2
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MEDANTA",
+   "value": 6.18
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FUSION",
+   "value": 5.37
   }
  ],
  "latched": {
   "ARE&M|daily|up|5": 5.76,
   "AWFIS|daily|up|5": 10.26,
   "FRACTAL|daily|up|5": 6.58,
-  "KEC|daily|down|5": 5.12,
+  "FUSION|daily|up|5": 5.37,
   "KOLTEPATIL|daily|up|5": 5.16,
-  "MCX|daily|down|5": 5.4,
+  "MEDANTA|daily|up|5": 6.18,
   "NEPHROPLUS|daily|down|5": 5.2,
   "RSYSTEMS|daily|up|5": 7.29
  },
@@ -102,7 +118,9 @@
   "RSYSTEMS",
   "ARE&M",
   "KOLTEPATIL",
-  "NEPHROPLUS"
+  "NEPHROPLUS",
+  "MEDANTA",
+  "FUSION"
  ],
  "warned_blind": false
 }
