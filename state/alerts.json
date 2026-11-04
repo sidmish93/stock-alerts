@@ -201,13 +201,21 @@
    "level": 5.0,
    "symbol": "MFSL",
    "value": 5.08
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MCX",
+   "value": -5.16
   }
  ],
  "latched": {
   "ARE&M|daily|up|5": 5.34,
   "FRACTAL|daily|up|5": 6.58,
   "KOLTEPATIL|daily|up|5": 5.16,
-  "MEDANTA|daily|up|5": 5.02,
+  "MCX|daily|down|5": 5.16,
   "MFSL|daily|up|5": 5.08,
   "RSYSTEMS|daily|up|5": 7.29,
   "SKFINDIA|daily|down|5": 5.9,
