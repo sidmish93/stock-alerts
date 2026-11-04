@@ -412,7 +412,6 @@
   }
  ],
  "latched": {
-  "ARE&M|daily|up|5": 5.07,
   "AWFIS|daily|up|5": 5.31,
   "EXIDEIND|daily|up|5": 6.6,
   "FRACTAL|daily|up|5": 6.58,
@@ -426,7 +425,6 @@
   "MFSL|daily|up|5": 5.1,
   "MUTHOOTFIN|daily|up|5": 5.33,
   "PGIL|daily|up|5": 5.29,
-  "POLICYBZR|daily|up|5": 5.13,
   "REDINGTON|daily|up|5": 6.68,
   "RSYSTEMS|daily|up|5": 7.29,
   "SANSERA|daily|up|5": 5.56,
