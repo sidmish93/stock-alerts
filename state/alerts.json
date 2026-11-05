@@ -417,6 +417,30 @@
    "level": 5.0,
    "symbol": "MGL",
    "value": 5.17
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KARURVYSYA",
+   "value": 5.1
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SBICARD",
+   "value": 5.14
+  },
+  {
+   "at": "12:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DALBHARAT",
+   "value": 5.05
   }
  ],
  "latched": {
@@ -431,12 +455,14 @@
   "CARTRADE|daily|up|5": 5.7,
   "CHOLAFIN|daily|up|5": 5.51,
   "CUMMINSIND|daily|down|5": 10.0,
+  "DALBHARAT|daily|up|5": 5.05,
   "DEVYANI|daily|up|5": 5.48,
   "FIVESTAR|daily|up|5": 6.27,
   "FUSION|daily|up|5": 5.53,
   "GROWW|daily|up|5": 5.47,
   "ICIL|daily|down|5": 5.08,
   "INDIGO|daily|up|5": 5.25,
+  "KARURVYSYA|daily|up|5": 5.1,
   "LENSKART|daily|up|5": 6.28,
   "LGEINDIA|daily|up|5": 5.89,
   "M&MFIN|daily|up|5": 5.74,
@@ -444,6 +470,7 @@
   "OIL|daily|down|5": 5.02,
   "PIIND|daily|down|5": 8.23,
   "SAPPHIRE|daily|up|5": 5.97,
+  "SBICARD|daily|up|5": 5.14,
   "SHRIRAMFIN|daily|up|5": 5.36,
   "SOBHA|daily|up|5": 5.81,
   "VMART|daily|up|5": 7.23,
@@ -489,7 +516,8 @@
   "SOBHA",
   "LGEINDIA",
   "SHIPROCKET",
-  "ATHERENERG"
+  "ATHERENERG",
+  "KARURVYSYA"
  ],
  "warned_blind": false
 }
