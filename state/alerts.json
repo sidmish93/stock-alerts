@@ -609,6 +609,14 @@
    "level": 5.0,
    "symbol": "SHADOWFAX",
    "value": 5.08
+  },
+  {
+   "at": "14:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": 5.38
   }
  ],
  "latched": {
@@ -620,7 +628,6 @@
   "AYE|daily|up|5": 6.67,
   "BAJFINANCE|daily|up|5": 5.29,
   "BIOCON|daily|up|5": 5.1,
-  "BLUESTONE|daily|up|5": 5.36,
   "BRIGADE|daily|up|5": 5.94,
   "CARTRADE|daily|up|5": 5.7,
   "CHOLAFIN|daily|up|5": 5.51,
@@ -639,7 +646,6 @@
   "M&MFIN|daily|up|5": 5.74,
   "M&M|daily|up|5": 5.21,
   "MARUTI|daily|up|5": 5.11,
-  "MEESHO|daily|up|5": 5.23,
   "NEOGEN|daily|up|5": 5.07,
   "OIL|daily|down|5": 5.02,
   "PIIND|daily|down|5": 8.23,
@@ -652,6 +658,7 @@
   "SONATSOFTW|daily|up|5": 5.03,
   "SUNDARMFIN|daily|up|5": 5.04,
   "SWIGGY|daily|up|5": 5.01,
+  "THELEELA|daily|up|5": 5.38,
   "UNOMINDA|daily|up|5": 9.62,
   "VMART|daily|up|5": 7.23,
   "ZFCVINDIA|daily|up|5": 6.07
@@ -710,7 +717,8 @@
   "ABCAPITAL",
   "ICICIBANK",
   "SONATSOFTW",
-  "SHADOWFAX"
+  "SHADOWFAX",
+  "THELEELA"
  ],
  "warned_blind": false
 }
