@@ -273,14 +273,32 @@
    "level": 5.0,
    "symbol": "ICIL",
    "value": -5.08
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "360ONE",
+   "value": 5.68
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BIOCON",
+   "value": 5.28
   }
  ],
  "latched": {
+  "360ONE|daily|up|5": 5.68,
   "APOLLOTYRE|daily|up|5": 5.88,
   "APTUS|daily|down|5": 5.79,
   "ASHOKLEY|daily|up|5": 6.27,
   "AYE|daily|up|5": 6.67,
   "BAJFINANCE|daily|up|5": 5.4,
+  "BIOCON|daily|up|5": 5.28,
   "CARTRADE|daily|up|5": 5.7,
   "CHOLAFIN|daily|up|5": 5.51,
   "CHOLAHLDNG|daily|up|5": 5.86,
@@ -332,7 +350,8 @@
   "DALBHARAT",
   "GROWW",
   "NEOGEN",
-  "ICIL"
+  "ICIL",
+  "BIOCON"
  ],
  "warned_blind": false
 }
