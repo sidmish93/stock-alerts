@@ -393,6 +393,14 @@
    "level": 5.0,
    "symbol": "SHIPROCKET",
    "value": 5.21
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BAJFINANCE",
+   "value": 5.29
   }
  ],
  "latched": {
@@ -401,6 +409,7 @@
   "APTUS|daily|down|5": 5.79,
   "ASHOKLEY|daily|up|5": 6.27,
   "AYE|daily|up|5": 6.67,
+  "BAJFINANCE|daily|up|5": 5.29,
   "BLUESTONE|daily|up|5": 5.36,
   "CARTRADE|daily|up|5": 5.7,
   "CHOLAFIN|daily|up|5": 5.51,
@@ -408,7 +417,6 @@
   "DEVYANI|daily|up|5": 5.48,
   "FIVESTAR|daily|up|5": 6.27,
   "FUSION|daily|up|5": 5.53,
-  "GRAVITA|daily|up|5": 5.05,
   "GROWW|daily|up|5": 5.47,
   "ICIL|daily|down|5": 5.08,
   "INDIGO|daily|up|5": 5.25,
