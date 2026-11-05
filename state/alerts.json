@@ -617,6 +617,30 @@
    "level": 5.0,
    "symbol": "THELEELA",
    "value": 5.38
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "M&M",
+   "value": 5.02
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MARUTI",
+   "value": 5.14
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LEAPIND",
+   "value": 5.2
   }
  ],
  "latched": {
@@ -634,12 +658,14 @@
   "GROWW|daily|up|5": 5.47,
   "HDBFS|daily|up|5": 5.11,
   "ICICIBANK|daily|up|5": 5.18,
-  "ICIL|daily|down|5": 5.08,
   "INDIGO|daily|up|5": 5.25,
   "INDUSINDBK|daily|up|5": 5.03,
   "KARURVYSYA|daily|up|5": 5.23,
+  "LEAPIND|daily|up|5": 5.2,
   "LGEINDIA|daily|up|5": 5.89,
   "M&MFIN|daily|up|5": 5.74,
+  "M&M|daily|up|5": 5.02,
+  "MARUTI|daily|up|5": 5.14,
   "NEOGEN|daily|up|5": 5.07,
   "PIIND|daily|down|5": 8.23,
   "PSPPROJECT|daily|up|5": 6.19,
@@ -647,7 +673,6 @@
   "SBICARD|daily|up|5": 5.14,
   "SHRIRAMFIN|daily|up|5": 5.36,
   "SOBHA|daily|up|5": 5.81,
-  "SONATSOFTW|daily|up|5": 5.03,
   "SUNDARMFIN|daily|up|5": 5.04,
   "SWIGGY|daily|up|5": 5.01,
   "UNOMINDA|daily|up|5": 9.62,
@@ -709,7 +734,8 @@
   "ICICIBANK",
   "SONATSOFTW",
   "SHADOWFAX",
-  "THELEELA"
+  "THELEELA",
+  "LEAPIND"
  ],
  "warned_blind": false
 }
