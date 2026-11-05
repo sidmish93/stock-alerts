@@ -361,10 +361,43 @@
    "level": 5.0,
    "symbol": "FUSION",
    "value": 5.53
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "APOLLOTYRE",
+   "value": 5.37
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LGEINDIA",
+   "value": 5.89
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "OIL",
+   "value": -5.02
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHIPROCKET",
+   "value": 5.21
   }
  ],
  "latched": {
   "360ONE|daily|up|5": 5.68,
+  "APOLLOTYRE|daily|up|5": 5.37,
   "APTUS|daily|down|5": 5.79,
   "ASHOKLEY|daily|up|5": 6.27,
   "AYE|daily|up|5": 6.67,
@@ -380,11 +413,14 @@
   "ICIL|daily|down|5": 5.08,
   "INDIGO|daily|up|5": 5.25,
   "LENSKART|daily|up|5": 6.28,
+  "LGEINDIA|daily|up|5": 5.89,
   "M&MFIN|daily|up|5": 5.74,
   "NEOGEN|daily|up|5": 5.07,
+  "OIL|daily|down|5": 5.02,
   "PIIND|daily|down|5": 8.23,
   "SAPPHIRE|daily|up|5": 5.97,
   "SBICARD|daily|up|5": 5.33,
+  "SHIPROCKET|daily|up|5": 5.21,
   "SHRIRAMFIN|daily|up|5": 5.36,
   "SOBHA|daily|up|5": 5.81,
   "SWIGGY|daily|up|5": 5.03,
@@ -428,7 +464,9 @@
   "SWIGGY",
   "BLUESTONE",
   "ZFCVINDIA",
-  "SOBHA"
+  "SOBHA",
+  "LGEINDIA",
+  "SHIPROCKET"
  ],
  "warned_blind": false
 }
