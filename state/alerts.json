@@ -321,15 +321,23 @@
    "level": 5.0,
    "symbol": "OIL",
    "value": -5.01
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTONE",
+   "value": 5.36
   }
  ],
  "latched": {
   "360ONE|daily|up|5": 5.68,
-  "APOLLOTYRE|daily|up|5": 5.88,
   "APTUS|daily|down|5": 5.79,
   "ASHOKLEY|daily|up|5": 6.27,
   "AYE|daily|up|5": 6.67,
   "BAJFINANCE|daily|up|5": 5.4,
+  "BLUESTONE|daily|up|5": 5.36,
   "CARTRADE|daily|up|5": 5.7,
   "CHOLAFIN|daily|up|5": 5.51,
   "CHOLAHLDNG|daily|up|5": 5.86,
@@ -343,14 +351,11 @@
   "INDIGO|daily|up|5": 5.25,
   "LENSKART|daily|up|5": 6.28,
   "M&MFIN|daily|up|5": 5.74,
-  "MEESHO|daily|up|5": 5.25,
   "NEOGEN|daily|up|5": 5.07,
-  "OIL|daily|down|5": 5.01,
   "PIIND|daily|down|5": 8.23,
   "SAPPHIRE|daily|up|5": 5.97,
   "SBICARD|daily|up|5": 5.33,
   "SHRIRAMFIN|daily|up|5": 5.36,
-  "SWIGGY|daily|up|5": 5.07,
   "VMART|daily|up|5": 7.23
  },
  "shared": [
@@ -387,7 +392,8 @@
   "BIOCON",
   "GRAVITA",
   "MEESHO",
-  "SWIGGY"
+  "SWIGGY",
+  "BLUESTONE"
  ],
  "warned_blind": false
 }
