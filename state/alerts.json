@@ -113,10 +113,25 @@
    "level": 5.0,
    "symbol": "AYE",
    "value": 6.67
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SBICARD",
+   "value": 5.33
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "M&MFIN",
+   "value": 5.74
   }
  ],
  "latched": {
-  "360ONE|daily|up|5": 5.57,
   "APTUS|daily|down|5": 5.79,
   "ASHOKLEY|daily|up|5": 6.27,
   "AYE|daily|up|5": 6.67,
@@ -126,8 +141,9 @@
   "CUMMINSIND|daily|down|5": 10.0,
   "FIVESTAR|daily|up|5": 6.27,
   "HINDPETRO|daily|up|5": 5.04,
-  "INDIGO|daily|up|5": 5.65,
+  "M&MFIN|daily|up|5": 5.74,
   "PIIND|daily|down|5": 8.23,
+  "SBICARD|daily|up|5": 5.33,
   "SHRIRAMFIN|daily|up|5": 5.36
  },
  "shared": [
@@ -144,7 +160,9 @@
   "CHOLAHLDNG",
   "360ONE",
   "APTUS",
-  "AYE"
+  "AYE",
+  "SBICARD",
+  "M&MFIN"
  ],
  "warned_blind": false
 }
