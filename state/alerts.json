@@ -185,13 +185,46 @@
    "level": 5.0,
    "symbol": "FUSION",
    "value": 5.03
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "APOLLOTYRE",
+   "value": 5.88
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VMART",
+   "value": 7.23
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MGL",
+   "value": 5.38
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BAJFINANCE",
+   "value": 5.4
   }
  ],
  "latched": {
+  "APOLLOTYRE|daily|up|5": 5.88,
   "APTUS|daily|down|5": 5.79,
   "ASHOKLEY|daily|up|5": 6.27,
-  "AWFIS|daily|up|5": 5.43,
   "AYE|daily|up|5": 6.67,
+  "BAJFINANCE|daily|up|5": 5.4,
   "CARTRADE|daily|up|5": 5.7,
   "CHOLAFIN|daily|up|5": 5.51,
   "CHOLAHLDNG|daily|up|5": 5.86,
@@ -203,11 +236,12 @@
   "HINDPETRO|daily|up|5": 5.04,
   "LENSKART|daily|up|5": 6.28,
   "M&MFIN|daily|up|5": 5.74,
-  "OIL|daily|down|5": 5.11,
+  "MGL|daily|up|5": 5.38,
   "PIIND|daily|down|5": 8.23,
   "SAPPHIRE|daily|up|5": 5.97,
   "SBICARD|daily|up|5": 5.33,
-  "SHRIRAMFIN|daily|up|5": 5.36
+  "SHRIRAMFIN|daily|up|5": 5.36,
+  "VMART|daily|up|5": 7.23
  },
  "shared": [
   "PIIND",
@@ -231,7 +265,11 @@
   "OIL",
   "AWFIS",
   "CARTRADE",
-  "FUSION"
+  "FUSION",
+  "APOLLOTYRE",
+  "VMART",
+  "MGL",
+  "BAJFINANCE"
  ],
  "warned_blind": false
 }
