@@ -489,6 +489,14 @@
    "level": 5.0,
    "symbol": "SUNDARMFIN",
    "value": 5.04
+  },
+  {
+   "at": "12:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "UNOMINDA",
+   "value": 9.62
   }
  ],
  "latched": {
@@ -496,7 +504,6 @@
   "APOLLOTYRE|daily|up|5": 5.37,
   "APTUS|daily|down|5": 5.79,
   "ASHOKLEY|daily|up|5": 6.27,
-  "ATHERENERG|daily|down|5": 5.08,
   "AYE|daily|up|5": 6.67,
   "BAJFINANCE|daily|up|5": 5.29,
   "BIOCON|daily|up|5": 5.1,
@@ -510,7 +517,6 @@
   "ICIL|daily|down|5": 5.08,
   "INDIGO|daily|up|5": 5.25,
   "INDUSINDBK|daily|up|5": 5.03,
-  "LENSKART|daily|up|5": 6.28,
   "LGEINDIA|daily|up|5": 5.89,
   "M&MFIN|daily|up|5": 5.74,
   "NEOGEN|daily|up|5": 5.07,
@@ -523,6 +529,7 @@
   "SOBHA|daily|up|5": 5.81,
   "SUNDARMFIN|daily|up|5": 5.04,
   "SWIGGY|daily|up|5": 5.01,
+  "UNOMINDA|daily|up|5": 9.62,
   "VMART|daily|up|5": 7.23,
   "ZFCVINDIA|daily|up|5": 6.07
  },
@@ -570,7 +577,8 @@
   "KARURVYSYA",
   "PSPPROJECT",
   "INDUSINDBK",
-  "SUNDARMFIN"
+  "SUNDARMFIN",
+  "UNOMINDA"
  ],
  "warned_blind": false
 }
