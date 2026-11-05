@@ -1,551 +1,111 @@
 {
- "day": "2026-11-04",
- "digested": true,
+ "day": "2026-11-05",
+ "digested": false,
  "fired": [
   {
-   "at": "09:20",
+   "at": "09:16",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "SEDEMAC",
-   "value": -6.31
+   "symbol": "PIIND",
+   "value": -8.23
   },
   {
-   "at": "09:20",
+   "at": "09:16",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ASHOKLEY",
+   "value": 6.27
+  },
+  {
+   "at": "09:16",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDIGO",
+   "value": 5.65
+  },
+  {
+   "at": "09:15",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "KEC",
-   "value": -5.17
+   "symbol": "CUMMINSIND",
+   "value": -10.0
   },
   {
-   "at": "09:20",
+   "at": "09:16",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "FRACTAL",
-   "value": 6.58
+   "symbol": "LENSKART",
+   "value": 6.27
   },
   {
-   "at": "09:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MCX",
-   "value": -5.4
-  },
-  {
-   "at": "09:20",
+   "at": "09:16",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "AWFIS",
-   "value": 10.26
+   "symbol": "CHOLAFIN",
+   "value": 5.51
   },
   {
-   "at": "09:20",
+   "at": "09:16",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "RSYSTEMS",
-   "value": 7.29
+   "symbol": "CREDITACC",
+   "value": 5.71
   },
   {
-   "at": "09:31",
+   "at": "09:16",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "ARE&M",
-   "value": 5.76
+   "symbol": "FIVESTAR",
+   "value": 6.27
   },
   {
-   "at": "09:31",
+   "at": "09:16",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "KOLTEPATIL",
-   "value": 5.16
+   "symbol": "SHRIRAMFIN",
+   "value": 5.36
   },
   {
-   "at": "09:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KEC",
-   "value": -5.12
-  },
-  {
-   "at": "09:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NEPHROPLUS",
-   "value": -5.2
-  },
-  {
-   "at": "09:50",
+   "at": "09:16",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "MEDANTA",
-   "value": 6.18
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "FUSION",
-   "value": 5.37
-  },
-  {
-   "at": "10:01",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MCX",
-   "value": -5.58
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VRLLOG",
-   "value": 5.43
-  },
-  {
-   "at": "10:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "WELSPUNLIV",
-   "value": 5.1
-  },
-  {
-   "at": "10:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KFINTECH",
-   "value": 5.42
-  },
-  {
-   "at": "10:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SKFINDIA",
-   "value": -5.07
-  },
-  {
-   "at": "10:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KFINTECH",
+   "symbol": "HINDPETRO",
    "value": 5.04
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARE&M",
-   "value": 5.34
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "UNOMINDA",
-   "value": 5.25
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MFSL",
-   "value": 5.21
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "VRLLOG",
-   "value": 5.86
-  },
-  {
-   "at": "11:00",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SKFINDIA",
-   "value": -5.9
-  },
-  {
-   "at": "11:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MEDANTA",
-   "value": 5.02
-  },
-  {
-   "at": "11:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MFSL",
-   "value": 5.08
-  },
-  {
-   "at": "11:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MCX",
-   "value": -5.16
-  },
-  {
-   "at": "11:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MEDANTA",
-   "value": 5.07
-  },
-  {
-   "at": "11:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AIAENG",
-   "value": -5.07
-  },
-  {
-   "at": "12:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MUTHOOTFIN",
-   "value": 5.33
-  },
-  {
-   "at": "12:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AIAENG",
-   "value": -5.01
-  },
-  {
-   "at": "12:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ZEEL",
-   "value": 7.35
-  },
-  {
-   "at": "12:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AWFIS",
-   "value": 5.31
-  },
-  {
-   "at": "12:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SEDEMAC",
-   "value": -5.09
-  },
-  {
-   "at": "12:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KOLTEPATIL",
-   "value": 5.53
-  },
-  {
-   "at": "12:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JLHL",
-   "value": 5.08
-  },
-  {
-   "at": "13:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SANSERA",
-   "value": 5.56
-  },
-  {
-   "at": "13:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MEDANTA",
-   "value": 5.03
-  },
-  {
-   "at": "13:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ZEEL",
-   "value": 5.27
-  },
-  {
-   "at": "13:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARE&M",
-   "value": 5.07
-  },
-  {
-   "at": "13:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "EXIDEIND",
-   "value": 6.6
-  },
-  {
-   "at": "13:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GRAVITA",
-   "value": 5.25
-  },
-  {
-   "at": "13:39",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "FUSION",
-   "value": 5.08
-  },
-  {
-   "at": "13:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SKFINDIA",
-   "value": -5.03
-  },
-  {
-   "at": "13:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "REDINGTON",
-   "value": 6.68
-  },
-  {
-   "at": "13:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARMANFIN",
-   "value": 7.01
-  },
-  {
-   "at": "14:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLICYBZR",
-   "value": 5.13
-  },
-  {
-   "at": "14:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ICIL",
-   "value": 7.38
-  },
-  {
-   "at": "14:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SKFINDIA",
-   "value": -5.05
-  },
-  {
-   "at": "14:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AEQUS",
-   "value": 5.01
-  },
-  {
-   "at": "14:31",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PGIL",
-   "value": 5.29
-  },
-  {
-   "at": "14:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MFSL",
-   "value": 5.1
-  },
-  {
-   "at": "15:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARE&M",
-   "value": 5.02
-  },
-  {
-   "at": "15:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ELGIEQUIP",
-   "value": 5.37
-  },
-  {
-   "at": "15:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ASTERDM",
-   "value": 5.18
-  },
-  {
-   "at": "15:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "ARMANFIN",
-   "value": 6.07
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SKFINDIA",
-   "value": -5.01
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LALPATHLAB",
-   "value": 5.39
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "JSWINFRA",
-   "value": 5.64
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AEQUS",
-   "value": 5.06
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GODREJPROP",
-   "value": 5.06
   }
  ],
  "latched": {
-  "AEQUS|daily|up|5": 5.06,
-  "ARE&M|daily|up|5": 5.02,
-  "ARMANFIN|daily|up|5": 6.07,
-  "ASTERDM|daily|up|5": 5.18,
-  "AWFIS|daily|up|5": 5.31,
-  "ELGIEQUIP|daily|up|5": 5.37,
-  "EXIDEIND|daily|up|5": 6.6,
-  "FRACTAL|daily|up|5": 6.58,
-  "FUSION|daily|up|5": 5.08,
-  "GODREJPROP|daily|up|5": 5.06,
-  "GRAVITA|daily|up|5": 5.25,
-  "ICIL|daily|up|5": 7.38,
-  "JLHL|daily|up|5": 5.08,
-  "JSWINFRA|daily|up|5": 5.64,
-  "KOLTEPATIL|daily|up|5": 5.53,
-  "LALPATHLAB|daily|up|5": 5.39,
-  "MCX|daily|down|5": 5.16,
-  "MEDANTA|daily|up|5": 5.03,
-  "MUTHOOTFIN|daily|up|5": 5.33,
-  "REDINGTON|daily|up|5": 6.68,
-  "RSYSTEMS|daily|up|5": 7.29,
-  "SKFINDIA|daily|down|5": 5.01,
-  "UNOMINDA|daily|up|5": 5.25,
-  "VRLLOG|daily|up|5": 5.86,
-  "ZEEL|daily|up|5": 5.27
+  "ASHOKLEY|daily|up|5": 6.27,
+  "CHOLAFIN|daily|up|5": 5.51,
+  "CREDITACC|daily|up|5": 5.71,
+  "CUMMINSIND|daily|down|5": 10.0,
+  "FIVESTAR|daily|up|5": 6.27,
+  "HINDPETRO|daily|up|5": 5.04,
+  "INDIGO|daily|up|5": 5.65,
+  "LENSKART|daily|up|5": 6.27,
+  "PIIND|daily|down|5": 8.23,
+  "SHRIRAMFIN|daily|up|5": 5.36
  },
  "shared": [
-  "SEDEMAC",
-  "KEC",
-  "FRACTAL",
-  "MCX",
-  "AWFIS",
-  "RSYSTEMS",
-  "ARE&M",
-  "KOLTEPATIL",
-  "NEPHROPLUS",
-  "MEDANTA",
-  "FUSION",
-  "VRLLOG",
-  "WELSPUNLIV",
-  "KFINTECH",
-  "SKFINDIA",
-  "UNOMINDA",
-  "MFSL",
-  "AIAENG",
-  "MUTHOOTFIN",
-  "ZEEL",
-  "JLHL",
-  "SANSERA",
-  "EXIDEIND",
-  "GRAVITA",
-  "REDINGTON",
-  "ARMANFIN",
-  "POLICYBZR",
-  "ICIL",
-  "AEQUS",
-  "PGIL",
-  "ELGIEQUIP",
-  "ASTERDM",
-  "LALPATHLAB",
-  "JSWINFRA",
-  "GODREJPROP"
+  "PIIND",
+  "ASHOKLEY",
+  "INDIGO",
+  "CUMMINSIND",
+  "LENSKART",
+  "CHOLAFIN",
+  "CREDITACC",
+  "FIVESTAR",
+  "SHRIRAMFIN",
+  "HINDPETRO"
  ],
  "warned_blind": false
 }
