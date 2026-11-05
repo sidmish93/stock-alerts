@@ -473,6 +473,22 @@
    "level": 5.0,
    "symbol": "BIOCON",
    "value": 5.1
+  },
+  {
+   "at": "12:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDUSINDBK",
+   "value": 5.03
+  },
+  {
+   "at": "12:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SUNDARMFIN",
+   "value": 5.04
   }
  ],
  "latched": {
@@ -493,10 +509,10 @@
   "GROWW|daily|up|5": 5.47,
   "ICIL|daily|down|5": 5.08,
   "INDIGO|daily|up|5": 5.25,
+  "INDUSINDBK|daily|up|5": 5.03,
   "LENSKART|daily|up|5": 6.28,
   "LGEINDIA|daily|up|5": 5.89,
   "M&MFIN|daily|up|5": 5.74,
-  "MEESHO|daily|up|5": 5.05,
   "NEOGEN|daily|up|5": 5.07,
   "OIL|daily|down|5": 5.02,
   "PIIND|daily|down|5": 8.23,
@@ -505,6 +521,7 @@
   "SBICARD|daily|up|5": 5.14,
   "SHRIRAMFIN|daily|up|5": 5.36,
   "SOBHA|daily|up|5": 5.81,
+  "SUNDARMFIN|daily|up|5": 5.04,
   "SWIGGY|daily|up|5": 5.01,
   "VMART|daily|up|5": 7.23,
   "ZFCVINDIA|daily|up|5": 6.07
@@ -551,7 +568,9 @@
   "SHIPROCKET",
   "ATHERENERG",
   "KARURVYSYA",
-  "PSPPROJECT"
+  "PSPPROJECT",
+  "INDUSINDBK",
+  "SUNDARMFIN"
  ],
  "warned_blind": false
 }
