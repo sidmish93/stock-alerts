@@ -521,6 +521,38 @@
    "level": 5.0,
    "symbol": "MUTHOOTFIN",
    "value": 5.01
+  },
+  {
+   "at": "13:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MARUTI",
+   "value": 5.11
+  },
+  {
+   "at": "13:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LENSKART",
+   "value": 5.51
+  },
+  {
+   "at": "13:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BRIGADE",
+   "value": 5.94
+  },
+  {
+   "at": "13:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MEESHO",
+   "value": 5.23
   }
  ],
  "latched": {
@@ -532,6 +564,7 @@
   "BAJFINANCE|daily|up|5": 5.29,
   "BIOCON|daily|up|5": 5.1,
   "BLUESTONE|daily|up|5": 5.36,
+  "BRIGADE|daily|up|5": 5.94,
   "CARTRADE|daily|up|5": 5.7,
   "CHOLAFIN|daily|up|5": 5.51,
   "CUMMINSIND|daily|down|5": 10.0,
@@ -542,8 +575,11 @@
   "ICIL|daily|down|5": 5.08,
   "INDIGO|daily|up|5": 5.25,
   "INDUSINDBK|daily|up|5": 5.03,
+  "LENSKART|daily|up|5": 5.51,
   "LGEINDIA|daily|up|5": 5.89,
   "M&MFIN|daily|up|5": 5.74,
+  "MARUTI|daily|up|5": 5.11,
+  "MEESHO|daily|up|5": 5.23,
   "MUTHOOTFIN|daily|up|5": 5.01,
   "NEOGEN|daily|up|5": 5.07,
   "OIL|daily|down|5": 5.02,
@@ -607,7 +643,9 @@
   "UNOMINDA",
   "M&M",
   "HDBFS",
-  "MUTHOOTFIN"
+  "MUTHOOTFIN",
+  "MARUTI",
+  "BRIGADE"
  ],
  "warned_blind": false
 }
