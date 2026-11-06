@@ -329,6 +329,14 @@
    "level": 5.0,
    "symbol": "INDOMIM",
    "value": -5.07
+  },
+  {
+   "at": "12:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TRITURBINE",
+   "value": -5.59
   }
  ],
  "latched": {
@@ -346,6 +354,7 @@
   "SYRMA|daily|down|5": 5.64,
   "THERMAX|daily|down|5": 13.13,
   "TIINDIA|daily|down|5": 7.25,
+  "TRITURBINE|daily|down|5": 5.59,
   "VRLLOG|daily|up|5": 5.13
  },
  "shared": [
@@ -373,7 +382,8 @@
   "AZAD",
   "MANYAVAR",
   "GODIGIT",
-  "COROMANDEL"
+  "COROMANDEL",
+  "TRITURBINE"
  ],
  "warned_blind": false
 }
