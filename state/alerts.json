@@ -361,6 +361,14 @@
    "level": 5.0,
    "symbol": "VTL",
    "value": -5.22
+  },
+  {
+   "at": "13:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZEEL",
+   "value": -5.38
   }
  ],
  "latched": {
@@ -368,7 +376,6 @@
   "AVALON|daily|down|5": 6.12,
   "AZAD|daily|down|5": 5.58,
   "BERGEPAINT|daily|down|5": 5.08,
-  "BRITANNIA|daily|down|5": 5.31,
   "CGPOWER|daily|down|5": 6.89,
   "GOKEX|daily|down|5": 6.72,
   "IKS|daily|down|5": 5.8,
@@ -380,7 +387,8 @@
   "TIINDIA|daily|down|5": 7.25,
   "TRITURBINE|daily|down|5": 5.59,
   "VRLLOG|daily|up|5": 5.13,
-  "VTL|daily|down|5": 5.22
+  "VTL|daily|down|5": 5.22,
+  "ZEEL|daily|down|5": 5.38
  },
  "shared": [
   "ASTRAL",
@@ -410,7 +418,8 @@
   "COROMANDEL",
   "TRITURBINE",
   "BRITANNIA",
-  "VTL"
+  "VTL",
+  "ZEEL"
  ],
  "warned_blind": false
 }
