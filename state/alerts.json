@@ -396,7 +396,6 @@
   "GODIGIT|daily|down|5": 5.4,
   "GOKEX|daily|down|5": 6.72,
   "IKS|daily|down|5": 5.8,
-  "INDOMIM|daily|down|5": 5.01,
   "MANYAVAR|daily|down|5": 5.32,
   "RATEGAIN|daily|down|5": 8.15,
   "REDINGTON|daily|down|5": 6.37,
@@ -405,7 +404,6 @@
   "TIINDIA|daily|down|5": 7.25,
   "TRITURBINE|daily|down|5": 5.59,
   "VRLLOG|daily|up|5": 5.13,
-  "VTL|daily|down|5": 5.22,
   "ZEEL|daily|down|5": 5.38
  },
  "shared": [
