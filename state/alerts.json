@@ -81,19 +81,98 @@
    "level": 5.0,
    "symbol": "MOLBIO",
    "value": -6.26
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TIINDIA",
+   "value": -7.25
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CGPOWER",
+   "value": -6.89
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AVALON",
+   "value": -6.12
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CHOLAHLDNG",
+   "value": 5.03
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "IKS",
+   "value": -5.8
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MPHASIS",
+   "value": 5.33
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VRLLOG",
+   "value": 5.12
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDOMIM",
+   "value": -5.19
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": -6.39
   }
  ],
  "latched": {
   "ASTRAL|daily|down|5": 8.62,
+  "AVALON|daily|down|5": 6.12,
   "BERGEPAINT|daily|down|5": 5.7,
+  "CGPOWER|daily|down|5": 6.89,
+  "CHOLAHLDNG|daily|up|5": 5.03,
   "CLEANMAX|daily|down|5": 6.35,
   "GOKEX|daily|down|5": 6.72,
-  "GROWW|daily|down|5": 5.17,
-  "KNRCON|daily|up|5": 6.49,
+  "IKS|daily|down|5": 5.8,
+  "INDOMIM|daily|down|5": 5.19,
   "MOLBIO|daily|down|5": 6.26,
+  "MPHASIS|daily|up|5": 5.33,
+  "PGIL|daily|down|5": 6.39,
   "RATEGAIN|daily|down|5": 8.15,
   "REDINGTON|daily|down|5": 6.37,
-  "THERMAX|daily|down|5": 13.13
+  "THERMAX|daily|down|5": 13.13,
+  "TIINDIA|daily|down|5": 7.25,
+  "VRLLOG|daily|up|5": 5.12
  },
  "shared": [
   "ASTRAL",
@@ -105,7 +184,16 @@
   "REDINGTON",
   "GOKEX",
   "CLEANMAX",
-  "MOLBIO"
+  "MOLBIO",
+  "TIINDIA",
+  "CGPOWER",
+  "AVALON",
+  "CHOLAHLDNG",
+  "IKS",
+  "MPHASIS",
+  "VRLLOG",
+  "INDOMIM",
+  "PGIL"
  ],
  "warned_blind": false
 }
