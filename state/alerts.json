@@ -297,6 +297,14 @@
    "level": 5.0,
    "symbol": "INDOMIM",
    "value": -5.03
+  },
+  {
+   "at": "11:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VRLLOG",
+   "value": 5.45
   }
  ],
  "latched": {
@@ -317,7 +325,8 @@
   "SUPREMEIND|daily|down|5": 5.07,
   "SYRMA|daily|down|5": 5.64,
   "THERMAX|daily|down|5": 13.13,
-  "TIINDIA|daily|down|5": 7.25
+  "TIINDIA|daily|down|5": 7.25,
+  "VRLLOG|daily|up|5": 5.45
  },
  "shared": [
   "ASTRAL",
