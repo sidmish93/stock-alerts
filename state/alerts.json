@@ -161,6 +161,14 @@
    "level": 5.0,
    "symbol": "SUPREMEIND",
    "value": -5.51
+  },
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SYRMA",
+   "value": -5.61
   }
  ],
  "latched": {
@@ -169,15 +177,13 @@
   "BERGEPAINT|daily|down|5": 5.7,
   "CGPOWER|daily|down|5": 6.89,
   "CHOLAHLDNG|daily|up|5": 5.03,
-  "CLEANMAX|daily|down|5": 6.35,
   "GOKEX|daily|down|5": 6.72,
   "IKS|daily|down|5": 5.8,
-  "INDOMIM|daily|down|5": 5.19,
-  "MOLBIO|daily|down|5": 6.26,
   "PGIL|daily|down|5": 6.39,
   "RATEGAIN|daily|down|5": 8.15,
   "REDINGTON|daily|down|5": 6.37,
   "SUPREMEIND|daily|down|5": 5.51,
+  "SYRMA|daily|down|5": 5.61,
   "THERMAX|daily|down|5": 13.13,
   "TIINDIA|daily|down|5": 7.25
  },
@@ -201,7 +207,8 @@
   "VRLLOG",
   "INDOMIM",
   "PGIL",
-  "SUPREMEIND"
+  "SUPREMEIND",
+  "SYRMA"
  ],
  "warned_blind": false
 }
