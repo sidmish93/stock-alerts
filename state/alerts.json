@@ -409,6 +409,14 @@
    "level": 5.0,
    "symbol": "CROMPTON",
    "value": 5.12
+  },
+  {
+   "at": "14:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": -5.13
   }
  ],
  "latched": {
@@ -417,8 +425,6 @@
   "AZAD|daily|down|5": 5.58,
   "BERGEPAINT|daily|down|5": 5.08,
   "CGPOWER|daily|down|5": 6.89,
-  "CROMPTON|daily|up|5": 5.12,
-  "GODIGIT|daily|down|5": 5.4,
   "GOKEX|daily|down|5": 6.72,
   "IKS|daily|down|5": 5.8,
   "MANYAVAR|daily|down|5": 5.32,
@@ -430,6 +436,7 @@
   "TRITURBINE|daily|down|5": 5.59,
   "VRLLOG|daily|up|5": 5.13,
   "VTL|daily|down|5": 5.2,
+  "WELSPUNLIV|daily|down|5": 5.13,
   "ZEEL|daily|down|5": 5.38
  },
  "shared": [
@@ -462,7 +469,8 @@
   "BRITANNIA",
   "VTL",
   "ZEEL",
-  "CROMPTON"
+  "CROMPTON",
+  "WELSPUNLIV"
  ],
  "warned_blind": false
 }
