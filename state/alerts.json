@@ -441,15 +441,31 @@
    "level": 5.0,
    "symbol": "NEOGEN",
    "value": 5.19
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HAVELLS",
+   "value": 5.33
+  },
+  {
+   "at": "15:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": -5.01
   }
  ],
  "latched": {
   "ASTRAL|daily|down|5": 8.62,
   "AVALON|daily|down|5": 6.12,
-  "AWFIS|daily|up|5": 5.76,
   "AZAD|daily|down|5": 5.58,
   "BERGEPAINT|daily|down|5": 5.08,
   "GOKEX|daily|down|5": 6.72,
+  "HAVELLS|daily|up|5": 5.33,
   "IKS|daily|down|5": 5.8,
   "MANYAVAR|daily|down|5": 5.32,
   "NEOGEN|daily|up|5": 5.19,
@@ -458,8 +474,7 @@
   "THERMAX|daily|down|5": 13.13,
   "TIINDIA|daily|down|5": 7.25,
   "VRLLOG|daily|up|5": 5.13,
-  "VTL|daily|down|5": 5.2,
-  "ZEEL|daily|down|5": 5.38
+  "WELSPUNLIV|daily|down|5": 5.01
  },
  "shared": [
   "ASTRAL",
@@ -494,7 +509,8 @@
   "CROMPTON",
   "WELSPUNLIV",
   "AWFIS",
-  "NEOGEN"
+  "NEOGEN",
+  "HAVELLS"
  ],
  "warned_blind": false
 }
