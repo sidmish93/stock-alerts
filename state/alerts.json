@@ -225,20 +225,64 @@
    "level": 5.0,
    "symbol": "SYRMA",
    "value": -5.64
+  },
+  {
+   "at": "10:30",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SUPREMEIND",
+   "value": -5.07
+  },
+  {
+   "at": "10:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GODIGIT",
+   "value": -5.05
+  },
+  {
+   "at": "10:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AZAD",
+   "value": -5.58
+  },
+  {
+   "at": "10:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDOMIM",
+   "value": -5.05
+  },
+  {
+   "at": "10:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CLEANMAX",
+   "value": -5.45
   }
  ],
  "latched": {
   "ASTRAL|daily|down|5": 8.62,
   "AVALON|daily|down|5": 6.12,
+  "AZAD|daily|down|5": 5.58,
   "BERGEPAINT|daily|down|5": 5.08,
   "CGPOWER|daily|down|5": 6.89,
   "CHOLAHLDNG|daily|up|5": 5.03,
+  "CLEANMAX|daily|down|5": 5.45,
+  "GODIGIT|daily|down|5": 5.05,
   "GOKEX|daily|down|5": 6.72,
   "IKS|daily|down|5": 5.8,
-  "MANYAVAR|daily|down|5": 5.16,
+  "INDOMIM|daily|down|5": 5.05,
   "PGIL|daily|down|5": 6.39,
   "RATEGAIN|daily|down|5": 8.15,
   "REDINGTON|daily|down|5": 6.37,
+  "SUPREMEIND|daily|down|5": 5.07,
   "SYRMA|daily|down|5": 5.64,
   "THERMAX|daily|down|5": 13.13,
   "TIINDIA|daily|down|5": 7.25
@@ -266,7 +310,8 @@
   "SUPREMEIND",
   "SYRMA",
   "AZAD",
-  "MANYAVAR"
+  "MANYAVAR",
+  "GODIGIT"
  ],
  "warned_blind": false
 }
