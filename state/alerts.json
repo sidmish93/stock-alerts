@@ -9,13 +9,33 @@
    "level": 5.0,
    "symbol": "PGIL",
    "value": 5.51
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VRLLOG",
+   "value": 8.63
+  },
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DIVISLAB",
+   "value": 5.91
   }
  ],
  "latched": {
-  "PGIL|daily|up|5": 5.51
+  "DIVISLAB|daily|up|5": 5.91,
+  "PGIL|daily|up|5": 5.51,
+  "VRLLOG|daily|up|5": 8.63
  },
  "shared": [
-  "PGIL"
+  "PGIL",
+  "VRLLOG",
+  "DIVISLAB"
  ],
  "warned_blind": false
 }
