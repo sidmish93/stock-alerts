@@ -217,12 +217,20 @@
    "level": 5.0,
    "symbol": "JUBLFOOD",
    "value": -5.1
+  },
+  {
+   "at": "15:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "EXIDEIND",
+   "value": 5.27
   }
  ],
  "latched": {
-  "AHLUCONT|daily|down|5": 5.08,
   "AVALON|daily|down|5": 5.3,
   "EMAMILTD|daily|up|5": 5.6,
+  "EXIDEIND|daily|up|5": 5.27,
   "GANECOS|daily|down|5": 5.15,
   "JUBLFOOD|daily|down|5": 5.1,
   "RATEGAIN|daily|down|5": 5.3,
@@ -244,7 +252,8 @@
   "EMAMILTD",
   "AHLUCONT",
   "GANECOS",
-  "JUBLFOOD"
+  "JUBLFOOD",
+  "EXIDEIND"
  ],
  "warned_blind": false
 }
