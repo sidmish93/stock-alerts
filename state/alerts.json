@@ -97,12 +97,29 @@
    "level": 5.0,
    "symbol": "RATEGAIN",
    "value": -5.78
+  },
+  {
+   "at": "11:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "THELEELA",
+   "value": -5.05
+  },
+  {
+   "at": "11:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SONATSOFTW",
+   "value": 6.06
   }
  ],
  "latched": {
   "RATEGAIN|daily|down|5": 5.78,
   "SANSERA|daily|up|5": 6.2,
-  "VGUARD|daily|up|5": 5.1
+  "SONATSOFTW|daily|up|5": 6.06,
+  "THELEELA|daily|down|5": 5.05
  },
  "shared": [
   "PGIL",
@@ -113,7 +130,9 @@
   "SANSERA",
   "VGUARD",
   "AEQUS",
-  "RATEGAIN"
+  "RATEGAIN",
+  "THELEELA",
+  "SONATSOFTW"
  ],
  "warned_blind": false
 }
