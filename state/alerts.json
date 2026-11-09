@@ -153,9 +153,18 @@
    "level": 5.0,
    "symbol": "SONATSOFTW",
    "value": 5.62
+  },
+  {
+   "at": "13:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AEQUS",
+   "value": 5.14
   }
  ],
  "latched": {
+  "AEQUS|daily|up|5": 5.14,
   "AVALON|daily|down|5": 5.09,
   "RATEGAIN|daily|down|5": 5.3,
   "SANSERA|daily|up|5": 6.2,
