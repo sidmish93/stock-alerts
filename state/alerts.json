@@ -150,9 +150,7 @@
  "latched": {
   "AVALON|daily|down|5": 5.09,
   "RATEGAIN|daily|down|5": 5.3,
-  "SANSERA|daily|up|5": 6.2,
-  "SONATSOFTW|daily|up|5": 6.06,
-  "VGUARD|daily|up|5": 5.62
+  "SANSERA|daily|up|5": 6.2
  },
  "shared": [
   "PGIL",
