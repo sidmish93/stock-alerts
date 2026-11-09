@@ -35,9 +35,7 @@
    "value": 5.24
   }
  ],
- "latched": {
-  "BETA|daily|up|5": 5.24
- },
+ "latched": {},
  "shared": [
   "PGIL",
   "VRLLOG",
