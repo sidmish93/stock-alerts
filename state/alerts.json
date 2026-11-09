@@ -118,8 +118,7 @@
  "latched": {
   "RATEGAIN|daily|down|5": 5.78,
   "SANSERA|daily|up|5": 6.2,
-  "SONATSOFTW|daily|up|5": 6.06,
-  "THELEELA|daily|down|5": 5.05
+  "SONATSOFTW|daily|up|5": 6.06
  },
  "shared": [
   "PGIL",
