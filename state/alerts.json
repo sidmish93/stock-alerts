@@ -161,10 +161,28 @@
    "level": 5.0,
    "symbol": "AEQUS",
    "value": 5.14
+  },
+  {
+   "at": "14:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "EMAMILTD",
+   "value": 5.6
+  },
+  {
+   "at": "14:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AEQUS",
+   "value": 5.23
   }
  ],
  "latched": {
+  "AEQUS|daily|up|5": 5.23,
   "AVALON|daily|down|5": 5.09,
+  "EMAMILTD|daily|up|5": 5.6,
   "RATEGAIN|daily|down|5": 5.3,
   "SONATSOFTW|daily|up|5": 5.62
  },
@@ -179,7 +197,8 @@
   "AEQUS",
   "RATEGAIN",
   "THELEELA",
-  "SONATSOFTW"
+  "SONATSOFTW",
+  "EMAMILTD"
  ],
  "warned_blind": false
 }
