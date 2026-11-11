@@ -1,8 +1,21 @@
 {
  "day": "2026-11-11",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SUNTV",
+   "value": 5.62
+  }
+ ],
+ "latched": {
+  "SUNTV|daily|up|5": 5.62
+ },
+ "shared": [
+  "SUNTV"
+ ],
  "warned_blind": false
 }
