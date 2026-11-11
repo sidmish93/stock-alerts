@@ -193,6 +193,14 @@
    "level": 5.0,
    "symbol": "LEAPIND",
    "value": 5.14
+  },
+  {
+   "at": "14:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "COHANCE",
+   "value": 5.38
   }
  ],
  "latched": {
@@ -200,6 +208,7 @@
   "AVALON|daily|up|5": 5.63,
   "BANKBARODA|daily|up|5": 5.11,
   "BLUESTONE|daily|up|5": 5.85,
+  "COHANCE|daily|up|5": 5.38,
   "HORIZONIND|daily|up|5": 5.45,
   "ICIL|daily|up|5": 5.31,
   "LEAPIND|daily|up|5": 5.14,
@@ -228,7 +237,8 @@
   "HORIZONIND",
   "HCG",
   "SPAL",
-  "LEAPIND"
+  "LEAPIND",
+  "COHANCE"
  ],
  "warned_blind": false
 }
