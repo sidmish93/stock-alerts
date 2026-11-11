@@ -57,6 +57,14 @@
    "level": 5.0,
    "symbol": "AARTIIND",
    "value": 5.19
+  },
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "KEC",
+   "value": 5.63
   }
  ],
  "latched": {
@@ -64,8 +72,8 @@
   "FIVESTAR|daily|up|5": 6.17,
   "GUJENERGY|daily|up|5": 5.43,
   "ICIL|daily|up|5": 5.31,
-  "SUNTV|daily|up|5": 5.62,
-  "SWIGGY|daily|up|5": 5.21
+  "KEC|daily|up|5": 5.63,
+  "SUNTV|daily|up|5": 5.62
  },
  "shared": [
   "SUNTV",
@@ -74,7 +82,8 @@
   "ICIL",
   "FIVESTAR",
   "GUJENERGY",
-  "AARTIIND"
+  "AARTIIND",
+  "KEC"
  ],
  "warned_blind": false
 }
