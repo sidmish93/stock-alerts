@@ -225,6 +225,14 @@
    "level": 5.0,
    "symbol": "REDINGTON",
    "value": 5.25
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FLUOROCHEM",
+   "value": 5.01
   }
  ],
  "latched": {
@@ -234,9 +242,9 @@
   "BLUESTONE|daily|up|5": 5.85,
   "COHANCE|daily|up|5": 5.38,
   "COROMANDEL|daily|up|5": 5.74,
+  "FLUOROCHEM|daily|up|5": 5.01,
   "HORIZONIND|daily|up|5": 5.45,
   "ICIL|daily|up|5": 5.31,
-  "LEAPIND|daily|up|5": 5.14,
   "NAVINFLUOR|daily|up|5": 5.45,
   "PARADEEP|daily|up|5": 6.02,
   "REDINGTON|daily|up|5": 5.25,
@@ -268,7 +276,8 @@
   "COHANCE",
   "COROMANDEL",
   "PARADEEP",
-  "REDINGTON"
+  "REDINGTON",
+  "FLUOROCHEM"
  ],
  "warned_blind": false
 }
