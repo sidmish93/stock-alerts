@@ -233,6 +233,14 @@
    "level": 5.0,
    "symbol": "FLUOROCHEM",
    "value": 5.01
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LEAPIND",
+   "value": 5.19
   }
  ],
  "latched": {
@@ -240,11 +248,11 @@
   "AVALON|daily|up|5": 5.63,
   "BANKBARODA|daily|up|5": 5.11,
   "BLUESTONE|daily|up|5": 5.85,
-  "COHANCE|daily|up|5": 5.38,
   "COROMANDEL|daily|up|5": 5.74,
   "FLUOROCHEM|daily|up|5": 5.01,
   "HORIZONIND|daily|up|5": 5.45,
   "ICIL|daily|up|5": 5.31,
+  "LEAPIND|daily|up|5": 5.19,
   "NAVINFLUOR|daily|up|5": 5.45,
   "REDINGTON|daily|up|5": 5.25,
   "SAPPHIRE|daily|up|5": 5.14,
