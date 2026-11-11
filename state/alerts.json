@@ -121,6 +121,14 @@
    "level": 5.0,
    "symbol": "VIYASH",
    "value": 5.41
+  },
+  {
+   "at": "12:44",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NAVINFLUOR",
+   "value": 5.09
   }
  ],
  "latched": {
@@ -128,6 +136,7 @@
   "BLUESTONE|daily|up|5": 5.85,
   "FIVESTAR|daily|up|5": 6.18,
   "ICIL|daily|up|5": 5.31,
+  "NAVINFLUOR|daily|up|5": 5.09,
   "SAPPHIRE|daily|up|5": 5.14,
   "SUNTV|daily|up|5": 5.62,
   "VIYASH|daily|up|5": 5.41
@@ -145,7 +154,8 @@
   "LATENTVIEW",
   "BLUESTONE",
   "SAPPHIRE",
-  "VIYASH"
+  "VIYASH",
+  "NAVINFLUOR"
  ],
  "warned_blind": false
 }
