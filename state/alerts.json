@@ -41,10 +41,28 @@
    "level": 5.0,
    "symbol": "FIVESTAR",
    "value": 6.17
+  },
+  {
+   "at": "10:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GUJENERGY",
+   "value": 5.43
+  },
+  {
+   "at": "10:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AARTIIND",
+   "value": 5.19
   }
  ],
  "latched": {
+  "AARTIIND|daily|up|5": 5.19,
   "FIVESTAR|daily|up|5": 6.17,
+  "GUJENERGY|daily|up|5": 5.43,
   "ICIL|daily|up|5": 5.31,
   "SUNTV|daily|up|5": 5.62,
   "SWIGGY|daily|up|5": 5.21
@@ -54,7 +72,9 @@
   "IRCTC",
   "SWIGGY",
   "ICIL",
-  "FIVESTAR"
+  "FIVESTAR",
+  "GUJENERGY",
+  "AARTIIND"
  ],
  "warned_blind": false
 }
