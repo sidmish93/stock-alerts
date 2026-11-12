@@ -137,6 +137,30 @@
    "level": 5.0,
    "symbol": "POLICYBZR",
    "value": 5.32
+  },
+  {
+   "at": "14:40",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PAGEIND",
+   "value": -9.99
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZEEL",
+   "value": 6.07
+  },
+  {
+   "at": "14:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PINELABS",
+   "value": 5.43
   }
  ],
  "latched": {
@@ -144,9 +168,12 @@
   "CANHLIFE|daily|up|5": 5.65,
   "INDIAMART|daily|up|5": 5.36,
   "MOLBIO|daily|up|5": 6.39,
+  "PAGEIND|daily|down|5": 9.99,
   "PAYTM|daily|up|5": 5.61,
+  "PINELABS|daily|up|5": 5.43,
   "POLICYBZR|daily|up|5": 5.32,
-  "SKFINDUS|daily|up|5": 5.08
+  "SKFINDUS|daily|up|5": 5.08,
+  "ZEEL|daily|up|5": 6.07
  },
  "shared": [
   "CLEANMAX",
@@ -163,7 +190,9 @@
   "GRANULES",
   "FRACTAL",
   "AYE",
-  "POLICYBZR"
+  "POLICYBZR",
+  "PAGEIND",
+  "ZEEL"
  ],
  "warned_blind": false
 }
