@@ -49,10 +49,27 @@
    "level": 5.0,
    "symbol": "FUSION",
    "value": 5.4
+  },
+  {
+   "at": "11:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDIAMART",
+   "value": 5.36
+  },
+  {
+   "at": "11:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CANHLIFE",
+   "value": 5.07
   }
  ],
  "latched": {
-  "FUSION|daily|up|5": 5.4,
+  "CANHLIFE|daily|up|5": 5.07,
+  "INDIAMART|daily|up|5": 5.36,
   "MOLBIO|daily|up|5": 6.39
  },
  "shared": [
@@ -61,7 +78,9 @@
   "MOLBIO",
   "LEMONTREE",
   "ABCAPITAL",
-  "FUSION"
+  "FUSION",
+  "INDIAMART",
+  "CANHLIFE"
  ],
  "warned_blind": false
 }
