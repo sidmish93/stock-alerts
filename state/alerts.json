@@ -19,10 +19,7 @@
    "value": 5.45
   }
  ],
- "latched": {
-  "CLEANMAX|daily|up|5": 5.11,
-  "NUVAMA|daily|up|5": 5.45
- },
+ "latched": {},
  "shared": [
   "CLEANMAX",
   "NUVAMA"
