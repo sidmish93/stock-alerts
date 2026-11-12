@@ -97,14 +97,32 @@
    "level": 5.0,
    "symbol": "PAYTM",
    "value": 5.61
+  },
+  {
+   "at": "13:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SKFINDUS",
+   "value": 5.08
+  },
+  {
+   "at": "13:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GRANULES",
+   "value": 5.07
   }
  ],
  "latched": {
   "ABCAPITAL|daily|up|5": 5.04,
   "CANHLIFE|daily|up|5": 5.65,
+  "GRANULES|daily|up|5": 5.07,
   "INDIAMART|daily|up|5": 5.36,
   "MOLBIO|daily|up|5": 6.39,
-  "PAYTM|daily|up|5": 5.61
+  "PAYTM|daily|up|5": 5.61,
+  "SKFINDUS|daily|up|5": 5.08
  },
  "shared": [
   "CLEANMAX",
@@ -116,7 +134,9 @@
   "INDIAMART",
   "CANHLIFE",
   "PINELABS",
-  "PAYTM"
+  "PAYTM",
+  "SKFINDUS",
+  "GRANULES"
  ],
  "warned_blind": false
 }
