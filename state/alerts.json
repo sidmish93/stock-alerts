@@ -65,12 +65,21 @@
    "level": 5.0,
    "symbol": "LEAPIND",
    "value": 5.36
+  },
+  {
+   "at": "11:27",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLBIO",
+   "value": 5.99
   }
  ],
  "latched": {
   "AMBER|daily|up|5": 5.22,
   "AVALON|daily|down|5": 5.25,
-  "LEAPIND|daily|up|5": 5.36
+  "LEAPIND|daily|up|5": 5.36,
+  "MOLBIO|daily|up|5": 5.99
  },
  "shared": [
   "VIPIND",
@@ -78,7 +87,8 @@
   "GPPL",
   "CANHLIFE",
   "AVALON",
-  "LEAPIND"
+  "LEAPIND",
+  "MOLBIO"
  ],
  "warned_blind": false
 }
