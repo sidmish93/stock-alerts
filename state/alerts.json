@@ -57,19 +57,29 @@
    "level": 5.0,
    "symbol": "AVALON",
    "value": -5.25
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LEAPIND",
+   "value": 5.36
   }
  ],
  "latched": {
   "AMBER|daily|up|5": 5.22,
   "AVALON|daily|down|5": 5.25,
-  "GPPL|daily|up|5": 5.42
+  "GPPL|daily|up|5": 5.42,
+  "LEAPIND|daily|up|5": 5.36
  },
  "shared": [
   "VIPIND",
   "AMBER",
   "GPPL",
   "CANHLIFE",
-  "AVALON"
+  "AVALON",
+  "LEAPIND"
  ],
  "warned_blind": false
 }
