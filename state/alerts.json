@@ -89,11 +89,29 @@
    "level": 5.0,
    "symbol": "AVALON",
    "value": -5.34
+  },
+  {
+   "at": "15:15",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "POLICYBZR",
+   "value": 5.42
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTONE",
+   "value": -6.18
   }
  ],
  "latched": {
   "AMBER|daily|up|5": 5.22,
-  "MOLBIO|daily|up|5": 5.99
+  "BLUESTONE|daily|down|5": 6.18,
+  "MOLBIO|daily|up|5": 5.99,
+  "POLICYBZR|daily|up|5": 5.42
  },
  "shared": [
   "VIPIND",
@@ -102,7 +120,9 @@
   "CANHLIFE",
   "AVALON",
   "LEAPIND",
-  "MOLBIO"
+  "MOLBIO",
+  "POLICYBZR",
+  "BLUESTONE"
  ],
  "warned_blind": false
 }
