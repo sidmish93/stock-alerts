@@ -86,7 +86,6 @@
  "latched": {
   "AMBER|daily|up|5": 5.22,
   "AVALON|daily|down|5": 5.25,
-  "LEAPIND|daily|up|5": 5.03,
   "MOLBIO|daily|up|5": 5.99
  },
  "shared": [
