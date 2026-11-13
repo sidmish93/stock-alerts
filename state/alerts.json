@@ -27,9 +27,7 @@
    "value": 5.12
   }
  ],
- "latched": {
-  "AMBER|daily|up|5": 5.22
- },
+ "latched": {},
  "shared": [
   "VIPIND",
   "AMBER",
