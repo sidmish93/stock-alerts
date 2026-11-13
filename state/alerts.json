@@ -1,8 +1,21 @@
 {
  "day": "2026-11-13",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "09:50",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VIPIND",
+   "value": -5.41
+  }
+ ],
+ "latched": {
+  "VIPIND|daily|down|5": 5.41
+ },
+ "shared": [
+  "VIPIND"
+ ],
  "warned_blind": false
 }
