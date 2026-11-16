@@ -185,6 +185,14 @@
    "level": 5.0,
    "symbol": "TRITURBINE",
    "value": -5.32
+  },
+  {
+   "at": "15:20",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "NEOGEN",
+   "value": -5.05
   }
  ],
  "latched": {
@@ -197,6 +205,7 @@
   "LEAPIND|daily|down|5": 5.02,
   "MAHLOG|daily|down|5": 13.55,
   "MAXHEALTH|daily|up|5": 5.03,
+  "NEOGEN|daily|down|5": 5.05,
   "PREMIERENE|daily|down|5": 5.16,
   "TRITURBINE|daily|down|5": 5.32,
   "VIYASH|daily|down|5": 5.08,
@@ -216,7 +225,8 @@
   "LAURUSLABS",
   "INDOMIM",
   "PREMIERENE",
-  "TRITURBINE"
+  "TRITURBINE",
+  "NEOGEN"
  ],
  "warned_blind": false
 }
