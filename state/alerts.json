@@ -57,14 +57,32 @@
    "level": 5.0,
    "symbol": "AHLUCONT",
    "value": 5.47
+  },
+  {
+   "at": "10:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GOKEX",
+   "value": 5.2
+  },
+  {
+   "at": "10:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VIYASH",
+   "value": -5.08
   }
  ],
  "latched": {
   "AHLUCONT|daily|up|5": 5.47,
   "AMBER|daily|down|5": 5.43,
   "AVALON|daily|down|5": 5.96,
+  "GOKEX|daily|up|5": 5.2,
   "KAYNES|daily|down|5": 10.0,
-  "MAHLOG|daily|down|5": 13.55
+  "MAHLOG|daily|down|5": 13.55,
+  "VIYASH|daily|down|5": 5.08
  },
  "shared": [
   "KAYNES",
@@ -72,7 +90,8 @@
   "MAHLOG",
   "VIYASH",
   "AVALON",
-  "AMBER"
+  "AMBER",
+  "GOKEX"
  ],
  "warned_blind": false
 }
