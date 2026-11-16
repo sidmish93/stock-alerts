@@ -1,128 +1,51 @@
 {
- "day": "2026-11-13",
- "digested": true,
+ "day": "2026-11-16",
+ "digested": false,
  "fired": [
   {
-   "at": "09:50",
+   "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "VIPIND",
-   "value": -5.41
+   "symbol": "KAYNES",
+   "value": -10.0
   },
   {
-   "at": "10:00",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "AMBER",
-   "value": 5.22
+   "symbol": "AHLUCONT",
+   "value": 6.47
   },
   {
-   "at": "10:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GPPL",
-   "value": 5.12
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AMBER",
-   "value": 5.22
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "GPPL",
-   "value": 5.42
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CANHLIFE",
-   "value": 5.17
-  },
-  {
-   "at": "10:50",
+   "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "AVALON",
-   "value": -5.25
+   "symbol": "MAHLOG",
+   "value": -13.55
   },
   {
-   "at": "11:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LEAPIND",
-   "value": 5.36
-  },
-  {
-   "at": "11:27",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLBIO",
-   "value": 5.99
-  },
-  {
-   "at": "12:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LEAPIND",
-   "value": 5.03
-  },
-  {
-   "at": "14:10",
+   "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "AVALON",
-   "value": -5.34
-  },
-  {
-   "at": "15:15",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLICYBZR",
-   "value": 5.42
-  },
-  {
-   "at": "15:20",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BLUESTONE",
-   "value": -6.18
+   "symbol": "VIYASH",
+   "value": -5.51
   }
  ],
  "latched": {
-  "AMBER|daily|up|5": 5.22,
-  "BLUESTONE|daily|down|5": 6.18,
-  "MOLBIO|daily|up|5": 5.99,
-  "POLICYBZR|daily|up|5": 5.42
+  "AHLUCONT|daily|up|5": 6.47,
+  "KAYNES|daily|down|5": 10.0,
+  "MAHLOG|daily|down|5": 13.55,
+  "VIYASH|daily|down|5": 5.51
  },
  "shared": [
-  "VIPIND",
-  "AMBER",
-  "GPPL",
-  "CANHLIFE",
-  "AVALON",
-  "LEAPIND",
-  "MOLBIO",
-  "POLICYBZR",
-  "BLUESTONE"
+  "KAYNES",
+  "AHLUCONT",
+  "MAHLOG",
+  "VIYASH"
  ],
  "warned_blind": false
 }
