@@ -19,9 +19,7 @@
    "value": -5.1
   }
  ],
- "latched": {
-  "ABDL|daily|up|5": 5.75
- },
+ "latched": {},
  "shared": [
   "ABDL",
   "BETA"
