@@ -65,6 +65,14 @@
    "level": 5.0,
    "symbol": "ANGELONE",
    "value": 5.66
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": 5.01
   }
  ],
  "latched": {
@@ -72,6 +80,7 @@
   "APTUS|daily|up|5": 6.58,
   "FIRSTCRY|daily|up|5": 5.55,
   "LEAPIND|daily|up|5": 5.4,
+  "PGIL|daily|up|5": 5.01,
   "WELSPUNLIV|daily|up|5": 5.04
  },
  "shared": [
@@ -82,7 +91,8 @@
   "AVALON",
   "WELSPUNLIV",
   "LEAPIND",
-  "ANGELONE"
+  "ANGELONE",
+  "PGIL"
  ],
  "warned_blind": false
 }
