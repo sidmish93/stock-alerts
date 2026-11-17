@@ -41,19 +41,39 @@
    "level": 5.0,
    "symbol": "AVALON",
    "value": -6.34
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": 5.04
+  },
+  {
+   "at": "10:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "LEAPIND",
+   "value": 5.4
   }
  ],
  "latched": {
   "APTUS|daily|up|5": 6.58,
   "AVALON|daily|down|5": 6.34,
-  "FIRSTCRY|daily|up|5": 5.55
+  "FIRSTCRY|daily|up|5": 5.55,
+  "LEAPIND|daily|up|5": 5.4,
+  "WELSPUNLIV|daily|up|5": 5.04
  },
  "shared": [
   "ABDL",
   "BETA",
   "FIRSTCRY",
   "APTUS",
-  "AVALON"
+  "AVALON",
+  "WELSPUNLIV",
+  "LEAPIND"
  ],
  "warned_blind": false
 }
