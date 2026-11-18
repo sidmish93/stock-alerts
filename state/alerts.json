@@ -49,9 +49,19 @@
    "level": 5.0,
    "symbol": "MANAPPURAM",
    "value": -5.12
+  },
+  {
+   "at": "14:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "URBANCO",
+   "value": 5.46
   }
  ],
- "latched": {},
+ "latched": {
+  "URBANCO|daily|up|5": 5.46
+ },
  "shared": [
   "URBANCO",
   "CREDITACC",
