@@ -25,17 +25,27 @@
    "level": 5.0,
    "symbol": "MANAPPURAM",
    "value": -5.01
+  },
+  {
+   "at": "11:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FINEORG",
+   "value": 5.11
   }
  ],
  "latched": {
   "CREDITACC|daily|down|5": 5.05,
+  "FINEORG|daily|up|5": 5.11,
   "MANAPPURAM|daily|down|5": 5.01,
   "URBANCO|daily|up|5": 5.17
  },
  "shared": [
   "URBANCO",
   "CREDITACC",
-  "MANAPPURAM"
+  "MANAPPURAM",
+  "FINEORG"
  ],
  "warned_blind": false
 }
