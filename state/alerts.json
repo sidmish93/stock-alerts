@@ -1,8 +1,21 @@
 {
  "day": "2026-11-18",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "10:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "URBANCO",
+   "value": 5.17
+  }
+ ],
+ "latched": {
+  "URBANCO|daily|up|5": 5.17
+ },
+ "shared": [
+  "URBANCO"
+ ],
  "warned_blind": false
 }
