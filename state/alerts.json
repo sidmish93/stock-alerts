@@ -51,10 +51,7 @@
    "value": -5.12
   }
  ],
- "latched": {
-  "CREDITACC|daily|down|5": 5.42,
-  "MANAPPURAM|daily|down|5": 5.12
- },
+ "latched": {},
  "shared": [
   "URBANCO",
   "CREDITACC",
