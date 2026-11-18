@@ -53,8 +53,7 @@
  ],
  "latched": {
   "CREDITACC|daily|down|5": 5.42,
-  "MANAPPURAM|daily|down|5": 5.12,
-  "URBANCO|daily|up|5": 5.17
+  "MANAPPURAM|daily|down|5": 5.12
  },
  "shared": [
   "URBANCO",
