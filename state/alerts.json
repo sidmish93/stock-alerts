@@ -49,9 +49,18 @@
    "level": 5.0,
    "symbol": "VOLTAS",
    "value": 5.12
+  },
+  {
+   "at": "10:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BLUESTARCO",
+   "value": 5.02
   }
  ],
  "latched": {
+  "BLUESTARCO|daily|up|5": 5.02,
   "MARUTI|daily|up|5": 5.03,
   "PAYTM|daily|down|5": 6.08,
   "VOLTAS|daily|up|5": 5.12
