@@ -169,6 +169,14 @@
    "level": 5.0,
    "symbol": "HEROMOTOCO",
    "value": 5.05
+  },
+  {
+   "at": "14:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHIPROCKET",
+   "value": -5.01
   }
  ],
  "latched": {
@@ -181,6 +189,7 @@
   "INDOMIM|daily|up|5": 5.22,
   "MARUTI|daily|up|5": 5.03,
   "PAYTM|daily|down|5": 6.08,
+  "SHIPROCKET|daily|down|5": 5.01,
   "VOLTAS|daily|up|5": 5.12
  },
  "shared": [
@@ -196,7 +205,8 @@
   "HEROMOTOCO",
   "HAVELLS",
   "CREDITACC",
-  "INDOMIM"
+  "INDOMIM",
+  "SHIPROCKET"
  ],
  "warned_blind": false
 }
