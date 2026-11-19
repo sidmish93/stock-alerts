@@ -129,14 +129,22 @@
    "level": 5.0,
    "symbol": "CROMPTON",
    "value": 5.31
+  },
+  {
+   "at": "13:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CREDITACC",
+   "value": -5.23
   }
  ],
  "latched": {
   "AMBER|daily|up|5": 5.12,
   "BLUESTARCO|daily|up|5": 5.05,
+  "CREDITACC|daily|down|5": 5.23,
   "MARUTI|daily|up|5": 5.03,
   "PAYTM|daily|down|5": 6.08,
-  "PINELABS|daily|down|5": 5.13,
   "VOLTAS|daily|up|5": 5.12
  },
  "shared": [
@@ -150,7 +158,8 @@
   "PINELABS",
   "CROMPTON",
   "HEROMOTOCO",
-  "HAVELLS"
+  "HAVELLS",
+  "CREDITACC"
  ],
  "warned_blind": false
 }
