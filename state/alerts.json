@@ -1,129 +1,31 @@
 {
- "day": "2026-11-18",
- "digested": true,
+ "day": "2026-11-19",
+ "digested": false,
  "fired": [
   {
-   "at": "10:50",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "URBANCO",
-   "value": 5.17
+   "symbol": "HORIZONIND",
+   "value": 5.44
   },
   {
-   "at": "11:10",
+   "at": "09:20",
    "direction": "down",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "CREDITACC",
-   "value": -5.05
-  },
-  {
-   "at": "11:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MANAPPURAM",
-   "value": -5.01
-  },
-  {
-   "at": "11:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "FINEORG",
-   "value": 5.11
-  },
-  {
-   "at": "12:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CREDITACC",
-   "value": -5.42
-  },
-  {
-   "at": "12:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MANAPPURAM",
-   "value": -5.12
-  },
-  {
-   "at": "14:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "URBANCO",
-   "value": 5.46
-  },
-  {
-   "at": "14:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "NATIONALUM",
-   "value": -5.03
-  },
-  {
-   "at": "14:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "POLYCAB",
-   "value": -5.01
-  },
-  {
-   "at": "14:50",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "CREDITACC",
-   "value": -5.23
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "LATENTVIEW",
-   "value": -5.07
-  },
-  {
-   "at": "15:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SUNTV",
-   "value": 5.58
-  },
-  {
-   "at": "15:10",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SAIL",
-   "value": -5.14
+   "symbol": "PAYTM",
+   "value": -6.08
   }
  ],
  "latched": {
-  "CREDITACC|daily|down|5": 5.23,
-  "POLYCAB|daily|down|5": 5.01,
-  "SAIL|daily|down|5": 5.14,
-  "SUNTV|daily|up|5": 5.58,
-  "URBANCO|daily|up|5": 5.46
+  "HORIZONIND|daily|up|5": 5.44,
+  "PAYTM|daily|down|5": 6.08
  },
  "shared": [
-  "URBANCO",
-  "CREDITACC",
-  "MANAPPURAM",
-  "FINEORG",
-  "NATIONALUM",
-  "POLYCAB",
-  "LATENTVIEW",
-  "SUNTV",
-  "SAIL"
+  "HORIZONIND",
+  "PAYTM"
  ],
  "warned_blind": false
 }
