@@ -41,18 +41,28 @@
    "level": 5.0,
    "symbol": "MARUTI",
    "value": 5.03
+  },
+  {
+   "at": "10:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "VOLTAS",
+   "value": 5.12
   }
  ],
  "latched": {
   "MARUTI|daily|up|5": 5.03,
-  "PAYTM|daily|down|5": 6.08
+  "PAYTM|daily|down|5": 6.08,
+  "VOLTAS|daily|up|5": 5.12
  },
  "shared": [
   "HORIZONIND",
   "PAYTM",
   "POLICYBZR",
   "BLUESTARCO",
-  "MARUTI"
+  "MARUTI",
+  "VOLTAS"
  ],
  "warned_blind": false
 }
