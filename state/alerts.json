@@ -57,9 +57,18 @@
    "level": 5.0,
    "symbol": "BLUESTARCO",
    "value": 5.02
+  },
+  {
+   "at": "10:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AMBER",
+   "value": 5.12
   }
  ],
  "latched": {
+  "AMBER|daily|up|5": 5.12,
   "BLUESTARCO|daily|up|5": 5.02,
   "MARUTI|daily|up|5": 5.03,
   "PAYTM|daily|down|5": 6.08,
@@ -71,7 +80,8 @@
   "POLICYBZR",
   "BLUESTARCO",
   "MARUTI",
-  "VOLTAS"
+  "VOLTAS",
+  "AMBER"
  ],
  "warned_blind": false
 }
