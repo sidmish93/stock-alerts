@@ -153,12 +153,21 @@
    "level": 5.0,
    "symbol": "INDOMIM",
    "value": 5.22
+  },
+  {
+   "at": "13:40",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CROMPTON",
+   "value": 5.09
   }
  ],
  "latched": {
   "AMBER|daily|up|5": 5.12,
   "BLUESTARCO|daily|up|5": 5.05,
   "CREDITACC|daily|down|5": 5.23,
+  "CROMPTON|daily|up|5": 5.09,
   "HAVELLS|daily|up|5": 5.36,
   "INDOMIM|daily|up|5": 5.22,
   "MARUTI|daily|up|5": 5.03,
