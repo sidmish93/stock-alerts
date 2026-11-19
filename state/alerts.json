@@ -113,11 +113,20 @@
    "level": 5.0,
    "symbol": "HEROMOTOCO",
    "value": 5.06
+  },
+  {
+   "at": "12:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HAVELLS",
+   "value": 5.21
   }
  ],
  "latched": {
   "AMBER|daily|up|5": 5.12,
   "BLUESTARCO|daily|up|5": 5.05,
+  "HAVELLS|daily|up|5": 5.21,
   "MARUTI|daily|up|5": 5.03,
   "PAYTM|daily|down|5": 6.08,
   "PINELABS|daily|down|5": 5.13,
@@ -133,7 +142,8 @@
   "AMBER",
   "PINELABS",
   "CROMPTON",
-  "HEROMOTOCO"
+  "HEROMOTOCO",
+  "HAVELLS"
  ],
  "warned_blind": false
 }
