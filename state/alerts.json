@@ -105,6 +105,14 @@
    "level": 5.0,
    "symbol": "AYE",
    "value": -5.18
+  },
+  {
+   "at": "13:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JLHL",
+   "value": 5.32
   }
  ],
  "latched": {
@@ -113,6 +121,7 @@
   "BETA|daily|down|5": 5.02,
   "CYIENT|daily|up|5": 5.27,
   "INDUSINDBK|daily|up|5": 6.56,
+  "JLHL|daily|up|5": 5.32,
   "MTARTECH|daily|down|5": 5.08
  },
  "shared": [
@@ -126,7 +135,8 @@
   "APOLLOHOSP",
   "MTARTECH",
   "CYIENT",
-  "SHADOWFAX"
+  "SHADOWFAX",
+  "JLHL"
  ],
  "warned_blind": false
 }
