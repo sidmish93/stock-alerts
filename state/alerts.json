@@ -137,15 +137,33 @@
    "level": 5.0,
    "symbol": "WELSPUNLIV",
    "value": 6.1
+  },
+  {
+   "at": "15:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ASTERDM",
+   "value": 5.44
+  },
+  {
+   "at": "15:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MTARTECH",
+   "value": -5.81
   }
  ],
  "latched": {
   "APOLLOHOSP|daily|up|5": 5.01,
+  "ASTERDM|daily|up|5": 5.44,
   "AYE|daily|down|5": 5.18,
   "BETA|daily|down|5": 5.02,
   "CUB|daily|up|5": 5.68,
   "INDUSINDBK|daily|up|5": 6.56,
   "JLHL|daily|up|5": 5.32,
+  "MTARTECH|daily|down|5": 5.81,
   "WELSPUNLIV|daily|up|5": 6.1
  },
  "shared": [
@@ -161,7 +179,8 @@
   "CYIENT",
   "SHADOWFAX",
   "JLHL",
-  "CUB"
+  "CUB",
+  "ASTERDM"
  ],
  "warned_blind": false
 }
