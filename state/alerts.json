@@ -121,6 +121,14 @@
    "level": 5.0,
    "symbol": "CUB",
    "value": 5.68
+  },
+  {
+   "at": "14:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": 5.32
   }
  ],
  "latched": {
@@ -128,10 +136,10 @@
   "AYE|daily|down|5": 5.18,
   "BETA|daily|down|5": 5.02,
   "CUB|daily|up|5": 5.68,
-  "CYIENT|daily|up|5": 5.27,
   "INDUSINDBK|daily|up|5": 6.56,
   "JLHL|daily|up|5": 5.32,
-  "MTARTECH|daily|down|5": 5.08
+  "MTARTECH|daily|down|5": 5.08,
+  "WELSPUNLIV|daily|up|5": 5.32
  },
  "shared": [
   "PERSISTENT",
