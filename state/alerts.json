@@ -1,8 +1,21 @@
 {
  "day": "2026-11-20",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "10:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PERSISTENT",
+   "value": 5.21
+  }
+ ],
+ "latched": {
+  "PERSISTENT|daily|up|5": 5.21
+ },
+ "shared": [
+  "PERSISTENT"
+ ],
  "warned_blind": false
 }
