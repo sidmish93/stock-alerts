@@ -1,9 +1,11 @@
-"""Live quotes, daily volume history and the intraday volume profile, from
-Yahoo's .NS series.
+"""Live quotes, daily volume history and the intraday volume profile, from Yahoo.
 
-Yahoo rather than NSE on purpose: NSE's own quote API answers almost nothing
+NSE names use the .NS series. A BSE-only listing uses .BO, which is how
+National Stock Exchange is priced: it has no series on NSE.
+
+Yahoo rather than NSE's own quote API on purpose: that API answers almost nothing
 from a cloud address, and its historical endpoint needs page cookies that expire
-constantly. Yahoo carries NSE prices and NSE volume, works from anywhere, and
+constantly. Yahoo carries the prices and volume, works from anywhere, and
 already restates history for splits and bonuses, so none of the corporate-action
 arithmetic the tracker needs against raw NSE data is required here.
 
@@ -32,10 +34,10 @@ from .config import (
     INTRADAY_INTERVAL,
     PROFILE_SESSIONS,
 )
-from .http import get_json, read_cache, write_cache
+from .http import get_json, read_cache, reset_session, write_cache, yahoo_crumb
 
 CHART_URL = (
-    "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}.NS"
+    "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
     "?interval={interval}&range={range}{extra}"
 )
 
@@ -113,6 +115,9 @@ class Quote:
     quote_at: datetime | None = None
     intraday_return_pct: float | None = None
     daily_return_pct: float | None = None
+    # Rupees, from Yahoo's quote endpoint. Filled only when an alert is about
+    # to go out: the chart call used for every poll does not carry it.
+    market_cap: float | None = None
     error: str | None = None
 
     @property
@@ -147,13 +152,24 @@ def _ist_date(stamp) -> date | None:
     return moment.date() if moment else None
 
 
-def _result(symbol: str, interval: str, window: str, ttl: int = 0, events: bool = False):
-    """Chart payload for one symbol. A ttl of 0 always goes to the network."""
-    name = f"yahoo_{_slug(symbol)}_{interval}_{window}.json"
+def yahoo_ticker(symbol: str, exchange: str = "NS") -> str:
+    """Yahoo symbol. An NSE equity is .NS; a BSE-only listing is .BO."""
+    text = (symbol or "").upper().strip()
+    if text.endswith(".NS") or text.endswith(".BO"):
+        return text
+    series = (exchange or "NS").upper().strip().lstrip(".")
+    if series not in {"NS", "BO"}:
+        series = "NS"
+    return f"{text}.{series}"
+
+
+def _result(ticker: str, interval: str, window: str, ttl: int = 0, events: bool = False):
+    """Chart payload for one Yahoo ticker, such as TATAELXSI.NS or NSE.BO."""
+    name = f"yahoo_{_slug(ticker)}_{interval}_{window}.json"
     payload = read_cache(name, ttl) if ttl else None
     if payload is None:
         url = CHART_URL.format(
-            symbol=urllib.parse.quote((symbol or "").upper(), safe="-."),
+            symbol=urllib.parse.quote((ticker or "").upper(), safe="-."),
             interval=interval,
             range=window,
             extra="&events=div,split" if events else "",
@@ -176,11 +192,11 @@ def _pct_move(cmp_price, base) -> float | None:
     return round((cmp_price / base - 1) * 100, 2)
 
 
-def fetch_quote(symbol: str) -> Quote:
+def fetch_quote(symbol: str, exchange: str = "NS") -> Quote:
     """Live CMP, open, previous close and cumulative volume for one symbol."""
     quote = Quote(symbol=(symbol or "").upper())
     try:
-        result = _result(symbol, "1d", "1d")
+        result = _result(yahoo_ticker(symbol, exchange), "1d", "1d")
     except Exception as exc:
         quote.error = str(exc)
         return quote
@@ -216,6 +232,49 @@ def fetch_quote(symbol: str) -> Quote:
     quote.intraday_return_pct = _pct_move(quote.cmp, quote.open)
     quote.daily_return_pct = _pct_move(quote.cmp, quote.previous_close)
     return quote
+
+
+def market_cap_from_payload(payload) -> float | None:
+    """Rupee market cap from a Yahoo v7 quote response, or None when it is absent."""
+    rows = ((payload or {}).get("quoteResponse") or {}).get("result") or []
+    if not rows or not isinstance(rows[0], dict):
+        return None
+    row = rows[0]
+    currency = str(row.get("currency") or "INR").upper()
+    if currency != "INR":
+        return None
+    value = row.get("marketCap")
+    if isinstance(value, dict):
+        value = value.get("raw")
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return None
+    return number if number > 0 else None
+
+
+def fetch_market_cap(symbol: str, exchange: str = "NS") -> float | None:
+    """Current market cap in rupees. None when Yahoo will not say, so the alert still sends.
+
+    This is a different endpoint from the chart call: that one has the price and
+    not the market cap. It needs a crumb, and it is only worth the extra request
+    for a name that is actually alerting.
+    """
+    ticker = yahoo_ticker(symbol, exchange)
+    if not ticker or ticker in {".NS", ".BO"}:
+        return None
+    quoted = urllib.parse.quote(ticker, safe="-.")
+    for _ in range(2):
+        try:
+            crumb = urllib.parse.quote(yahoo_crumb(), safe="")
+            url = (
+                "https://query1.finance.yahoo.com/v7/finance/quote"
+                f"?symbols={quoted}&crumb={crumb}"
+            )
+            return market_cap_from_payload(get_json(url, attempts=1))
+        except Exception:
+            reset_session()
+    return None
 
 
 def _daily_sessions(result) -> list[Session]:
@@ -344,17 +403,18 @@ def _intraday_bars(symbol: str) -> dict[date, list[tuple[int, float]]]:
     return grouped
 
 
-def fetch_history(symbol: str, today: date | None = None) -> History:
+def fetch_history(symbol: str, today: date | None = None, exchange: str = "NS") -> History:
     """Daily bars, the intraday volume profile and corporate actions.
 
     All of it changes at most once a day, so it is cached for the session.
     """
+    ticker = yahoo_ticker(symbol, exchange)
     history = History()
     try:
-        result = _result(symbol, "1d", HISTORY_RANGE, HISTORY_TTL_SECONDS, events=True)
+        result = _result(ticker, "1d", HISTORY_RANGE, HISTORY_TTL_SECONDS, events=True)
     except Exception:
         return history
     history.sessions = _daily_sessions(result)
     history.splits, history.dividends = _events(result)
-    history.profile = build_profile(_intraday_bars(symbol), skip=today)
+    history.profile = build_profile(_intraday_bars(ticker), skip=today)
     return history

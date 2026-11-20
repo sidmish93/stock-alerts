@@ -30,7 +30,7 @@ from .config import (
     SHAREHOLDING_MAX_PER_DAY,
     STALE_QUOTE_MINUTES,
 )
-from .quotes import fetch_history, fetch_quote
+from .quotes import fetch_history, fetch_market_cap, fetch_quote
 from .state import AlertLog
 from .triggers import DAILY, INTRADAY, measure
 
@@ -81,12 +81,6 @@ def _send_shareholding(watched, alert_log, dry_run: bool) -> None:
         log(f"No BSE shareholding pattern for {watched.symbol}.")
         return
     message = shareholding.format_message(found, watched.name)
-    note = notify.coverage_note(
-        getattr(watched, "coverage", True),
-        getattr(watched, "buckets", ()),
-    )
-    if note:
-        message = f"{note}\n{message}"
     if dry_run:
         log(f"would send:\n{message}\n")
         return
@@ -98,8 +92,11 @@ def _send_shareholding(watched, alert_log, dry_run: bool) -> None:
 
 def _snapshot(watched):
     """Live quote plus the once-a-day history for one company."""
-    quote = fetch_quote(watched.symbol)
-    history = fetch_history(watched.symbol, quote.session_date) if not quote.error else None
+    exchange = getattr(watched, "exchange", "NS")
+    quote = fetch_quote(watched.symbol, exchange)
+    history = (
+        fetch_history(watched.symbol, quote.session_date, exchange) if not quote.error else None
+    )
     return watched, quote, history
 
 
@@ -140,14 +137,19 @@ def poll(watched_list, alert_log: AlertLog, today: date, dry_run: bool = False) 
             lagging.append(int((now - quote.quote_at).total_seconds() / 60))
 
         reading = measure(quote, history, now=quote.quote_at)
-        for trigger in alert_log.advance(reading):
+        triggers = alert_log.advance(reading)
+        # One extra Yahoo call, and only for a name that is about to alert.
+        # A miss leaves the line off; it must not block the alert itself.
+        if triggers:
+            quote.market_cap = fetch_market_cap(
+                watched.symbol, getattr(watched, "exchange", "NS")
+            )
+        for trigger in triggers:
             message = notify.format_alert(
                 trigger,
                 quote,
                 reading,
                 watched.name,
-                coverage=getattr(watched, "coverage", True),
-                buckets=getattr(watched, "buckets", ()),
             )
             if not _deliver(message, watched.symbol, dry_run):
                 continue

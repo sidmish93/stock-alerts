@@ -69,14 +69,22 @@ def _signed(value) -> str:
     return f"{value:+.2f}%"
 
 
-def coverage_note(coverage: bool = True, buckets=()) -> str:
-    """The line that marks a PE-book name that is not on the coverage list."""
-    if coverage:
+def market_cap_text(rupees) -> str:
+    """Market cap the way it is read: crore, or lakh crore past 1,00,000 cr."""
+    try:
+        number = float(rupees)
+    except (TypeError, ValueError):
         return ""
-    firms = ", ".join(html.escape(str(bucket)) for bucket in buckets if bucket)
-    if firms:
-        return f"<i>non coverage company · {firms}</i>"
-    return "<i>non coverage company</i>"
+    if number <= 0:
+        return ""
+    crores = number / 1_00_00_000
+    if crores >= 1_00_000:
+        return f"Rs {crores / 1_00_000:.2f} lakh cr"
+    if crores >= 100:
+        return f"Rs {indian_number(round(crores))} cr"
+    if crores >= 10:
+        return f"Rs {crores:.1f} cr"
+    return f"Rs {crores:.2f} cr"
 
 
 def format_alert(
@@ -84,8 +92,6 @@ def format_alert(
     quote,
     reading,
     name: str = "",
-    coverage: bool = True,
-    buckets=(),
 ) -> str:
     """One alert, as it appears on the phone."""
     symbol = html.escape(trigger.symbol)
@@ -104,9 +110,10 @@ def format_alert(
     lines = [f"{icon} <b>{symbol}</b>  {headline}"]
     if title:
         lines.append(f"<i>{title}</i>")
-    note = coverage_note(coverage, buckets)
-    if note:
-        lines.append(note)
+
+    cap = market_cap_text(getattr(quote, "market_cap", None))
+    if cap:
+        lines.append(f"Mcap {cap}")
 
     if quote.cmp is not None:
         detail = f"CMP Rs {quote.cmp:,.2f}"

@@ -1,19 +1,12 @@
-# 331 NSE-listed companies: 300 coverage names grouped by sector, plus 31
-# non-coverage PE holdings. A firm is tagged only if it (or a known vehicle)
-# is still a named holder on the latest BSE pattern, after block/bulk deals.
-#
-# Coverage symbols were resolved by ISIN through BSE's scrip master and NSE's
-# own equity list, then confirmed to price on Yahoo and to carry a BSE scrip
-# code for shareholding lookups.
-#
-# BSE is excluded: it carries no BSE scrip code, so shareholding cannot be
-# fetched. NSDL is excluded as a BSE-only listing with no .NS series. CDSL is
-# watched only as a non-coverage PE name; its shareholding still cannot be
-# fetched.
-#
-# One NSE symbol per line, then the display name used in alerts.
-# Non-coverage lines add `| noncoverage | Firm; Firm`.
+# Companies to watch. One symbol per line, then the display name used in alerts.
 # Comment a line out with # to stop watching it without losing it.
+#
+# A symbol is an NSE equity. The one exception is a BSE-only listing, written
+# with a .BO suffix: National Stock Exchange has no series on NSE, so Yahoo
+# prices it as NSE.BO.
+#
+# Some older lines still carry `| noncoverage | Firm`. Alerts do not mention
+# coverage, so that tag is not shown.
 
 # --- Agri (4) ---
 COROMANDEL  , Coromandel International
@@ -387,8 +380,7 @@ PREMIERENE  , Premier Energies
 TATAPOWER   , Tata Power Co.
 TORNTPOWER  , Torrent Power
 
-# --- Non-coverage PE holdings (31) ---
-# Not coverage. Alerts name every PE book that still holds.
+# --- PE holdings (31) ---
 ADANIENSOL  , Adani Energy Solutions | noncoverage | ADIA
 ARMANFIN    , Arman Financial | noncoverage | Elevation
 AYE         , Aye Finance | noncoverage | Elevation
@@ -420,3 +412,10 @@ UFBL        , United Foodbrands | noncoverage | Xponentia
 URBANCO     , Urban Company | noncoverage | Steadview; Elevation
 VIYASH      , Viyash Scientific | noncoverage | Carlyle
 WAKEFIT     , Wakefit | noncoverage | Steadview; Elevation
+
+# --- Added names ---
+# LEAP India is already watched as LEAPIND.
+SYMBIOTEC   , Symbiotec Pharmalabs
+SMT         , Sahajanand Medical Technologies
+ZETWERK     , Zetwerk
+NSE.BO      , National Stock Exchange

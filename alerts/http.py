@@ -32,6 +32,31 @@ def session():
 
 def reset_session() -> None:
     _local.session = None
+    # The crumb belongs to the cookie jar of the session that fetched it.
+    _local.crumb = None
+
+
+CRUMB_URL = "https://query1.finance.yahoo.com/v1/test/getcrumb"
+# Sets the cookie the crumb is checked against. It answers 404, and that is fine.
+COOKIE_URL = "https://fc.yahoo.com"
+
+
+def yahoo_crumb() -> str:
+    """Crumb required by Yahoo's quote endpoint. The chart endpoint does not need one."""
+    existing = getattr(_local, "crumb", None)
+    if existing:
+        return existing
+    try:
+        session().get(COOKIE_URL, timeout=REQUEST_TIMEOUT)
+    except Exception:
+        pass
+    response = session().get(CRUMB_URL, timeout=REQUEST_TIMEOUT)
+    text = (response.text or "").strip()
+    if response.status_code != 200 or not text or text[:1] in ("<", "{"):
+        reset_session()
+        raise RuntimeError(f"Yahoo crumb unavailable (HTTP {response.status_code})")
+    _local.crumb = text
+    return text
 
 
 NSE_HOME = "https://www.nseindia.com/"

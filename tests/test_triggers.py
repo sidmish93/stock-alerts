@@ -9,8 +9,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from alerts import config, triggers  # noqa: E402
-from alerts.notify import format_alert, indian_number, shares  # noqa: E402
-from alerts.quotes import IST, History, Profile, Session, build_profile  # noqa: E402
+from alerts.notify import format_alert, indian_number, market_cap_text, shares  # noqa: E402
+from alerts.quotes import IST, History, Profile, Session, build_profile, market_cap_from_payload  # noqa: E402
 from alerts.state import AlertLog  # noqa: E402
 from alerts.triggers import (  # noqa: E402
     DAILY,
@@ -403,6 +403,27 @@ class Formatting(unittest.TestCase):
         self.assertEqual(shares(15122715), "1.51 cr")
         self.assertEqual(shares(250000), "2.50 lakh")
 
+    def test_market_cap_reads_in_crore(self):
+        # 2,44,95,14,33,216 rupees is 24,495 crore.
+        self.assertEqual(market_cap_text(244_951_433_216), "Rs 24,495 cr")
+        self.assertEqual(market_cap_text(2_00_00_00_00_00_000), "Rs 20.00 lakh cr")
+        self.assertEqual(market_cap_text(85.4 * 1_00_00_000), "Rs 85.4 cr")
+        self.assertEqual(market_cap_text(None), "")
+
+    def test_market_cap_is_taken_from_the_quote_payload(self):
+        payload = {
+            "quoteResponse": {
+                "result": [{"currency": "INR", "marketCap": 244_951_433_216}]
+            }
+        }
+        self.assertEqual(market_cap_from_payload(payload), 244_951_433_216)
+        self.assertIsNone(market_cap_from_payload({"quoteResponse": {"result": []}}))
+        self.assertIsNone(
+            market_cap_from_payload(
+                {"quoteResponse": {"result": [{"currency": "USD", "marketCap": 10}]}}
+            )
+        )
+
     def test_a_price_alert_names_the_level_it_crossed(self):
         quote = Quote(
             symbol="JSWINFRA",
@@ -422,6 +443,12 @@ class Formatting(unittest.TestCase):
         self.assertIn("5%", text)
         self.assertIn("+6.61%", text)
         self.assertIn("11:42 IST", text)
+        self.assertNotIn("Mcap", text)
+
+        quote.market_cap = 244_951_433_216
+        text = format_alert(trigger, quote, reading, "Tata Elxsi")
+        self.assertIn("Mcap Rs 24,495 cr", text)
+        self.assertLess(text.index("Mcap"), text.index("CMP"))
 
     def test_a_paced_volume_alert_explains_the_projection(self):
         original = triggers.VOLUME_LEVELS
@@ -466,20 +493,15 @@ class Formatting(unittest.TestCase):
         self.assertIn("ex-split", text)
         self.assertIn("corporate action", text)
 
-    def test_a_non_coverage_alert_names_every_pe_book(self):
+    def test_an_alert_does_not_mention_coverage(self):
         quote = Quote(symbol="CLEANMAX", cmp=1400.0, daily_return_pct=5.4,
                       previous_close=1328.0)
         reading = measure(quote, history())
         trigger = AlertLog(path=Path("nonexistent")).advance(reading)[0]
-        text = format_alert(
-            trigger, quote, reading, "Clean Max",
-            coverage=False, buckets=("Steadview", "Temasek"),
-        )
-        self.assertIn("non coverage company", text)
-        self.assertIn("Steadview", text)
-        self.assertIn("Temasek", text)
-        covered = format_alert(trigger, quote, reading, "Clean Max")
-        self.assertNotIn("non coverage company", covered)
+        text = format_alert(trigger, quote, reading, "Clean Max")
+        self.assertNotIn("coverage", text.lower())
+        self.assertNotIn("Steadview", text)
+        self.assertIn("CLEANMAX", text)
 
     def test_an_ampersand_in_a_name_cannot_break_the_markup(self):
         quote = Quote(symbol="ADANIPORTS", cmp=1400.0, daily_return_pct=5.4,

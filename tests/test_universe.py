@@ -57,6 +57,20 @@ class UniverseTests(unittest.TestCase):
         self.assertNotIn("OLAELEC", by_symbol)
         self.assertNotIn("EPL", by_symbol)
         self.assertEqual(sum(1 for item in watched if not item.coverage), 31)
+        self.assertEqual(by_symbol["LEAPIND"].name, "LEAP India")
+        self.assertEqual(by_symbol["SYMBIOTEC"].name, "Symbiotec Pharmalabs")
+        self.assertEqual(by_symbol["SMT"].name, "Sahajanand Medical Technologies")
+        self.assertEqual(by_symbol["ZETWERK"].name, "Zetwerk")
+        self.assertEqual(by_symbol["NSE"].name, "National Stock Exchange")
+        self.assertEqual(by_symbol["NSE"].exchange, "BO")
+        self.assertEqual(by_symbol["SYMBIOTEC"].exchange, "NS")
+        self.assertEqual(len(watched), 335)
+
+    def test_a_bse_suffix_is_the_symbol_the_alert_shows(self):
+        watched = self._load("NSE.BO, National Stock Exchange\n")
+        self.assertEqual(watched[0].symbol, "NSE")
+        self.assertEqual(watched[0].exchange, "BO")
+        self.assertEqual(watched[0].name, "National Stock Exchange")
 
 
 if __name__ == "__main__":
