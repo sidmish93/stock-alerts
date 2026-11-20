@@ -33,11 +33,19 @@
    "level": 5.0,
    "symbol": "TATAELXSI",
    "value": 5.45
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INDUSINDBK",
+   "value": 6.56
   }
  ],
  "latched": {
   "BETA|daily|down|5": 5.02,
-  "COFORGE|daily|up|5": 5.32,
+  "INDUSINDBK|daily|up|5": 6.56,
   "PERSISTENT|daily|up|5": 5.21,
   "TATAELXSI|daily|up|5": 5.45
  },
@@ -45,7 +53,8 @@
   "PERSISTENT",
   "COFORGE",
   "BETA",
-  "TATAELXSI"
+  "TATAELXSI",
+  "INDUSINDBK"
  ],
  "warned_blind": false
 }
