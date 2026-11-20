@@ -129,6 +129,14 @@
    "level": 5.0,
    "symbol": "WELSPUNLIV",
    "value": 5.32
+  },
+  {
+   "at": "14:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "WELSPUNLIV",
+   "value": 6.1
   }
  ],
  "latched": {
@@ -138,7 +146,8 @@
   "CUB|daily|up|5": 5.68,
   "INDUSINDBK|daily|up|5": 6.56,
   "JLHL|daily|up|5": 5.32,
-  "MTARTECH|daily|down|5": 5.08
+  "MTARTECH|daily|down|5": 5.08,
+  "WELSPUNLIV|daily|up|5": 6.1
  },
  "shared": [
   "PERSISTENT",
