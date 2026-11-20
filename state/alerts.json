@@ -25,17 +25,27 @@
    "level": 5.0,
    "symbol": "BETA",
    "value": -5.02
+  },
+  {
+   "at": "11:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TATAELXSI",
+   "value": 5.45
   }
  ],
  "latched": {
   "BETA|daily|down|5": 5.02,
   "COFORGE|daily|up|5": 5.32,
-  "PERSISTENT|daily|up|5": 5.21
+  "PERSISTENT|daily|up|5": 5.21,
+  "TATAELXSI|daily|up|5": 5.45
  },
  "shared": [
   "PERSISTENT",
   "COFORGE",
-  "BETA"
+  "BETA",
+  "TATAELXSI"
  ],
  "warned_blind": false
 }
