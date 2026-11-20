@@ -113,8 +113,7 @@
   "BETA|daily|down|5": 5.02,
   "CYIENT|daily|up|5": 5.27,
   "INDUSINDBK|daily|up|5": 6.56,
-  "MTARTECH|daily|down|5": 5.08,
-  "SHADOWFAX|daily|down|5": 5.12
+  "MTARTECH|daily|down|5": 5.08
  },
  "shared": [
   "PERSISTENT",
