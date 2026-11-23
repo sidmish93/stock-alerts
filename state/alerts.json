@@ -1,8 +1,21 @@
 {
  "day": "2026-11-23",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "PGIL",
+   "value": 6.58
+  }
+ ],
+ "latched": {
+  "PGIL|daily|up|5": 6.58
+ },
+ "shared": [
+  "PGIL"
+ ],
  "warned_blind": false
 }
