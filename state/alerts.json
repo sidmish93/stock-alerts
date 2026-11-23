@@ -81,9 +81,18 @@
    "level": 5.0,
    "symbol": "CHALET",
    "value": 5.33
+  },
+  {
+   "at": "14:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "INTELLECT",
+   "value": 5.45
   }
  ],
  "latched": {
+  "INTELLECT|daily|up|5": 5.45,
   "JLHL|daily|down|5": 5.88,
   "POLICYBZR|daily|up|5": 6.07,
   "TATASTEEL|daily|down|5": 5.42,
