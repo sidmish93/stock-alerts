@@ -249,12 +249,30 @@
    "level": 5.0,
    "symbol": "JLHL",
    "value": 5.06
+  },
+  {
+   "at": "14:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ARMANFIN",
+   "value": 5.01
+  },
+  {
+   "at": "14:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SHIPROCKET",
+   "value": -5.2
   }
  ],
  "latched": {
+  "ARMANFIN|daily|up|5": 5.01,
   "BETA|daily|up|5": 6.18,
   "DABUR|daily|up|5": 6.25,
   "GALAXYSURF|daily|down|5": 5.43,
+  "SHIPROCKET|daily|down|5": 5.2,
   "SUNTV|daily|down|5": 5.27,
   "TCIEXP|daily|down|5": 10.5,
   "ZEEL|daily|down|5": 5.07
