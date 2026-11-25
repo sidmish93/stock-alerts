@@ -121,13 +121,30 @@
    "level": 5.0,
    "symbol": "CEATLTD",
    "value": 5.14
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CEATLTD",
+   "value": 5.08
+  },
+  {
+   "at": "11:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DABUR",
+   "value": 6.25
   }
  ],
  "latched": {
+  "CEATLTD|daily|up|5": 5.08,
   "COHANCE|daily|up|5": 7.56,
+  "DABUR|daily|up|5": 6.25,
   "SUNTV|daily|down|5": 5.27,
   "TCIEXP|daily|down|5": 10.5,
-  "TIPSMUSIC|daily|down|5": 5.29,
   "ZEEL|daily|down|5": 5.07
  },
  "shared": [
@@ -144,7 +161,8 @@
   "ZEEL",
   "CEATLTD",
   "COHANCE",
-  "TIPSMUSIC"
+  "TIPSMUSIC",
+  "DABUR"
  ],
  "warned_blind": false
 }
