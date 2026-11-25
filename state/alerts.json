@@ -73,16 +73,31 @@
    "level": 5.0,
    "symbol": "BETA",
    "value": 5.54
+  },
+  {
+   "at": "10:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "SUNTV",
+   "value": -5.27
+  },
+  {
+   "at": "10:01",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ZEEL",
+   "value": -5.07
   }
  ],
  "latched": {
   "BETA|daily|up|5": 5.54,
-  "BRIGADE|daily|up|5": 5.24,
   "CREDITACC|daily|up|5": 6.64,
   "HDFCLIFE|daily|up|5": 5.15,
-  "MFSL|daily|up|5": 5.8,
-  "POLICYBZR|daily|up|5": 6.6,
-  "TCIEXP|daily|down|5": 10.5
+  "SUNTV|daily|down|5": 5.27,
+  "TCIEXP|daily|down|5": 10.5,
+  "ZEEL|daily|down|5": 5.07
  },
  "shared": [
   "MFSL",
@@ -93,7 +108,9 @@
   "TCI",
   "HDFCLIFE",
   "CREDITACC",
-  "BETA"
+  "BETA",
+  "SUNTV",
+  "ZEEL"
  ],
  "warned_blind": false
 }
