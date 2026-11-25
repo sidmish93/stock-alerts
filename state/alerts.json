@@ -265,13 +265,40 @@
    "level": 5.0,
    "symbol": "SHIPROCKET",
    "value": -5.2
+  },
+  {
+   "at": "14:10",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "ATHERENERG",
+   "value": -5.13
+  },
+  {
+   "at": "14:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HINDUNILVR",
+   "value": 5.24
+  },
+  {
+   "at": "14:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "CANHLIFE",
+   "value": 5.03
   }
  ],
  "latched": {
   "ARMANFIN|daily|up|5": 5.01,
+  "ATHERENERG|daily|down|5": 5.13,
   "BETA|daily|up|5": 6.18,
+  "CANHLIFE|daily|up|5": 5.03,
   "DABUR|daily|up|5": 6.25,
   "GALAXYSURF|daily|down|5": 5.43,
+  "HINDUNILVR|daily|up|5": 5.24,
   "SHIPROCKET|daily|down|5": 5.2,
   "SUNTV|daily|down|5": 5.27,
   "TCIEXP|daily|down|5": 10.5,
@@ -299,7 +326,9 @@
   "DMART",
   "CANHLIFE",
   "JLHL",
-  "SHIPROCKET"
+  "SHIPROCKET",
+  "ATHERENERG",
+  "HINDUNILVR"
  ],
  "warned_blind": false
 }
