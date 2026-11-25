@@ -1,8 +1,31 @@
 {
- "day": "2026-11-24",
- "digested": true,
- "fired": [],
- "latched": {},
- "shared": [],
- "warned_blind": true
+ "day": "2026-11-25",
+ "digested": false,
+ "fired": [
+  {
+   "at": "09:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MFSL",
+   "value": 5.8
+  },
+  {
+   "at": "09:20",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "BRIGADE",
+   "value": 5.24
+  }
+ ],
+ "latched": {
+  "BRIGADE|daily|up|5": 5.24,
+  "MFSL|daily|up|5": 5.8
+ },
+ "shared": [
+  "MFSL",
+  "BRIGADE"
+ ],
+ "warned_blind": false
 }
