@@ -54,10 +54,8 @@
  "latched": {
   "BRIGADE|daily|up|5": 5.24,
   "MFSL|daily|up|5": 5.8,
-  "NEWGEN|daily|up|5": 5.22,
   "POLICYBZR|daily|up|5": 6.6,
-  "TCIEXP|daily|down|5": 10.5,
-  "TCI|daily|down|5": 7.62
+  "TCIEXP|daily|down|5": 10.5
  },
  "shared": [
   "MFSL",
