@@ -193,13 +193,21 @@
    "level": 5.0,
    "symbol": "CEATLTD",
    "value": 5.32
+  },
+  {
+   "at": "12:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DMART",
+   "value": 5.02
   }
  ],
  "latched": {
   "ARMANFIN|daily|up|5": 5.08,
-  "BETA|daily|up|5": 5.02,
   "CEATLTD|daily|up|5": 5.32,
   "DABUR|daily|up|5": 6.25,
+  "DMART|daily|up|5": 5.02,
   "GALAXYSURF|daily|down|5": 5.43,
   "M&MFIN|daily|up|5": 5.28,
   "SUNTV|daily|down|5": 5.27,
@@ -224,7 +232,8 @@
   "DABUR",
   "M&MFIN",
   "ARMANFIN",
-  "GALAXYSURF"
+  "GALAXYSURF",
+  "DMART"
  ],
  "warned_blind": false
 }
