@@ -313,6 +313,22 @@
    "level": 5.0,
    "symbol": "DEVYANI",
    "value": 5.3
+  },
+  {
+   "at": "15:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DMART",
+   "value": 5.07
+  },
+  {
+   "at": "15:00",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "HINDUNILVR",
+   "value": 5.19
   }
  ],
  "latched": {
@@ -321,7 +337,9 @@
   "CANHLIFE|daily|up|5": 5.03,
   "DABUR|daily|up|5": 6.25,
   "DEVYANI|daily|up|5": 5.3,
+  "DMART|daily|up|5": 5.07,
   "GALAXYSURF|daily|down|5": 5.43,
+  "HINDUNILVR|daily|up|5": 5.19,
   "SAPPHIRE|daily|up|5": 5.27,
   "SHIPROCKET|daily|down|5": 5.2,
   "SUNTV|daily|down|5": 5.27,
