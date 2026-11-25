@@ -305,6 +305,14 @@
    "level": 5.0,
    "symbol": "TIPSMUSIC",
    "value": -5.06
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "DEVYANI",
+   "value": 5.3
   }
  ],
  "latched": {
@@ -312,12 +320,12 @@
   "BETA|daily|up|5": 6.18,
   "CANHLIFE|daily|up|5": 5.03,
   "DABUR|daily|up|5": 6.25,
+  "DEVYANI|daily|up|5": 5.3,
   "GALAXYSURF|daily|down|5": 5.43,
   "SAPPHIRE|daily|up|5": 5.27,
   "SHIPROCKET|daily|down|5": 5.2,
   "SUNTV|daily|down|5": 5.27,
   "TCIEXP|daily|down|5": 10.5,
-  "TIPSMUSIC|daily|down|5": 5.06,
   "ZEEL|daily|down|5": 5.07
  },
  "shared": [
@@ -345,7 +353,8 @@
   "SHIPROCKET",
   "ATHERENERG",
   "HINDUNILVR",
-  "SAPPHIRE"
+  "SAPPHIRE",
+  "DEVYANI"
  ],
  "warned_blind": false
 }
