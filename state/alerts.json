@@ -25,16 +25,25 @@
    "level": 5.0,
    "symbol": "TCI",
    "value": -5.39
+  },
+  {
+   "at": "09:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "FUSION",
+   "value": 5.52
   }
  ],
  "latched": {
-  "TCIEXP|daily|down|5": 5.02,
-  "TCI|daily|down|5": 5.39
+  "FUSION|daily|up|5": 5.52,
+  "TCIEXP|daily|down|5": 5.02
  },
  "shared": [
   "AVALON",
   "TCIEXP",
-  "TCI"
+  "TCI",
+  "FUSION"
  ],
  "warned_blind": false
 }
