@@ -1,8 +1,31 @@
 {
  "day": "2026-11-26",
  "digested": false,
- "fired": [],
- "latched": {},
- "shared": [],
+ "fired": [
+  {
+   "at": "09:31",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "AVALON",
+   "value": 5.14
+  },
+  {
+   "at": "09:31",
+   "direction": "down",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "TCIEXP",
+   "value": -5.02
+  }
+ ],
+ "latched": {
+  "AVALON|daily|up|5": 5.14,
+  "TCIEXP|daily|down|5": 5.02
+ },
+ "shared": [
+  "AVALON",
+  "TCIEXP"
+ ],
  "warned_blind": false
 }
