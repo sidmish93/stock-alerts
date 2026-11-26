@@ -113,6 +113,14 @@
    "level": 5.0,
    "symbol": "AVALON",
    "value": 5.35
+  },
+  {
+   "at": "13:10",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "MOLBIO",
+   "value": 5.04
   }
  ],
  "latched": {
@@ -122,6 +130,7 @@
   "KFINTECH|daily|up|5": 5.57,
   "MCX|daily|up|5": 5.24,
   "METROPOLIS|daily|up|5": 5.4,
+  "MOLBIO|daily|up|5": 5.04,
   "PRESTIGE|daily|up|5": 5.04,
   "SHIPROCKET|daily|up|5": 5.05,
   "TCIEXP|daily|down|5": 5.02
@@ -137,7 +146,8 @@
   "MCX",
   "METROPOLIS",
   "PRESTIGE",
-  "BRIGADE"
+  "BRIGADE",
+  "MOLBIO"
  ],
  "warned_blind": false
 }
