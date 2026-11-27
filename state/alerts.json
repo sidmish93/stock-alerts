@@ -25,10 +25,19 @@
    "level": 5.0,
    "symbol": "AHLUCONT",
    "value": 6.32
+  },
+  {
+   "at": "10:01",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "JLHL",
+   "value": 5.07
   }
  ],
  "latched": {
-  "AHLUCONT|daily|up|5": 6.32
+  "AHLUCONT|daily|up|5": 6.32,
+  "JLHL|daily|up|5": 5.07
  },
  "shared": [
   "IGIL",
