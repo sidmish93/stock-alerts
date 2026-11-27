@@ -1,180 +1,21 @@
 {
- "day": "2026-11-26",
- "digested": true,
+ "day": "2026-11-27",
+ "digested": false,
  "fired": [
   {
-   "at": "09:31",
+   "at": "09:20",
    "direction": "up",
    "kind": "daily",
    "level": 5.0,
-   "symbol": "AVALON",
-   "value": 5.14
-  },
-  {
-   "at": "09:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TCIEXP",
-   "value": -5.02
-  },
-  {
-   "at": "09:40",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "TCI",
-   "value": -5.39
-  },
-  {
-   "at": "09:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "FUSION",
-   "value": 5.52
-  },
-  {
-   "at": "10:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHIPROCKET",
-   "value": 5.01
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SEDEMAC",
-   "value": 5.06
-  },
-  {
-   "at": "10:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "KFINTECH",
-   "value": 5.57
-  },
-  {
-   "at": "11:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MCX",
-   "value": 5.24
-  },
-  {
-   "at": "11:40",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHIPROCKET",
-   "value": 5.24
-  },
-  {
-   "at": "12:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "METROPOLIS",
+   "symbol": "IGIL",
    "value": 5.4
-  },
-  {
-   "at": "12:00",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SHIPROCKET",
-   "value": 5.05
-  },
-  {
-   "at": "12:20",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "PRESTIGE",
-   "value": 5.04
-  },
-  {
-   "at": "13:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "BRIGADE",
-   "value": 5.72
-  },
-  {
-   "at": "13:07",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "AVALON",
-   "value": 5.35
-  },
-  {
-   "at": "13:10",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "MOLBIO",
-   "value": 5.04
-  },
-  {
-   "at": "13:31",
-   "direction": "down",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "COFORGE",
-   "value": -5.19
-  },
-  {
-   "at": "14:50",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "HCLTECH",
-   "value": 5.14
-  },
-  {
-   "at": "15:01",
-   "direction": "up",
-   "kind": "daily",
-   "level": 5.0,
-   "symbol": "SUNTV",
-   "value": 5.16
   }
  ],
  "latched": {
-  "AVALON|daily|up|5": 5.35,
-  "BRIGADE|daily|up|5": 5.72,
-  "HCLTECH|daily|up|5": 5.14,
-  "KFINTECH|daily|up|5": 5.57,
-  "MCX|daily|up|5": 5.24,
-  "MOLBIO|daily|up|5": 5.04,
-  "PRESTIGE|daily|up|5": 5.04,
-  "SHIPROCKET|daily|up|5": 5.05,
-  "SUNTV|daily|up|5": 5.16,
-  "TCIEXP|daily|down|5": 5.02
+  "IGIL|daily|up|5": 5.4
  },
  "shared": [
-  "AVALON",
-  "TCIEXP",
-  "TCI",
-  "FUSION",
-  "SHIPROCKET",
-  "SEDEMAC",
-  "KFINTECH",
-  "MCX",
-  "METROPOLIS",
-  "PRESTIGE",
-  "BRIGADE",
-  "MOLBIO",
-  "COFORGE",
-  "HCLTECH",
-  "SUNTV"
+  "IGIL"
  ],
  "warned_blind": false
 }
