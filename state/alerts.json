@@ -73,11 +73,20 @@
    "level": 5.0,
    "symbol": "ENDURANCE",
    "value": -5.01
+  },
+  {
+   "at": "14:50",
+   "direction": "up",
+   "kind": "daily",
+   "level": 5.0,
+   "symbol": "GOKEX",
+   "value": 7.92
   }
  ],
  "latched": {
   "AHLUCONT|daily|up|5": 6.32,
   "ANGELONE|daily|up|5": 5.32,
+  "GOKEX|daily|up|5": 7.92,
   "JLHL|daily|up|5": 5.07,
   "PARAS|daily|up|5": 5.53
  },
@@ -87,7 +96,8 @@
   "AHLUCONT",
   "PARAS",
   "ANGELONE",
-  "ENDURANCE"
+  "ENDURANCE",
+  "GOKEX"
  ],
  "warned_blind": false
 }
